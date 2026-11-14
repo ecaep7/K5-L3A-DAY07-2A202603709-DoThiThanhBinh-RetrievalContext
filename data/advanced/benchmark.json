@@ -495,7 +495,7 @@
   "evidence": [],
   "calculation": null,
   "reason": "",
-  "absence_check": "Tìm 'minimum wage' trên cả 232 trang: chỉ 1 lần (trang 96), là câu hỏi giả định trong Box 2.4, không có mức lương tối thiểu nào.",
+  "absence_check": "Báo cáo chỉ có một con số chung: 'minimum monthly wages are about VND 4 million' (chú thích trang 67, trang 188) và một câu giả định ở trang 96; không có mức lương tối thiểu theo vùng (Region I). (Bản đầu ghi chỉ dò 'minimum wage' nên sót 'minimum monthly wages'; đã sửa sau khi chạy dev, câu hỏi không đổi.)",
   "tags": [],
   "gold_chunk_ids": [],
   "review": {
@@ -1438,12 +1438,12 @@
   "split": "test",
   "group": "unanswerable",
   "answerable": false,
-  "question": "What was Vietnam's gross tertiary (university) enrollment rate in 2020?",
+  "question": "What is the poverty rate of Lao PDR according to the report?",
   "expected_answer": "INSUFFICIENT_EVIDENCE (từ chối, không suy đoán)",
   "evidence": [],
   "calculation": null,
   "reason": "",
-  "absence_check": "Dò 'enrollment rate', 'gross enrollment', 'tertiary enrollment': 0 kết quả. 'Tertiary' chỉ xuất hiện như cấp học (số hộ, chi ngân sách), không có tỷ lệ nhập học.",
+  "absence_check": "Lao PDR chỉ xuất hiện trong biểu đồ so sánh lương theo ngành (trang 87) và danh sách nước so sánh; dò 'Lao' gần 'poverty': 0 kết quả. Báo cáo không nêu tỷ lệ nghèo của Lào. (Thay câu cũ về 'gross tertiary enrollment rate' trước khi chạy test, vì báo cáo có biểu đồ tỷ lệ đi học theo tuổi ở Figure 4.6/4.9, dễ gây tranh cãi khi chấm.)",
   "tags": [],
   "gold_chunk_ids": [],
   "review": {

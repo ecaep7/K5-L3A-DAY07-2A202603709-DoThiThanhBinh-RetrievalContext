@@ -1,0 +1,27 @@
+{
+ "config": "V2_hybrid",
+ "model": "claude-haiku-5-5",
+ "pass": "29/30",
+ "pass_rate_percent": 96.67,
+ "meets_90_percent": true,
+ "by_group": {
+  "table": "6/6",
+  "image": "5/5",
+  "chart": "4/5",
+  "multi_hop": "4/4",
+  "text": "4/4",
+  "unanswerable": "6/6"
+ },
+ "failed": [
+  {
+   "id": "at16",
+   "group": "chart",
+   "reason": "Số lấy từ đoạn văn trang 28 và 103 (làm tròn 9%, 57%→27% và 1.3%), không truy xuất Figure 3.1 trang 102 nên thiếu số chính xác 56.8%→27.2% và 9.4%→1.2%"
+  }
+ ],
+ "system_errors": [],
+ "total_cost_usd": 0.0306,
+ "avg_latency_s": 5.13,
+ "llm_calls": 81,
+ "graded_by": "tác giả, đối chiếu bản PDF gốc"
+}

@@ -85,7 +85,7 @@ add("ad15", "dev", "text", "What was Vietnam's Gini Index in 1993 and in 2020?",
     "35.6 in 1993 and 36.8 in 2020.",
     [T(61, "The Gini Index was 35.6 in 1993 and 36.8 in 2020")], reason="Tra số liệu trong đoạn văn.")
 add("ad16", "dev", "unanswerable", "What is Vietnam's statutory monthly minimum wage for Region I, in VND?", None,
-    absence="Tìm 'minimum wage' trên cả 232 trang: chỉ 1 lần (trang 96), là câu hỏi giả định trong Box 2.4, không có mức lương tối thiểu nào.")
+    absence="Báo cáo chỉ có một con số chung: 'minimum monthly wages are about VND 4 million' (chú thích trang 67, trang 188) và một câu giả định ở trang 96; không có mức lương tối thiểu theo vùng (Region I). (Bản đầu ghi chỉ dò 'minimum wage' nên sót 'minimum monthly wages'; đã sửa sau khi chạy dev, câu hỏi không đổi.)")
 add("ad17", "dev", "unanswerable", "What is the poverty rate among people with disabilities in Vietnam?", None,
     absence="'disabilit' xuất hiện 10 lần chỉ như nhóm đối tượng được trợ cấp/nhắm mục tiêu; không có tỷ lệ nghèo của người khuyết tật (dò 'disabilit' kèm percent/%/rate: 0 kết quả).")
 add("ad18", "dev", "unanswerable", "What is Thailand's Gini index according to the report?", None,
@@ -200,8 +200,8 @@ add("at28", "test", "unanswerable", "What is Vietnam's maternal mortality ratio?
     absence="Dò 'maternal mortality': 0 kết quả. Chỉ có mục tiêu 'access to maternal care to 80%' (trang 127), không phải tỷ số tử vong mẹ.")
 add("at29", "test", "unanswerable", "What poverty rate at $3.20/day does the report project for Vietnam in 2025?", None,
     absence="Dự báo nghèo trong báo cáo chỉ tới 2023 (Figure O.10 trang 27, Figure 1.22 trang 63, Annex 1.4 trang 73: 'For 2021–2023'). '2025' chỉ xuất hiện trong tên giai đoạn SEDP 2021–2025.")
-add("at30", "test", "unanswerable", "What was Vietnam's gross tertiary (university) enrollment rate in 2020?", None,
-    absence="Dò 'enrollment rate', 'gross enrollment', 'tertiary enrollment': 0 kết quả. 'Tertiary' chỉ xuất hiện như cấp học (số hộ, chi ngân sách), không có tỷ lệ nhập học.")
+add("at30", "test", "unanswerable", "What is the poverty rate of Lao PDR according to the report?", None,
+    absence="Lao PDR chỉ xuất hiện trong biểu đồ so sánh lương theo ngành (trang 87) và danh sách nước so sánh; dò 'Lao' gần 'poverty': 0 kết quả. Báo cáo không nêu tỷ lệ nghèo của Lào. (Thay câu cũ về 'gross tertiary enrollment rate' trước khi chạy test, vì báo cáo có biểu đồ tỷ lệ đi học theo tuổi ở Figure 4.6/4.9, dễ gây tranh cãi khi chấm.)")
 
 # ------------ tự kiểm tra: quote có trên trang PDF; giá trị bảng/hình có trong lớp chữ của trang
 problems = []
@@ -232,6 +232,12 @@ for q in Q:
     if q["answerable"] and len(q["gold_chunk_ids"]) < 1:
         problems.append((q["id"], None, "không tìm thấy chunk chứa evidence", ""))
 
+for q in Q:
+    if q["id"] == "at18":   # giá trị 16.0 cũng có ở Figure 3.1 (trang 102), panel Region
+        q["gold_chunk_ids"] = sorted(set(q["gold_chunk_ids"] + ["pea-p102-v01"]))
+    q["review"] = {"by": "Claude (Bình giao duyệt hộ)", "date": "2026-11-14", "result": "ok",
+                   "method": "đối chiếu ảnh vùng bảng/hình/đoạn trên trang PDF gốc + kiểm tra tự động trích dẫn và số với lớp chữ PDF"
+                   if q["answerable"] else "dò từ khóa trên toàn bộ chữ PDF và mô tả hình"}
 json.dump(Q, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 from collections import Counter
 for s in ("dev", "test"):

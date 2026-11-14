@@ -132,8 +132,59 @@ E là cấu hình duy nhất đạt 15/15. Tiêu chí này được viết ra sa
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-Không thực hiện.
+Đã thực hiện. Kết quả test: **29/30 = 96,67%** (ngưỡng ≥ 90%). Chi tiết cách chạy ở README.
 
----
+### Tài liệu
+*From the Last Mile to the Next Mile – 2022 Vietnam Poverty and Equity Assessment*, World Bank, 2022, giấy phép CC BY 3.0 IGO, **232 trang PDF**, tiếng Anh. Tải tại http://hdl.handle.net/10986/37952 (mục *English PDF*, 13.53 MB) và lưu thành `data/advanced/vietnam-poverty-equity-2022.pdf`. File PDF không đẩy lên repo. Trích dẫn dùng **số trang PDF** (1–232); `page_label` là số in ở chân trang.
 
-**Sử dụng AI:** Claude (Anthropic) hỗ trợ giải thích, viết code, soạn câu hỏi thiếu bằng chứng và soạn bản nháp báo cáo này. Tác giả chạy toàn bộ thử nghiệm trên máy cá nhân, kiểm tra kết quả, tự chấm toàn bộ nhãn và đọc duyệt báo cáo.
+### Index (`src/adv_index.py`)
+| | |
+|---|---|
+| Chunk văn bản | 621 đoạn, lấy từ lớp chữ PDF (pymupdf), mỗi chunk ≤ 1.100 ký tự, thuộc đúng 1 trang. Bỏ header/footer và chữ nằm trong vùng hình. |
+| Chunk hình | 223: 163 biểu đồ, 34 bảng, 21 sơ đồ, 5 bản đồ. Vùng hình xác định từ chú thích "Figure/Table x.y" trong lớp chữ PDF, kéo tới dòng "Source:"; bảng không có Source thì dừng ở đường kẻ cuối; 3 bảng in ngang được xoay ảnh. Nội dung do claude-haiku-5-5 đọc ảnh trang (150 dpi): bảng chép đủ ô, biểu đồ ghi trục/chú giải/giá trị (giá trị không in trên hình ghi "~"), bản đồ/sơ đồ mô tả chú giải và các ô. |
+| Kiểm tra với bản gốc | Mỗi chunk hình lưu `bbox` (toạ độ PDF), ảnh crop (`data/advanced/crops/`, tạo lại bằng bước build), chữ thật trong vùng (`pdf_text`) và danh sách số mà model đọc nhưng không có trong lớp chữ PDF (`numbers_not_in_pdf_text`, 163 hình: chủ yếu là giá trị đọc ước lượng "~"). Đã so 5 trang thử (52, 61, 90, 96, 182) với bản gốc trước khi chạy cả tài liệu. |
+| Lưu trữ | Bảng `adv_chunks` trong PostgreSQL + pgvector, embedding MiniLM 384 chiều (giống Day 6). |
+| Không xử lý | Trang 1, 2, 230–232 (bìa, trang trống). 34 trang không có chunk văn bản (bìa, mục lục, trang chỉ có bảng/hình): nội dung các trang hình nằm trong chunk hình. Công thức toán in dạng ảnh (trang 73, 171–172) bị xếp loại "diagram", ít giá trị tra cứu. Bảng kéo dài nhiều trang (Table 8.1/8.2) chỉ trang có chú thích được ghép đúng nhãn. |
+| Chi phí | Vision: 0,15 USD cho bản cache cuối (145 trang); tổng đã chi kể cả chạy thử/chạy lại khoảng 0,32 USD. |
+
+Thống kê đầy đủ: `data/advanced/index/stats.json`. Cache vision từng trang: `data/advanced/vision/`.
+
+### Benchmark (`data/advanced/benchmark.json`, bảng đọc `data/advanced/benchmark_review.md`)
+Dev 18 câu (15 có đáp án + 3 thiếu bằng chứng), test 30 câu: bảng 6, ảnh/sơ đồ/bản đồ 5, biểu đồ 5, multi-hop 4, text 4, thiếu bằng chứng 6. Mỗi câu có nhóm, đáp án, phép tính, evidence (trang PDF + ô/hàng/cột, vùng hình hoặc đoạn văn nguyên văn), lý do; câu thiếu bằng chứng có cách kiểm tra. Mọi trích dẫn và số in trên trang được kiểm tra tự động với lớp chữ PDF (`scripts/adv_make_benchmark.py`). Dev/test được chia trước khi chạy agent; không đưa đáp án, evidence hay gold vào agent.
+
+### Agent và chọn cấu hình (`src/adv_agent.py`, `results/advanced/SELECTION_dev.md`)
+Agent gọi công cụ `search_documents` (tối đa 4 lần), trả lời có trích dẫn `[pea-p048-v02]` kèm tên bảng/hình và trang, hoặc `INSUFFICIENT_EVIDENCE`. So 4 cấu hình trên dev, cùng model claude-haiku-5-5:
+
+| Cấu hình | Trích dẫn trúng evidence | Số khớp đáp án | Từ chối đúng | Chi phí dev |
+|---|---:|---:|---:|---:|
+| V0 chỉ chunk văn bản (mốc) | 2/15 | 0,51 | 3/3 | 0,028 USD |
+| V1 dense, chữ + hình | 12/15 | 0,90 | 3/3 | 0,027 USD |
+| **V2 hybrid RRF, chữ + hình, top 5** | **15/15** | **1,00** | 3/3 | **0,019 USD** |
+| V3 hybrid, top 8 | 14/15 | 1,00 | 3/3 | 0,024 USD |
+
+Chốt V2 theo tiêu chí viết trước khi chạy test. V0 cho thấy không có index hình thì phần lớn câu bảng/biểu đồ/sơ đồ không trả lời được.
+
+### Kết quả test (chạy một lần, `results/advanced/agent/V2_hybrid_test.json`)
+Chấm tay từng câu bằng cách đối chiếu bản PDF gốc: `results/advanced/review/test_review.csv` (cột `pass`, `reason`); tổng hợp `results/advanced/review/summary_test.json`.
+
+| Nhóm | Đạt |
+|---|---:|
+| Bảng | 6/6 |
+| Ảnh, sơ đồ, bản đồ | 5/5 |
+| Biểu đồ | 4/5 |
+| Multi-hop | 4/4 |
+| Text | 4/4 |
+| Thiếu bằng chứng | 6/6 |
+| **Tổng** | **29/30 = 96,67%** |
+
+Lỗi hệ thống 0; chi phí test 0,031 USD; trung bình 5,1 s/câu.
+
+**Câu không đạt: at16** (tỷ lệ nghèo theo dân tộc 2010–2020). Agent lấy số từ hai đoạn văn (trang 28, 103) đã làm tròn (9%, 57%→27%, Kinh 2020 = 1,3%) thay vì Figure 3.1 trang 102 (56,8→27,2; 9,4→1,2); chunk biểu đồ không vào context vì câu hỏi trùng nhiều từ với đoạn văn tóm tắt. Hướng sửa: khi đoạn văn chỉ có số làm tròn, nhắc agent tìm thêm bảng/biểu đồ gốc; hoặc ưu tiên chunk hình khi câu hỏi hỏi số liệu theo năm.
+
+### Giới hạn
+- Câu biểu đồ trong test chủ yếu là biểu đồ có in nhãn số; test chưa đo độ chính xác của giá trị đọc ước lượng "~".
+- Mô tả hình do model tạo; chỉ kiểm tra tự động phần số có trong lớp chữ PDF và kiểm tra bằng mắt các trang thử, các vùng evidence của benchmark.
+- Benchmark do Claude soạn và tác giả duyệt (có đối chiếu ảnh trang gốc), nên có thể nghiêng về kiểu câu hỏi mà pipeline xử lý được. Test chỉ 30 câu, một người chấm.
+- Sau dev đã thay 1 câu test (at30) vì lý do nội dung tài liệu, trước khi chạy test; ghi trong `SELECTION_dev.md`.
+
+

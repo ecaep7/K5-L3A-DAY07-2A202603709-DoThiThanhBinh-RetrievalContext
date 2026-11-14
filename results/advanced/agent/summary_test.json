@@ -1,0 +1,56 @@
+{
+ "V2_hybrid": {
+  "config": {
+   "method": "hybrid",
+   "kinds": null,
+   "top_k": 5,
+   "max_searches": 4,
+   "budget_chars": 24000
+  },
+  "model": "claude-haiku-5-5",
+  "questions": 30,
+  "gold_all_in_context": "22/24",
+  "cites_gold": "23/24",
+  "answered_answerable": "24/24",
+  "abstained_unanswerable": "6/6",
+  "citation_valid": "30/30",
+  "avg_numbers_recall": 0.92,
+  "auto_proxy_by_group": {
+   "table": {
+    "n": 6,
+    "auto_ok": 6
+   },
+   "image": {
+    "n": 5,
+    "auto_ok": 5
+   },
+   "chart": {
+    "n": 5,
+    "auto_ok": 4
+   },
+   "multi_hop": {
+    "n": 4,
+    "auto_ok": 3
+   },
+   "text": {
+    "n": 4,
+    "auto_ok": 4
+   },
+   "unanswerable": {
+    "n": 6,
+    "auto_ok": 6
+   }
+  },
+  "errors": 0,
+  "searches": {
+   "2": 7,
+   "1": 17,
+   "3": 1,
+   "4": 5
+  },
+  "avg_context_chars": 6807,
+  "cost_usd": 0.0306,
+  "avg_latency_s": 5.13,
+  "note": "Chỉ số tự động (gold trong context, trích dẫn hợp lệ, số khớp) chỉ để chọn cấu hình trên dev; kết quả đạt/không đạt trên test do người chấm đối chiếu bản gốc."
+ }
+}

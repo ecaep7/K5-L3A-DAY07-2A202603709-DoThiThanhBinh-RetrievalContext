@@ -1,0 +1,219 @@
+{
+ "V0_text_only": {
+  "config": {
+   "method": "hybrid",
+   "kinds": [
+    "text"
+   ],
+   "top_k": 5,
+   "max_searches": 4,
+   "budget_chars": 24000
+  },
+  "model": "claude-haiku-5-5",
+  "questions": 18,
+  "gold_all_in_context": "3/15",
+  "cites_gold": "2/15",
+  "answered_answerable": "8/15",
+  "abstained_unanswerable": "3/3",
+  "citation_valid": "18/18",
+  "avg_numbers_recall": 0.513,
+  "auto_proxy_by_group": {
+   "table": {
+    "n": 3,
+    "auto_ok": 0
+   },
+   "image": {
+    "n": 3,
+    "auto_ok": 0
+   },
+   "chart": {
+    "n": 3,
+    "auto_ok": 0
+   },
+   "multi_hop": {
+    "n": 3,
+    "auto_ok": 0
+   },
+   "text": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "unanswerable": {
+    "n": 3,
+    "auto_ok": 3
+   }
+  },
+  "errors": 0,
+  "searches": {
+   "1": 5,
+   "4": 12,
+   "2": 1
+  },
+  "avg_context_chars": 8492,
+  "cost_usd": 0.0282,
+  "avg_latency_s": 6.18,
+  "note": "Chỉ số tự động (gold trong context, trích dẫn hợp lệ, số khớp) chỉ để chọn cấu hình trên dev; kết quả đạt/không đạt trên test do người chấm đối chiếu bản gốc."
+ },
+ "V1_dense": {
+  "config": {
+   "method": "dense",
+   "kinds": null,
+   "top_k": 5,
+   "max_searches": 4,
+   "budget_chars": 24000
+  },
+  "model": "claude-haiku-5-5",
+  "questions": 18,
+  "gold_all_in_context": "12/15",
+  "cites_gold": "12/15",
+  "answered_answerable": "14/15",
+  "abstained_unanswerable": "3/3",
+  "citation_valid": "18/18",
+  "avg_numbers_recall": 0.898,
+  "auto_proxy_by_group": {
+   "table": {
+    "n": 3,
+    "auto_ok": 2
+   },
+   "image": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "chart": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "multi_hop": {
+    "n": 3,
+    "auto_ok": 2
+   },
+   "text": {
+    "n": 3,
+    "auto_ok": 2
+   },
+   "unanswerable": {
+    "n": 3,
+    "auto_ok": 3
+   }
+  },
+  "errors": 0,
+  "searches": {
+   "1": 6,
+   "4": 6,
+   "2": 5,
+   "3": 1
+  },
+  "avg_context_chars": 9528,
+  "cost_usd": 0.0274,
+  "avg_latency_s": 4.67,
+  "note": "Chỉ số tự động (gold trong context, trích dẫn hợp lệ, số khớp) chỉ để chọn cấu hình trên dev; kết quả đạt/không đạt trên test do người chấm đối chiếu bản gốc."
+ },
+ "V2_hybrid": {
+  "config": {
+   "method": "hybrid",
+   "kinds": null,
+   "top_k": 5,
+   "max_searches": 4,
+   "budget_chars": 24000
+  },
+  "model": "claude-haiku-5-5",
+  "questions": 18,
+  "gold_all_in_context": "14/15",
+  "cites_gold": "15/15",
+  "answered_answerable": "15/15",
+  "abstained_unanswerable": "3/3",
+  "citation_valid": "18/18",
+  "avg_numbers_recall": 1.0,
+  "auto_proxy_by_group": {
+   "table": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "image": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "chart": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "multi_hop": {
+    "n": 3,
+    "auto_ok": 2
+   },
+   "text": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "unanswerable": {
+    "n": 3,
+    "auto_ok": 3
+   }
+  },
+  "errors": 0,
+  "searches": {
+   "1": 11,
+   "2": 2,
+   "3": 2,
+   "4": 3
+  },
+  "avg_context_chars": 8020,
+  "cost_usd": 0.0189,
+  "avg_latency_s": 3.82,
+  "note": "Chỉ số tự động (gold trong context, trích dẫn hợp lệ, số khớp) chỉ để chọn cấu hình trên dev; kết quả đạt/không đạt trên test do người chấm đối chiếu bản gốc."
+ },
+ "V3_hybrid_k8": {
+  "config": {
+   "method": "hybrid",
+   "kinds": null,
+   "top_k": 8,
+   "max_searches": 4,
+   "budget_chars": 36000
+  },
+  "model": "claude-haiku-5-5",
+  "questions": 18,
+  "gold_all_in_context": "14/15",
+  "cites_gold": "14/15",
+  "answered_answerable": "15/15",
+  "abstained_unanswerable": "3/3",
+  "citation_valid": "18/18",
+  "avg_numbers_recall": 1.0,
+  "auto_proxy_by_group": {
+   "table": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "image": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "chart": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "multi_hop": {
+    "n": 3,
+    "auto_ok": 2
+   },
+   "text": {
+    "n": 3,
+    "auto_ok": 3
+   },
+   "unanswerable": {
+    "n": 3,
+    "auto_ok": 3
+   }
+  },
+  "errors": 0,
+  "searches": {
+   "1": 10,
+   "2": 4,
+   "3": 1,
+   "4": 3
+  },
+  "avg_context_chars": 12165,
+  "cost_usd": 0.0243,
+  "avg_latency_s": 4.03,
+  "note": "Chỉ số tự động (gold trong context, trích dẫn hợp lệ, số khớp) chỉ để chọn cấu hình trên dev; kết quả đạt/không đạt trên test do người chấm đối chiếu bản gốc."
+ }
+}
