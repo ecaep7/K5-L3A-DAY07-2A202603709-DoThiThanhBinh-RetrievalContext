@@ -1,0 +1,23 @@
+{
+ "page": 199,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 7.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 7.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| Item | TRN DONG | % GDP |\\n|---|---|---|\\n| Total revenues & grants | 1,364 | 24.6 |\\n| Taxes | 1,022 | 18.4 |\\n| Oil revenues | 66 | 1.2 |\\n| CIT | 49 | 0.9 |\\n| Natural resources tax | 17 | 0.3 |\\n| Non-oil taxes | 956 | 17.2 |\\n| Taxes on goods & services | 509 | 9.2 |\\n| **VAT** | 344 | 6.2 |\\n| **Excise** | 96 | 1.7 |\\n| Natural resources tax | 38 | 0.7 |\\n| **Environment protection tax** | 47 | 0.8 |\\n| Direct taxes | 296 | 5.3 |\\n| CIT | 202 | 3.6 |\\n| **PIT** | 94 | 1.7 |\\n| Taxes on international trade | 87 | 1.6 |\\n| Other taxes | 64 | 1.2 |\\n| Registration tax | 32 | 0.6 |\\n| Agricultural land use tax | 0 | 0.0 |\\n| Land & housing tax | 2 | 0.0 |\\n| Lottery | 29 | 0.5 |\\n| Non-taxes | 334 | 6.0 |\\n| Fees & charges | 38 | 0.7 |\\n| Land rents | 28 | 0.5 |\\n| LUR assignment | 148 | 2.7 |\\n| Other non-taxes | 121 | 2.2 |\\n| Grants | 8 | 0.1 |\\n\\nSource: MOF, GSO, IMF and World Bank staff calculations. (Bold rows are printed in bold; indentation in the original reflects the hierarchy of revenue categories.)\"}]}",
+ "usage": {
+  "prompt_tokens": 3236,
+  "completion_tokens": 1269,
+  "cost_usd": 0.0009581,
+  "latency_s": 5.015
+ },
+ "elements": [
+  {
+   "label": "Table 7.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| Item | TRN DONG | % GDP |\n|---|---|---|\n| Total revenues & grants | 1,364 | 24.6 |\n| Taxes | 1,022 | 18.4 |\n| Oil revenues | 66 | 1.2 |\n| CIT | 49 | 0.9 |\n| Natural resources tax | 17 | 0.3 |\n| Non-oil taxes | 956 | 17.2 |\n| Taxes on goods & services | 509 | 9.2 |\n| **VAT** | 344 | 6.2 |\n| **Excise** | 96 | 1.7 |\n| Natural resources tax | 38 | 0.7 |\n| **Environment protection tax** | 47 | 0.8 |\n| Direct taxes | 296 | 5.3 |\n| CIT | 202 | 3.6 |\n| **PIT** | 94 | 1.7 |\n| Taxes on international trade | 87 | 1.6 |\n| Other taxes | 64 | 1.2 |\n| Registration tax | 32 | 0.6 |\n| Agricultural land use tax | 0 | 0.0 |\n| Land & housing tax | 2 | 0.0 |\n| Lottery | 29 | 0.5 |\n| Non-taxes | 334 | 6.0 |\n| Fees & charges | 38 | 0.7 |\n| Land rents | 28 | 0.5 |\n| LUR assignment | 148 | 2.7 |\n| Other non-taxes | 121 | 2.2 |\n| Grants | 8 | 0.1 |\n\nSource: MOF, GSO, IMF and World Bank staff calculations. (Bold rows are printed in bold; indentation in the original reflects the hierarchy of revenue categories.)"
+  }
+ ]
+}

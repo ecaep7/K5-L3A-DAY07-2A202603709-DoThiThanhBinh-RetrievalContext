@@ -1,0 +1,23 @@
+{
+ "page": 185,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.6.1.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure B.6.1.1: Stylized examples of chronic insecurity and risk-induced insecurity\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: stylized dot-and-interval plot with ten households (A to J) on the vertical axis (titled 'Household', no tick values) and welfare on the horizontal axis (marked 'Welfare', with a vertical reference line labeled 'Poverty line' near the center). No numeric values are printed; the positions below are approximate readings. Legend: orange square = 'Mean and Variance of welfare' (horizontal line through each square shows the variance range); teal circle = 'Observed welfare'. Approximate readings, with the poverty line at 0 on the welfare axis: A mean ~-3 with range ~-6 to -0.5, observed ~-2.5 (left of mean); B mean ~+3.5 with range ~+1.5 to +5.5, observed ~+4.5 (right of mean); C mean ~+1 with range ~-1.5 to +2, observed ~-0.5 (left of mean); D mean ~-0.5 with range ~-2.5 to +1.5, observed ~+0.5 (right of mean); E mean ~+0.3 with range ~-0.5 to +1.2, observed ~+1 (right of mean); F mean ~+1.2 with range ~-1 to +3, observed ~+0.5 (left of mean); G mean ~-1 with range ~-3 to +1, observed ~-1.5 (left of mean); H mean ~+2.5 with range ~+1.5 to +3.5, observed ~+3 (right of mean); I mean ~-1 with range ~-2.5 to +0.5, observed ~-0.5 (right of mean); J mean ~0 with range ~-0.5 to +1.8, observed ~+0.3 (right of mean). Pattern: households A, G and I sit mostly below the poverty line with wide or low-mean distributions, while B and H sit clearly above it; the mean and observed welfare positions differ for each household, illustrating chronic versus risk-induced insecurity. Note on figure: 'Adapted from Skoufias et al (2021).'\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3251,
+  "completion_tokens": 1008,
+  "cost_usd": 0.0008291,
+  "latency_s": 5.469
+ },
+ "elements": [
+  {
+   "label": "Figure B.6.1.1: Stylized examples of chronic insecurity and risk-induced insecurity",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: stylized dot-and-interval plot with ten households (A to J) on the vertical axis (titled 'Household', no tick values) and welfare on the horizontal axis (marked 'Welfare', with a vertical reference line labeled 'Poverty line' near the center). No numeric values are printed; the positions below are approximate readings. Legend: orange square = 'Mean and Variance of welfare' (horizontal line through each square shows the variance range); teal circle = 'Observed welfare'. Approximate readings, with the poverty line at 0 on the welfare axis: A mean ~-3 with range ~-6 to -0.5, observed ~-2.5 (left of mean); B mean ~+3.5 with range ~+1.5 to +5.5, observed ~+4.5 (right of mean); C mean ~+1 with range ~-1.5 to +2, observed ~-0.5 (left of mean); D mean ~-0.5 with range ~-2.5 to +1.5, observed ~+0.5 (right of mean); E mean ~+0.3 with range ~-0.5 to +1.2, observed ~+1 (right of mean); F mean ~+1.2 with range ~-1 to +3, observed ~+0.5 (left of mean); G mean ~-1 with range ~-3 to +1, observed ~-1.5 (left of mean); H mean ~+2.5 with range ~+1.5 to +3.5, observed ~+3 (right of mean); I mean ~-1 with range ~-2.5 to +0.5, observed ~-0.5 (right of mean); J mean ~0 with range ~-0.5 to +1.8, observed ~+0.3 (right of mean). Pattern: households A, G and I sit mostly below the poverty line with wide or low-mean distributions, while B and H sit clearly above it; the mean and observed welfare positions differ for each household, illustrating chronic versus risk-induced insecurity. Note on figure: 'Adapted from Skoufias et al (2021).'"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "page": 51,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.5",
+  "Figure 1.6"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.5\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart of poverty rate (%) by region, 2010 to 2020, with y-axis 0 to 50 and x-axis years 2010, 2012, 2014, 2016, 2018, 2020. Legend: Central Highlands (teal), Northern & Coastal Center (yellow), Midlands & Northern Mountains (gray), Mekong Delta (orange), Red River Delta (blue), Southeast (green). Printed values:\\n\\n| Region | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\\n|---|---|---|---|---|---|---|\\n| Central Highlands | 29.6 | 25.8 | 27.6 | 20.4 | 19.7 | 17.1 |\\n| Midlands & Northern Mountains | 39.9 | 34.0 | 32.8 | 23.4 | 22.0 | 16.0 |\\n| Northern & Coastal Center | 18.6 | 13.6 | 12.1 | 9.0 | 6.2 | 4.7 |\\n| Mekong Delta | 14.3 | 11.5 | 6.8 | 4.5 | 2 | 3.7 |\\n| Red River Delta | 8.6 | 4.8 | 3.6 | 1.4 | 1.2 | 0.6 |\\n| Southeast | 5.3 | 3.0 | 2.3 | 0.4 | 0.4 | not printed |\\n\\nAll series decline overall, with the Midlands & Northern Mountains starting highest at 39.9 and the Red River Delta and Southeast lowest by 2016 and after; the Southeast 2020 value is not labeled. Source: World Bank staff calculations using VHLSS.\"}, {\"label\": \"Figure 1.6\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart of number of poor (in millions, $3.20/day 2011PPP) by region, y-axis 0 to 6. Groups are regions; bars within each group are years 2010, 2012, 2014, 2016, 2018, 2020 (legend shades from dark to light teal). No values are printed, so approximate readings:\\n\\n| Region | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\\n|---|---|---|---|---|---|---|\\n| Central Highlands | ~1.6 | ~1.4 | ~1.6 | ~1.4 | ~1.35 | ~1.0 |\\n| Mekong Delta | ~2.45 | ~2.05 | ~1.2 | ~0.85 | ~0.35 | ~0.65 |\\n| Midlands & Northern Mountains | ~4.85 | ~4.4 | ~4.05 | ~3.35 | ~3.35 | ~2.1 |\\n| Northern & Coastal Center | ~3.4 | ~2.6 | ~2.3 | ~1.9 | ~1.4 | ~0.95 |\\n| Red River Delta | ~1.6 | ~0.98 | ~0.7 | ~0.32 | ~0.27 | ~0.18 |\\n| Southeast | ~1.02 | ~0.65 | ~0.5 | ~0.15 | ~0.1 | ~0.1 |\\n\\nThe Midlands & Northern Mountains has the largest number of poor in every year, and most regions show declining counts over time. Source: World Bank staff calculations using VHLSS 2010–2020.\"}]}",
+ "usage": {
+  "prompt_tokens": 3279,
+  "completion_tokens": 2103,
+  "cost_usd": 0.0013794,
+  "latency_s": 7.519
+ },
+ "elements": [
+  {
+   "label": "Figure 1.5",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart of poverty rate (%) by region, 2010 to 2020, with y-axis 0 to 50 and x-axis years 2010, 2012, 2014, 2016, 2018, 2020. Legend: Central Highlands (teal), Northern & Coastal Center (yellow), Midlands & Northern Mountains (gray), Mekong Delta (orange), Red River Delta (blue), Southeast (green). Printed values:\n\n| Region | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\n|---|---|---|---|---|---|---|\n| Central Highlands | 29.6 | 25.8 | 27.6 | 20.4 | 19.7 | 17.1 |\n| Midlands & Northern Mountains | 39.9 | 34.0 | 32.8 | 23.4 | 22.0 | 16.0 |\n| Northern & Coastal Center | 18.6 | 13.6 | 12.1 | 9.0 | 6.2 | 4.7 |\n| Mekong Delta | 14.3 | 11.5 | 6.8 | 4.5 | 2 | 3.7 |\n| Red River Delta | 8.6 | 4.8 | 3.6 | 1.4 | 1.2 | 0.6 |\n| Southeast | 5.3 | 3.0 | 2.3 | 0.4 | 0.4 | not printed |\n\nAll series decline overall, with the Midlands & Northern Mountains starting highest at 39.9 and the Red River Delta and Southeast lowest by 2016 and after; the Southeast 2020 value is not labeled. Source: World Bank staff calculations using VHLSS."
+  },
+  {
+   "label": "Figure 1.6",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart of number of poor (in millions, $3.20/day 2011PPP) by region, y-axis 0 to 6. Groups are regions; bars within each group are years 2010, 2012, 2014, 2016, 2018, 2020 (legend shades from dark to light teal). No values are printed, so approximate readings:\n\n| Region | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\n|---|---|---|---|---|---|---|\n| Central Highlands | ~1.6 | ~1.4 | ~1.6 | ~1.4 | ~1.35 | ~1.0 |\n| Mekong Delta | ~2.45 | ~2.05 | ~1.2 | ~0.85 | ~0.35 | ~0.65 |\n| Midlands & Northern Mountains | ~4.85 | ~4.4 | ~4.05 | ~3.35 | ~3.35 | ~2.1 |\n| Northern & Coastal Center | ~3.4 | ~2.6 | ~2.3 | ~1.9 | ~1.4 | ~0.95 |\n| Red River Delta | ~1.6 | ~0.98 | ~0.7 | ~0.32 | ~0.27 | ~0.18 |\n| Southeast | ~1.02 | ~0.65 | ~0.5 | ~0.15 | ~0.1 | ~0.1 |\n\nThe Midlands & Northern Mountains has the largest number of poor in every year, and most regions show declining counts over time. Source: World Bank staff calculations using VHLSS 2010–2020."
+  }
+ ]
+}

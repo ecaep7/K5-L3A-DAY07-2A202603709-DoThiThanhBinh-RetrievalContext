@@ -1,0 +1,23 @@
+{
+ "page": 77,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.5"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 2.5: Employment levels, by sector (15+)\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with markers. Y-axis: \\\"Workers (millions)\\\", scale 0 to 30 in steps of 5. X-axis: years 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, Prel. 2020. Legend: Agriculture (teal), Manufacturing (orange), Services (gray). No values are printed on the chart; approximate readings:\\n\\n| Year | Agriculture | Manufacturing | Services |\\n|---|---|---|---|\\n| 2010 | ~23.8 | ~10.6 | ~14.6 |\\n| 2011 | ~24.4 | ~10.8 | ~15.3 |\\n| 2012 | ~24.5 | ~11.0 | ~16.1 |\\n| 2013 | ~24.5 | ~11.2 | ~16.7 |\\n| 2014 | ~24.4 | ~11.4 | ~17.0 |\\n| 2015 | ~23.1 | ~12.2 | ~17.7 |\\n| 2016 | ~22.2 | ~13.4 | ~17.7 |\\n| 2017 | ~21.4 | ~14.1 | ~18.1 |\\n| 2018 | ~20.4 | ~14.8 | ~19.0 |\\n| 2019 | ~18.8 | ~16.4 | ~19.3 |\\n| Prel. 2020 | ~17.7 | ~16.4 | ~19.3 |\\n\\nTwo shaded background bands with a vertical divider between 2014 and 2015: the left band (2010 to 2014) is labeled \\\"Increasing services\\\"; the right band (2015 to Prel. 2020) is labeled \\\"Increasing manufacturing and declining agriculture\\\". Agriculture declines from about 24 to about 18 million, manufacturing rises from about 11 to about 16 million, and services rises from about 15 to about 19 million, with services and manufacturing converging by 2019 to 2020. Source note below chart: \\\"Source: GSO.\\\"\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3237,
+  "completion_tokens": 1210,
+  "cost_usd": 0.0009287000000000001,
+  "latency_s": 5.443
+ },
+ "elements": [
+  {
+   "label": "Figure 2.5: Employment levels, by sector (15+)",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with markers. Y-axis: \"Workers (millions)\", scale 0 to 30 in steps of 5. X-axis: years 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, Prel. 2020. Legend: Agriculture (teal), Manufacturing (orange), Services (gray). No values are printed on the chart; approximate readings:\n\n| Year | Agriculture | Manufacturing | Services |\n|---|---|---|---|\n| 2010 | ~23.8 | ~10.6 | ~14.6 |\n| 2011 | ~24.4 | ~10.8 | ~15.3 |\n| 2012 | ~24.5 | ~11.0 | ~16.1 |\n| 2013 | ~24.5 | ~11.2 | ~16.7 |\n| 2014 | ~24.4 | ~11.4 | ~17.0 |\n| 2015 | ~23.1 | ~12.2 | ~17.7 |\n| 2016 | ~22.2 | ~13.4 | ~17.7 |\n| 2017 | ~21.4 | ~14.1 | ~18.1 |\n| 2018 | ~20.4 | ~14.8 | ~19.0 |\n| 2019 | ~18.8 | ~16.4 | ~19.3 |\n| Prel. 2020 | ~17.7 | ~16.4 | ~19.3 |\n\nTwo shaded background bands with a vertical divider between 2014 and 2015: the left band (2010 to 2014) is labeled \"Increasing services\"; the right band (2015 to Prel. 2020) is labeled \"Increasing manufacturing and declining agriculture\". Agriculture declines from about 24 to about 18 million, manufacturing rises from about 11 to about 16 million, and services rises from about 15 to about 19 million, with services and manufacturing converging by 2019 to 2020. Source note below chart: \"Source: GSO.\""
+  }
+ ]
+}

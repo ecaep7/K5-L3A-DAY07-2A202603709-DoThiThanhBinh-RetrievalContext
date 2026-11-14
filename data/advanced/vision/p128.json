@@ -1,0 +1,14 @@
+{
+ "page": 128,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [],
+ "ok": true,
+ "raw": "{\"elements\": []}",
+ "usage": {
+  "prompt_tokens": 3221,
+  "completion_tokens": 263,
+  "cost_usd": 0.0004536,
+  "latency_s": 2.931
+ },
+ "elements": []
+}

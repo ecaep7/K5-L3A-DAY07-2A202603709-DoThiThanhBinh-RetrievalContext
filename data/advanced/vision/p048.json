@@ -1,0 +1,30 @@
+{
+ "page": 48,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 1.2",
+  "Table 1.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 1.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"Table 1.1. Poverty rates (2010–2020)\\n\\nPOVERTY RATES (%)\\n\\n| World Bank Global Poverty Lines Units: 2011PPP per capita, per day | $1.90/day 2011PPP - IPL | $3.20/day 2011PPP - LMIC | $5.50/day 2011PPP - UMIC |\\n|---|---|---|---|\\n| Approximate equivalent value in VND Units: January 2020 VND in millions, monthly and per person | 0.6 | 1.0 | 1.8 |\\n| 1993 | 52.3 | 79.7 | 94.3 |\\n| 1998 | 31.4 | 68.7 | 90.0 |\\n| 2002 | 37.0 | 70.1 | 89.0 |\\n| 2004 | 25.8 | 59.3 | 84.2 |\\n| 2006 | 18.8 | 50.6 | 79.9 |\\n| 2008 | 14.1 | 45.9 | 77.8 |\\n| Significant change in consumption-based welfare measurement, new poverty data series is not comparable | | | |\\n| 2010 | 4.0 | 16.8 | 46.8 |\\n| 2012 | 2.7 | 13.0 | 40.8 |\\n| 2014 | 2.6 | 11.0 | 35.0 |\\n| 2016 | 1.8 | 7.8 | 27.2 |\\n| 2018 | 1.8 | 6.6 | 23.4 |\\n| 2020 | 1.0 | 5.0 | 18.8 |\\n\\nSource: PovcalNet and World Bank staff calculations.\"}, {\"label\": \"Table 1.2\", \"kind\": \"table\", \"bbox\": null, \"description\": \"Table 1.2. Number of poor (2010–2020)\\n\\nNUMBER OF POOR\\n\\n| World Bank Global Poverty Lines Units: 2011PPP per capita, per day | $1.90/day 2011PPP - IPL | $3.20/day 2011PPP - LMIC | $5.50/day 2011PPP - UMIC |\\n|---|---|---|---|\\n| Approximate equivalent value in VND Units: January 2020 VND in millions, monthly and per person | 0.6 | 1.0 | 1.8 |\\n| 1993 | 37.8 | 57.6 | 68.2 |\\n| 1998 | 24.6 | 53.6 | 70.3 |\\n| 2002 | 30.2 | 57.1 | 72.5 |\\n| 2004 | 21.4 | 49.3 | 69.9 |\\n| 2006 | 15.9 | 42.8 | 67.6 |\\n| 2008 | 12.2 | 39.6 | 67.1 |\\n| Significant change in consumption-based welfare measurement; new poverty data series is not comparable | | | |\\n| 2010 | 3.5 | 14.8 | 41.2 |\\n| 2012 | 2.5 | 11.6 | 36.6 |\\n| 2014 | 2.4 | 10.1 | 32.1 |\\n| 2016 | 1.7 | 7.3 | 25.5 |\\n| 2018 | 1.7 | 6.3 | 22.3 |\\n| 2020 | 1.0 | 4.9 | 18.3 |\\n\\nSource: PovcalNet and World Bank staff calculations.\"}]}",
+ "usage": {
+  "prompt_tokens": 3257,
+  "completion_tokens": 1188,
+  "cost_usd": 0.0009197000000000001,
+  "latency_s": 4.116
+ },
+ "elements": [
+  {
+   "label": "Table 1.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "Table 1.1. Poverty rates (2010–2020)\n\nPOVERTY RATES (%)\n\n| World Bank Global Poverty Lines Units: 2011PPP per capita, per day | $1.90/day 2011PPP - IPL | $3.20/day 2011PPP - LMIC | $5.50/day 2011PPP - UMIC |\n|---|---|---|---|\n| Approximate equivalent value in VND Units: January 2020 VND in millions, monthly and per person | 0.6 | 1.0 | 1.8 |\n| 1993 | 52.3 | 79.7 | 94.3 |\n| 1998 | 31.4 | 68.7 | 90.0 |\n| 2002 | 37.0 | 70.1 | 89.0 |\n| 2004 | 25.8 | 59.3 | 84.2 |\n| 2006 | 18.8 | 50.6 | 79.9 |\n| 2008 | 14.1 | 45.9 | 77.8 |\n| Significant change in consumption-based welfare measurement, new poverty data series is not comparable | | | |\n| 2010 | 4.0 | 16.8 | 46.8 |\n| 2012 | 2.7 | 13.0 | 40.8 |\n| 2014 | 2.6 | 11.0 | 35.0 |\n| 2016 | 1.8 | 7.8 | 27.2 |\n| 2018 | 1.8 | 6.6 | 23.4 |\n| 2020 | 1.0 | 5.0 | 18.8 |\n\nSource: PovcalNet and World Bank staff calculations."
+  },
+  {
+   "label": "Table 1.2",
+   "kind": "table",
+   "bbox": null,
+   "description": "Table 1.2. Number of poor (2010–2020)\n\nNUMBER OF POOR\n\n| World Bank Global Poverty Lines Units: 2011PPP per capita, per day | $1.90/day 2011PPP - IPL | $3.20/day 2011PPP - LMIC | $5.50/day 2011PPP - UMIC |\n|---|---|---|---|\n| Approximate equivalent value in VND Units: January 2020 VND in millions, monthly and per person | 0.6 | 1.0 | 1.8 |\n| 1993 | 37.8 | 57.6 | 68.2 |\n| 1998 | 24.6 | 53.6 | 70.3 |\n| 2002 | 30.2 | 57.1 | 72.5 |\n| 2004 | 21.4 | 49.3 | 69.9 |\n| 2006 | 15.9 | 42.8 | 67.6 |\n| 2008 | 12.2 | 39.6 | 67.1 |\n| Significant change in consumption-based welfare measurement; new poverty data series is not comparable | | | |\n| 2010 | 3.5 | 14.8 | 41.2 |\n| 2012 | 2.5 | 11.6 | 36.6 |\n| 2014 | 2.4 | 10.1 | 32.1 |\n| 2016 | 1.7 | 7.3 | 25.5 |\n| 2018 | 1.7 | 6.3 | 22.3 |\n| 2020 | 1.0 | 4.9 | 18.3 |\n\nSource: PovcalNet and World Bank staff calculations."
+  }
+ ]
+}

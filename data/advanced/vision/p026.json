@@ -1,0 +1,30 @@
+{
+ "page": 26,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.8",
+  "Figure O.9"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [\n{\"label\": \"Figure O.8: Change in number of wage jobs, 2010–2020\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Y-axis: 'Net change in employment (millions)', ranging from -3 to 5 in steps of 1. X-axis categories: 2010–14 and 2015–20. Legend: Wage worker (teal), Employer (orange), Own account worker (grey), Unpaid family worker (yellow). Approximate readings: 2010–14: Wage worker ~2.2, Employer ~-0.6, Own account worker ~0.3, Unpaid family worker ~1.8. 2015–20: Wage worker ~4.9, Employer ~-0.1, Own account worker ~-1.9, Unpaid family worker ~-2.4. No values are printed on the chart. Source: GSO, Labor Force Survey. The pattern shows strong wage-job gains in 2010–14 and 2015–20, with the 2015–20 wage-worker gain largest, while own-account and unpaid family workers declined in the later period.\"},\n{\"label\": \"Figure O.9: Number of jobs by skill level, 2010–2020\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Y-axis: 'Net change in employment (millions)', ranging from -4 to 4 in steps of 1. X-axis categories: 2010–14 and 2015–20. Legend: High-skill (teal), Medium-skill (orange), Low-skill (grey). Approximate readings: 2010–14: High-skill ~0.75, Medium-skill ~1.0, Low-skill ~2.05. 2015–20: High-skill ~0.8, Medium-skill ~2.85, Low-skill ~-3.1. No values are printed on the chart. Source: GSO, Labor Force Survey. The pattern shows all skill groups gaining jobs in 2010–14, while in 2015–20 medium-skill jobs grew most strongly and low-skill jobs declined sharply.\"}\n]}",
+ "usage": {
+  "prompt_tokens": 3266,
+  "completion_tokens": 694,
+  "cost_usd": 0.0006736,
+  "latency_s": 3.045
+ },
+ "elements": [
+  {
+   "label": "Figure O.8: Change in number of wage jobs, 2010–2020",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Y-axis: 'Net change in employment (millions)', ranging from -3 to 5 in steps of 1. X-axis categories: 2010–14 and 2015–20. Legend: Wage worker (teal), Employer (orange), Own account worker (grey), Unpaid family worker (yellow). Approximate readings: 2010–14: Wage worker ~2.2, Employer ~-0.6, Own account worker ~0.3, Unpaid family worker ~1.8. 2015–20: Wage worker ~4.9, Employer ~-0.1, Own account worker ~-1.9, Unpaid family worker ~-2.4. No values are printed on the chart. Source: GSO, Labor Force Survey. The pattern shows strong wage-job gains in 2010–14 and 2015–20, with the 2015–20 wage-worker gain largest, while own-account and unpaid family workers declined in the later period."
+  },
+  {
+   "label": "Figure O.9: Number of jobs by skill level, 2010–2020",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Y-axis: 'Net change in employment (millions)', ranging from -4 to 4 in steps of 1. X-axis categories: 2010–14 and 2015–20. Legend: High-skill (teal), Medium-skill (orange), Low-skill (grey). Approximate readings: 2010–14: High-skill ~0.75, Medium-skill ~1.0, Low-skill ~2.05. 2015–20: High-skill ~0.8, Medium-skill ~2.85, Low-skill ~-3.1. No values are printed on the chart. Source: GSO, Labor Force Survey. The pattern shows all skill groups gaining jobs in 2010–14, while in 2015–20 medium-skill jobs grew most strongly and low-skill jobs declined sharply."
+  }
+ ]
+}

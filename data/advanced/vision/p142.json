@@ -1,0 +1,23 @@
+{
+ "page": 142,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.13"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.13\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Bar chart titled 'Dissimilarity index in bundled opportunities'. Y-axis: 'Dissimilarity index', scale 0.00 to 0.30 in steps of 0.05. X-axis categories: '8 out of 11', '9 out of 11', '10 out of 11'. Single series (teal bars); no values printed on the bars. Approximate readings: 8 out of 11 ~0.06; 9 out of 11 ~0.13; 10 out of 11 ~0.25. Note: 'Total of 11 indicators in a bundle, see Annex 4.2. In the bundle, on-time education completion is considered one indicator.' Source: 'World Bank staff calculations using VHLSS 2020.' The dissimilarity index rises as the required number of opportunities in the bundle increases.\"}]}",
+ "usage": {
+  "prompt_tokens": 3240,
+  "completion_tokens": 310,
+  "cost_usd": 0.000479,
+  "latency_s": 2.166
+ },
+ "elements": [
+  {
+   "label": "Figure 4.13",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Bar chart titled 'Dissimilarity index in bundled opportunities'. Y-axis: 'Dissimilarity index', scale 0.00 to 0.30 in steps of 0.05. X-axis categories: '8 out of 11', '9 out of 11', '10 out of 11'. Single series (teal bars); no values printed on the bars. Approximate readings: 8 out of 11 ~0.06; 9 out of 11 ~0.13; 10 out of 11 ~0.25. Note: 'Total of 11 indicators in a bundle, see Annex 4.2. In the bundle, on-time education completion is considered one indicator.' Source: 'World Bank staff calculations using VHLSS 2020.' The dissimilarity index rises as the required number of opportunities in the bundle increases."
+  }
+ ]
+}

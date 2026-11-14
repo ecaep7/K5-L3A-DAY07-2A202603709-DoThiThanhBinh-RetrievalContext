@@ -1,0 +1,59 @@
+{
+ "page": 171,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": null, \"kind\": \"diagram\", \"bbox\": [86, 315, 283, 358], \"description\": \"Identity equation: Y/N = Y/E × E/L × L/A × A/N. Where: Y = Total value added; N = Population; E = Employment; L = Labor force; A = Working age population (15-64 years old).\"}, {\"label\": null, \"kind\": \"diagram\", \"bbox\": [114, 497, 271, 518], \"description\": \"Equation: y = w × e × p × a. Where: y = Value added per capita; w = Value added per worker; e = Employment rate; p = Participation rate; a = Working age population / total population.\"}, {\"label\": null, \"kind\": \"diagram\", \"bbox\": [106, 670, 361, 691], \"description\": \"Decomposition equation: Δy = Δy^w + Δy^e + Δy^p + Δy^a, where each Δ term is the marginal contribution of w, e, p, and a respectively to Δy, holding other variables constant.\"}, {\"label\": null, \"kind\": \"diagram\", \"bbox\": [102, 806, 667, 900], \"description\": \"Shapley decomposition formula: Δy^w(t0,t1) = α^w(s,m) + [(w11 e10 p10 a10) - (w10 e10 p10 a10) - (w11 e11 p11 a11) - (w10 e11 p11 a11)] + (w11 e11 p10 a10) - (w10 e11 p10 a10) - (w11 e10 p11 a10) - (w10 e10 p11 a10) + (w11 e10 p11 a10) - (w10 e10 p10 a11) - (w11 e11 p11 a10) - (w10 e10 p11 a10) + (w11 e11 p10 a11) - (w10 e11 p10 a11) - (w11 e11 p11 a11) - (w10 e10 p11 a11). Terms are printed in four aligned rows across four columns, with the first term in the first row written as + [(w11 e10 p10 a10) ... ] bracketed as shown on the page.\"}]}",
+ "usage": {
+  "prompt_tokens": 3221,
+  "completion_tokens": 1161,
+  "cost_usd": 0.0009026,
+  "latency_s": 5.869
+ },
+ "elements": [
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    86,
+    315,
+    283,
+    358
+   ],
+   "description": "Identity equation: Y/N = Y/E × E/L × L/A × A/N. Where: Y = Total value added; N = Population; E = Employment; L = Labor force; A = Working age population (15-64 years old)."
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    114,
+    497,
+    271,
+    518
+   ],
+   "description": "Equation: y = w × e × p × a. Where: y = Value added per capita; w = Value added per worker; e = Employment rate; p = Participation rate; a = Working age population / total population."
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    106,
+    670,
+    361,
+    691
+   ],
+   "description": "Decomposition equation: Δy = Δy^w + Δy^e + Δy^p + Δy^a, where each Δ term is the marginal contribution of w, e, p, and a respectively to Δy, holding other variables constant."
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    102,
+    806,
+    667,
+    900
+   ],
+   "description": "Shapley decomposition formula: Δy^w(t0,t1) = α^w(s,m) + [(w11 e10 p10 a10) - (w10 e10 p10 a10) - (w11 e11 p11 a11) - (w10 e11 p11 a11)] + (w11 e11 p10 a10) - (w10 e11 p10 a10) - (w11 e10 p11 a10) - (w10 e10 p11 a10) + (w11 e10 p11 a10) - (w10 e10 p10 a11) - (w11 e11 p11 a10) - (w10 e10 p11 a10) + (w11 e11 p10 a11) - (w10 e11 p10 a11) - (w11 e11 p11 a11) - (w10 e10 p11 a11). Terms are printed in four aligned rows across four columns, with the first term in the first row written as + [(w11 e10 p10 a10) ... ] bracketed as shown on the page."
+  }
+ ]
+}

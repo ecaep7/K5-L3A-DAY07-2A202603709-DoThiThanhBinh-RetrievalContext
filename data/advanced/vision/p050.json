@@ -1,0 +1,26 @@
+{
+ "page": 50,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": null, \"kind\": \"diagram\", \"bbox\": [392, 188, 604, 242], \"description\": \"Mathematical formula from Box 1.2 (FGT class of indicators): FGT_α = (1/N) Σ_{i=1}^{H} ((z − y_i)/z)^α, where the summation index runs from i=1 to H, z is the poverty line, and y_i is household i's consumption or income.\"}]}",
+ "usage": {
+  "prompt_tokens": 3221,
+  "completion_tokens": 406,
+  "cost_usd": 0.0005251,
+  "latency_s": 3.551
+ },
+ "elements": [
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    392,
+    188,
+    604,
+    242
+   ],
+   "description": "Mathematical formula from Box 1.2 (FGT class of indicators): FGT_α = (1/N) Σ_{i=1}^{H} ((z − y_i)/z)^α, where the summation index runs from i=1 to H, z is the poverty line, and y_i is household i's consumption or income."
+  }
+ ]
+}

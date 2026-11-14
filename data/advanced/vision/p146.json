@@ -1,0 +1,23 @@
+{
+ "page": 146,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.18"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 4.18\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with two panels, titled 'Persistence and relative mobility by cohort'. Y-axis runs from 0.0 to 0.8 in 0.1 steps (no axis title). X-axis shows cohorts 1940, 1950, 1960, 1970, 1980. Left panel: 'Intergenerational Persistence (IGP)'. Right panel: 'Privilege (Bottom Half to Top Quartile)'. Legend (series): China, Indonesia, Lao PDR, Malaysia, Mongolia, Philippines, Thailand, Vietnam. Values are not printed; approximate readings (~) are below.\\n\\nIGP panel:\\n- China: 1940 ~0.29, 1950 ~0.30, 1960 ~0.32, 1970 ~0.45, 1980 ~0.48\\n- Indonesia: 1940 ~0.57, 1950 ~0.55, 1960 ~0.63, 1970 ~0.49, 1980 ~0.42\\n- Lao PDR: 1950 ~0.55, 1960 ~0.56, 1970 ~0.47, 1980 ~0.39\\n- Malaysia: 1940 ~0.00, 1950 ~0.40, 1960 ~0.39, 1970 ~0.32, 1980 ~0.29\\n- Mongolia: 1940 ~0.14, 1950 ~0.22, 1960 ~0.19, 1970 ~0.15, 1980 ~0.24\\n- Philippines: 1940 ~0.32, 1950 ~0.30, 1960 ~0.21, 1970 ~0.32, 1980 ~0.15\\n- Vietnam: 1940 ~0.37, 1950 ~0.36, 1960 ~0.38, 1970 ~0.55, 1980 ~0.47\\n\\nPrivilege panel:\\n- Lao PDR: 1940 ~0.31, 1950 ~0.20, 1960 ~0.15, 1970 ~0.17, 1980 ~0.15\\n- Mongolia: 1940 ~0.25, 1950 ~0.23, 1960 ~0.20, 1970 ~0.26, 1980 ~0.17\\n- China: 1940 ~0.20, 1950 ~0.20, 1960 ~0.17, 1970 ~0.14, 1980 ~0.14\\n- Indonesia: 1940 ~0.15, 1950 ~0.13, 1960 ~0.14, 1970 ~0.14, 1980 ~0.14\\n- Malaysia: 1940 ~0.14, 1950 ~0.14, 1960 ~0.08, 1970 ~0.14, 1980 ~0.15\\n- Philippines: 1940 ~0.13, 1950 ~0.22, 1960 ~0.16, 1970 ~0.14, 1980 ~0.20\\n- Vietnam: 1940 ~0.19, 1950 ~0.16, 1960 ~0.14, 1970 ~0.11, 1980 ~0.10\\n\\nIn the IGP panel, Vietnam and Indonesia have the highest persistence peaks, while Malaysia and Mongolia are lowest in early cohorts. In the privilege panel, values converge toward 0.1–0.2 in later cohorts, with Mongolia and Lao PDR highest in 1940.\\n\\nNote: See Annex 4.2 for definition of wider set of indicators. Source: World Bank staff calculation using VHLSS 2010 and 2020.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3238,
+  "completion_tokens": 2224,
+  "cost_usd": 0.0014357999999999999,
+  "latency_s": 7.933
+ },
+ "elements": [
+  {
+   "label": "Figure 4.18",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with two panels, titled 'Persistence and relative mobility by cohort'. Y-axis runs from 0.0 to 0.8 in 0.1 steps (no axis title). X-axis shows cohorts 1940, 1950, 1960, 1970, 1980. Left panel: 'Intergenerational Persistence (IGP)'. Right panel: 'Privilege (Bottom Half to Top Quartile)'. Legend (series): China, Indonesia, Lao PDR, Malaysia, Mongolia, Philippines, Thailand, Vietnam. Values are not printed; approximate readings (~) are below.\n\nIGP panel:\n- China: 1940 ~0.29, 1950 ~0.30, 1960 ~0.32, 1970 ~0.45, 1980 ~0.48\n- Indonesia: 1940 ~0.57, 1950 ~0.55, 1960 ~0.63, 1970 ~0.49, 1980 ~0.42\n- Lao PDR: 1950 ~0.55, 1960 ~0.56, 1970 ~0.47, 1980 ~0.39\n- Malaysia: 1940 ~0.00, 1950 ~0.40, 1960 ~0.39, 1970 ~0.32, 1980 ~0.29\n- Mongolia: 1940 ~0.14, 1950 ~0.22, 1960 ~0.19, 1970 ~0.15, 1980 ~0.24\n- Philippines: 1940 ~0.32, 1950 ~0.30, 1960 ~0.21, 1970 ~0.32, 1980 ~0.15\n- Vietnam: 1940 ~0.37, 1950 ~0.36, 1960 ~0.38, 1970 ~0.55, 1980 ~0.47\n\nPrivilege panel:\n- Lao PDR: 1940 ~0.31, 1950 ~0.20, 1960 ~0.15, 1970 ~0.17, 1980 ~0.15\n- Mongolia: 1940 ~0.25, 1950 ~0.23, 1960 ~0.20, 1970 ~0.26, 1980 ~0.17\n- China: 1940 ~0.20, 1950 ~0.20, 1960 ~0.17, 1970 ~0.14, 1980 ~0.14\n- Indonesia: 1940 ~0.15, 1950 ~0.13, 1960 ~0.14, 1970 ~0.14, 1980 ~0.14\n- Malaysia: 1940 ~0.14, 1950 ~0.14, 1960 ~0.08, 1970 ~0.14, 1980 ~0.15\n- Philippines: 1940 ~0.13, 1950 ~0.22, 1960 ~0.16, 1970 ~0.14, 1980 ~0.20\n- Vietnam: 1940 ~0.19, 1950 ~0.16, 1960 ~0.14, 1970 ~0.11, 1980 ~0.10\n\nIn the IGP panel, Vietnam and Indonesia have the highest persistence peaks, while Malaysia and Mongolia are lowest in early cohorts. In the privilege panel, values converge toward 0.1–0.2 in later cohorts, with Mongolia and Lao PDR highest in 1940.\n\nNote: See Annex 4.2 for definition of wider set of indicators. Source: World Bank staff calculation using VHLSS 2010 and 2020."
+  }
+ ]
+}

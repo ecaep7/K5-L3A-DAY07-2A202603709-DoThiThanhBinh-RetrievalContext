@@ -1,0 +1,30 @@
+{
+ "page": 24,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.5",
+  "Figure O.6"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n  {\n    \"label\": \"Figure O.5\",\n    \"kind\": \"chart\",\n    \"bbox\": null,\n    \"description\": \"Line chart with markers. Y-axis: \\\"Gini index\\\" (scale 20 to 45, gridlines at 20, 25, 30, 35, 40, 45). X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Single series (teal line). No values are printed; approximate readings: 2010 ~39.3, 2012 ~35.6, 2014 ~34.7, 2016 ~35.2, 2018 ~35.6, 2020 ~36.8. The Gini index falls from 2010 to a low around 2014, then rises gradually through 2020.\"\n  },\n  {\n    \"label\": \"Figure O.6\",\n    \"kind\": \"chart\",\n    \"bbox\": null,\n    \"description\": \"Grouped bar chart with overlaid scatter markers. Y-axis: \\\"Annualized growth rate (%)\\\" (scale 0 to 8, gridlines at each integer). X-axis: periods 2010–12, 2012–14, 2014–16, 2016–18, 2018–20. Legend: Growth B40 (teal bar), Growth T60 (orange bar), Growth Mean (grey dot). No values are printed; approximate readings: Growth B40 ~5.4, ~4.0, ~6.6, ~4.9, ~4.5; Growth T60 ~0.6, ~2.7, ~7.6, ~5.6, ~6.0; Growth Mean ~1.4, ~2.9, ~7.5, ~5.5, ~5.7. Growth is higher for the bottom 40% than the top 60% in 2010–12 and 2012–14, while in later periods the top 60% grows faster than the bottom 40%, with the mean lying between the two series.\"\n  }\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3260,
+  "completion_tokens": 978,
+  "cost_usd": 0.000815,
+  "latency_s": 4.918
+ },
+ "elements": [
+  {
+   "label": "Figure O.5",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with markers. Y-axis: \"Gini index\" (scale 20 to 45, gridlines at 20, 25, 30, 35, 40, 45). X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Single series (teal line). No values are printed; approximate readings: 2010 ~39.3, 2012 ~35.6, 2014 ~34.7, 2016 ~35.2, 2018 ~35.6, 2020 ~36.8. The Gini index falls from 2010 to a low around 2014, then rises gradually through 2020."
+  },
+  {
+   "label": "Figure O.6",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart with overlaid scatter markers. Y-axis: \"Annualized growth rate (%)\" (scale 0 to 8, gridlines at each integer). X-axis: periods 2010–12, 2012–14, 2014–16, 2016–18, 2018–20. Legend: Growth B40 (teal bar), Growth T60 (orange bar), Growth Mean (grey dot). No values are printed; approximate readings: Growth B40 ~5.4, ~4.0, ~6.6, ~4.9, ~4.5; Growth T60 ~0.6, ~2.7, ~7.6, ~5.6, ~6.0; Growth Mean ~1.4, ~2.9, ~7.5, ~5.5, ~5.7. Growth is higher for the bottom 40% than the top 60% in 2010–12 and 2012–14, while in later periods the top 60% grows faster than the bottom 40%, with the mean lying between the two series."
+  }
+ ]
+}

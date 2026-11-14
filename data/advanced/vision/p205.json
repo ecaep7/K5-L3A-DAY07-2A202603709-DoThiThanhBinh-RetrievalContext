@@ -1,0 +1,23 @@
+{
+ "page": 205,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 7.6"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 7.6\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Combined bar and dot chart with two y-axes. Left axis: 'Cost-effectiveness Index' (0, 3, 6, 9, 12, 15). Right axis: 'Size relative to GDP' (0%, 1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%). Legend: 'Effectiveness' (teal bar, left axis) and '% GDP' (orange dot, right axis). Categories, left to right: PIT, Other direct taxes, Social insurance, Cash transfer, Electricity subsidies, Education, Health. No values are printed on the chart; approximate readings are: Effectiveness (bars): PIT ~12.1; Other direct taxes ~6.4; Social insurance ~4.1; Cash transfer ~12.0; Electricity subsidies ~4.9; Education ~8.6; Health ~3.4. % GDP (dots): PIT ~0.9%; Other direct taxes ~0.7%; Social insurance ~7.2%; Cash transfer ~0.8%; Electricity subsidies ~0.6%; Education ~3.8%; Health ~2.7%. Note: Cost-effectiveness index is the marginal contribution to inequality reduction (points of Gini changed) divided by total spending. Source: 2018 VHLSS and World Bank calculations. The pattern: cash transfers and PIT have the highest cost-effectiveness; social insurance has the largest share of GDP but a moderate effectiveness; health has the lowest effectiveness.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3255,
+  "completion_tokens": 981,
+  "cost_usd": 0.000816,
+  "latency_s": 5.23
+ },
+ "elements": [
+  {
+   "label": "Figure 7.6",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Combined bar and dot chart with two y-axes. Left axis: 'Cost-effectiveness Index' (0, 3, 6, 9, 12, 15). Right axis: 'Size relative to GDP' (0%, 1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%). Legend: 'Effectiveness' (teal bar, left axis) and '% GDP' (orange dot, right axis). Categories, left to right: PIT, Other direct taxes, Social insurance, Cash transfer, Electricity subsidies, Education, Health. No values are printed on the chart; approximate readings are: Effectiveness (bars): PIT ~12.1; Other direct taxes ~6.4; Social insurance ~4.1; Cash transfer ~12.0; Electricity subsidies ~4.9; Education ~8.6; Health ~3.4. % GDP (dots): PIT ~0.9%; Other direct taxes ~0.7%; Social insurance ~7.2%; Cash transfer ~0.8%; Electricity subsidies ~0.6%; Education ~3.8%; Health ~2.7%. Note: Cost-effectiveness index is the marginal contribution to inequality reduction (points of Gini changed) divided by total spending. Source: 2018 VHLSS and World Bank calculations. The pattern: cash transfers and PIT have the highest cost-effectiveness; social insurance has the largest share of GDP but a moderate effectiveness; health has the lowest effectiveness."
+  }
+ ]
+}

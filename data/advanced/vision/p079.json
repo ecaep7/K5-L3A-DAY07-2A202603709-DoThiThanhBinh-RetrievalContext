@@ -1,0 +1,30 @@
+{
+ "page": 79,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.8",
+  "Figure 2.9"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 2.8\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked column chart of the share of workers (%) by sector, split into 'Has contract' (2010, 2020) and 'No contract' (2010, 2020) groups. Y-axis: Share of workers (%), 0 to 100. Legend series: Agriculture and fishing; Electricity, gas and water; Education, health and social work; Financial, insurance and real estate; Mining and quarrying; Construction; Transport, storage, and comms; Other; Manufacturing; Commerce; Public admin. Printed values: Has contract 2010: Public admin 14.8, Education, health and social work 19.1, Manufacturing 32.8. Has contract 2020: Public admin 9.3, Education, health and social work 14.9, Manufacturing 46.6. No contract 2010: Agriculture and fishing 56.2, Manufacturing 12.8, Commerce 17.0. No contract 2020: Agriculture and fishing 40.4, Manufacturing 15.9, Commerce 23.1. Unlabeled segments (small mining, construction, transport, other) are not printed. Source: World Bank staff calculations using VHLSS 2010–2020. The pattern shows agriculture dominating non-contract jobs, with its share falling from ~56 to ~40 percent between 2010 and 2020, while contracted jobs are concentrated in manufacturing and public or service sectors.\"}, {\"label\": \"Figure 2.9\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two-panel line chart of underemployment and unemployment rates, 2010 to 2020, from GSO. Panel A, 'Underemployment rate': y-axis Underemployment (%), 0 to 6; series General, 15–24, 25–49, 50+, Male, Female. Approximate readings for 15–24: ~5.1 (2010), ~4.2, ~4.3, ~3.8, ~3.4, ~3.6, ~2.8, ~2.7, ~2.4, ~2.4, ~4.1 (2020). Other series mostly fall from ~3.5 in 2010 to ~1.5–2.0 by 2018–2019 and rise to ~2.5 in 2020; 50+ is ~3.1 in 2010, ~0.9 in 2019 and ~1.9 in 2020. Panel B, 'Unemployment rate': y-axis Unemployment (%) (labelled Underemployment on the axis), 0 to 8; series General, 15–24, 25–49, 50+, Male, Female. Approximate readings for 15–24: ~7.1 (2010), ~5.2, ~5.5, ~6.2, ~6.3, ~7.1, ~7.4, ~7.4, ~6.9, ~6.5, ~7.2 (2020). General ~2.9 (2010) falling to ~1.9–2.3 and ~2.5 in 2020; Female ~3.5 (2010) and ~3.1 (2020); 25–49 ~1.8 falling to ~1.2–1.5 and ~2.0 in 2020; 50+ ~0.7–1.0 from 2015 onward. Pattern: youth (15–24) unemployment and underemployment are highest and rise in 2020, while the other groups show a clear uptick in 2020.\"}]}",
+ "usage": {
+  "prompt_tokens": 3261,
+  "completion_tokens": 2157,
+  "cost_usd": 0.0014046,
+  "latency_s": 8.572
+ },
+ "elements": [
+  {
+   "label": "Figure 2.8",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked column chart of the share of workers (%) by sector, split into 'Has contract' (2010, 2020) and 'No contract' (2010, 2020) groups. Y-axis: Share of workers (%), 0 to 100. Legend series: Agriculture and fishing; Electricity, gas and water; Education, health and social work; Financial, insurance and real estate; Mining and quarrying; Construction; Transport, storage, and comms; Other; Manufacturing; Commerce; Public admin. Printed values: Has contract 2010: Public admin 14.8, Education, health and social work 19.1, Manufacturing 32.8. Has contract 2020: Public admin 9.3, Education, health and social work 14.9, Manufacturing 46.6. No contract 2010: Agriculture and fishing 56.2, Manufacturing 12.8, Commerce 17.0. No contract 2020: Agriculture and fishing 40.4, Manufacturing 15.9, Commerce 23.1. Unlabeled segments (small mining, construction, transport, other) are not printed. Source: World Bank staff calculations using VHLSS 2010–2020. The pattern shows agriculture dominating non-contract jobs, with its share falling from ~56 to ~40 percent between 2010 and 2020, while contracted jobs are concentrated in manufacturing and public or service sectors."
+  },
+  {
+   "label": "Figure 2.9",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two-panel line chart of underemployment and unemployment rates, 2010 to 2020, from GSO. Panel A, 'Underemployment rate': y-axis Underemployment (%), 0 to 6; series General, 15–24, 25–49, 50+, Male, Female. Approximate readings for 15–24: ~5.1 (2010), ~4.2, ~4.3, ~3.8, ~3.4, ~3.6, ~2.8, ~2.7, ~2.4, ~2.4, ~4.1 (2020). Other series mostly fall from ~3.5 in 2010 to ~1.5–2.0 by 2018–2019 and rise to ~2.5 in 2020; 50+ is ~3.1 in 2010, ~0.9 in 2019 and ~1.9 in 2020. Panel B, 'Unemployment rate': y-axis Unemployment (%) (labelled Underemployment on the axis), 0 to 8; series General, 15–24, 25–49, 50+, Male, Female. Approximate readings for 15–24: ~7.1 (2010), ~5.2, ~5.5, ~6.2, ~6.3, ~7.1, ~7.4, ~7.4, ~6.9, ~6.5, ~7.2 (2020). General ~2.9 (2010) falling to ~1.9–2.3 and ~2.5 in 2020; Female ~3.5 (2010) and ~3.1 (2020); 25–49 ~1.8 falling to ~1.2–1.5 and ~2.0 in 2020; 50+ ~0.7–1.0 from 2015 onward. Pattern: youth (15–24) unemployment and underemployment are highest and rise in 2020, while the other groups show a clear uptick in 2020."
+  }
+ ]
+}

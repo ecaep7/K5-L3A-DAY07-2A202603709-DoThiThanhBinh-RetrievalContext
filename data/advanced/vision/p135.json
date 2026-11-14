@@ -1,0 +1,30 @@
+{
+ "page": 135,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.4.1.1",
+  "Figure 4.5"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 4.5\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Vertical bar chart titled 'Gap in socioeconomic-disaggregated HCI, 2013'. Y-axis title: 'Q5/Q1 ratio', scale 0.0 to 2.0 with gridlines at 0.5 intervals. Single series, all bars teal. Categories (x-axis, left to right): 'Probability of survival to age 5' (~1.03); 'Expected years of school' (~1.22); 'Harmonized test scores' (~1.15); 'Learning-adjusted years of school' (~1.40); 'Fraction of children under 5 not stunted' (~1.60); 'SES - disaggregated HCI' (~1.48). No values are printed on the bars. Note: 'Ratio of average outcomes between children in Q1 and Q5. SES-HCI (2013).' Source: 'World Bank 2019b.' The pattern: every gap is above 1.0, meaning Q1 children have lower outcomes than Q5 children, with the largest gap for the fraction of children not stunted and the smallest for survival to age 5.\"}, {\"label\": \"Figure B.4.1.1\", \"kind\": \"diagram\", \"bbox\": null, \"description\": \"Tree-style framework diagram for calculating the Human Capital Index. Root box (grey): 'Human Capital Index', connected by lines to three branch boxes: (1) 'Contribution to Productivity from Survival' (teal), which connects to the leaf 'Survival to age 5' (teal). (2) 'Contribution to Productivity from School' (orange), which connects to two leaves: 'Expected years of schooling' and 'Harmonized test scores' (orange). (3) 'Contribution to Productivity from Health' (yellow-orange), which connects to two leaves: 'Adult survival rate' and 'Not stunted rate' (yellow).\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3275,
+  "completion_tokens": 1022,
+  "cost_usd": 0.0008385,
+  "latency_s": 4.382
+ },
+ "elements": [
+  {
+   "label": "Figure 4.5",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Vertical bar chart titled 'Gap in socioeconomic-disaggregated HCI, 2013'. Y-axis title: 'Q5/Q1 ratio', scale 0.0 to 2.0 with gridlines at 0.5 intervals. Single series, all bars teal. Categories (x-axis, left to right): 'Probability of survival to age 5' (~1.03); 'Expected years of school' (~1.22); 'Harmonized test scores' (~1.15); 'Learning-adjusted years of school' (~1.40); 'Fraction of children under 5 not stunted' (~1.60); 'SES - disaggregated HCI' (~1.48). No values are printed on the bars. Note: 'Ratio of average outcomes between children in Q1 and Q5. SES-HCI (2013).' Source: 'World Bank 2019b.' The pattern: every gap is above 1.0, meaning Q1 children have lower outcomes than Q5 children, with the largest gap for the fraction of children not stunted and the smallest for survival to age 5."
+  },
+  {
+   "label": "Figure B.4.1.1",
+   "kind": "diagram",
+   "bbox": null,
+   "description": "Tree-style framework diagram for calculating the Human Capital Index. Root box (grey): 'Human Capital Index', connected by lines to three branch boxes: (1) 'Contribution to Productivity from Survival' (teal), which connects to the leaf 'Survival to age 5' (teal). (2) 'Contribution to Productivity from School' (orange), which connects to two leaves: 'Expected years of schooling' and 'Harmonized test scores' (orange). (3) 'Contribution to Productivity from Health' (yellow-orange), which connects to two leaves: 'Adult survival rate' and 'Not stunted rate' (yellow)."
+  }
+ ]
+}

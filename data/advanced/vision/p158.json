@@ -1,0 +1,23 @@
+{
+ "page": 158,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.5"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 5.5\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart of household consumption per capita by household head occupation skill level. Y-axis: \\\"Annual household consumption per capita (VND, millions)\\\", ticks at 0, 20, 40, 60, 80, 100. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Legend: High-skilled non-manual (teal), Low-skilled non-manual (orange), Skilled manual (grey), Unskilled (yellow). No values are printed on the chart; approximate readings: High-skilled non-manual ~35, ~46, ~52, ~59, ~67, ~87; Low-skilled non-manual ~23, ~29, ~35, ~43, ~51, ~60; Skilled manual ~16, ~21, ~25, ~30, ~36, ~42; Unskilled ~11, ~16, ~20, ~24, ~28, ~33 (for 2010 through 2020 in order). Note: Household consumption in annual per capita nominal VND. Source: World Bank staff calculations using VHLSS 2010-2020. All four series rise over the period, with high-skilled non-manual households consistently highest and showing the steepest rise after 2018, and unskilled households consistently lowest.\"}]}",
+ "usage": {
+  "prompt_tokens": 3241,
+  "completion_tokens": 822,
+  "cost_usd": 0.0007351,
+  "latency_s": 3.91
+ },
+ "elements": [
+  {
+   "label": "Figure 5.5",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart of household consumption per capita by household head occupation skill level. Y-axis: \"Annual household consumption per capita (VND, millions)\", ticks at 0, 20, 40, 60, 80, 100. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Legend: High-skilled non-manual (teal), Low-skilled non-manual (orange), Skilled manual (grey), Unskilled (yellow). No values are printed on the chart; approximate readings: High-skilled non-manual ~35, ~46, ~52, ~59, ~67, ~87; Low-skilled non-manual ~23, ~29, ~35, ~43, ~51, ~60; Skilled manual ~16, ~21, ~25, ~30, ~36, ~42; Unskilled ~11, ~16, ~20, ~24, ~28, ~33 (for 2010 through 2020 in order). Note: Household consumption in annual per capita nominal VND. Source: World Bank staff calculations using VHLSS 2010-2020. All four series rise over the period, with high-skilled non-manual households consistently highest and showing the steepest rise after 2018, and unskilled households consistently lowest."
+  }
+ ]
+}

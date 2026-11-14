@@ -1,0 +1,30 @@
+{
+ "page": 59,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 1.5",
+  "Table B.1.5.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": \"Table 1.5\", \"kind\": \"table\", \"bbox\": null, \"description\": \"Economic mobility transitions from 2016 to 2018, by household characteristics (units: %)\\n\\n| Household characteristic | STAY | CLIMB | SLIDE |\\n|---|---|---|---|\\n| National | 66.0 | 21.4 | 12.6 |\\n| **Geographic area (time invariant)** | | | |\\n| Central Highlands | 59.5 | 24.2 | 16.3 |\\n| Mekong Delta | 67.7 | 20.1 | 12.2 |\\n| Midlands and Northern Mountains | 57.4 | 26.3 | 16.4 |\\n| Northern and Coastal Center | 64.8 | 23.6 | 11.7 |\\n| Red River Delta | 71.4 | 17.7 | 10.9 |\\n| Southeast | 68.6 | 19.3 | 12.1 |\\n| Rural | 64.2 | 23.2 | 12.7 |\\n| Urban | 70.3 | 17.2 | 12.5 |\\n| **Ethnicity (time invariant)** | | | |\\n| Kinh majority | 69.3 | 19.4 | 11.4 |\\n| Ethnic minority | 49.9 | 31.2 | 18.9 |\\n| **Employment characteristics and dynamics** | | | |\\n| No participation in agriculture | 72.5 | 17.2 | 10.3 |\\n| Exited agriculture in 2018 | 62.9 | 26.9 | 10.3 |\\n| Entered manufacturing in 2018 | 61.8 | 20.7 | 17.5 |\\n| Has formal contract in 2016 | 73.3 | 15.4 | 11.3 |\\n| Gained formal contract in 2018 | 61.3 | 29.3 | 9.4 |\\n\\nNote: Climbers are households that are in a higher economic class in 2018 than in 2016. Sliders are households in a lower economic class in 2018 than in 2016. Stayers are in the same economic class in 2018 as in 2016. Economic class definitions are based on World Bank global definitions as defined in Box 1.4. Source: World Bank staff calculation using VHLSS panel sub-samples.\"},\n{\"label\": \"Table B.1.5.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"Number of panel households (over two-year periods)\\n\\n| Start year \\\\ End year | 2012 | 2014 | 2016 | 2018 |\\n|---|---|---|---|---|\\n| 2010 | 4,231 | 1,951 | | |\\n| 2012 | | 4,226 | 1,895 | |\\n| 2014 | | | 4,275 | 1,936 |\\n| 2016 | | | | 4,281 |\\n\\nNote: The selection of the panel sub-sample appears well randomized. Since the panel does not follow migration or split households, there may be attrition bias. However, Pimhidzai et al (2019) compared outcomes between the rolling panel sub-sample and the full sample and did not find evidence of such a bias.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3274,
+  "completion_tokens": 1066,
+  "cost_usd": 0.0008604000000000001,
+  "latency_s": 5.037
+ },
+ "elements": [
+  {
+   "label": "Table 1.5",
+   "kind": "table",
+   "bbox": null,
+   "description": "Economic mobility transitions from 2016 to 2018, by household characteristics (units: %)\n\n| Household characteristic | STAY | CLIMB | SLIDE |\n|---|---|---|---|\n| National | 66.0 | 21.4 | 12.6 |\n| **Geographic area (time invariant)** | | | |\n| Central Highlands | 59.5 | 24.2 | 16.3 |\n| Mekong Delta | 67.7 | 20.1 | 12.2 |\n| Midlands and Northern Mountains | 57.4 | 26.3 | 16.4 |\n| Northern and Coastal Center | 64.8 | 23.6 | 11.7 |\n| Red River Delta | 71.4 | 17.7 | 10.9 |\n| Southeast | 68.6 | 19.3 | 12.1 |\n| Rural | 64.2 | 23.2 | 12.7 |\n| Urban | 70.3 | 17.2 | 12.5 |\n| **Ethnicity (time invariant)** | | | |\n| Kinh majority | 69.3 | 19.4 | 11.4 |\n| Ethnic minority | 49.9 | 31.2 | 18.9 |\n| **Employment characteristics and dynamics** | | | |\n| No participation in agriculture | 72.5 | 17.2 | 10.3 |\n| Exited agriculture in 2018 | 62.9 | 26.9 | 10.3 |\n| Entered manufacturing in 2018 | 61.8 | 20.7 | 17.5 |\n| Has formal contract in 2016 | 73.3 | 15.4 | 11.3 |\n| Gained formal contract in 2018 | 61.3 | 29.3 | 9.4 |\n\nNote: Climbers are households that are in a higher economic class in 2018 than in 2016. Sliders are households in a lower economic class in 2018 than in 2016. Stayers are in the same economic class in 2018 as in 2016. Economic class definitions are based on World Bank global definitions as defined in Box 1.4. Source: World Bank staff calculation using VHLSS panel sub-samples."
+  },
+  {
+   "label": "Table B.1.5.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "Number of panel households (over two-year periods)\n\n| Start year \\ End year | 2012 | 2014 | 2016 | 2018 |\n|---|---|---|---|---|\n| 2010 | 4,231 | 1,951 | | |\n| 2012 | | 4,226 | 1,895 | |\n| 2014 | | | 4,275 | 1,936 |\n| 2016 | | | | 4,281 |\n\nNote: The selection of the panel sub-sample appears well randomized. Since the panel does not follow migration or split households, there may be attrition bias. However, Pimhidzai et al (2019) compared outcomes between the rolling panel sub-sample and the full sample and did not find evidence of such a bias."
+  }
+ ]
+}

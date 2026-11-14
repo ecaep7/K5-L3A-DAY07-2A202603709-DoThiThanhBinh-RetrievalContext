@@ -1,0 +1,37 @@
+{
+ "page": 62,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.19",
+  "Figure 1.20",
+  "Figure 1.21"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [\n{\"label\": \"Figure 1.19: Relative inequality, Gini Index\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart. Y-axis: Gini index (axis ticks 20, 25, 30, 35, 40). X-axis: years 1993, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020 (line is broken between 2008 and 2010). Single series, no legend. Values are not printed; approximate readings: 1993 ~35.6, 1998 ~35.4, 2002 ~37.0, 2004 ~36.8, 2006 ~35.8, 2008 ~35.6, 2010 ~39.2, 2012 ~35.6, 2014 ~34.8, 2016 ~35.3, 2018 ~35.7, 2020 ~36.8. Note: measures based on real household consumption per capita; poverty measurement before and after 2010 is not comparable. Source: PovcalNet. The Gini index stays roughly between 35 and 37 with a spike in 2010 and a dip around 2014, ending slightly higher in 2020.\"},\n{\"label\": \"Figure 1.20: Widening absolute inequality\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart. Y-axis: Average household consumption per capita (monthly VND, millions), ticks 0, 30, 60, 90, 120, 150. X-axis: 2010, 2012, 2014, 2016, 2018, 2020. Legend: Bottom 10 (teal), Bottom 40 (orange), Top 60 (grey), Top 10 (yellow). Values not printed; approximate readings: Top 10: 2010 ~53, 2012 ~64, 2014 ~74, 2016 ~88, 2018 ~107, 2020 ~136 (the text gives 52.9 and 136). Top 60: 2010 ~24, 2012 ~31, 2014 ~37, 2016 ~43, 2018 ~53, 2020 ~65. Bottom 40: 2010 ~8, 2012 ~11, 2014 ~13, 2016 ~15, 2018 ~18, 2020 ~22. Bottom 10: 2010 ~4 (text gives 7.4 for bottom 10 in 2010 per the body text, so ~7), 2012 ~6, 2014 ~7, 2016 ~8, 2018 ~9, 2020 ~12 (text gives 12.1). Note: measures based on real household consumption per capita. Source: PovcalNet. The gap between the top 10 and other groups widens steadily over time.\"},\n{\"label\": \"Figure 1.21: Expenditure levels, 2020\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Y-axis: Annual household consumption per capita (VND, millions), ticks 0, 10, 20, 30, 40, 50, 60. X-axis categories: Food, Other, Water, Electricity, Waste, Health, Education, Durables, Rent. Legend: deciles 1 (=Poorest) through 10 (=Richest), shown as a teal gradient from dark (1) to light (9) with orange for 10 (=Richest). Values not printed; approximate readings for decile 10 (orange): Food ~32, Other ~21, Water ~0.8, Electricity ~3.2, Waste ~0.4, Health ~5.2, Education ~3.9, Durables ~21, Rent ~53.5. Decile 9 approximate readings: Food ~23, Other ~12, Electricity ~2, Health ~3.5, Durables ~8.5, Rent ~21. Decile 1 approximate readings: Food ~6, Other ~2.5, Rent ~1.5, Durables ~1. Source: World Bank staff calculations using VHLSS. Expenditure rises across deciles in every category; the richest decile spends far more, especially on rent, durables, food and other items.\"}\n]}",
+ "usage": {
+  "prompt_tokens": 3276,
+  "completion_tokens": 1344,
+  "cost_usd": 0.0009996,
+  "latency_s": 5.695
+ },
+ "elements": [
+  {
+   "label": "Figure 1.19: Relative inequality, Gini Index",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart. Y-axis: Gini index (axis ticks 20, 25, 30, 35, 40). X-axis: years 1993, 1998, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020 (line is broken between 2008 and 2010). Single series, no legend. Values are not printed; approximate readings: 1993 ~35.6, 1998 ~35.4, 2002 ~37.0, 2004 ~36.8, 2006 ~35.8, 2008 ~35.6, 2010 ~39.2, 2012 ~35.6, 2014 ~34.8, 2016 ~35.3, 2018 ~35.7, 2020 ~36.8. Note: measures based on real household consumption per capita; poverty measurement before and after 2010 is not comparable. Source: PovcalNet. The Gini index stays roughly between 35 and 37 with a spike in 2010 and a dip around 2014, ending slightly higher in 2020."
+  },
+  {
+   "label": "Figure 1.20: Widening absolute inequality",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart. Y-axis: Average household consumption per capita (monthly VND, millions), ticks 0, 30, 60, 90, 120, 150. X-axis: 2010, 2012, 2014, 2016, 2018, 2020. Legend: Bottom 10 (teal), Bottom 40 (orange), Top 60 (grey), Top 10 (yellow). Values not printed; approximate readings: Top 10: 2010 ~53, 2012 ~64, 2014 ~74, 2016 ~88, 2018 ~107, 2020 ~136 (the text gives 52.9 and 136). Top 60: 2010 ~24, 2012 ~31, 2014 ~37, 2016 ~43, 2018 ~53, 2020 ~65. Bottom 40: 2010 ~8, 2012 ~11, 2014 ~13, 2016 ~15, 2018 ~18, 2020 ~22. Bottom 10: 2010 ~4 (text gives 7.4 for bottom 10 in 2010 per the body text, so ~7), 2012 ~6, 2014 ~7, 2016 ~8, 2018 ~9, 2020 ~12 (text gives 12.1). Note: measures based on real household consumption per capita. Source: PovcalNet. The gap between the top 10 and other groups widens steadily over time."
+  },
+  {
+   "label": "Figure 1.21: Expenditure levels, 2020",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Y-axis: Annual household consumption per capita (VND, millions), ticks 0, 10, 20, 30, 40, 50, 60. X-axis categories: Food, Other, Water, Electricity, Waste, Health, Education, Durables, Rent. Legend: deciles 1 (=Poorest) through 10 (=Richest), shown as a teal gradient from dark (1) to light (9) with orange for 10 (=Richest). Values not printed; approximate readings for decile 10 (orange): Food ~32, Other ~21, Water ~0.8, Electricity ~3.2, Waste ~0.4, Health ~5.2, Education ~3.9, Durables ~21, Rent ~53.5. Decile 9 approximate readings: Food ~23, Other ~12, Electricity ~2, Health ~3.5, Durables ~8.5, Rent ~21. Decile 1 approximate readings: Food ~6, Other ~2.5, Rent ~1.5, Durables ~1. Source: World Bank staff calculations using VHLSS. Expenditure rises across deciles in every category; the richest decile spends far more, especially on rent, durables, food and other items."
+  }
+ ]
+}

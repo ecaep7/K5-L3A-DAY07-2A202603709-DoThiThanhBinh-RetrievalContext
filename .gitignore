@@ -9,3 +9,12 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Moi truong ao thu hai do VS Code tao, va cai dat rieng cua VS Code
+.venv-1/
+.vscode/
+
+# Tai lieu PDF goc (phan nang cao) - khong day len GitHub, ghi link tai trong README
+*.pdf
+# Anh cat tu PDF (tao lai bang: python -m src.adv_index --step build)
+data/advanced/crops/

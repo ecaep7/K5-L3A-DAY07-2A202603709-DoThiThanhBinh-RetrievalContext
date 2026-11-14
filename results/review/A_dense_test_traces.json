@@ -1,0 +1,99 @@
+[
+ {
+  "query_id": "q04",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "disturbance handler role Mintzberg managerial roles"
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "q08",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "personal relationships valuable to managers"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p23-p02"
+  ]
+ },
+ {
+  "query_id": "q12",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "when to use logical analytical decision making rather than intuition"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p40-p04",
+   "pom-ch01-02-p40-p02"
+  ]
+ },
+ {
+  "query_id": "q16",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "escalation of commitment continuing a failing course of action"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p44-p02"
+  ]
+ },
+ {
+  "query_id": "q20",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "devil's advocate role in group decision-making"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p59-p02",
+   "pom-ch01-02-p57-p01",
+   "pom-ch01-02-p61-p00"
+  ]
+ },
+ {
+  "query_id": "u03",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "nominal group technique group decision making"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p58-p00"
+  ]
+ },
+ {
+  "query_id": "u04",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Vroom-Yetton model decision involvement subordinates"
+   }
+  ],
+  "citations": []
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "query_id": "q04",
+  "citation_support": [],
+  "reason": "Lần tìm duy nhất không lấy được trang 25, agent từ chối.",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true
+  ],
+  "reason": "Context lấy được trang 23 chứa bằng chứng gốc, agent trả lời đầy đủ và trích dẫn chính xác.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Context có trang 40 nêu rõ tình huống mới mẻ và phức tạp, câu trả lời và cả hai trích dẫn đều chuẩn xác.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [
+   true
+  ],
+  "reason": "Context lấy được trang 44 chứa định nghĩa nguyên văn, agent nêu đúng thuật ngữ và trích dẫn chuẩn.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "reason": "Context chứa đầy đủ bằng chứng từ trang 57, 59, 61; agent trả lời đủ hai vế và cả ba trích dẫn đều khớp.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [
+   true
+  ],
+  "reason": "Tài liệu không đề cập nominal group technique, agent từ chối chính xác không bịa đặt và trích dẫn đúng bảng ở trang 58.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "reason": "Tài liệu không có thông tin về mô hình Vroom-Yetton, agent nhận diện đúng và từ chối trả lời.",
+  "abstention_correct": true
+ }
+]

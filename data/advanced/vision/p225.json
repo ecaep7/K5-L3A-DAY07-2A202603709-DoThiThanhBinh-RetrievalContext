@@ -1,0 +1,23 @@
+{
+ "page": 225,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 8.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 8.1: Addressing the social protection coverage gap\", \"kind\": \"diagram\", \"bbox\": null, \"description\": \"Three-panel conceptual diagram (y-axis: Level of protection; x-axis: Income or consumption in each panel). Source noted as Packard et al. (2019).\\n\\nPanel A: 'Stylized state of social protection in developing country'. Blue block at lower left labeled 'Risk-pooling instruments for preventing poverty are tightly rationed, excluding many poor and vulnerable people'. Orange band in the middle-right labeled 'Social insurance combines actuarial and equity objectives with distortive and rationing effects'. Teal wedge at upper right labeled 'Market insurance is scant, expensive, and/or ineffective'.\\n\\nPanel B: 'Policy to fill the current gaps in protection'. Blue block labeled 'Eliminate exclusion'. Arrow labeled 'Expand beyond narrow poverty-targeting'. Orange band labeled 'Shift equity elements to financing from broader-based (general revenues financed)'. Upper-right teal wedge labeled 'Ensure social insurance is actuarially fair' and 'Encourage more supply and demand of voluntary insurance'.\\n\\nPanel C: 'Comprehensive insurance assistance'. Blue block at lower left narrowing to the right, with yellow band above it and orange and teal layers expanding to the right. Labels: 'Raise the realtve importance of voluntary to mandtory insturments through nudging' (arrow to teal area) and 'Taper-away assistance and subsidies from the top of the distribution, through tax systems' (with a red circle marking the transition point where the layers meet).\\n\\nPattern: moves from narrow coverage with a gap in the middle (A) to filled middle-income coverage (B) to a comprehensive layered system spanning the full income distribution with taper-away subsidies (C).\"}]}",
+ "usage": {
+  "prompt_tokens": 3237,
+  "completion_tokens": 663,
+  "cost_usd": 0.0006552000000000001,
+  "latency_s": 3.782
+ },
+ "elements": [
+  {
+   "label": "Figure 8.1: Addressing the social protection coverage gap",
+   "kind": "diagram",
+   "bbox": null,
+   "description": "Three-panel conceptual diagram (y-axis: Level of protection; x-axis: Income or consumption in each panel). Source noted as Packard et al. (2019).\n\nPanel A: 'Stylized state of social protection in developing country'. Blue block at lower left labeled 'Risk-pooling instruments for preventing poverty are tightly rationed, excluding many poor and vulnerable people'. Orange band in the middle-right labeled 'Social insurance combines actuarial and equity objectives with distortive and rationing effects'. Teal wedge at upper right labeled 'Market insurance is scant, expensive, and/or ineffective'.\n\nPanel B: 'Policy to fill the current gaps in protection'. Blue block labeled 'Eliminate exclusion'. Arrow labeled 'Expand beyond narrow poverty-targeting'. Orange band labeled 'Shift equity elements to financing from broader-based (general revenues financed)'. Upper-right teal wedge labeled 'Ensure social insurance is actuarially fair' and 'Encourage more supply and demand of voluntary insurance'.\n\nPanel C: 'Comprehensive insurance assistance'. Blue block at lower left narrowing to the right, with yellow band above it and orange and teal layers expanding to the right. Labels: 'Raise the realtve importance of voluntary to mandtory insturments through nudging' (arrow to teal area) and 'Taper-away assistance and subsidies from the top of the distribution, through tax systems' (with a red circle marking the transition point where the layers meet).\n\nPattern: moves from narrow coverage with a gap in the middle (A) to filled middle-income coverage (B) to a comprehensive layered system spanning the full income distribution with taper-away subsidies (C)."
+  }
+ ]
+}

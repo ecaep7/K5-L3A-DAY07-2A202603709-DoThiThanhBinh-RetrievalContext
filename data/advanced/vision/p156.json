@@ -1,0 +1,23 @@
+{
+ "page": 156,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 5.1: Average labor productivity growth (GDP per worker), by sector\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: \\\"Annualized growth rate (%)\\\", scale from -2 to 10 in steps of 2. X-axis categories: 2005–2009, 2010–2014, 2015–2020. Legend: Total (teal), Agriculture, forestry and fishing (orange), Industry and construction (grey), Service (yellow). No values are printed on the bars. Approximate readings: 2005–2009: Total ~3.4, Agriculture, forestry and fishing ~5.0, Industry and construction ~-0.6, Service ~2.9. 2010–2014: Total ~3.7, Agriculture, forestry and fishing ~4.1, Industry and construction ~4.3, Service ~3.0. 2015–2020: Total ~5.8, Agriculture, forestry and fishing ~8.8, Industry and construction ~3.9, Service ~5.1. Source note below the chart: \\\"World Bank staff calculations using GSO and WDI data.\\\" Growth rose for all series in 2015–2020, with agriculture showing the highest value, while industry was the only series negative in 2005–2009.\"}]}",
+ "usage": {
+  "prompt_tokens": 3244,
+  "completion_tokens": 660,
+  "cost_usd": 0.0006544000000000001,
+  "latency_s": 3.335
+ },
+ "elements": [
+  {
+   "label": "Figure 5.1: Average labor productivity growth (GDP per worker), by sector",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: \"Annualized growth rate (%)\", scale from -2 to 10 in steps of 2. X-axis categories: 2005–2009, 2010–2014, 2015–2020. Legend: Total (teal), Agriculture, forestry and fishing (orange), Industry and construction (grey), Service (yellow). No values are printed on the bars. Approximate readings: 2005–2009: Total ~3.4, Agriculture, forestry and fishing ~5.0, Industry and construction ~-0.6, Service ~2.9. 2010–2014: Total ~3.7, Agriculture, forestry and fishing ~4.1, Industry and construction ~4.3, Service ~3.0. 2015–2020: Total ~5.8, Agriculture, forestry and fishing ~8.8, Industry and construction ~3.9, Service ~5.1. Source note below the chart: \"World Bank staff calculations using GSO and WDI data.\" Growth rose for all series in 2015–2020, with agriculture showing the highest value, while industry was the only series negative in 2005–2009."
+  }
+ ]
+}

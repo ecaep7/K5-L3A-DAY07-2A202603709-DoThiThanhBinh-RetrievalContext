@@ -1,0 +1,23 @@
+{
+ "page": 45,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 1.1\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with two y-axes and a shared year x-axis (1993–2020). Left y-axis: \\\"Poverty rate (%)\\\", 0–100 in steps of 10. Right y-axis: \\\"GDP per capita (constant 2015 US$)\\\", 0–3,000 in steps of 500. X-axis labels run every year from 1993 to 2020. No data values are printed on the chart, so values are approximate readings.\\n\\nLegend (two rows):\\n- Extreme poverty ($1.90/day 2011PPP), teal line, left axis\\n- LMIC PL ($3.20/day 2011PPP), orange line, left axis\\n- UMIC PL ($5.50/day 2011PPP), grey line, left axis\\n- GDP per capita (constant 2015 US$), yellow line, right axis\\n\\nApproximate readings by series (poverty series plotted at 1993, 1998, 2002, 2004, 2006, 2008, then 2010–2020 in two-year steps):\\n- Extreme poverty: 1993 ~52, 1998 ~31, 2002 ~37, 2004 ~26, 2006 ~19, 2008 ~14; 2010 ~4, 2012 ~2.5, 2014 ~2.5, 2016 ~2, 2018 ~2, 2020 ~1\\n- LMIC PL: 1993 ~80, 1998 ~69, 2002 ~70, 2004 ~60, 2006 ~50, 2008 ~46; 2010 ~17, 2012 ~13, 2014 ~11, 2016 ~8, 2018 ~7, 2020 ~5\\n- UMIC PL: 1993 ~95, 1998 ~90, 2002 ~89, 2004 ~84, 2006 ~80, 2008 ~77; 2010 ~47, 2012 ~41, 2014 ~35, 2016 ~27, 2018 ~23, 2020 ~19\\n- GDP per capita (right axis): 1993 ~460, 1998 ~670, 2002 ~900, 2008 ~1,280, 2010 ~1,400, 2012 ~1,560, 2014 ~1,740, 2016 ~1,910, 2018 ~2,230, 2019 ~2,450, 2020 ~2,600\\n\\nNote printed below the chart: \\\"Poverty measurement methodology changed in 2010, rendering a break in series comparability.\\\" Source: World Bank WDI, PovcalNet.\\n\\nPattern: all three poverty rates fall over time, with a visible break at 2010 where the series restart at lower levels. GDP per capita rises steadily and steeply across the whole period.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3243,
+  "completion_tokens": 1864,
+  "cost_usd": 0.0012563,
+  "latency_s": 7.668
+ },
+ "elements": [
+  {
+   "label": "Figure 1.1",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with two y-axes and a shared year x-axis (1993–2020). Left y-axis: \"Poverty rate (%)\", 0–100 in steps of 10. Right y-axis: \"GDP per capita (constant 2015 US$)\", 0–3,000 in steps of 500. X-axis labels run every year from 1993 to 2020. No data values are printed on the chart, so values are approximate readings.\n\nLegend (two rows):\n- Extreme poverty ($1.90/day 2011PPP), teal line, left axis\n- LMIC PL ($3.20/day 2011PPP), orange line, left axis\n- UMIC PL ($5.50/day 2011PPP), grey line, left axis\n- GDP per capita (constant 2015 US$), yellow line, right axis\n\nApproximate readings by series (poverty series plotted at 1993, 1998, 2002, 2004, 2006, 2008, then 2010–2020 in two-year steps):\n- Extreme poverty: 1993 ~52, 1998 ~31, 2002 ~37, 2004 ~26, 2006 ~19, 2008 ~14; 2010 ~4, 2012 ~2.5, 2014 ~2.5, 2016 ~2, 2018 ~2, 2020 ~1\n- LMIC PL: 1993 ~80, 1998 ~69, 2002 ~70, 2004 ~60, 2006 ~50, 2008 ~46; 2010 ~17, 2012 ~13, 2014 ~11, 2016 ~8, 2018 ~7, 2020 ~5\n- UMIC PL: 1993 ~95, 1998 ~90, 2002 ~89, 2004 ~84, 2006 ~80, 2008 ~77; 2010 ~47, 2012 ~41, 2014 ~35, 2016 ~27, 2018 ~23, 2020 ~19\n- GDP per capita (right axis): 1993 ~460, 1998 ~670, 2002 ~900, 2008 ~1,280, 2010 ~1,400, 2012 ~1,560, 2014 ~1,740, 2016 ~1,910, 2018 ~2,230, 2019 ~2,450, 2020 ~2,600\n\nNote printed below the chart: \"Poverty measurement methodology changed in 2010, rendering a break in series comparability.\" Source: World Bank WDI, PovcalNet.\n\nPattern: all three poverty rates fall over time, with a visible break at 2010 where the series restart at lower levels. GDP per capita rises steadily and steeply across the whole period."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 25,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.7"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure O.7\", \"kind\": \"map\", \"bbox\": null, \"description\": \"Three side-by-side maps of Vietnam showing district-level poverty rates (%) for 2009, 2015 and 2019. Legend: 'Poverty rate (%)' as a continuous color scale from 0.0 (very pale/white-green) to 100.00 (dark green). In 2009, the northern uplands (northwest and northeast border areas) and the north-central and central coast regions show the darkest greens, with many districts high; the Mekong Delta in the south is lighter. In 2015, darker green remains concentrated in the northern mountainous provinces and parts of the north-central coast, while the south and the Red River Delta are much lighter. In 2019, the map is mostly pale, with the highest rates (darker green) remaining in the northwest and in pockets of the north-central coast, and the south and most of the lowlands nearly white. Note: Poverty rates based on the poverty line. Source: World Bank staff and GSO calculations using Census and VHLSS.\"}]}",
+ "usage": {
+  "prompt_tokens": 3232,
+  "completion_tokens": 355,
+  "cost_usd": 0.0005007000000000001,
+  "latency_s": 3.01
+ },
+ "elements": [
+  {
+   "label": "Figure O.7",
+   "kind": "map",
+   "bbox": null,
+   "description": "Three side-by-side maps of Vietnam showing district-level poverty rates (%) for 2009, 2015 and 2019. Legend: 'Poverty rate (%)' as a continuous color scale from 0.0 (very pale/white-green) to 100.00 (dark green). In 2009, the northern uplands (northwest and northeast border areas) and the north-central and central coast regions show the darkest greens, with many districts high; the Mekong Delta in the south is lighter. In 2015, darker green remains concentrated in the northern mountainous provinces and parts of the north-central coast, while the south and the Red River Delta are much lighter. In 2019, the map is mostly pale, with the highest rates (darker green) remaining in the northwest and in pockets of the north-central coast, and the south and most of the lowlands nearly white. Note: Poverty rates based on the poverty line. Source: World Bank staff and GSO calculations using Census and VHLSS."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 116,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table B.3.2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table B.3.2.1: Description of agricultural activities\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| ACTIVITY | DESCRIPTION | IS THERE PER M²? | IS THERE UNIT VALUES (Y/N) |\\n|---|---|---|---|\\n| Income sources (net) | | | |\\n| Agricultural land | Rental income | | |\\n| Livestock, hunting, trapping | Animals, birds, apiculture and associated products e.g., milk, eggs, honey, etc. | No | Yes, some in kgs some in heads |\\n| Agricultural services | Ploughing, irrigation, etc. | No | No |\\n| Forestry | Palm, bamboo, timber, cinnamon, firewood, tending, forest renovation and improvement, etc. | Has land size | No |\\n| Fisheries | Aquaculture and capture | Has pond size | Yes |\\n| Crops | Rice, staples, industrial, fruits, and by-products | Has land size | Yes |\\n| Rice | Ordinary, sticky, specialty | Has land size | Yes |\\n| Staples (food crops) | Corn, potato, beans, vegetables, etc. | Has land size | Yes |\\n| Industrial crops | Annual and perennials e.g., soybean, cotton, coconut, rubber, coffee, etc. | Has land size | Yes |\\n| Fruits | Fruit trees e.g., orange, pineapple, jackfruit etc. | Has land size | Yes |\\n| Agricultural by-products | Leaves, stems, jute, stalks, straw, grass, etc. | No | No |\"}]}",
+ "usage": {
+  "prompt_tokens": 3235,
+  "completion_tokens": 568,
+  "cost_usd": 0.0006075,
+  "latency_s": 2.351
+ },
+ "elements": [
+  {
+   "label": "Table B.3.2.1: Description of agricultural activities",
+   "kind": "table",
+   "bbox": null,
+   "description": "| ACTIVITY | DESCRIPTION | IS THERE PER M²? | IS THERE UNIT VALUES (Y/N) |\n|---|---|---|---|\n| Income sources (net) | | | |\n| Agricultural land | Rental income | | |\n| Livestock, hunting, trapping | Animals, birds, apiculture and associated products e.g., milk, eggs, honey, etc. | No | Yes, some in kgs some in heads |\n| Agricultural services | Ploughing, irrigation, etc. | No | No |\n| Forestry | Palm, bamboo, timber, cinnamon, firewood, tending, forest renovation and improvement, etc. | Has land size | No |\n| Fisheries | Aquaculture and capture | Has pond size | Yes |\n| Crops | Rice, staples, industrial, fruits, and by-products | Has land size | Yes |\n| Rice | Ordinary, sticky, specialty | Has land size | Yes |\n| Staples (food crops) | Corn, potato, beans, vegetables, etc. | Has land size | Yes |\n| Industrial crops | Annual and perennials e.g., soybean, cotton, coconut, rubber, coffee, etc. | Has land size | Yes |\n| Fruits | Fruit trees e.g., orange, pineapple, jackfruit etc. | Has land size | Yes |\n| Agricultural by-products | Leaves, stems, jute, stalks, straw, grass, etc. | No | No |"
+  }
+ ]
+}

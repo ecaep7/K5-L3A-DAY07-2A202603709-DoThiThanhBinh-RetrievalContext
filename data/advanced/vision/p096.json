@@ -1,0 +1,23 @@
+{
+ "page": 96,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.2.4.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure B.2.4.1\", \"kind\": \"diagram\", \"bbox\": null, \"description\": \"Tree diagram titled 'Household consumption per capita—a decomposed identity'. Root box (teal): 'Household consumption per capita'. It branches into two orange boxes: 'Propensity to consume' and 'Household income per capita'. 'Household income per capita' branches into two grey boxes: 'Share of adults' and 'Income per adult'. 'Income per adult' branches into two yellow boxes: 'Labor income per adult' and 'Non-labor income per adult'. 'Labor income per adult' branches into two blue boxes: 'Share of occupied adults' and 'Labor income per occupied adult'. Formulas shown alongside: above 'Share of adults' is n_A/n; above 'Share of occupied adults' is n_o/n_A; below the grey 'Income per adult' box is (1/n_A) Σ(i=1 to n) y_i; below 'Non-labor income per adult' is (1/n_A) Σ(i∈A) y_i^NL; below 'Labor income per occupied adult' is (1/n_o) Σ(i∈A) y_i^L; and a standalone label Y_pc appears at the left of the lower area. Note: An illustration of Equation 5.\"}]}",
+ "usage": {
+  "prompt_tokens": 3243,
+  "completion_tokens": 445,
+  "cost_usd": 0.0005468,
+  "latency_s": 2.819
+ },
+ "elements": [
+  {
+   "label": "Figure B.2.4.1",
+   "kind": "diagram",
+   "bbox": null,
+   "description": "Tree diagram titled 'Household consumption per capita—a decomposed identity'. Root box (teal): 'Household consumption per capita'. It branches into two orange boxes: 'Propensity to consume' and 'Household income per capita'. 'Household income per capita' branches into two grey boxes: 'Share of adults' and 'Income per adult'. 'Income per adult' branches into two yellow boxes: 'Labor income per adult' and 'Non-labor income per adult'. 'Labor income per adult' branches into two blue boxes: 'Share of occupied adults' and 'Labor income per occupied adult'. Formulas shown alongside: above 'Share of adults' is n_A/n; above 'Share of occupied adults' is n_o/n_A; below the grey 'Income per adult' box is (1/n_A) Σ(i=1 to n) y_i; below 'Non-labor income per adult' is (1/n_A) Σ(i∈A) y_i^NL; below 'Labor income per occupied adult' is (1/n_o) Σ(i∈A) y_i^L; and a standalone label Y_pc appears at the left of the lower area. Note: An illustration of Equation 5."
+  }
+ ]
+}

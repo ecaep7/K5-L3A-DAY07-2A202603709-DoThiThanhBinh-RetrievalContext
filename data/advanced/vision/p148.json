@@ -1,0 +1,23 @@
+{
+ "page": 148,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table B.4.3.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table B.4.3.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | PRIMARY (R4, 2019) | LOWER SECONDARY (R2, 2018) | LOWER SECONDARY (R5, 2020) |\\n|---|---|---|---|\\n| Dissimilarity index | 0.284 | 0.270 | 0.257 |\\n| **Shapley decomposition of the D-index** | | | |\\n| HH wealth | 23.95 | 16.744 | 29.00 |\\n| Parents' Education (max) | | 19.610 | 18.78 |\\n| Ethnicity | 32.14 | 26.700 | 26.31 |\\n| Gender | 4.80 | 0.278 | 0.38 |\\n| Province | 38.80 | 36.660 | 25.50 |\\n\\nSource: World Bank staff calculations using the RISE data.\"}]}",
+ "usage": {
+  "prompt_tokens": 3236,
+  "completion_tokens": 315,
+  "cost_usd": 0.00048110000000000004,
+  "latency_s": 1.657
+ },
+ "elements": [
+  {
+   "label": "Table B.4.3.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | PRIMARY (R4, 2019) | LOWER SECONDARY (R2, 2018) | LOWER SECONDARY (R5, 2020) |\n|---|---|---|---|\n| Dissimilarity index | 0.284 | 0.270 | 0.257 |\n| **Shapley decomposition of the D-index** | | | |\n| HH wealth | 23.95 | 16.744 | 29.00 |\n| Parents' Education (max) | | 19.610 | 18.78 |\n| Ethnicity | 32.14 | 26.700 | 26.31 |\n| Gender | 4.80 | 0.278 | 0.38 |\n| Province | 38.80 | 36.660 | 25.50 |\n\nSource: World Bank staff calculations using the RISE data."
+  }
+ ]
+}

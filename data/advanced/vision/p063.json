@@ -1,0 +1,23 @@
+{
+ "page": 63,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.22"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.22\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with six panels in a 2x3 grid. Columns are 'No change in Gini', '+1% change in Gini', and '+2% change in Gini'. The top row's y-axis is 'Poverty rate (%, $3.20/day 2011PPP)' with ticks 0, 2, 4, 6. The bottom row's y-axis is 'Poverty rate (%, $5.50/day 2011PPP)' with ticks 10, 15, 20. The x-axis shows 2018, 2020, 2022, 2024. Legend: 'Growth estimates (version)': gray = March 2021 growth estimates; orange = October 2021 growth estimates. Both series start from the 2018 and 2020 survey-based points; projections run from 2021 onward.\\n\\nTop row, $3.20/day line:\\n- No change in Gini: March 2021 (gray) 6.6 (2018), 5.0 (2020), 4.2 (2021), 3.5 (2022), 3.1 (2023). October 2021 (orange) 5.0 (2020), 4.7 (2021), 4.0 (2022), 3.4 (2023).\\n- +1% change in Gini: March 2021 (gray) 6.6 (2018), 5.0 (2020), 4.4 (2021), 3.9 (2022), 3.5 (2023). October 2021 (orange) 4.9 (2021), 4.3 (2022), 3.7 (2023).\\n- +2% change in Gini: March 2021 (gray) 6.6 (2018), 5.0 (2020), 4.7 (2021), 4.4 (2022), 4.1 (2023). October 2021 (orange) 5.2 (2021), 4.9 (2022), 4.6 (2023).\\n\\nBottom row, $5.50/day line:\\n- No change in Gini: March 2021 (gray) 22.4 (2018), 18.8 (2020), 16.9 (2021), 14.9 (2022), 13.2 (2023). October 2021 (orange) 18.8 (2020), 18.1 (2021), 16.2 (2022), 14.1 (2023).\\n- +1% change in Gini: March 2021 (gray) 22.4 (2018), 18.8 (2020), 17.2 (2021), 15.5 (2022), 14.3 (2023). October 2021 (orange) 18.5 (2021), 17.0 (2022), 15.1 (2023).\\n- +2% change in Gini: March 2021 (gray) 22.4 (2018), 18.8 (2020), 17.8 (2021), 16.9 (2022), 15.9 (2023). October 2021 (orange) 19.2 (2021), 18.2 (2022), 17.0 (2023).\\n\\nPattern: poverty falls in every scenario. The October 2021 projections sit above the March 2021 projections, and the gap widens as the assumed increase in inequality grows from 0% to +2%. Under the +2% scenario, the October 2021 path is almost flat between 2020 and 2021 at the $5.50 line (18.8 to 19.2).\"}]}",
+ "usage": {
+  "prompt_tokens": 3251,
+  "completion_tokens": 1811,
+  "cost_usd": 0.0012305999999999999,
+  "latency_s": 7.529
+ },
+ "elements": [
+  {
+   "label": "Figure 1.22",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with six panels in a 2x3 grid. Columns are 'No change in Gini', '+1% change in Gini', and '+2% change in Gini'. The top row's y-axis is 'Poverty rate (%, $3.20/day 2011PPP)' with ticks 0, 2, 4, 6. The bottom row's y-axis is 'Poverty rate (%, $5.50/day 2011PPP)' with ticks 10, 15, 20. The x-axis shows 2018, 2020, 2022, 2024. Legend: 'Growth estimates (version)': gray = March 2021 growth estimates; orange = October 2021 growth estimates. Both series start from the 2018 and 2020 survey-based points; projections run from 2021 onward.\n\nTop row, $3.20/day line:\n- No change in Gini: March 2021 (gray) 6.6 (2018), 5.0 (2020), 4.2 (2021), 3.5 (2022), 3.1 (2023). October 2021 (orange) 5.0 (2020), 4.7 (2021), 4.0 (2022), 3.4 (2023).\n- +1% change in Gini: March 2021 (gray) 6.6 (2018), 5.0 (2020), 4.4 (2021), 3.9 (2022), 3.5 (2023). October 2021 (orange) 4.9 (2021), 4.3 (2022), 3.7 (2023).\n- +2% change in Gini: March 2021 (gray) 6.6 (2018), 5.0 (2020), 4.7 (2021), 4.4 (2022), 4.1 (2023). October 2021 (orange) 5.2 (2021), 4.9 (2022), 4.6 (2023).\n\nBottom row, $5.50/day line:\n- No change in Gini: March 2021 (gray) 22.4 (2018), 18.8 (2020), 16.9 (2021), 14.9 (2022), 13.2 (2023). October 2021 (orange) 18.8 (2020), 18.1 (2021), 16.2 (2022), 14.1 (2023).\n- +1% change in Gini: March 2021 (gray) 22.4 (2018), 18.8 (2020), 17.2 (2021), 15.5 (2022), 14.3 (2023). October 2021 (orange) 18.5 (2021), 17.0 (2022), 15.1 (2023).\n- +2% change in Gini: March 2021 (gray) 22.4 (2018), 18.8 (2020), 17.8 (2021), 16.9 (2022), 15.9 (2023). October 2021 (orange) 19.2 (2021), 18.2 (2022), 17.0 (2023).\n\nPattern: poverty falls in every scenario. The October 2021 projections sit above the March 2021 projections, and the gap widens as the assumed increase in inequality grows from 0% to +2%. Under the +2% scenario, the October 2021 path is almost flat between 2020 and 2021 at the $5.50 line (18.8 to 19.2)."
+  }
+ ]
+}

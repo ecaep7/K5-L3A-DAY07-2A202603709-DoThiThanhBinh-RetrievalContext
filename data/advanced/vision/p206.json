@@ -1,0 +1,30 @@
+{
+ "page": 206,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 7.7",
+  "Figure 7.8"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 7.7\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: line charts with markers, six small panels side by side. Y-axis title: \\\"Quintile score relative to Quintiles 5\\\", ticks 0, 20, 40, 60, 80, 100. X-axis categories in each panel: Q1, Q2, Q3, Q4, Q5. Panels (left to right): Survival, Years, Test scores, Adjusted years, Stunting, S-HCI. No values are printed on the chart; approximate readings: Survival: Q1 ~98, Q2 ~99, Q3 ~100, Q4 ~100, Q5 100. Years: Q1 ~83, Q2 ~95, Q3 ~98, Q4 ~99, Q5 100. Test scores: Q1 ~87, Q2 ~89, Q3 ~91, Q4 ~94, Q5 100. Adjusted years: Q1 ~72, Q2 ~84, Q3 ~87, Q4 ~92, Q5 100. Stunting: Q1 ~63, Q2 ~81, Q3 ~80, Q4 ~90, Q5 100. S-HCI: Q1 ~68, Q2 ~81, Q3 ~84, Q4 ~90, Q5 100. Note printed below: for each component (and the aggregate index) the Q5 score is normalized at 100 and other quintile scores are normalized relative to it. Source: D'Souza, Gatti and Kraay (2019) and World Bank calculations. Pattern: every component rises from Q1 to Q5, with the steepest gaps in stunting and adjusted years and the flattest in survival.\"}, {\"label\": \"Figure 7.8\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: waterfall (floating bar) chart. Y-axis title: \\\"Points\\\", ticks 0 to 6 in steps of 1. Categories: Direct taxes and transfers; Indirect taxes and transfers; In-kind benefits; Discounting education; Discounting health; Final impact. Values are not printed; approximate readings: Direct taxes and transfers ~2.7 (bar from 0 to ~2.7); Indirect taxes and transfers ~0.2 (floating from ~2.7 to ~2.9); In-kind benefits ~2.3 (floating from ~2.9 to ~5.2); Discounting education ~-0.6 (floating from ~5.2 down to ~4.6); Discounting health ~-0.1 (from ~4.6 to ~4.5); Final impact ~4.5 (bar from 0 to ~4.5). Note: marginal effects on inequality reduction; a positive bar is a contribution to reduction, a negative bar an increase in inequality; health and education discounting as per note to Table 7.2. Source: 2018 VHLSS, D'Souza, Gatti and Kraay (2019) and World Bank calculations. Pattern: taxes and transfers and in-kind benefits add to inequality reduction, discounting for education and health reduces it, and the final impact is about 4.5 points.\"}]}",
+ "usage": {
+  "prompt_tokens": 3299,
+  "completion_tokens": 2070,
+  "cost_usd": 0.0013649,
+  "latency_s": 8.898
+ },
+ "elements": [
+  {
+   "label": "Figure 7.7",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: line charts with markers, six small panels side by side. Y-axis title: \"Quintile score relative to Quintiles 5\", ticks 0, 20, 40, 60, 80, 100. X-axis categories in each panel: Q1, Q2, Q3, Q4, Q5. Panels (left to right): Survival, Years, Test scores, Adjusted years, Stunting, S-HCI. No values are printed on the chart; approximate readings: Survival: Q1 ~98, Q2 ~99, Q3 ~100, Q4 ~100, Q5 100. Years: Q1 ~83, Q2 ~95, Q3 ~98, Q4 ~99, Q5 100. Test scores: Q1 ~87, Q2 ~89, Q3 ~91, Q4 ~94, Q5 100. Adjusted years: Q1 ~72, Q2 ~84, Q3 ~87, Q4 ~92, Q5 100. Stunting: Q1 ~63, Q2 ~81, Q3 ~80, Q4 ~90, Q5 100. S-HCI: Q1 ~68, Q2 ~81, Q3 ~84, Q4 ~90, Q5 100. Note printed below: for each component (and the aggregate index) the Q5 score is normalized at 100 and other quintile scores are normalized relative to it. Source: D'Souza, Gatti and Kraay (2019) and World Bank calculations. Pattern: every component rises from Q1 to Q5, with the steepest gaps in stunting and adjusted years and the flattest in survival."
+  },
+  {
+   "label": "Figure 7.8",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: waterfall (floating bar) chart. Y-axis title: \"Points\", ticks 0 to 6 in steps of 1. Categories: Direct taxes and transfers; Indirect taxes and transfers; In-kind benefits; Discounting education; Discounting health; Final impact. Values are not printed; approximate readings: Direct taxes and transfers ~2.7 (bar from 0 to ~2.7); Indirect taxes and transfers ~0.2 (floating from ~2.7 to ~2.9); In-kind benefits ~2.3 (floating from ~2.9 to ~5.2); Discounting education ~-0.6 (floating from ~5.2 down to ~4.6); Discounting health ~-0.1 (from ~4.6 to ~4.5); Final impact ~4.5 (bar from 0 to ~4.5). Note: marginal effects on inequality reduction; a positive bar is a contribution to reduction, a negative bar an increase in inequality; health and education discounting as per note to Table 7.2. Source: 2018 VHLSS, D'Souza, Gatti and Kraay (2019) and World Bank calculations. Pattern: taxes and transfers and in-kind benefits add to inequality reduction, discounting for education and health reduces it, and the final impact is about 4.5 points."
+  }
+ ]
+}

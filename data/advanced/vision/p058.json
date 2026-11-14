@@ -1,0 +1,30 @@
+{
+ "page": 58,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.14",
+  "Figure 1.15"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.14\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart. Y-axis: \\\"Share of panel households (%)\\\", 0 to 100% in 20% steps. Legend: Slid down (teal), Same (orange), Moved up (grey). Categories, grouped as Two-year period (2010–2012, 2012–2014, 2014–2016, 2016–2018) and Four-year period (2010–2014, 2012–2016, 2014–2018). No values are printed on the bars. Approximate readings (Slid down / Same / Moved up, stacked from the bottom): 2010–2012 ~14 / ~59 / ~27; 2012–2014 ~17 / ~60 / ~23; 2014–2016 ~11 / ~63 / ~26; 2016–2018 ~15 / ~65 / ~20; 2010–2014 ~14 / ~55 / ~31; 2012–2016 ~10 / ~55 / ~35; 2014–2018 ~8 / ~58 / ~34. Source: World Bank staff calculations using VHLSS panel. The share of households moving up is largest in the four-year periods and the share sliding down stays small in every period, with the \\\"Same\\\" segment the largest in all bars.\"}, {\"label\": \"Figure 1.15\", \"kind\": \"diagram\", \"bbox\": null, \"description\": \"Two Sankey-style flow diagrams showing economic class transitions over a two-year period. Panel A: \\\"2010–2012 Transitions\\\"; Panel B: \\\"2016–2018 Transitions\\\". Each panel has five left-side origin nodes and five right-side destination nodes, labelled 1-Middle class, 2-Economically secure, 3-Economically vulnerable, 4-Moderate poor, and 5-Extreme poor. Flow bands connect origin (left) to destination (right); node heights show class sizes. In both panels most flow stays within the Economically secure node, with the Middle class node showing some flow leaving to Economically secure, and the lower classes showing flows moving upward into Economically vulnerable and Economically secure. Notes: The extreme poor, living on less than the international poverty line ($1.90/day, 2011 PPP); The moderate poor, living on $1.90 to $3.20 / day (2011 PPP); The economically vulnerable, living on $3.20 to $5.50 a day (2011 PPP); The economically secure, living on $5.50 to $15 a day (2011 PPP). The middle class, living on more than $15 a day (2011 PPP). Source: World Bank staff calculations using VHLSS panel.\"}]}",
+ "usage": {
+  "prompt_tokens": 3265,
+  "completion_tokens": 1251,
+  "cost_usd": 0.000952,
+  "latency_s": 6.971
+ },
+ "elements": [
+  {
+   "label": "Figure 1.14",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart. Y-axis: \"Share of panel households (%)\", 0 to 100% in 20% steps. Legend: Slid down (teal), Same (orange), Moved up (grey). Categories, grouped as Two-year period (2010–2012, 2012–2014, 2014–2016, 2016–2018) and Four-year period (2010–2014, 2012–2016, 2014–2018). No values are printed on the bars. Approximate readings (Slid down / Same / Moved up, stacked from the bottom): 2010–2012 ~14 / ~59 / ~27; 2012–2014 ~17 / ~60 / ~23; 2014–2016 ~11 / ~63 / ~26; 2016–2018 ~15 / ~65 / ~20; 2010–2014 ~14 / ~55 / ~31; 2012–2016 ~10 / ~55 / ~35; 2014–2018 ~8 / ~58 / ~34. Source: World Bank staff calculations using VHLSS panel. The share of households moving up is largest in the four-year periods and the share sliding down stays small in every period, with the \"Same\" segment the largest in all bars."
+  },
+  {
+   "label": "Figure 1.15",
+   "kind": "diagram",
+   "bbox": null,
+   "description": "Two Sankey-style flow diagrams showing economic class transitions over a two-year period. Panel A: \"2010–2012 Transitions\"; Panel B: \"2016–2018 Transitions\". Each panel has five left-side origin nodes and five right-side destination nodes, labelled 1-Middle class, 2-Economically secure, 3-Economically vulnerable, 4-Moderate poor, and 5-Extreme poor. Flow bands connect origin (left) to destination (right); node heights show class sizes. In both panels most flow stays within the Economically secure node, with the Middle class node showing some flow leaving to Economically secure, and the lower classes showing flows moving upward into Economically vulnerable and Economically secure. Notes: The extreme poor, living on less than the international poverty line ($1.90/day, 2011 PPP); The moderate poor, living on $1.90 to $3.20 / day (2011 PPP); The economically vulnerable, living on $3.20 to $5.50 a day (2011 PPP); The economically secure, living on $5.50 to $15 a day (2011 PPP). The middle class, living on more than $15 a day (2011 PPP). Source: World Bank staff calculations using VHLSS panel."
+  }
+ ]
+}

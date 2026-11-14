@@ -1,0 +1,23 @@
+{
+ "page": 170,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table A.5.1.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table A.5.1.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| OCCUPATION GROUP | SKILL CATEGORIZATION | EXPECTED EDUCATION COMPLETION |\\n|---|---|---|\\n| 1: Legislators, senior officials, managers | High-skilled non-manual | Tertiary (ISCED 5–6) |\\n| 2: Professionals | High-skilled non-manual | Tertiary (ISCED 5–6) |\\n| 3: Technicians and associate professionals | High-skilled non-manual | Tertiary (ISCED 5–6) |\\n| 4: Clerical support workers, low-skilled non-manual | Low-skilled non-manual | (blank) |\\n| 5: Service and sales workers | Low-skilled non-manual | (blank) |\\n| 6: Skilled agricultural and fishery workers, secondary (ISCED 3–4) | Skilled manual | Secondary (ISCED 3–4) |\\n| 7: Craft and related trades workers, skilled manual | Skilled manual | Secondary (ISCED 3–4) |\\n| 8: Plant and machine operators and assemblers | Skilled manual | Secondary (ISCED 3–4) |\\n| 9: Elementary occupations, unskilled Primary (ISCED 1–2) | Unskilled | Primary (ISCED 1–2) |\"}]}",
+ "usage": {
+  "prompt_tokens": 3244,
+  "completion_tokens": 490,
+  "cost_usd": 0.0005694000000000001,
+  "latency_s": 2.033
+ },
+ "elements": [
+  {
+   "label": "Table A.5.1.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| OCCUPATION GROUP | SKILL CATEGORIZATION | EXPECTED EDUCATION COMPLETION |\n|---|---|---|\n| 1: Legislators, senior officials, managers | High-skilled non-manual | Tertiary (ISCED 5–6) |\n| 2: Professionals | High-skilled non-manual | Tertiary (ISCED 5–6) |\n| 3: Technicians and associate professionals | High-skilled non-manual | Tertiary (ISCED 5–6) |\n| 4: Clerical support workers, low-skilled non-manual | Low-skilled non-manual | (blank) |\n| 5: Service and sales workers | Low-skilled non-manual | (blank) |\n| 6: Skilled agricultural and fishery workers, secondary (ISCED 3–4) | Skilled manual | Secondary (ISCED 3–4) |\n| 7: Craft and related trades workers, skilled manual | Skilled manual | Secondary (ISCED 3–4) |\n| 8: Plant and machine operators and assemblers | Skilled manual | Secondary (ISCED 3–4) |\n| 9: Elementary occupations, unskilled Primary (ISCED 1–2) | Unskilled | Primary (ISCED 1–2) |"
+  }
+ ]
+}

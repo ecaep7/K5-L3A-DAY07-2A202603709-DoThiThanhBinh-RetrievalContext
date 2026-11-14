@@ -1,0 +1,30 @@
+{
+ "page": 180,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.6",
+  "Table 6.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n  {\"label\": \"Table 6.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"Table 6.1. Environment indicator, definitions\\n\\n| Indicator | UNIT, DESCRIPTION | PERIOD OF DATA |\\n|---|---|---|\\n| Average topographical incline | Degree | 2017 |\\n| Air pollution | PM2.5 concentration (μg/m3) | Annual daily average over 2018 |\\n| Average settlement inundation depth in 1-in-100 year flood | Meter | 2020 flood model; 2015 Global Human Settlement Layers |\\n| Temperature | Celsius | Mean and variance over 2020 |\\n| Wind speed | Meter per second | Mean and variance over 2020 |\\n| Precipitation | Millimeter | Mean and variance over 2020 |\\n| Flood risk exposure | Share of the population exposed to high risk | 2020 flood model and 2020 population data |\\n| SPEI drought indicator | An SPEI of 0 indicates a value corresponding to 50% of the cumulative probability of D, according to a Log-logistic distribution.\\\" (D value is a threshold for drought, defined as precipitation minus evapo-transpiration). In sum, a higher SPEI corresponds to a higher probability of drought. | 2016–2021 average |\"},\n  {\"label\": \"Figure 6.6\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Title: Figure 6.6. Share of districts with a high environmental risk factor, by district-level poverty rates. Y-axis: Share of districts with high risk (%), scale 0 to 100 (gridlines at 0, 20, 40, 60, 80, 100). X-axis categories: High poverty, Medium poverty, Low poverty. Legend series: At least one out of 6 risks; Precipitation (variance); Temperature (variance); Wind (variance); Air pollution (PM2.5); Share of population exposed to high flood risk; SPEI drought. No values are printed on the bars, so approximate readings are given.\\n\\nHigh poverty: At least one out of 6 risks ~81; Precipitation (variance) ~26; Temperature (variance) ~26; Wind (variance) ~25; Air pollution (PM2.5) ~22; Share of population exposed to high flood risk ~11; SPEI drought ~27.\\n\\nMedium poverty: At least one out of 6 risks ~87; Precipitation (variance) ~32; Temperature (variance) ~29; Wind (variance) ~39; Air pollution (PM2.5) ~28; Share of population exposed to high flood risk ~48; SPEI drought ~18.\\n\\nLow poverty: At least one out of 6 risks ~84; Precipitation (variance) ~40; Temperature (variance) ~43; Wind (variance) ~35; Air pollution (PM2.5) ~50; Share of population exposed to high flood risk ~42; SPEI drought ~35.\\n\\nThe 'at least one risk' share is high across all groups and is highest for medium-poverty districts; the individual risks vary without a consistent monotonic pattern by poverty level, with flood exposure and air pollution highest in some groups and lowest in others.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3268,
+  "completion_tokens": 1519,
+  "cost_usd": 0.0010863,
+  "latency_s": 5.575
+ },
+ "elements": [
+  {
+   "label": "Table 6.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "Table 6.1. Environment indicator, definitions\n\n| Indicator | UNIT, DESCRIPTION | PERIOD OF DATA |\n|---|---|---|\n| Average topographical incline | Degree | 2017 |\n| Air pollution | PM2.5 concentration (μg/m3) | Annual daily average over 2018 |\n| Average settlement inundation depth in 1-in-100 year flood | Meter | 2020 flood model; 2015 Global Human Settlement Layers |\n| Temperature | Celsius | Mean and variance over 2020 |\n| Wind speed | Meter per second | Mean and variance over 2020 |\n| Precipitation | Millimeter | Mean and variance over 2020 |\n| Flood risk exposure | Share of the population exposed to high risk | 2020 flood model and 2020 population data |\n| SPEI drought indicator | An SPEI of 0 indicates a value corresponding to 50% of the cumulative probability of D, according to a Log-logistic distribution.\" (D value is a threshold for drought, defined as precipitation minus evapo-transpiration). In sum, a higher SPEI corresponds to a higher probability of drought. | 2016–2021 average |"
+  },
+  {
+   "label": "Figure 6.6",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Title: Figure 6.6. Share of districts with a high environmental risk factor, by district-level poverty rates. Y-axis: Share of districts with high risk (%), scale 0 to 100 (gridlines at 0, 20, 40, 60, 80, 100). X-axis categories: High poverty, Medium poverty, Low poverty. Legend series: At least one out of 6 risks; Precipitation (variance); Temperature (variance); Wind (variance); Air pollution (PM2.5); Share of population exposed to high flood risk; SPEI drought. No values are printed on the bars, so approximate readings are given.\n\nHigh poverty: At least one out of 6 risks ~81; Precipitation (variance) ~26; Temperature (variance) ~26; Wind (variance) ~25; Air pollution (PM2.5) ~22; Share of population exposed to high flood risk ~11; SPEI drought ~27.\n\nMedium poverty: At least one out of 6 risks ~87; Precipitation (variance) ~32; Temperature (variance) ~29; Wind (variance) ~39; Air pollution (PM2.5) ~28; Share of population exposed to high flood risk ~48; SPEI drought ~18.\n\nLow poverty: At least one out of 6 risks ~84; Precipitation (variance) ~40; Temperature (variance) ~43; Wind (variance) ~35; Air pollution (PM2.5) ~50; Share of population exposed to high flood risk ~42; SPEI drought ~35.\n\nThe 'at least one risk' share is high across all groups and is highest for medium-poverty districts; the individual risks vary without a consistent monotonic pattern by poverty level, with flood exposure and air pollution highest in some groups and lowest in others."
+  }
+ ]
+}

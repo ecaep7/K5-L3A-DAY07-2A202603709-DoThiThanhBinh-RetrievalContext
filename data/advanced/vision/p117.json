@@ -1,0 +1,30 @@
+{
+ "page": 117,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.17",
+  "Figure 3.16"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 3.16\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Vertical bar chart. Y-axis: Number of Poor (millions), 0.0 to 1.5 in steps of 0.3. X-axis: main household agricultural activity. No values are printed on the bars, so readings are approximate. Not engaged in agriculture ~0.36; Land ~0 (no bar); Rice ~1.0; Staples ~0.8; Industrial crops ~0.42; Fruit ~0.12; By-products ~0 (no bar); Livestock ~1.32; Agricultural services ~0 (no bar); Forestry ~0.65; Aquaculture ~0.16. Note: World Bank LMIC ($3.20/day 2011PPP) poverty line. Main agricultural activity is the one that yields the highest income. Poverty rates for households with the largest income source from by-products or agricultural services are not shown because of small sample. Households may also earn incomes outside of agriculture. Source: World Bank staff calculations using VHLSS 2020. The tallest bar is Livestock, followed by Rice, Forestry and Staples; Land and By-products and Agricultural services have no bar.\"}, {\"label\": \"Figure 3.17\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two stacked area charts showing the share of agriculture workers (%) by age group, 2010 to 2020 (survey years 2010, 2012, 2014, 2016, 2018, 2020). Values are not printed; readings are approximate. Legend (bottom to top): 0–9, 10–19, 20–29, 30–39, 40–49, 50–59, 60–69, 70+. Panel 1, Ethnic minority: 2010 ≈ 0–9 ~0.5, 10–19 ~21, 20–29 ~26, 30–39 ~19, 40–49 ~16, 50–59 ~11, 60–69 ~5, 70+ ~1.5; 2020 ≈ 0–9 ~0, 10–19 ~11, 20–29 ~20, 30–39 ~20, 40–49 ~20, 50–59 ~16, 60–69 ~8, 70+ ~4. Panel 2, Kinh: 2010 ≈ 0–9 ~0, 10–19 ~10, 20–29 ~15, 30–39 ~18, 40–49 ~23, 50–59 ~21, 60–69 ~8, 70+ ~5; 2020 ≈ 0–9 ~0, 10–19 ~3, 20–29 ~8, 30–39 ~14, 40–49 ~21, 50–59 ~27, 60–69 ~21, 70+ ~7. The Kinh panel shows a much smaller share of workers aged 10–29 and a larger share aged 50 and over by 2020 than in 2010, while the ethnic minority panel shows a younger distribution that shifts more gradually. Source: World Bank staff calculations using VHLSS 2010–2020.\"}]}",
+ "usage": {
+  "prompt_tokens": 3273,
+  "completion_tokens": 2287,
+  "cost_usd": 0.0014708,
+  "latency_s": 10.09
+ },
+ "elements": [
+  {
+   "label": "Figure 3.16",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Vertical bar chart. Y-axis: Number of Poor (millions), 0.0 to 1.5 in steps of 0.3. X-axis: main household agricultural activity. No values are printed on the bars, so readings are approximate. Not engaged in agriculture ~0.36; Land ~0 (no bar); Rice ~1.0; Staples ~0.8; Industrial crops ~0.42; Fruit ~0.12; By-products ~0 (no bar); Livestock ~1.32; Agricultural services ~0 (no bar); Forestry ~0.65; Aquaculture ~0.16. Note: World Bank LMIC ($3.20/day 2011PPP) poverty line. Main agricultural activity is the one that yields the highest income. Poverty rates for households with the largest income source from by-products or agricultural services are not shown because of small sample. Households may also earn incomes outside of agriculture. Source: World Bank staff calculations using VHLSS 2020. The tallest bar is Livestock, followed by Rice, Forestry and Staples; Land and By-products and Agricultural services have no bar."
+  },
+  {
+   "label": "Figure 3.17",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two stacked area charts showing the share of agriculture workers (%) by age group, 2010 to 2020 (survey years 2010, 2012, 2014, 2016, 2018, 2020). Values are not printed; readings are approximate. Legend (bottom to top): 0–9, 10–19, 20–29, 30–39, 40–49, 50–59, 60–69, 70+. Panel 1, Ethnic minority: 2010 ≈ 0–9 ~0.5, 10–19 ~21, 20–29 ~26, 30–39 ~19, 40–49 ~16, 50–59 ~11, 60–69 ~5, 70+ ~1.5; 2020 ≈ 0–9 ~0, 10–19 ~11, 20–29 ~20, 30–39 ~20, 40–49 ~20, 50–59 ~16, 60–69 ~8, 70+ ~4. Panel 2, Kinh: 2010 ≈ 0–9 ~0, 10–19 ~10, 20–29 ~15, 30–39 ~18, 40–49 ~23, 50–59 ~21, 60–69 ~8, 70+ ~5; 2020 ≈ 0–9 ~0, 10–19 ~3, 20–29 ~8, 30–39 ~14, 40–49 ~21, 50–59 ~27, 60–69 ~21, 70+ ~7. The Kinh panel shows a much smaller share of workers aged 10–29 and a larger share aged 50 and over by 2020 than in 2010, while the ethnic minority panel shows a younger distribution that shifts more gradually. Source: World Bank staff calculations using VHLSS 2010–2020."
+  }
+ ]
+}

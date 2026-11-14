@@ -1,0 +1,30 @@
+{
+ "page": 103,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.3",
+  "Figure 3.4"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 3.3: Populations by region, 2010-2020\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart. Y-axis: \\\"Population (in millions)\\\", scale 0 to 30 with gridlines at 5, 10, 15, 20, 25, 30. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Source note: World Bank staff calculations using the VHLSS, 2020. Legend series: Central Highlands; Midlands & Northern Mountains; Red River Delta; Mekong Delta; Northern & Coastal Central; Southeast. No values are printed; approximate readings (~, in millions):\\n- Red River Delta: 2010 ~19; 2012 ~19; 2014 ~20.5; 2016 ~21; 2018 ~21.5; 2020 ~24\\n- Northern & Coastal Central: 2010 ~17.5; 2012 ~17.5; 2014 ~17.5; 2016 ~18.5; 2018 ~20; 2020 ~20.2\\n- Mekong Delta: 2010 ~17.5; 2012 ~17.5; 2014 ~17.5; 2016 ~16.5; 2018 ~16.5; 2020 ~17\\n- Southeast: 2010 ~15; 2012 ~16; 2014 ~17; 2016 ~17; 2018 ~17; 2020 ~17.2\\n- Midlands & Northern Mountains: 2010 ~12.5; 2012 ~13.5; 2014 ~13; 2016 ~14.5; 2018 ~15.2; 2020 ~12.8\\n- Central Highlands: 2010 ~5.2; 2012 ~5.2; 2014 ~5.6; 2016 ~6; 2018 ~6.4; 2020 ~6\\nPattern: Red River Delta rises fastest to the highest level, Northern & Coastal Central and Southeast also grow, while Midlands & Northern Mountains dips after 2018 and Central Highlands stays lowest with modest growth.\"}, {\"label\": \"Figure 3.4: Population distribution by region, 2020\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Pie chart titled \\\"Number of households (in millions)\\\". Slices with printed values: Central Highlands 1.5m; Mekong Delta 4.6m; Midlands & Northern Mountains 3.3m; Northern & Coastal Central 5.5m; Red River Delta 6.6m; Southeast 5.3m. Legend (two columns): Central Highlands; Mekong Delta; Midlands & Northern Mountains; Northern & Coastal Central; Red River Delta; Southeast. Pattern: Red River Delta is the largest slice, followed by Northern & Coastal Central and Southeast, while Central Highlands is the smallest.\"}]}",
+ "usage": {
+  "prompt_tokens": 3257,
+  "completion_tokens": 1650,
+  "cost_usd": 0.0011507,
+  "latency_s": 6.077
+ },
+ "elements": [
+  {
+   "label": "Figure 3.3: Populations by region, 2010-2020",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart. Y-axis: \"Population (in millions)\", scale 0 to 30 with gridlines at 5, 10, 15, 20, 25, 30. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Source note: World Bank staff calculations using the VHLSS, 2020. Legend series: Central Highlands; Midlands & Northern Mountains; Red River Delta; Mekong Delta; Northern & Coastal Central; Southeast. No values are printed; approximate readings (~, in millions):\n- Red River Delta: 2010 ~19; 2012 ~19; 2014 ~20.5; 2016 ~21; 2018 ~21.5; 2020 ~24\n- Northern & Coastal Central: 2010 ~17.5; 2012 ~17.5; 2014 ~17.5; 2016 ~18.5; 2018 ~20; 2020 ~20.2\n- Mekong Delta: 2010 ~17.5; 2012 ~17.5; 2014 ~17.5; 2016 ~16.5; 2018 ~16.5; 2020 ~17\n- Southeast: 2010 ~15; 2012 ~16; 2014 ~17; 2016 ~17; 2018 ~17; 2020 ~17.2\n- Midlands & Northern Mountains: 2010 ~12.5; 2012 ~13.5; 2014 ~13; 2016 ~14.5; 2018 ~15.2; 2020 ~12.8\n- Central Highlands: 2010 ~5.2; 2012 ~5.2; 2014 ~5.6; 2016 ~6; 2018 ~6.4; 2020 ~6\nPattern: Red River Delta rises fastest to the highest level, Northern & Coastal Central and Southeast also grow, while Midlands & Northern Mountains dips after 2018 and Central Highlands stays lowest with modest growth."
+  },
+  {
+   "label": "Figure 3.4: Population distribution by region, 2020",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Pie chart titled \"Number of households (in millions)\". Slices with printed values: Central Highlands 1.5m; Mekong Delta 4.6m; Midlands & Northern Mountains 3.3m; Northern & Coastal Central 5.5m; Red River Delta 6.6m; Southeast 5.3m. Legend (two columns): Central Highlands; Mekong Delta; Midlands & Northern Mountains; Northern & Coastal Central; Red River Delta; Southeast. Pattern: Red River Delta is the largest slice, followed by Northern & Coastal Central and Southeast, while Central Highlands is the smallest."
+  }
+ ]
+}

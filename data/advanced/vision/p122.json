@@ -1,0 +1,23 @@
+{
+ "page": 122,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.24"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 3.24\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart of household agricultural income (Annual income, VND millions; y-axis 0 to 70 in steps of 10) for Ethnic minority and Kinh households, in 2010 (teal) and 2020 (orange), across nine categories: Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples. Values are not printed; approximate readings (~) by category, ethnic minority 2010 / 2020 and Kinh 2010 / 2020: Agricultural services ~3 / ~34 and ~15 / ~55; Aquaculture ~2 / ~11 and ~10 / ~41; By-products ~0 / ~0 and ~0 / ~1; Forestry ~3 / ~8 and ~2 / ~13; Fruit ~2 / ~5 and ~3 / ~11; Industrial crops ~6 / ~20 and ~12 / ~23; Livestock ~13 / ~20 and ~28 / ~61; Rice ~15 / ~10 and ~25 / ~18; Staples ~5 / ~6 and ~4 / ~9. Legend: 2010 (teal), 2020 (orange). Source: World Bank staff calculations using VHLSS. Pattern: Kinh household income exceeds ethnic minority income in nearly every category and year, with the largest gaps in agricultural services, aquaculture and livestock in 2020; both groups rose from 2010 to 2020 in most categories, while rice income fell for both groups.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3250,
+  "completion_tokens": 1339,
+  "cost_usd": 0.0009945,
+  "latency_s": 5.676
+ },
+ "elements": [
+  {
+   "label": "Figure 3.24",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart of household agricultural income (Annual income, VND millions; y-axis 0 to 70 in steps of 10) for Ethnic minority and Kinh households, in 2010 (teal) and 2020 (orange), across nine categories: Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples. Values are not printed; approximate readings (~) by category, ethnic minority 2010 / 2020 and Kinh 2010 / 2020: Agricultural services ~3 / ~34 and ~15 / ~55; Aquaculture ~2 / ~11 and ~10 / ~41; By-products ~0 / ~0 and ~0 / ~1; Forestry ~3 / ~8 and ~2 / ~13; Fruit ~2 / ~5 and ~3 / ~11; Industrial crops ~6 / ~20 and ~12 / ~23; Livestock ~13 / ~20 and ~28 / ~61; Rice ~15 / ~10 and ~25 / ~18; Staples ~5 / ~6 and ~4 / ~9. Legend: 2010 (teal), 2020 (orange). Source: World Bank staff calculations using VHLSS. Pattern: Kinh household income exceeds ethnic minority income in nearly every category and year, with the largest gaps in agricultural services, aquaculture and livestock in 2020; both groups rose from 2010 to 2020 in most categories, while rice income fell for both groups."
+  }
+ ]
+}

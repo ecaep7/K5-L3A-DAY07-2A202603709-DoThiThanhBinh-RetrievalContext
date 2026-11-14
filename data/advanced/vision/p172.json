@@ -1,0 +1,81 @@
+{
+ "page": 172,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": null, \"kind\": \"diagram\", \"bbox\": [102, 121, 608, 182], \"description\": \"Decomposition equation (rendered formula, no caption):\\nΔy^w_{t0,t1} = α^w(s,m)\\n+ [Δw(e_t0 p_t0 a_t0) + Δw(e_t1 p_t1 a_t1) + Δw(e_t1 p_t0 a_t0) + Δw(e_t0 p_t1 a_t0) + Δw(e_t0 p_t0 a_t1) + Δw(e_t1 p_t1 a_t0) + Δw(e_t1 p_t0 a_t1) + Δw(e_t0 p_t1 a_t1)]\"},\n{\"label\": null, \"kind\": \"diagram\", \"bbox\": [106, 252, 322, 285], \"description\": \"Shapley weight formula (rendered equation, no caption): α^w(s,m) = s! (m − s − 1)! / m!, where s = number of variables other than w taken at t = t1 and m = total number of variables.\"},\n{\"label\": null, \"kind\": \"diagram\", \"bbox\": [106, 406, 322, 443], \"description\": \"Repeated Shapley weight formula (rendered equation, no caption): α^w(s,m) = s! (m − s − 1)! / m!\"},\n{\"label\": null, \"kind\": \"diagram\", \"bbox\": [106, 491, 322, 533], \"description\": \"Worked calculation (rendered equation, no caption): 0! (4 − 0 − 1)! / 4! = 6/24 = 1/4\"},\n{\"label\": null, \"kind\": \"diagram\", \"bbox\": [106, 585, 792, 636], \"description\": \"Shapley value of w's contribution (rendered equations, no caption):\\nΔy^w_{t0,t1} =\\n+ ¼[Δw(e_t0 p_t0 a_t0) + Δw(e_t1 p_t1 a_t1)]\\n+ ½[Δw(e_t1 p_t0 a_t0) + Δw(e_t0 p_t1 a_t0) + Δw(e_t0 p_t0 a_t1) + Δw(e_t1 p_t1 a_t0) + Δw(e_t1 p_t0 a_t1) + Δw(e_t0 p_t1 a_t1)]\"},\n{\"label\": null, \"kind\": \"diagram\", \"bbox\": [106, 709, 792, 879], \"description\": \"Analogous Shapley value expressions for e, p and a (rendered equations, no caption):\\nΔy^e_{t0,t1} = ¼[Δe(w_t0 p_t0 a_t0) + Δe(w_t1 p_t1 a_t1)] + ½[Δe(w_t1 p_t0 a_t0) + Δe(w_t0 p_t1 a_t0) + Δe(w_t0 p_t0 a_t1) + Δe(w_t1 p_t1 a_t0) + Δe(w_t1 p_t0 a_t1) + Δe(w_t0 p_t1 a_t1)]\\nΔy^p_{t0,t1} = ¼[Δp(w_t0 e_t0 a_t0) + Δp(w_t1 e_t1 a_t1)] + ½[Δp(w_t1 e_t0 a_t0) + Δp(w_t0 e_t1 a_t0) + Δp(w_t0 e_t0 a_t1) + Δp(w_t1 e_t1 a_t0) + Δp(w_t1 e_t0 a_t1) + Δp(w_t0 e_t1 a_t1)]\\nΔy^a_{t0,t1} = ¼[Δa(w_t0 e_t0 p_t0) + Δa(w_t1 e_t1 p_t1)] + ½[Δa(w_t1 e_t0 p_t0) + Δa(w_t0 e_t1 p_t0) + Δa(w_t0 e_t0 p_t1) + Δa(w_t1 e_t1 p_t0) + Δa(w_t1 e_t0 p_t1) + Δa(w_t0 e_t1 p_t1)]\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3221,
+  "completion_tokens": 1937,
+  "cost_usd": 0.0012905999999999998,
+  "latency_s": 7.655
+ },
+ "elements": [
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    102,
+    121,
+    608,
+    182
+   ],
+   "description": "Decomposition equation (rendered formula, no caption):\nΔy^w_{t0,t1} = α^w(s,m)\n+ [Δw(e_t0 p_t0 a_t0) + Δw(e_t1 p_t1 a_t1) + Δw(e_t1 p_t0 a_t0) + Δw(e_t0 p_t1 a_t0) + Δw(e_t0 p_t0 a_t1) + Δw(e_t1 p_t1 a_t0) + Δw(e_t1 p_t0 a_t1) + Δw(e_t0 p_t1 a_t1)]"
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    106,
+    252,
+    322,
+    285
+   ],
+   "description": "Shapley weight formula (rendered equation, no caption): α^w(s,m) = s! (m − s − 1)! / m!, where s = number of variables other than w taken at t = t1 and m = total number of variables."
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    106,
+    406,
+    322,
+    443
+   ],
+   "description": "Repeated Shapley weight formula (rendered equation, no caption): α^w(s,m) = s! (m − s − 1)! / m!"
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    106,
+    491,
+    322,
+    533
+   ],
+   "description": "Worked calculation (rendered equation, no caption): 0! (4 − 0 − 1)! / 4! = 6/24 = 1/4"
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    106,
+    585,
+    792,
+    636
+   ],
+   "description": "Shapley value of w's contribution (rendered equations, no caption):\nΔy^w_{t0,t1} =\n+ ¼[Δw(e_t0 p_t0 a_t0) + Δw(e_t1 p_t1 a_t1)]\n+ ½[Δw(e_t1 p_t0 a_t0) + Δw(e_t0 p_t1 a_t0) + Δw(e_t0 p_t0 a_t1) + Δw(e_t1 p_t1 a_t0) + Δw(e_t1 p_t0 a_t1) + Δw(e_t0 p_t1 a_t1)]"
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    106,
+    709,
+    792,
+    879
+   ],
+   "description": "Analogous Shapley value expressions for e, p and a (rendered equations, no caption):\nΔy^e_{t0,t1} = ¼[Δe(w_t0 p_t0 a_t0) + Δe(w_t1 p_t1 a_t1)] + ½[Δe(w_t1 p_t0 a_t0) + Δe(w_t0 p_t1 a_t0) + Δe(w_t0 p_t0 a_t1) + Δe(w_t1 p_t1 a_t0) + Δe(w_t1 p_t0 a_t1) + Δe(w_t0 p_t1 a_t1)]\nΔy^p_{t0,t1} = ¼[Δp(w_t0 e_t0 a_t0) + Δp(w_t1 e_t1 a_t1)] + ½[Δp(w_t1 e_t0 a_t0) + Δp(w_t0 e_t1 a_t0) + Δp(w_t0 e_t0 a_t1) + Δp(w_t1 e_t1 a_t0) + Δp(w_t1 e_t0 a_t1) + Δp(w_t0 e_t1 a_t1)]\nΔy^a_{t0,t1} = ¼[Δa(w_t0 e_t0 p_t0) + Δa(w_t1 e_t1 p_t1)] + ½[Δa(w_t1 e_t0 p_t0) + Δa(w_t0 e_t1 p_t0) + Δa(w_t0 e_t0 p_t1) + Δa(w_t1 e_t1 p_t0) + Δa(w_t1 e_t0 p_t1) + Δa(w_t0 e_t1 p_t1)]"
+  }
+ ]
+}

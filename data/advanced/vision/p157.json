@@ -1,0 +1,37 @@
+{
+ "page": 157,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.2",
+  "Figure 5.3",
+  "Figure 5.4"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 5.2\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Three Marimekko-style stacked column charts (2002, 2018, 2030 (p)) showing sectoral productivity (% of total productivity, y-axis 0-300) against share of total employment (%, x-axis 0-100). Column width shows employment share; column height shows sectoral productivity. Legend: Agriculture (teal), Industry (orange), Services (gray). Note: (p) = predicted. Source: World Bank, 2009.\\n\\n2002 panel (approximate readings): Agriculture ~0-62% of employment, productivity ~38. Industry ~62-77%, productivity ~245. Services ~77-100%, productivity ~173.\\n\\n2018 panel (approximate): Agriculture ~0-39%, productivity ~38. Industry ~39-64%, productivity ~158. Services ~64-100%, productivity ~127.\\n\\n2030 (p) panel (approximate): Agriculture ~0-25%, productivity ~38. Industry ~25-60%, productivity ~136. Services ~60-100%, productivity ~108.\\n\\nPattern: agriculture's employment share falls sharply over time while industry and services take larger shares, and sectoral productivity values rise for industry and services while agriculture stays low.\"}, {\"label\": \"Figure 5.3\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked column chart of growth rate (y-axis from -1 to 7) with GDP per capita growth shown as purple dots. Legend: Productivity (teal), Employment (orange), Demographics (yellow), Participation (gray), GDP per capita (purple dot). Categories and printed values:\\n\\n- 1991–2002: Productivity 5.0%; Demographics 1.0%; Participation -0.1%; GDP per capita 5.9%.\\n- 2002–2012: Productivity 4.4%; Employment 0.1%; Demographics 1.0%; GDP per capita 5.5%.\\n- 2012–2018: Productivity 5.3%; Demographics -0.2%; Employment -0.1%; Participation 0.3%; GDP per capita 5.3% (label partly overlapped).\\n- 2018–2045 Baseline: Productivity 5.3%; Demographics -0.2%; GDP per capita 5.1%.\\n- 2018–2045 Reaching HIC target: Productivity 6.6%; Demographics -0.2%; GDP per capita 6.4%.\\n\\nPattern: productivity growth is the dominant positive contributor in every period, demographic contributions are small or negative after 2002, and GDP per capita growth is highest in the HIC-target scenario.\"}, {\"label\": \"Figure 5.4\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart of GDP per capita (2010 USD), y-axis 0 to 16,000 in steps of 2,000, against years 2018 and 2045. Horizontal reference lines labeled HIC (~13,700), UMIC (~4,400) and LMIC (~1,100). Two series: GDP - Baseline (dotted teal) rising from ~2,600 in 2018 to ~9,900 in 2045; GDP - HIC (dashed orange) rising from ~2,600 in 2018 to ~13,000 in 2045, reaching the HIC line. Arrowheads mark the end of each trajectory. Pattern: the HIC-target path rises much more steeply and reaches high-income levels, while the baseline path ends below the HIC threshold but above the UMIC line.\"}]}",
+ "usage": {
+  "prompt_tokens": 3297,
+  "completion_tokens": 2304,
+  "cost_usd": 0.0014817,
+  "latency_s": 9.92
+ },
+ "elements": [
+  {
+   "label": "Figure 5.2",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Three Marimekko-style stacked column charts (2002, 2018, 2030 (p)) showing sectoral productivity (% of total productivity, y-axis 0-300) against share of total employment (%, x-axis 0-100). Column width shows employment share; column height shows sectoral productivity. Legend: Agriculture (teal), Industry (orange), Services (gray). Note: (p) = predicted. Source: World Bank, 2009.\n\n2002 panel (approximate readings): Agriculture ~0-62% of employment, productivity ~38. Industry ~62-77%, productivity ~245. Services ~77-100%, productivity ~173.\n\n2018 panel (approximate): Agriculture ~0-39%, productivity ~38. Industry ~39-64%, productivity ~158. Services ~64-100%, productivity ~127.\n\n2030 (p) panel (approximate): Agriculture ~0-25%, productivity ~38. Industry ~25-60%, productivity ~136. Services ~60-100%, productivity ~108.\n\nPattern: agriculture's employment share falls sharply over time while industry and services take larger shares, and sectoral productivity values rise for industry and services while agriculture stays low."
+  },
+  {
+   "label": "Figure 5.3",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked column chart of growth rate (y-axis from -1 to 7) with GDP per capita growth shown as purple dots. Legend: Productivity (teal), Employment (orange), Demographics (yellow), Participation (gray), GDP per capita (purple dot). Categories and printed values:\n\n- 1991–2002: Productivity 5.0%; Demographics 1.0%; Participation -0.1%; GDP per capita 5.9%.\n- 2002–2012: Productivity 4.4%; Employment 0.1%; Demographics 1.0%; GDP per capita 5.5%.\n- 2012–2018: Productivity 5.3%; Demographics -0.2%; Employment -0.1%; Participation 0.3%; GDP per capita 5.3% (label partly overlapped).\n- 2018–2045 Baseline: Productivity 5.3%; Demographics -0.2%; GDP per capita 5.1%.\n- 2018–2045 Reaching HIC target: Productivity 6.6%; Demographics -0.2%; GDP per capita 6.4%.\n\nPattern: productivity growth is the dominant positive contributor in every period, demographic contributions are small or negative after 2002, and GDP per capita growth is highest in the HIC-target scenario."
+  },
+  {
+   "label": "Figure 5.4",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart of GDP per capita (2010 USD), y-axis 0 to 16,000 in steps of 2,000, against years 2018 and 2045. Horizontal reference lines labeled HIC (~13,700), UMIC (~4,400) and LMIC (~1,100). Two series: GDP - Baseline (dotted teal) rising from ~2,600 in 2018 to ~9,900 in 2045; GDP - HIC (dashed orange) rising from ~2,600 in 2018 to ~13,000 in 2045, reaching the HIC line. Arrowheads mark the end of each trajectory. Pattern: the HIC-target path rises much more steeply and reaches high-income levels, while the baseline path ends below the HIC threshold but above the UMIC line."
+  }
+ ]
+}

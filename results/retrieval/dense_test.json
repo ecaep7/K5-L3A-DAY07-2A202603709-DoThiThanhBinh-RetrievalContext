@@ -1,0 +1,875 @@
+[
+ {
+  "query_id": "q04",
+  "answerable": true,
+  "query": "How does the disturbance (crisis) handler role differ from the entrepreneur role?",
+  "filter": null,
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 72.8,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p25-p02",
+    "score": 0.829584,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "While the entrepreneur role describes managers who initiate change, the disturbance or crisis handler role depicts managers who must involuntarily react to conditions. Crises can arise because bad managers let circumstances deteriorate or spin out of control, but just as often good managers find themselves in the midst of a crisis that they could not have anticipated but must react to just the same."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p27-p02",
+    "score": 0.644127,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "What Varies in a Manager’s Job? The Emphasis The entrepreneur role is gaining importance. Managers must increasingly be aware of threats and opportunities in their environment. Threats include technological breakthroughs on the part of competitors, obsolescence in a manager’s organization, and dramatically shortened product cycles."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p25-p00",
+    "score": 0.579151,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "roles—interpersonal and informational—will assist a manager in making difficult decisions in which outcomes are not clear and interests are often conflicting."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p25-p01",
+    "score": 0.551899,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "In the role of entrepreneur, managers seek to improve their businesses, adapt to changing market conditions, and react to opportunities as they present themselves. Managers who take a longer-term view of their responsibilities are among the first to realize that they will need to reinvent themselves, their product and service lines, their marketing strategies, and their ways of doing business as older methods become obsolete and competitors gain advantage."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p28-p09",
+    "score": 0.539251,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 28,
+    "chapter": 1,
+    "text": "As shown in Exhibit 1.6, different levels of these skills are required at different stages of the managerial"
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p38-p08",
+    "score": 0.514381,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 38,
+    "chapter": 2,
+    "text": "Brewing Sustainable Success The focus of a manager or a business owner is often primarily on doing well (making a profit). Sometimes, though, organizational leaders choose to pursue two big goals at once: doing well, and simultaneously doing good (benefiting society in some way). Why? Generally because they think it’s an important thing to do. The business provides an opportunity to pursue another goal that the founders, owners, or managers are also passionate about."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p37-p10",
+    "score": 0.512322,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 37,
+    "chapter": 2,
+    "text": "Failing to react quickly enough can lead to missed opportunities, yet acting too quickly can lead to organizational resources being poorly allocated to projects with no chance of success. Effective managers must decide when they have gathered enough information and must be prepared to change course if additional information becomes available that makes it clear that the original decision was a poor one. For individuals with fragile egos, changing course can be"
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p26-p04",
+    "score": 0.507432,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 26,
+    "chapter": 1,
+    "text": "A manager caught in the middle cannot deliver to each of these people what each most wants; decisions are often based on the urgency of the need and the proximity of the problem."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p46-p02",
+    "score": 0.506953,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 46,
+    "chapter": 2,
+    "text": "This kind of conflict is generally harmful and should be quelled when possible. The harm from relationship conflict arises at least in part because feeling personally attacked will cause an individual to revert to the reactive system of the brain. Effective managers should be particularly aware of the possibility of relationship conflict when giving feedback and should keep feedback focused on behaviors and activities (how things are done) rather than on the individual."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p29-p05",
+    "score": 0.504249,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 29,
+    "chapter": 1,
+    "text": "At a personal level, knowing that the mix of conceptual, human, and technical skills changes over time and that different functional areas require different levels of specific management activities can serve at least two important functions. First, if you choose to become a manager, knowing that the mix of skills changes over time can help you avoid a common complaint that often young employees want to think and act like a CEO before they have mastered being a first-line supervisor."
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    25,
+    27,
+    25
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p25-p02",
+    "pom-ch01-02-p27-p02",
+    "pom-ch01-02-p25-p00"
+   ]
+  }
+ },
+ {
+  "query_id": "q08",
+  "answerable": true,
+  "query": "In the chapter on managing and performing, why are personal relationships so valuable to managers?",
+  "filter": {
+   "chapter": 1
+  },
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 59.9,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p23-p02",
+    "score": 0.677808,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 23,
+    "chapter": 1,
+    "text": "Interpersonal roles. Managers are required to interact with a substantial number of people in the course of a workweek. They host receptions; take clients and customers to dinner; meet with business prospects and partners; conduct hiring and performance interviews; and form alliances, friendships, and personal relationships with many others. Numerous studies have shown that such relationships are the richest source of information for managers because of their immediate and personal nature.14"
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p31-p04",
+    "score": 0.674478,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "1.3 Major Characteristics of the Manager's Job 3. What are the characteristics that effective managers display?"
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p27-p04",
+    "score": 0.669552,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "So is the leader role gaining importance. Managers must be more sophisticated as strategists and mentors. A manager’s job involves much more than simple caretaking in a division of a large organization. Unless organizations are able to attract, train, motivate, retain, and promote good people, they cannot possibly hope to gain advantage over the competition. Thus, as leaders, managers must constantly act as mentors to those in the organization with promise and potential."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p29-p04",
+    "score": 0.664744,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 29,
+    "chapter": 1,
+    "text": "Managers in accounting and finance are also concerned with controlling and with monitoring performance indicators, while human resource managers provide consulting expertise, coordination, and external contacts. The emphasis on and intensity of managerial activities varies considerably by the department the manager is assigned to."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p25-p00",
+    "score": 0.651437,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "roles—interpersonal and informational—will assist a manager in making difficult decisions in which outcomes are not clear and interests are often conflicting."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p26-p03",
+    "score": 0.646754,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 26,
+    "chapter": 1,
+    "text": "Values compete and the various roles are in tension. Managers clearly cannot satisfy everyone. Employees want more time to do their jobs; customers want products and services delivered quickly and at high quality levels. Supervisors want more money to spend on equipment, training, and product development; shareholders want returns on investment maximized."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p23-p03",
+    "score": 0.643178,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 23,
+    "chapter": 1,
+    "text": "Three of a manager’s roles arise directly from formal authority and involve basic interpersonal relationships. First is the figurehead role. As the head of an organizational unit, every manager must perform some ceremonial duties. In Mintzberg’s study, chief executives spent 12% of their contact time on ceremonial duties; 17% of their incoming mail dealt with acknowledgments and requests related to their status."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p24-p02",
+    "score": 0.635809,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 24,
+    "chapter": 1,
+    "text": "This role, in which managers establish and maintain contacts outside the vertical chain of command, becomes especially important in view of the finding of virtually every study of managerial work that managers spend as much time with peers and other people outside of their units as they do with their own subordinates. Surprisingly, they spend little time with their own superiors."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p29-p03",
+    "score": 0.633099,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 29,
+    "chapter": 1,
+    "text": "Marketing managers, in comparison, focus less on planning, coordinating, and consulting and more on customer relations and external contact. Managers in both accounting and human resource management departments rate high on long-range planning, but will spend less time on the organization’s products and service offerings."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p22-p00",
+    "score": 0.63132,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 22,
+    "chapter": 1,
+    "text": "position, you will appreciate the roles that your managers, both direct and senior level, play in an organization and the behaviors and actions that will get you recognized and appreciated. Best of luck! Most management textbooks would say, as does this one, that managers spend their time engaged in planning, organizing, staffing, directing, coordinating, reporting, and controlling."
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    23,
+    31,
+    27
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p23-p02",
+    "pom-ch01-02-p31-p04",
+    "pom-ch01-02-p27-p04"
+   ]
+  }
+ },
+ {
+  "query_id": "q12",
+  "answerable": true,
+  "query": "In what kind of situation is it better to process information logically and analytically rather than going with a quick gut reaction?",
+  "filter": null,
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 53.8,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p40-p04",
+    "score": 0.687427,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Reflective Decision-Making The quick route is not always the best decision-making path to take, however. When faced with novel and complex situations, it is better to process available information logically, analytically, and methodically. As a manager, you need to think about whether a situation requires not a fast, “gut” reaction, but some serious thought prior to making a decision."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p60-p01",
+    "score": 0.645165,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "The brain processes information to make decisions using one of two systems: either the logical, rational (reflective) system or the quick, reactive system. The reflective system is better for significant and important decisions; these generally should not be rushed. However, the reactive system can be lifesaving when time is of the essence, and it can be much more efficient when based on developed experience and expertise."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p40-p02",
+    "score": 0.630645,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Reactive Decision-Making We tend to assume that the logical, analytical route leads to superior decisions, but whether this is accurate depends on the situation. The quick, intuitive route can be lifesaving; when we suddenly feel intense fear, a fight-or-flight response kicks in that leads to immediate action without methodically weighing all possible options and their consequences."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p54-p06",
+    "score": 0.606012,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 54,
+    "chapter": 2,
+    "text": "Sharing information verbally also causes our brains to process that information differently, which can provide new insights and bring greater clarity to our decision-making."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p49-p09",
+    "score": 0.579122,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 49,
+    "chapter": 2,
+    "text": "They will also utilize the tactics described below: engaging in evidence-based decision-making, thinking critically, talking to other people, and considering long-term and ethical implications. Do you have the best-quality data and evidence?"
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p42-p05",
+    "score": 0.575166,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 42,
+    "chapter": 2,
+    "text": "The best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p48-p02",
+    "score": 0.567833,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 48,
+    "chapter": 2,
+    "text": "Techniques for Making Better Programmed Decisions In addition, experience enables managers to recognize when to minimize the time spent making decisions on issues that are not particularly important but must still be addressed. As discussed previously, heuristics are mental shortcuts that managers take when making programmed (routine, low-involvement) decisions. Another technique that managers use with these types of decisions is satisficing."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p43-p05",
+    "score": 0.562733,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 43,
+    "chapter": 2,
+    "text": "Similarly, as was alluded to earlier in the chapter, even when managers have the cognitive ability to process all the relevant information, they often must make decisions without first having time to collect all the relevant data—their information is incomplete. Escalation of Commitment Given the lack of complete information, managers don’t always make the right decision initially, and it may not CONCEPT CHECK"
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p43-p03",
+    "score": 0.561241,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 43,
+    "chapter": 2,
+    "text": "Bounded Rationality While we might like to think that we can make completely rational decisions, this is often unrealistic given the complex issues faced by managers. Nonrational decision-making is common, especially with nonprogrammed decisions. Since we haven’t faced a particular situation previously, we don’t always know what questions to ask or what information to gather."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p43-p04",
+    "score": 0.55847,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 43,
+    "chapter": 2,
+    "text": "Even when we have gathered all the possible information, we may not be able to make rational sense of all of it, or to accurately forecast or predict the outcomes of our choice. Bounded rationality is the idea that for complex issues we cannot be completely rational because we cannot fully grasp all the possible alternatives, nor can we understand all the implications of every possible alternative. Our brains have limitations in terms of the amount of information they can process."
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    40,
+    60,
+    40
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p40-p04",
+    "pom-ch01-02-p60-p01",
+    "pom-ch01-02-p40-p02"
+   ]
+  }
+ },
+ {
+  "query_id": "q16",
+  "answerable": true,
+  "query": "What is the name for the tendency to keep backing a bad choice even as the results keep getting worse?",
+  "filter": null,
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 62.4,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p54-p09",
+    "score": 0.595526,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 54,
+    "chapter": 2,
+    "text": "These can be among the most difficult of decisions. You should always strive to make decisions that you feel good about—which means doing the right thing, even in the face of pressures to do wrong."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p54-p01",
+    "score": 0.562484,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 54,
+    "chapter": 2,
+    "text": "There may not be a single option that doesn’t upset some stakeholder group, so you will make someone unhappy no matter what you choose. A weak decision maker may become paralyzed in this situation, unable to select among the various alternatives for lack of a clearly “best” option. They may decide to keep gathering additional information in hopes of making their decision easier."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p44-p03",
+    "score": 0.557786,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 44,
+    "chapter": 2,
+    "text": "It can seem easier to “stay the course” than to admit (or to recognize) that a decision was poor. It’s important to acknowledge that not all decisions are going to be good ones, in spite of our best efforts. Effective managers recognize that progress down the wrong path isn’t really progress, and they are willing to reevaluate decisions and change direction when appropriate."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p40-p02",
+    "score": 0.541901,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Reactive Decision-Making We tend to assume that the logical, analytical route leads to superior decisions, but whether this is accurate depends on the situation. The quick, intuitive route can be lifesaving; when we suddenly feel intense fear, a fight-or-flight response kicks in that leads to immediate action without methodically weighing all possible options and their consequences."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p57-p00",
+    "score": 0.525619,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "It can also occur because past successes have made the team complacent. Often, one individual in the group has more power or exerts more influence than others and discourages those with differing opinions from speaking up (suppression of dissent) to ensure that only their own ideas are implemented. If members of the group are not really contributing their ideas and perspectives, however, then the group is not getting the benefits of group decision-making."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p60-p05",
+    "score": 0.510925,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "In addition, managers, like all humans, have biases that influence their decision-making, and that can make it difficult for them to make good decisions. One of the most common biases that can confound decision-making is confirmation bias, the tendency for a person to pay attention to information that confirms her existing beliefs and ignore information that conflicts with these existing beliefs."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p60-p11",
+    "score": 0.479574,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "However, groups sometimes fail to generate added value in the decision-making process as a result of groupthink, conflict, or suppression of dissent."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p38-p00",
+    "score": 0.478006,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 38,
+    "chapter": 2,
+    "text": "challenging because admitting to a mistake can be harder than forging ahead with a bad plan. Effective managers recognize that given the complexity of many tasks, some failures are inevitable. They also realize that it’s better to minimize a bad decision’s impact on the organization and its stakeholders by recognizing it quickly and correcting it. What’s the Right (Correct) Answer?"
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p50-p01",
+    "score": 0.477809,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 50,
+    "chapter": 2,
+    "text": "Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own). Are you thinking critically about the options?"
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p55-p08",
+    "score": 0.477199,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 55,
+    "chapter": 2,
+    "text": "Rob realized eventually that the long-term consequences of this were almost always negative: once one person is allowed to misbehave, others find out about it and realize that they can do the same thing without repercussions."
+   }
+  ],
+  "eval": {
+   "hit1": false,
+   "hit3": false,
+   "hit10": false,
+   "first_hit_rank": null,
+   "rr": 0.0,
+   "top3_pages": [
+    54,
+    54,
+    44
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p54-p09",
+    "pom-ch01-02-p54-p01",
+    "pom-ch01-02-p44-p03"
+   ]
+  }
+ },
+ {
+  "query_id": "q20",
+  "answerable": true,
+  "query": "In the chapter on decision-making, what role does a devil's advocate play in a group, and why is one assigned?",
+  "filter": {
+   "chapter": 2
+  },
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 46.3,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p59-p02",
+    "score": 0.81881,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Decision-making The action or process of thinking through possible options and selecting one. Devil’s advocate A group member who intentionally takes on the role of being critical of the group’s ideas in order to discourage groupthink and encourage deep thought and discussion about issues prior to making decisions."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p57-p01",
+    "score": 0.651219,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "How to Form a Quality Group Effective managers will try to ensure quality group decision-making by forming groups with diverse members so that a variety of perspectives will contribute to the process. They will also encourage everyone to speak up and voice their opinions and thoughts prior to the group reaching a decision. Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p61-p00",
+    "score": 0.562588,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 61,
+    "chapter": 2,
+    "text": "Managers can improve the quality of group decision-making in a number of ways. First, when forming the group, the manager should ensure that the individual group members are diverse in terms of knowledge and perspectives. The manager may also want to assign a devil’s advocate to discourage groupthink. Managers should also encourage all group members to contribute their ideas and opinions, and they should not allow a single voice to dominate."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p58-p00",
+    "score": 0.544871,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 58,
+    "chapter": 2,
+    "text": "Summary of Techniques That May Improve Group Decision-Making Type of Decision Technique Benefit Group decisions Have diverse members in the group. Improves quality: generates more options, reduces bias Assign a devil’s advocate. Improves quality: reduces groupthink Encourage everyone to speak up and contribute. Improves quality: generates more options, prevents suppression of dissent Help group members find common ground. Improves quality: reduces personality conflict"
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p58-p03",
+    "score": 0.538033,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 58,
+    "chapter": 2,
+    "text": "They also conduct research and collect information from others; they pay attention to their own biases and to ethical implications; and they think critically about the information that they have received to make decisions that will benefit the organization and its stakeholders. 1. Explain why group decision-making can be more effective than individual decision-making. 2. What are some things that can prevent groups from making good decisions?"
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p38-p02",
+    "score": 0.53575,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 38,
+    "chapter": 2,
+    "text": "Often there are individuals in the organization with competing interests, and the manager must make decisions knowing that someone will be upset no matter what decision is reached. What’s the Right (Ethical) Answer?"
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p53-p03",
+    "score": 0.503735,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 53,
+    "chapter": 2,
+    "text": "The decision tree in Exhibit 2.6 is a great example of a way to make managerial decisions while also taking ethical issues into account. Exhibit 2.6 Ethical Decision Tree (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license) Thinking through the steps of ethical decision-making may also be helpful as you strive to make good decisions. James Rest’s ethical decision-making model11 identifies four components to ethical decision-making: 1."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p60-p11",
+    "score": 0.486369,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "However, groups sometimes fail to generate added value in the decision-making process as a result of groupthink, conflict, or suppression of dissent."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p60-p10",
+    "score": 0.48594,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "Groups can make better decisions than individuals because group members can contribute more knowledge and a diversity of perspectives. Groups will tend to generate more options as well, which can lead to better solutions. Also, having people involved in making decisions that will affect them can improve their attitudes about the decision that is made."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p59-p07",
+    "score": 0.477654,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Stakeholders Individuals or groups who are impacted by the organization. These include owners, employees, customers, suppliers, and members of the community in which the organization is located. Suppression of dissent When a group member exerts his or her power to prevent others from voicing their thoughts or opinions. Summary of Learning Outcomes 2.1 Overview of Managerial Decision-Making 1. What are the basic characteristics of managerial decision-making?"
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    59,
+    57,
+    61
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p59-p02",
+    "pom-ch01-02-p57-p01",
+    "pom-ch01-02-p61-p00"
+   ]
+  }
+ },
+ {
+  "query_id": "u03",
+  "answerable": false,
+  "query": "What is the nominal group technique, and when should a manager use it for group decisions?",
+  "filter": null,
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 46.8,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p58-p04",
+    "score": 0.751503,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 58,
+    "chapter": 2,
+    "text": "3. As a manager, what can you do to enhance the quality of group decision-making? CONCEPT CHECK"
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p61-p00",
+    "score": 0.666179,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 61,
+    "chapter": 2,
+    "text": "Managers can improve the quality of group decision-making in a number of ways. First, when forming the group, the manager should ensure that the individual group members are diverse in terms of knowledge and perspectives. The manager may also want to assign a devil’s advocate to discourage groupthink. Managers should also encourage all group members to contribute their ideas and opinions, and they should not allow a single voice to dominate."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p56-p01",
+    "score": 0.636203,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "2.6 Group Decision-Making 6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making? Involving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p60-p09",
+    "score": 0.630878,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "Effective managers also think critically about the quality of the evidence that they collect, and they carefully consider long-term outcomes and ethical implications prior to making a decision. 2.6 Group Decision-Making 6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?"
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p57-p01",
+    "score": 0.627242,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "How to Form a Quality Group Effective managers will try to ensure quality group decision-making by forming groups with diverse members so that a variety of perspectives will contribute to the process. They will also encourage everyone to speak up and voice their opinions and thoughts prior to the group reaching a decision. Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p57-p05",
+    "score": 0.610402,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "In this situation, managers need to help group members reduce conflict by finding some common ground—areas in which they can agree, such as common interests, values, beliefs, experiences, or goals. Keeping a group focused on a common goal can be a very worthwhile tactic to keep group members working with rather than against one another. Table 2.3 summarizes the techniques to improve group decision-making."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p27-p08",
+    "score": 0.574284,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "5. Coordinating. Managers often must coordinate the work of others both inside the work unit and out. 6. Customer relations and marketing. Certain managers are involved in direct contact with customers and potential customers."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p37-p05",
+    "score": 0.562183,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 37,
+    "chapter": 2,
+    "text": "Members of the top management team regularly make decisions that affect the future of the organization and all its stakeholders, such as deciding whether to pursue a new technology or product line. A good decision can enable the organization to thrive and survive long-term, while a poor decision can lead a business into bankruptcy."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p58-p03",
+    "score": 0.557868,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 58,
+    "chapter": 2,
+    "text": "They also conduct research and collect information from others; they pay attention to their own biases and to ethical implications; and they think critically about the information that they have received to make decisions that will benefit the organization and its stakeholders. 1. Explain why group decision-making can be more effective than individual decision-making. 2. What are some things that can prevent groups from making good decisions?"
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p56-p03",
+    "score": 0.556895,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "Because a variety of viewpoints must be negotiated and worked through, group decision-making creates additional work for a manager, but (provided the group members reflect different perspectives) it also tends to reduce the effects of bias on the outcome. For example, a hiring committee made up of all men might end up hiring a larger proportion of male applicants (simply because they tend to prefer people who are more similar to themselves)."
+   }
+  ]
+ },
+ {
+  "query_id": "u04",
+  "answerable": false,
+  "query": "What is the Vroom-Yetton model, and how does it help managers decide how much to involve subordinates in a decision?",
+  "filter": null,
+  "method": "dense",
+  "top_k": 10,
+  "latency_ms": 46.1,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p60-p08",
+    "score": 0.698418,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "Managers should also be careful to not skip steps in the decision-making process, to involve others in the process at various points, and to be creative in generating alternatives. They should also engage in evidence-based decision-making: doing research and collecting data and information on which to base the decision."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p59-p08",
+    "score": 0.654945,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Managers are constantly making decisions, and those decisions often have significant impacts and implications for both the organization and its stakeholders. Managerial decision-making is often characterized by complexity, incomplete information, and time constraints, and there is rarely one right answer. Sometimes there are multiple good options (or multiple bad options), and the manager must try to decide which will generate the most positive outcomes (or the fewest negative outcomes)."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p59-p09",
+    "score": 0.652053,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Managers must weigh the possible consequences of each decision and recognize that there are often multiple stakeholders with conflicting needs and preferences so that it often will be impossible to satisfy everyone. Finally, managerial decision-making can sometimes have ethical implications, and these should be contemplated before reaching a final decision."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p37-p06",
+    "score": 0.64818,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 37,
+    "chapter": 2,
+    "text": "Managers at lower levels of the organization generally have a smaller impact on the organization’s survival, but can still have a tremendous impact on their department and its workers. Consider, for example, a first-line supervisor who is charged with scheduling workers and ordering raw materials for her department. Poor decision-making by lower-level managers is unlikely to drive the entire firm out of existence, but it can lead to many adverse outcomes such as:"
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p28-p01",
+    "score": 0.646284,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 28,
+    "chapter": 1,
+    "text": "Variations in Managerial Work Although each manager may have a diverse set of responsibilities, including those mentioned above, the amount of time spent on each activity and the importance of that activity will vary considerably. The two most salient perceptions of a manager are (1) the manager’s level in the organizational hierarchy and (2) the type of department or function for which he is responsible. Let us briefly consider each of these. Management by Level."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p27-p08",
+    "score": 0.645749,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "5. Coordinating. Managers often must coordinate the work of others both inside the work unit and out. 6. Customer relations and marketing. Certain managers are involved in direct contact with customers and potential customers."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p37-p04",
+    "score": 0.645624,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 37,
+    "chapter": 2,
+    "text": "Decision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.)."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p25-p00",
+    "score": 0.644209,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "roles—interpersonal and informational—will assist a manager in making difficult decisions in which outcomes are not clear and interests are often conflicting."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p31-p00",
+    "score": 0.639358,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "Key Terms Decisional role One of the three major roles that a manager assumes in the organization. executive managers Generally, a team of individuals at the highest level of management of an organization. first-line management The level of management directly managing nonmanagerial employees."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p27-p07",
+    "score": 0.637816,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "2. Controlling. Managers evaluate and take corrective action concerning the allocation and use of human, financial, and material resources. 3. Environmental scanning. Managers must continually watch for changes in the business environment and monitor business indicators such as returns on equity or investment, economic indicators, business cycles, and so forth. 4. Supervision. Managers continually oversee the work of their subordinates."
+   }
+  ]
+ }
+]

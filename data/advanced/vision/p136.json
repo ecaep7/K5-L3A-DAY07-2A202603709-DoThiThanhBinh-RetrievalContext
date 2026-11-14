@@ -1,0 +1,30 @@
+{
+ "page": 136,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.7",
+  "Figure 4.6"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.6\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart titled 'Enrolment rates by household wealth quintile and age, 2020'. Y-axis: 'Share of cohort population (%)', ticks 0 to 120 by 20. X-axis: age, 10 to 25. Series (legend): Poorest (quintile=1), 2, 3, 4, Richest (quintile=5). Values are not printed; approximate readings (~) by age 10/15/18/20/22/25: Poorest (green): ~100 at 10, ~63 at 15, ~22 at 18, ~17 at 20, ~3 at 22, ~0 at 25. Quintile 2 (orange): ~100 at 10, ~88 at 15, ~22 at 18, ~24 at 20, ~14 at 22, ~0 at 25. Quintile 3 (grey): ~100 at 10, ~90 at 15, ~56 at 18, ~27 at 20, ~18 at 22, ~0 at 25. Quintile 4 (yellow): ~100 at 10, ~91 at 15, ~78 at 18, ~52 at 20, ~35 at 22, ~0 at 25. Richest (blue): ~100 at 10, ~99 at 15, ~94 at 18, ~80 at 20, ~48 at 22, ~7 at 25. Enrolment starts near 100% for all quintiles at ages 10-12 and falls with age, with the richest quintile staying highest and the poorest quintile falling earliest and lowest.\"}, {\"label\": \"Figure 4.7\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart titled 'Access to improved drinking-water sources and sanitation facilities, by income quintiles, 2014'. Y-axis: 'Share of households (%)', ticks 0 to 100 by 20. X-axis categories: Poorest (quintile=1), 2nd, 3rd, 4th, Richest (quintile=5). Legend: Improved water (teal), Improved sanitation (orange). Printed values. Improved water: 74.3, 90.6, 96.1, 99.2, 100. Improved sanitation: 38.2, 80.7, 95.5, 99.5, 99.9. Source: MICS survey (UNICEF, 2014). Both access measures rise with income quintile; sanitation rises much more steeply, from 38.2% in the poorest quintile to near universal in the richest.\"}]}",
+ "usage": {
+  "prompt_tokens": 3286,
+  "completion_tokens": 1580,
+  "cost_usd": 0.0011186,
+  "latency_s": 6.861
+ },
+ "elements": [
+  {
+   "label": "Figure 4.6",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart titled 'Enrolment rates by household wealth quintile and age, 2020'. Y-axis: 'Share of cohort population (%)', ticks 0 to 120 by 20. X-axis: age, 10 to 25. Series (legend): Poorest (quintile=1), 2, 3, 4, Richest (quintile=5). Values are not printed; approximate readings (~) by age 10/15/18/20/22/25: Poorest (green): ~100 at 10, ~63 at 15, ~22 at 18, ~17 at 20, ~3 at 22, ~0 at 25. Quintile 2 (orange): ~100 at 10, ~88 at 15, ~22 at 18, ~24 at 20, ~14 at 22, ~0 at 25. Quintile 3 (grey): ~100 at 10, ~90 at 15, ~56 at 18, ~27 at 20, ~18 at 22, ~0 at 25. Quintile 4 (yellow): ~100 at 10, ~91 at 15, ~78 at 18, ~52 at 20, ~35 at 22, ~0 at 25. Richest (blue): ~100 at 10, ~99 at 15, ~94 at 18, ~80 at 20, ~48 at 22, ~7 at 25. Enrolment starts near 100% for all quintiles at ages 10-12 and falls with age, with the richest quintile staying highest and the poorest quintile falling earliest and lowest."
+  },
+  {
+   "label": "Figure 4.7",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart titled 'Access to improved drinking-water sources and sanitation facilities, by income quintiles, 2014'. Y-axis: 'Share of households (%)', ticks 0 to 100 by 20. X-axis categories: Poorest (quintile=1), 2nd, 3rd, 4th, Richest (quintile=5). Legend: Improved water (teal), Improved sanitation (orange). Printed values. Improved water: 74.3, 90.6, 96.1, 99.2, 100. Improved sanitation: 38.2, 80.7, 95.5, 99.5, 99.9. Source: MICS survey (UNICEF, 2014). Both access measures rise with income quintile; sanitation rises much more steeply, from 38.2% in the poorest quintile to near universal in the richest."
+  }
+ ]
+}

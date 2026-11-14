@@ -1,0 +1,64 @@
+{
+ "A_dense": {
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "model": "claude-haiku-5-5",
+  "provider": "anthropic",
+  "runs": 7,
+  "errors": 0,
+  "tool_use": "7/7 (100%)",
+  "searches_per_question": {
+   "1": 7
+  },
+  "first_search_hit1": "3/5 (60%)",
+  "first_search_hit3": "4/5 (80%)",
+  "context_evidence_rate": "4/5 (80%)",
+  "citations_in_context": "8/8 (100%)",
+  "answers_with_citation": "4/4 (100%)",
+  "abstained_unanswerable": "2/2 (100%)",
+  "abstained_answerable": "1/5 (20%)",
+  "avg_context_chars": 1108,
+  "llm_calls": 16,
+  "prompt_tokens": 16859,
+  "completion_tokens": 1750,
+  "cost_usd": 0.00256,
+  "avg_latency_s": 2.72
+ },
+ "E_hybrid_multi_nb": {
+  "config": {
+   "method": "hybrid",
+   "top_k": 3,
+   "max_searches": 3,
+   "neighbors": true,
+   "budget_chars": 9000
+  },
+  "model": "claude-haiku-5-5",
+  "provider": "anthropic",
+  "runs": 7,
+  "errors": 0,
+  "tool_use": "7/7 (100%)",
+  "searches_per_question": {
+   "1": 4,
+   "2": 1,
+   "3": 2
+  },
+  "first_search_hit1": "2/5 (40%)",
+  "first_search_hit3": "5/5 (100%)",
+  "context_evidence_rate": "5/5 (100%)",
+  "citations_in_context": "11/11 (100%)",
+  "answers_with_citation": "5/5 (100%)",
+  "abstained_unanswerable": "2/2 (100%)",
+  "abstained_answerable": "0/5 (0%)",
+  "avg_context_chars": 4393,
+  "llm_calls": 18,
+  "prompt_tokens": 34399,
+  "completion_tokens": 2710,
+  "cost_usd": 0.00479,
+  "avg_latency_s": 4.41
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "page": 82,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.11"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 2.11\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two-panel chart on the share of Vietnamese households receiving income from multiple sources, 2020. Source note below: World Bank staff calculations using the Vietnam Household Living Standards Survey, 2020.\\n\\nPanel A: 'Average number of income sources, by decile'. Vertical bar chart. Y-axis: 'Average number of income sources', scale 0.0 to 3.5 in steps of 0.5. X-axis: deciles 1 to 10, with '1 (=poorest)' and '10 (=richest)' labelled. Approximate bar values (no values printed): decile 1 ~3.27, 2 ~3.12, 3 ~3.10, 4 ~3.07, 5 ~3.02, 6 ~3.00, 7 ~2.95, 8 ~2.89, 9 ~2.84, 10 ~2.92. The bars are all teal. The average number of income sources is slightly higher in the poorest deciles and declines gradually toward the richest, with a small uptick at decile 10.\\n\\nPanel B: 'Distribution of the number of income sources'. Vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 40 in steps of 5. X-axis: number of income sources, 0 to 6. Approximate bar values (no values printed): 0 ~0, 1 ~3.3, 2 ~27, 3 ~39, 4 ~21, 5 ~6.5, 6 ~0.6. The bars are teal. The distribution peaks at 3 income sources, with most households reporting 2 to 4 sources and very few reporting 0 or 5 or more.\"}]}",
+ "usage": {
+  "prompt_tokens": 3248,
+  "completion_tokens": 1322,
+  "cost_usd": 0.0009858,
+  "latency_s": 5.883
+ },
+ "elements": [
+  {
+   "label": "Figure 2.11",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two-panel chart on the share of Vietnamese households receiving income from multiple sources, 2020. Source note below: World Bank staff calculations using the Vietnam Household Living Standards Survey, 2020.\n\nPanel A: 'Average number of income sources, by decile'. Vertical bar chart. Y-axis: 'Average number of income sources', scale 0.0 to 3.5 in steps of 0.5. X-axis: deciles 1 to 10, with '1 (=poorest)' and '10 (=richest)' labelled. Approximate bar values (no values printed): decile 1 ~3.27, 2 ~3.12, 3 ~3.10, 4 ~3.07, 5 ~3.02, 6 ~3.00, 7 ~2.95, 8 ~2.89, 9 ~2.84, 10 ~2.92. The bars are all teal. The average number of income sources is slightly higher in the poorest deciles and declines gradually toward the richest, with a small uptick at decile 10.\n\nPanel B: 'Distribution of the number of income sources'. Vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 40 in steps of 5. X-axis: number of income sources, 0 to 6. Approximate bar values (no values printed): 0 ~0, 1 ~3.3, 2 ~27, 3 ~39, 4 ~21, 5 ~6.5, 6 ~0.6. The bars are teal. The distribution peaks at 3 income sources, with most households reporting 2 to 4 sources and very few reporting 0 or 5 or more."
+  }
+ ]
+}

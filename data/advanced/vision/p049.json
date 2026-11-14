@@ -1,0 +1,30 @@
+{
+ "page": 49,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 1.3",
+  "Figure 1.4"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [\n{\"label\": \"Figure 1.4\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two-panel line chart illustrating poverty and the poverty gap (LMIC poverty line). Panel A, 'Illustration of poverty': y-axis 'Household consumption per capita (2011PPP, per day)' ranging 0 to 80 (gridlines at 0, 10, 20, ... 80); x-axis 'Percent of the population (%)'. Series: 2010 (teal line), 2020 (orange line), and LMIC PL ($3.20/day 2011PPP) (grey horizontal line at about 3). Both consumption curves start near 0-2, rise slowly to about 5-8 around the 50th percentile range, then climb steeply at the top; the 2020 curve reaches about 72 at the far right while the 2010 curve reaches about 58. The 2010 curve lies below the 2020 curve across most of the distribution, and both rise sharply near 100 percent. Panel B, 'Illustration of the poverty gap': same y-axis (0 to 80) and x-axis 'Percent of the population (%)'. Series: 2020 (orange line) and LMIC PL ($3.20/day 2011PPP) (grey horizontal line at about 3). The 2020 curve rises from near 2 to about 72 at the far right, with a small red shaded area between the curve and the poverty line at the left representing the poverty gap. Notes: In Panel B, the red shaded areas depict the poverty gap. Source: World Bank staff calculations using VHLSS.\"},\n{\"label\": \"Table 1.3\", \"kind\": \"table\", \"bbox\": null, \"description\": \"A. AVERAGE POVERTY GAP (SHARE OF THE POVERTY LINE, FGT(1))\\n\\n| | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\\n|---|---|---|---|---|---|---|\\n| IPL ($1.90/day 2011PPP) | 0.008 | 0.005 | 0.005 | 0.004 | 0.003 | 0.002 |\\n| LMIC – PL ($3.20/day 2011PPP) | 0.046 | 0.032 | 0.029 | 0.021 | 0.018 | 0.012 |\\n| UMIC – PL ($5.50/day 2011PPP) | 0.161 | 0.131 | 0.111 | 0.084 | 0.069 | 0.055 |\\n\\nB. ANNUAL TOTAL GAP (2020 VND, TRILLION)\\n\\n| | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\\n|---|---|---|---|---|---|---|\\n| IPL ($1.90/day 2011PPP) | 5.38 | 3.02 | 3.64 | 2.48 | 2.43 | 1.44 |\\n| LMIC – PL ($3.20/day 2011PPP) | 49.98 | 36.13 | 33.88 | 24.59 | 22.38 | 15.02 |\\n| UMIC – PL ($5.50/day 2011PPP) | 302.13 | 254.08 | 221.65 | 169.84 | 146.29 | 116.91 |\\n\\nNotes: Currency conversions use 2011PPPs, not exchange rates. Source: World Bank staff calculations using VHLSS.\"}\n]}",
+ "usage": {
+  "prompt_tokens": 3264,
+  "completion_tokens": 1150,
+  "cost_usd": 0.0009014000000000001,
+  "latency_s": 4.588
+ },
+ "elements": [
+  {
+   "label": "Figure 1.4",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two-panel line chart illustrating poverty and the poverty gap (LMIC poverty line). Panel A, 'Illustration of poverty': y-axis 'Household consumption per capita (2011PPP, per day)' ranging 0 to 80 (gridlines at 0, 10, 20, ... 80); x-axis 'Percent of the population (%)'. Series: 2010 (teal line), 2020 (orange line), and LMIC PL ($3.20/day 2011PPP) (grey horizontal line at about 3). Both consumption curves start near 0-2, rise slowly to about 5-8 around the 50th percentile range, then climb steeply at the top; the 2020 curve reaches about 72 at the far right while the 2010 curve reaches about 58. The 2010 curve lies below the 2020 curve across most of the distribution, and both rise sharply near 100 percent. Panel B, 'Illustration of the poverty gap': same y-axis (0 to 80) and x-axis 'Percent of the population (%)'. Series: 2020 (orange line) and LMIC PL ($3.20/day 2011PPP) (grey horizontal line at about 3). The 2020 curve rises from near 2 to about 72 at the far right, with a small red shaded area between the curve and the poverty line at the left representing the poverty gap. Notes: In Panel B, the red shaded areas depict the poverty gap. Source: World Bank staff calculations using VHLSS."
+  },
+  {
+   "label": "Table 1.3",
+   "kind": "table",
+   "bbox": null,
+   "description": "A. AVERAGE POVERTY GAP (SHARE OF THE POVERTY LINE, FGT(1))\n\n| | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\n|---|---|---|---|---|---|---|\n| IPL ($1.90/day 2011PPP) | 0.008 | 0.005 | 0.005 | 0.004 | 0.003 | 0.002 |\n| LMIC – PL ($3.20/day 2011PPP) | 0.046 | 0.032 | 0.029 | 0.021 | 0.018 | 0.012 |\n| UMIC – PL ($5.50/day 2011PPP) | 0.161 | 0.131 | 0.111 | 0.084 | 0.069 | 0.055 |\n\nB. ANNUAL TOTAL GAP (2020 VND, TRILLION)\n\n| | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 |\n|---|---|---|---|---|---|---|\n| IPL ($1.90/day 2011PPP) | 5.38 | 3.02 | 3.64 | 2.48 | 2.43 | 1.44 |\n| LMIC – PL ($3.20/day 2011PPP) | 49.98 | 36.13 | 33.88 | 24.59 | 22.38 | 15.02 |\n| UMIC – PL ($5.50/day 2011PPP) | 302.13 | 254.08 | 221.65 | 169.84 | 146.29 | 116.91 |\n\nNotes: Currency conversions use 2011PPPs, not exchange rates. Source: World Bank staff calculations using VHLSS."
+  }
+ ]
+}

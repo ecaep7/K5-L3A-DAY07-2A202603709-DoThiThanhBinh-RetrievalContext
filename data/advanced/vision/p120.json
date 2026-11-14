@@ -1,0 +1,30 @@
+{
+ "page": 120,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 3.1",
+  "Figure 3.22"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 3.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | KINH | EM | DIFF. |\\n|---|---|---|---|\\n| **Panel A: Activity** | | | |\\n| Crops | 0.90 | 0.97 | -0.07*** |\\n| Livestock | 0.64 | 0.82 | -0.19*** |\\n| Ag. services | 0.02 | 0.01 | 0.01*** |\\n| Forestry | 0.11 | 0.69 | -0.60*** |\\n| Fisheries | 0.21 | 0.28 | -0.05*** |\\n| Observations | 4488 | 1482 | |\\n| **Panel B: Crop** | | | |\\n| Rice | 0.62 | 0.80 | -0.21*** |\\n| Staples | 0.56 | 0.82 | -0.30*** |\\n| Industrial crops | 0.34 | 0.37 | -0.01 |\\n| Fruits | 0.48 | 0.58 | -0.09*** |\\n| By-products | 0.53 | 0.68 | -0.17*** |\\n| Observations | 4003 | 1430 | |\\n\\nNote: 'Diff.' is the difference in means between the two groups with significance * p < 0.10, ** p < 0.05, *** p < 0.01 based on t-tests. Source: World Bank staff calculations using VHLSS 2018.\"}, {\"label\": \"Figure 3.22\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Chart type: vertical grouped bars. Y-axis: 'Share of households (%)', scale 0 to 80 in steps of 10. X-axis categories, each split into Ethnic minority and Kinh: Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples. Legend: 2010 (teal), 2020 (orange). Values are not printed, so approximate readings:\\n- Agricultural services: Ethnic minority 2010 ~1, 2020 ~1; Kinh 2010 ~1.5, 2020 ~0.5\\n- Aquaculture: Ethnic minority 2010 ~31, 2020 ~19; Kinh 2010 ~16, 2020 ~8\\n- By-products: Ethnic minority 2010 ~60, 2020 ~48; Kinh 2010 ~38, 2020 ~17\\n- Forestry: Ethnic minority 2010 ~69, 2020 ~56; Kinh 2010 ~10, 2020 ~3\\n- Fruit: Ethnic minority 2010 ~50, 2020 ~34; Kinh 2010 ~27, 2020 ~15\\n- Industrial crops: Ethnic minority 2010 ~37, 2020 ~21; Kinh 2010 ~20, 2020 ~11\\n- Livestock: Ethnic minority 2010 ~72, 2020 ~66; Kinh 2010 ~40, 2020 ~27\\n- Rice: Ethnic minority 2010 ~72, 2020 ~62; Kinh 2010 ~39, 2020 ~22\\n- Staples: Ethnic minority 2010 ~71, 2020 ~58; Kinh 2010 ~31, 2020 ~16\\n\\nFor nearly every activity, ethnic minority households have a higher share than Kinh households in both years, with the largest gaps in forestry, livestock, rice and staples, and shares generally falling from 2010 to 2020.\"}]}",
+ "usage": {
+  "prompt_tokens": 3282,
+  "completion_tokens": 1989,
+  "cost_usd": 0.0013227,
+  "latency_s": 7.261
+ },
+ "elements": [
+  {
+   "label": "Table 3.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | KINH | EM | DIFF. |\n|---|---|---|---|\n| **Panel A: Activity** | | | |\n| Crops | 0.90 | 0.97 | -0.07*** |\n| Livestock | 0.64 | 0.82 | -0.19*** |\n| Ag. services | 0.02 | 0.01 | 0.01*** |\n| Forestry | 0.11 | 0.69 | -0.60*** |\n| Fisheries | 0.21 | 0.28 | -0.05*** |\n| Observations | 4488 | 1482 | |\n| **Panel B: Crop** | | | |\n| Rice | 0.62 | 0.80 | -0.21*** |\n| Staples | 0.56 | 0.82 | -0.30*** |\n| Industrial crops | 0.34 | 0.37 | -0.01 |\n| Fruits | 0.48 | 0.58 | -0.09*** |\n| By-products | 0.53 | 0.68 | -0.17*** |\n| Observations | 4003 | 1430 | |\n\nNote: 'Diff.' is the difference in means between the two groups with significance * p < 0.10, ** p < 0.05, *** p < 0.01 based on t-tests. Source: World Bank staff calculations using VHLSS 2018."
+  },
+  {
+   "label": "Figure 3.22",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Chart type: vertical grouped bars. Y-axis: 'Share of households (%)', scale 0 to 80 in steps of 10. X-axis categories, each split into Ethnic minority and Kinh: Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples. Legend: 2010 (teal), 2020 (orange). Values are not printed, so approximate readings:\n- Agricultural services: Ethnic minority 2010 ~1, 2020 ~1; Kinh 2010 ~1.5, 2020 ~0.5\n- Aquaculture: Ethnic minority 2010 ~31, 2020 ~19; Kinh 2010 ~16, 2020 ~8\n- By-products: Ethnic minority 2010 ~60, 2020 ~48; Kinh 2010 ~38, 2020 ~17\n- Forestry: Ethnic minority 2010 ~69, 2020 ~56; Kinh 2010 ~10, 2020 ~3\n- Fruit: Ethnic minority 2010 ~50, 2020 ~34; Kinh 2010 ~27, 2020 ~15\n- Industrial crops: Ethnic minority 2010 ~37, 2020 ~21; Kinh 2010 ~20, 2020 ~11\n- Livestock: Ethnic minority 2010 ~72, 2020 ~66; Kinh 2010 ~40, 2020 ~27\n- Rice: Ethnic minority 2010 ~72, 2020 ~62; Kinh 2010 ~39, 2020 ~22\n- Staples: Ethnic minority 2010 ~71, 2020 ~58; Kinh 2010 ~31, 2020 ~16\n\nFor nearly every activity, ethnic minority households have a higher share than Kinh households in both years, with the largest gaps in forestry, livestock, rice and staples, and shares generally falling from 2010 to 2020."
+  }
+ ]
+}

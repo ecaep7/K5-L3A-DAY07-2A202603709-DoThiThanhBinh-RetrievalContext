@@ -1,0 +1,23 @@
+{
+ "page": 143,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.14"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.14\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart with dots. Y-axis: 'Dissimilarity Index', scale 0 to 80 in steps of 10. Series: 2010 (teal bars) and 2020 (orange dots). Values are not printed, so the readings below are approximate. Categories, grouped by bracket labels, with ~2010 bar / ~2020 dot: Assets: Access to home computer ~57 / ~42; Access to electricity ~2 / ~1; Access to home internet ~66 / ~17. Health: Access to mobile ~13 / ~1; Access to flush toilet ~21 / ~6; Access to safe water ~6 / ~5; Access to health insurance ~28 / ~4. Housing: Adequate housing ~7 / ~4; Housing quality ~9 / ~5. Bundled opportunities (total of 11): 8 out of 11 ~28 / ~6; 9 out of 11 ~50 / ~13; 10 out of 11 ~69 / ~24. Enrollment: Enrolled in school ~2 / ~2. On-time education completion: Some primary ~1 / ~1; Primary ~2 / ~1; Lower secondary ~9 / ~6; Upper secondary ~20 / ~15. The 2010 dissimilarity is higher than 2020 for nearly every indicator, and the largest gaps are in home internet, home computer, and bundled opportunities.\"}]}",
+ "usage": {
+  "prompt_tokens": 3249,
+  "completion_tokens": 1215,
+  "cost_usd": 0.0009324000000000001,
+  "latency_s": 5.061
+ },
+ "elements": [
+  {
+   "label": "Figure 4.14",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart with dots. Y-axis: 'Dissimilarity Index', scale 0 to 80 in steps of 10. Series: 2010 (teal bars) and 2020 (orange dots). Values are not printed, so the readings below are approximate. Categories, grouped by bracket labels, with ~2010 bar / ~2020 dot: Assets: Access to home computer ~57 / ~42; Access to electricity ~2 / ~1; Access to home internet ~66 / ~17. Health: Access to mobile ~13 / ~1; Access to flush toilet ~21 / ~6; Access to safe water ~6 / ~5; Access to health insurance ~28 / ~4. Housing: Adequate housing ~7 / ~4; Housing quality ~9 / ~5. Bundled opportunities (total of 11): 8 out of 11 ~28 / ~6; 9 out of 11 ~50 / ~13; 10 out of 11 ~69 / ~24. Enrollment: Enrolled in school ~2 / ~2. On-time education completion: Some primary ~1 / ~1; Primary ~2 / ~1; Lower secondary ~9 / ~6; Upper secondary ~20 / ~15. The 2010 dissimilarity is higher than 2020 for nearly every indicator, and the largest gaps are in home internet, home computer, and bundled opportunities."
+  }
+ ]
+}

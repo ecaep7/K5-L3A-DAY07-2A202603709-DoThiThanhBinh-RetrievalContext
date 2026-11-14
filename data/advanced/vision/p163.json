@@ -1,0 +1,30 @@
+{
+ "page": 163,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.14",
+  "Figure 5.13"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": \"Figure 5.13\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart titled 'Employment by occupation skill category (share)'. Y-axis: 'Share of employment (%)', 0 to 60. X-axis: years 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, Prel. 2020. Series: High-skill (teal), Medium-skill (orange), Low-skill (grey). Values are not printed; approximate readings: High-skill ~9, ~9.5, ~9.5, ~9.5, ~9.8, ~10, ~10.5, ~10.5, ~11, ~11, ~11.5, ~11.8. Medium-skill ~53, ~53, ~51.5, ~51, ~50.5, ~51, ~51, ~52.5, ~52.5, ~54, ~54.5, ~55.5. Low-skill ~38, ~37.5, ~39, ~39.5, ~39.8, ~39, ~38.5, ~36.5, ~36, ~34, ~33, ~32. Note: Occupations are grouped into broad skill categories defined by the ILO. Source: GSO and World Bank calculations. Medium-skill employment is the largest share throughout, low-skill share declines over the period, and high-skill share rises slightly.\"},\n{\"label\": \"Figure 5.14\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart titled 'Share of workers by skill category and education in 2010-2020'. Y-axis: 'Share of workers (%)', 0 to 100. Bars grouped by education level, each with years 2010, 2015, 2020. Legend: High-skill (teal, bottom), Medium-skill (orange, middle), Low-skill (grey, top). Values are not printed; approximate readings (high / medium top / low remainder): Primary: 2010 ~0.5 / ~46 / ~53.5; 2015 ~0.5 / ~48.5 / ~51.5; 2020 ~0.5 / ~50 / ~50. Lower secondary: 2010 ~1 / ~52 / ~48; 2015 ~1 / ~56 / ~44; 2020 ~1 / ~54.5 / ~45.5. Upper-secondary: 2010 ~5 / ~70 / ~30; 2015 ~12 / ~76 / ~24; 2020 ~9.5 / ~77 / ~23. Vocational: 2010 ~45.5 / ~90 / ~10; 2015 ~10.5 / ~90 / ~10; 2020 ~0.5 / ~92.5 / ~7.5. Tertiary: 2010 ~86.5 / ~98.5 / ~1.5; 2015 ~76 / ~96 / ~4; 2020 ~74 / ~98 / ~2. Source: World Bank calculations using LFS. Pattern: high-skill share rises with education level, and the low-skill share falls as education rises, with tertiary workers mostly high-skill.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3265,
+  "completion_tokens": 1863,
+  "cost_usd": 0.001258,
+  "latency_s": 6.808
+ },
+ "elements": [
+  {
+   "label": "Figure 5.13",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart titled 'Employment by occupation skill category (share)'. Y-axis: 'Share of employment (%)', 0 to 60. X-axis: years 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, Prel. 2020. Series: High-skill (teal), Medium-skill (orange), Low-skill (grey). Values are not printed; approximate readings: High-skill ~9, ~9.5, ~9.5, ~9.5, ~9.8, ~10, ~10.5, ~10.5, ~11, ~11, ~11.5, ~11.8. Medium-skill ~53, ~53, ~51.5, ~51, ~50.5, ~51, ~51, ~52.5, ~52.5, ~54, ~54.5, ~55.5. Low-skill ~38, ~37.5, ~39, ~39.5, ~39.8, ~39, ~38.5, ~36.5, ~36, ~34, ~33, ~32. Note: Occupations are grouped into broad skill categories defined by the ILO. Source: GSO and World Bank calculations. Medium-skill employment is the largest share throughout, low-skill share declines over the period, and high-skill share rises slightly."
+  },
+  {
+   "label": "Figure 5.14",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart titled 'Share of workers by skill category and education in 2010-2020'. Y-axis: 'Share of workers (%)', 0 to 100. Bars grouped by education level, each with years 2010, 2015, 2020. Legend: High-skill (teal, bottom), Medium-skill (orange, middle), Low-skill (grey, top). Values are not printed; approximate readings (high / medium top / low remainder): Primary: 2010 ~0.5 / ~46 / ~53.5; 2015 ~0.5 / ~48.5 / ~51.5; 2020 ~0.5 / ~50 / ~50. Lower secondary: 2010 ~1 / ~52 / ~48; 2015 ~1 / ~56 / ~44; 2020 ~1 / ~54.5 / ~45.5. Upper-secondary: 2010 ~5 / ~70 / ~30; 2015 ~12 / ~76 / ~24; 2020 ~9.5 / ~77 / ~23. Vocational: 2010 ~45.5 / ~90 / ~10; 2015 ~10.5 / ~90 / ~10; 2020 ~0.5 / ~92.5 / ~7.5. Tertiary: 2010 ~86.5 / ~98.5 / ~1.5; 2015 ~76 / ~96 / ~4; 2020 ~74 / ~98 / ~2. Source: World Bank calculations using LFS. Pattern: high-skill share rises with education level, and the low-skill share falls as education rises, with tertiary workers mostly high-skill."
+  }
+ ]
+}

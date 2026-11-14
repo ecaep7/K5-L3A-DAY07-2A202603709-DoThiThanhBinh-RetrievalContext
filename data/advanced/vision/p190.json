@@ -1,0 +1,31 @@
+{
+ "page": 190,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.6.3.1",
+  "Figure B.6.3.1",
+  "Figure 6.12"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 6.12: Social assistance benefit levels in Vietnam compared to other countries\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Vertical bar chart. Y-axis: \\\"Benefits as a share of welfare among the lowest quintile\\\", scale 0 to 25 in steps of 5. X-axis categories: LIC, LMIC, UMIC, HIC, World, Vietnam. No values are printed on the bars; approximate readings: LIC ~13, LMIC ~18, UMIC ~22, HIC ~18, World ~19, Vietnam ~6. Source note: WB ASPIRE 2018; Dutta and Sen (2018). Excludes health waivers. Vietnam's bar is far lower than all comparator groups, while the other groups cluster between about 13 and 22.\"}, {\"label\": \"Figure B.6.3.1: Key Elements of Vietnam's Social Protection System\", \"kind\": \"diagram\", \"bbox\": null, \"description\": \"Organizational diagram. Top box: \\\"Resolution 15 on Social Policies for 2012-2020\\\", connected to a node labeled \\\"Social Protection\\\". Four branches below, each with vertical sub-boxes:\\n1. Social Assistance (teal): Regular Allowances; Social Care Centers and Care Services; Emergency Assistance.\\n2. Social Insurance (green): Unemployment Insurance; Compulsory and voluntary Insurance; Other Programs (Supplement SI).\\n3. Employment, Incomes and Poverty Reduction (orange): Public Works Training; Vocational Training; Other Productive Employment Programs.\\n4. Minimum Basic Social Services (grey): Housing; Health Insurance and Health; Education; Clean Water; Information Access.\\nConnectors run from the Social Protection node to each of the four branch headers.\"}]}",
+ "usage": {
+  "prompt_tokens": 3676,
+  "completion_tokens": 1057,
+  "cost_usd": 0.0008961,
+  "latency_s": 4.761
+ },
+ "elements": [
+  {
+   "label": "Figure 6.12: Social assistance benefit levels in Vietnam compared to other countries",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Vertical bar chart. Y-axis: \"Benefits as a share of welfare among the lowest quintile\", scale 0 to 25 in steps of 5. X-axis categories: LIC, LMIC, UMIC, HIC, World, Vietnam. No values are printed on the bars; approximate readings: LIC ~13, LMIC ~18, UMIC ~22, HIC ~18, World ~19, Vietnam ~6. Source note: WB ASPIRE 2018; Dutta and Sen (2018). Excludes health waivers. Vietnam's bar is far lower than all comparator groups, while the other groups cluster between about 13 and 22."
+  },
+  {
+   "label": "Figure B.6.3.1: Key Elements of Vietnam's Social Protection System",
+   "kind": "diagram",
+   "bbox": null,
+   "description": "Organizational diagram. Top box: \"Resolution 15 on Social Policies for 2012-2020\", connected to a node labeled \"Social Protection\". Four branches below, each with vertical sub-boxes:\n1. Social Assistance (teal): Regular Allowances; Social Care Centers and Care Services; Emergency Assistance.\n2. Social Insurance (green): Unemployment Insurance; Compulsory and voluntary Insurance; Other Programs (Supplement SI).\n3. Employment, Incomes and Poverty Reduction (orange): Public Works Training; Vocational Training; Other Productive Employment Programs.\n4. Minimum Basic Social Services (grey): Housing; Health Insurance and Health; Education; Clean Water; Information Access.\nConnectors run from the Social Protection node to each of the four branch headers."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 89,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.16"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 2.16\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two line charts (panels) showing wage trends in 2020 by household quintile, Q1 (Bottom 20) to Q5 (Top 20). Legend series: Agriculture (teal), Manufacturing (orange), Services (grey), High-skill (green), Medium-skill (cyan), Contract (1st) (purple), Low-skill (yellow). Note: Annual nominal household wage income. Source: World Bank staff calculations using VHLSS 2020.\\n\\nLeft panel: Y-axis 'Share of households (%)', scale 0-60 (gridlines at 0, 10, 20, 30, 40, 50, 60). Approximate readings (Q1, Q2, Q3, Q4, Q5):\\n- Agriculture: ~10, ~5, ~3, ~2, ~0.5\\n- Manufacturing: ~41, ~48, ~47, ~39, ~25\\n- Services: ~16, ~24, ~30, ~37, ~46\\n- High-skill: ~3, ~6, ~11, ~19, ~33\\n- Medium-skill: ~33, ~48, ~50, ~46, ~31\\n- Contract (1st): ~17, ~35, ~44, ~47, ~52\\n- Low-skill: ~22, ~17, ~15, ~13, ~7\\n\\nRight panel: Y-axis 'Annual income (millions)', scale 0-250 (gridlines at 0, 50, 100, 150, 200, 250). Approximate readings (Q1, Q2, Q3, Q4, Q5):\\n- Agriculture: ~44, ~59, ~65, ~64, ~92\\n- Manufacturing: ~72, ~108, ~114, ~124, ~158\\n- Services: ~50, ~75, ~90, ~115, ~170\\n- High-skill: ~65, ~93, ~105, ~142, ~228\\n- Medium-skill: ~75, ~110, ~115, ~120, ~126\\n- Contract (1st): ~85, ~112, ~120, ~142, ~200\\n- Low-skill: ~52, ~68, ~70, ~70, ~80\\n\\nPattern: In the left panel, the share of agriculture and low-skill households falls with quintile while high-skill and services shares rise; in the right panel, incomes rise with quintile for all series, with high-skill and contract jobs showing the steepest increases at the top quintile.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3239,
+  "completion_tokens": 1673,
+  "cost_usd": 0.0011604,
+  "latency_s": 6.329
+ },
+ "elements": [
+  {
+   "label": "Figure 2.16",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two line charts (panels) showing wage trends in 2020 by household quintile, Q1 (Bottom 20) to Q5 (Top 20). Legend series: Agriculture (teal), Manufacturing (orange), Services (grey), High-skill (green), Medium-skill (cyan), Contract (1st) (purple), Low-skill (yellow). Note: Annual nominal household wage income. Source: World Bank staff calculations using VHLSS 2020.\n\nLeft panel: Y-axis 'Share of households (%)', scale 0-60 (gridlines at 0, 10, 20, 30, 40, 50, 60). Approximate readings (Q1, Q2, Q3, Q4, Q5):\n- Agriculture: ~10, ~5, ~3, ~2, ~0.5\n- Manufacturing: ~41, ~48, ~47, ~39, ~25\n- Services: ~16, ~24, ~30, ~37, ~46\n- High-skill: ~3, ~6, ~11, ~19, ~33\n- Medium-skill: ~33, ~48, ~50, ~46, ~31\n- Contract (1st): ~17, ~35, ~44, ~47, ~52\n- Low-skill: ~22, ~17, ~15, ~13, ~7\n\nRight panel: Y-axis 'Annual income (millions)', scale 0-250 (gridlines at 0, 50, 100, 150, 200, 250). Approximate readings (Q1, Q2, Q3, Q4, Q5):\n- Agriculture: ~44, ~59, ~65, ~64, ~92\n- Manufacturing: ~72, ~108, ~114, ~124, ~158\n- Services: ~50, ~75, ~90, ~115, ~170\n- High-skill: ~65, ~93, ~105, ~142, ~228\n- Medium-skill: ~75, ~110, ~115, ~120, ~126\n- Contract (1st): ~85, ~112, ~120, ~142, ~200\n- Low-skill: ~52, ~68, ~70, ~70, ~80\n\nPattern: In the left panel, the share of agriculture and low-skill households falls with quintile while high-skill and services shares rise; in the right panel, incomes rise with quintile for all series, with high-skill and contract jobs showing the steepest increases at the top quintile."
+  }
+ ]
+}

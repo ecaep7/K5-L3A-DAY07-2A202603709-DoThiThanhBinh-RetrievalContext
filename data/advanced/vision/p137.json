@@ -1,0 +1,30 @@
+{
+ "page": 137,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.8",
+  "Table 4.2"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 4.2. Human Capital Index disaggregated by gender\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| HCI component | Indicator | MALE 2010 | MALE 2020 | FEMALE 2010 | FEMALE 2020 |\\n|---|---|---|---|---|---|\\n| HCI Component 1: Survival | Probability of survival to age 5 | 0.973 | 0.976 | 0.981 | 0.983 |\\n| HCI Component 2: School | Expected years of schooling | 11.7 | 12.5 | 11.9 | 13.2 |\\n| HCI Component 2: School | Harmonized test scores | 530 | 514 | 536 | 524 |\\n| HCI Component 3: Health | Survival rate from age 15-60 | 0.808 | 0.813 | 0.92 | 0.924 |\\n| HCI Component 3: Health | Fraction of children under 5 not stunted | 0.763 | 0.752 | 0.784 | 0.773 |\\n| | Human Capital Index | 0.63 | 0.65 | 0.68 | 0.73 |\\n\\nNote: Maximum harmonized test score is 625. Source: World Bank HCI.\"}, {\"label\": \"Figure 4.8. School Attendance by age and gender, 2020\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: School attendance rate (%), scale 0 to 100 in steps of 20. X-axis categories: 10–14, 15–19, 20–24. Legend: Female (teal), Male (orange). No values are printed on the bars; approximate readings: 10–14: Female ~97, Male ~96; 15–19: Female ~74, Male ~70; 20–24: Female ~26, Male ~27. Attendance falls sharply with age for both genders, and the gender gap is small, with females slightly ahead at ages 10–14 and 15–19 and roughly equal at ages 20–24. Source: World Bank staff calculations using VHLSS 2020.\"}]}",
+ "usage": {
+  "prompt_tokens": 3262,
+  "completion_tokens": 889,
+  "cost_usd": 0.0007707,
+  "latency_s": 4.087
+ },
+ "elements": [
+  {
+   "label": "Table 4.2. Human Capital Index disaggregated by gender",
+   "kind": "table",
+   "bbox": null,
+   "description": "| HCI component | Indicator | MALE 2010 | MALE 2020 | FEMALE 2010 | FEMALE 2020 |\n|---|---|---|---|---|---|\n| HCI Component 1: Survival | Probability of survival to age 5 | 0.973 | 0.976 | 0.981 | 0.983 |\n| HCI Component 2: School | Expected years of schooling | 11.7 | 12.5 | 11.9 | 13.2 |\n| HCI Component 2: School | Harmonized test scores | 530 | 514 | 536 | 524 |\n| HCI Component 3: Health | Survival rate from age 15-60 | 0.808 | 0.813 | 0.92 | 0.924 |\n| HCI Component 3: Health | Fraction of children under 5 not stunted | 0.763 | 0.752 | 0.784 | 0.773 |\n| | Human Capital Index | 0.63 | 0.65 | 0.68 | 0.73 |\n\nNote: Maximum harmonized test score is 625. Source: World Bank HCI."
+  },
+  {
+   "label": "Figure 4.8. School Attendance by age and gender, 2020",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: School attendance rate (%), scale 0 to 100 in steps of 20. X-axis categories: 10–14, 15–19, 20–24. Legend: Female (teal), Male (orange). No values are printed on the bars; approximate readings: 10–14: Female ~97, Male ~96; 15–19: Female ~74, Male ~70; 20–24: Female ~26, Male ~27. Attendance falls sharply with age for both genders, and the gender gap is small, with females slightly ahead at ages 10–14 and 15–19 and roughly equal at ages 20–24. Source: World Bank staff calculations using VHLSS 2020."
+  }
+ ]
+}

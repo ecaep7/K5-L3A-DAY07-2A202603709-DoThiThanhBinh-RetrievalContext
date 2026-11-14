@@ -1,0 +1,23 @@
+{
+ "page": 153,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table A.4.2.2"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table A.4.2.2: Vietnam’s General Education System\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| LEVEL | GRADES | INTENDED AGE RANGE |\\n|---|---|---|\\n| Primary | Grades 1–5 | 6–11 |\\n| Secondary | Grades 6–9 (Lower Secondary) | 11–15 |\\n| (blank) | Grades 10–12 (Upper Secondary) | 15–18 |\"}]}",
+ "usage": {
+  "prompt_tokens": 3237,
+  "completion_tokens": 177,
+  "cost_usd": 0.00041220000000000004,
+  "latency_s": 2.172
+ },
+ "elements": [
+  {
+   "label": "Table A.4.2.2: Vietnam’s General Education System",
+   "kind": "table",
+   "bbox": null,
+   "description": "| LEVEL | GRADES | INTENDED AGE RANGE |\n|---|---|---|\n| Primary | Grades 1–5 | 6–11 |\n| Secondary | Grades 6–9 (Lower Secondary) | 11–15 |\n| (blank) | Grades 10–12 (Upper Secondary) | 15–18 |"
+  }
+ ]
+}

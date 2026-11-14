@@ -1,0 +1,30 @@
+{
+ "page": 52,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.7",
+  "Table 1.4"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 1.4\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| YEAR OF ESTIMATE | VHLSS | CENSUS | POVERTY LINES | NUMBER OF DISTRICTS IN MAP |\\n|---|---|---|---|---|\\n| 2009 | 2010 | 2009 Census | • GSO-WB Poverty Line • $1.25/day 2005PPP | 685 |\\n| 2015 | 2014 | 2015 Inter-census | • GSO-WB Poverty Line • $1.90/day 2011PPP • $3.10/day 2011PPP | 699 |\\n| 2019 | 2020 | 2019 Census | • GSO-WB Poverty Line • $3.20/day 2011PPP | 712 |\\n\\nNote: An interim LMIC poverty line valued at $3.10/day was used before a finalized line was valued at $3.20/day (Joliffe and Prydz, 2016).\\nSource: World Bank (2012), World Bank (2016), and Nguyen and Yang (2022)\"}, {\"label\": \"Figure 1.7\", \"kind\": \"map\", \"bbox\": null, \"description\": \"Three maps of Vietnam showing district-level poverty rates for 2009, 2015 and 2019, shaded in a single-hue green scale for poverty rate (%) from 0.0 (white/very light) to 100.00 (dark green). In 2009, the highest poverty (darkest shading) is concentrated in the Northwest and northern mountainous districts and parts of the North Central Coast and Central Highlands, with the Mekong Delta and southern areas lighter. In 2015, shading is lighter overall than 2009, with dark pockets remaining in the northwest and north-central mountain districts and some Central Highlands areas. In 2019, most of the country is very light, with remaining darker shading mainly in the northwest mountain districts and parts of the North Central Coast and Central Highlands; the Northeast and Red River Delta and Mekong Delta are lightest. Note: Poverty rates based on the GSO-WB poverty line. The consumption aggregates are comparable across all years. Source: World Bank staff and GSO calculations using Census and VHLSS.\"}]}",
+ "usage": {
+  "prompt_tokens": 3258,
+  "completion_tokens": 757,
+  "cost_usd": 0.0007042999999999999,
+  "latency_s": 4.053
+ },
+ "elements": [
+  {
+   "label": "Table 1.4",
+   "kind": "table",
+   "bbox": null,
+   "description": "| YEAR OF ESTIMATE | VHLSS | CENSUS | POVERTY LINES | NUMBER OF DISTRICTS IN MAP |\n|---|---|---|---|---|\n| 2009 | 2010 | 2009 Census | • GSO-WB Poverty Line • $1.25/day 2005PPP | 685 |\n| 2015 | 2014 | 2015 Inter-census | • GSO-WB Poverty Line • $1.90/day 2011PPP • $3.10/day 2011PPP | 699 |\n| 2019 | 2020 | 2019 Census | • GSO-WB Poverty Line • $3.20/day 2011PPP | 712 |\n\nNote: An interim LMIC poverty line valued at $3.10/day was used before a finalized line was valued at $3.20/day (Joliffe and Prydz, 2016).\nSource: World Bank (2012), World Bank (2016), and Nguyen and Yang (2022)"
+  },
+  {
+   "label": "Figure 1.7",
+   "kind": "map",
+   "bbox": null,
+   "description": "Three maps of Vietnam showing district-level poverty rates for 2009, 2015 and 2019, shaded in a single-hue green scale for poverty rate (%) from 0.0 (white/very light) to 100.00 (dark green). In 2009, the highest poverty (darkest shading) is concentrated in the Northwest and northern mountainous districts and parts of the North Central Coast and Central Highlands, with the Mekong Delta and southern areas lighter. In 2015, shading is lighter overall than 2009, with dark pockets remaining in the northwest and north-central mountain districts and some Central Highlands areas. In 2019, most of the country is very light, with remaining darker shading mainly in the northwest mountain districts and parts of the North Central Coast and Central Highlands; the Northeast and Red River Delta and Mekong Delta are lightest. Note: Poverty rates based on the GSO-WB poverty line. The consumption aggregates are comparable across all years. Source: World Bank staff and GSO calculations using Census and VHLSS."
+  }
+ ]
+}

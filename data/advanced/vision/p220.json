@@ -1,0 +1,23 @@
+{
+ "page": 220,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.8.2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure B.8.2.1\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart titled 'Statistical Performance Index scores, 2019'. Y-axis: 'Score', scale 0 to 100 with gridlines at 20, 40, 60, 80 and 100. X-axis categories: 'Pillar 1 - Data Use', 'Pillar 2 - Data Services', 'Pillar 3 - Data Products', 'Pillar 4 - Data Sources', 'Pillar 5 - Data Infrastructure', 'SPI Overall score'. Legend: 'Lower middle income' (teal), 'East Asia and Pacific' (orange), 'Vietnam' (grey). No values are printed on the bars. Approximate readings: Pillar 1 - Data Use: Lower middle income ~79, East Asia and Pacific ~70, Vietnam ~100. Pillar 2 - Data Services: Lower middle income ~63, East Asia and Pacific ~67, Vietnam ~64. Pillar 3 - Data Products: Lower middle income ~61, East Asia and Pacific ~49, Vietnam ~55. Pillar 4 - Data Sources: Lower middle income ~41, East Asia and Pacific ~47, Vietnam ~76. Pillar 5 - Data Infrastructure: Lower middle income ~40, East Asia and Pacific ~45, Vietnam ~35. SPI Overall score: Lower middle income ~57, East Asia and Pacific ~60, Vietnam ~66. Vietnam is highest on Pillars 1 and 4 and the overall score, and lowest on Pillar 5, where it trails both comparison groups; the other pillars are fairly close across the three groups.\"}]}",
+ "usage": {
+  "prompt_tokens": 3242,
+  "completion_tokens": 1017,
+  "cost_usd": 0.0008327,
+  "latency_s": 4.456
+ },
+ "elements": [
+  {
+   "label": "Figure B.8.2.1",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart titled 'Statistical Performance Index scores, 2019'. Y-axis: 'Score', scale 0 to 100 with gridlines at 20, 40, 60, 80 and 100. X-axis categories: 'Pillar 1 - Data Use', 'Pillar 2 - Data Services', 'Pillar 3 - Data Products', 'Pillar 4 - Data Sources', 'Pillar 5 - Data Infrastructure', 'SPI Overall score'. Legend: 'Lower middle income' (teal), 'East Asia and Pacific' (orange), 'Vietnam' (grey). No values are printed on the bars. Approximate readings: Pillar 1 - Data Use: Lower middle income ~79, East Asia and Pacific ~70, Vietnam ~100. Pillar 2 - Data Services: Lower middle income ~63, East Asia and Pacific ~67, Vietnam ~64. Pillar 3 - Data Products: Lower middle income ~61, East Asia and Pacific ~49, Vietnam ~55. Pillar 4 - Data Sources: Lower middle income ~41, East Asia and Pacific ~47, Vietnam ~76. Pillar 5 - Data Infrastructure: Lower middle income ~40, East Asia and Pacific ~45, Vietnam ~35. SPI Overall score: Lower middle income ~57, East Asia and Pacific ~60, Vietnam ~66. Vietnam is highest on Pillars 1 and 4 and the overall score, and lowest on Pillar 5, where it trails both comparison groups; the other pillars are fairly close across the three groups."
+  }
+ ]
+}

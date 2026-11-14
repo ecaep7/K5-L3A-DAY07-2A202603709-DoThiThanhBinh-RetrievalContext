@@ -1,0 +1,23 @@
+{
+ "page": 202,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 7.2"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 7.2\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two stacked-bar charts with a net-effect line, showing the impact of fiscal policies by per capita consumption decile (excluding in-kind spending). Legend (shared): SI (teal), Environment (light blue), Direct taxes (orange), Direct transfers (green), VAT (grey), Subsidies (purple), Excise (yellow), Net effect (orange line with markers). X-axis in both panels: Per capita market income decile, 1 to 10.\\n\\nPanel A: Absolute incidence (total tax collected and spending received). Stacked bar chart; y-axis 'Monthly VND (thousands)', ticks 500, 0, -500, -1,000, -1,500, -2,000, -2,500. Values are approximate readings: Net effect ~+50 (decile 1), ~-50 (2), ~-150 (3), ~-250 (4), ~-350 (5), ~-400 (6), ~-600 (7), ~-800 (8), ~-1,150 (9), ~-2,400 (10). Decile 1 bars are small and near zero. Decile 10 has the largest negative bar, roughly -2,400 in total, made up mainly of SI (teal, roughly -1,200 to 0 segment), direct taxes (orange), VAT (grey) and excise (yellow). Pattern: net effect becomes increasingly negative as decile rises, with a sharp drop at deciles 9 and 10.\\n\\nPanel B: Relative incidence (tax collected and spending received as a percentage of household market income). Stacked bar chart; y-axis 'Percent of market income', ticks 15, 10, 5, 0, -5, -10, -15, -20, -25. Approximate net effect readings: decile 1 ~+4.5, 2 ~-4.5, 3 ~-7, 4 ~-9.5, 5 ~-11, 6 ~-12.5, 7 ~-16, 8 ~-17.5, 9 ~-20, 10 ~-23. Decile 1 has a large positive direct transfers segment (green, up to about +10) and a subsidies segment (purple, up to about +13) above zero, with VAT (grey) and SI below zero. Deciles 2 to 10 are mostly negative, with SI and VAT the largest negative components at higher deciles. Pattern: net relative burden grows steadily with income decile, from a small net benefit for the poorest decile to about -23 percent of market income for the richest.\\n\\nNote: See Annex 7.1 for key assumptions. Source: 2018 VHLSS and World Bank calculations.\"}]}",
+ "usage": {
+  "prompt_tokens": 3253,
+  "completion_tokens": 1303,
+  "cost_usd": 0.0009767999999999999,
+  "latency_s": 6.45
+ },
+ "elements": [
+  {
+   "label": "Figure 7.2",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two stacked-bar charts with a net-effect line, showing the impact of fiscal policies by per capita consumption decile (excluding in-kind spending). Legend (shared): SI (teal), Environment (light blue), Direct taxes (orange), Direct transfers (green), VAT (grey), Subsidies (purple), Excise (yellow), Net effect (orange line with markers). X-axis in both panels: Per capita market income decile, 1 to 10.\n\nPanel A: Absolute incidence (total tax collected and spending received). Stacked bar chart; y-axis 'Monthly VND (thousands)', ticks 500, 0, -500, -1,000, -1,500, -2,000, -2,500. Values are approximate readings: Net effect ~+50 (decile 1), ~-50 (2), ~-150 (3), ~-250 (4), ~-350 (5), ~-400 (6), ~-600 (7), ~-800 (8), ~-1,150 (9), ~-2,400 (10). Decile 1 bars are small and near zero. Decile 10 has the largest negative bar, roughly -2,400 in total, made up mainly of SI (teal, roughly -1,200 to 0 segment), direct taxes (orange), VAT (grey) and excise (yellow). Pattern: net effect becomes increasingly negative as decile rises, with a sharp drop at deciles 9 and 10.\n\nPanel B: Relative incidence (tax collected and spending received as a percentage of household market income). Stacked bar chart; y-axis 'Percent of market income', ticks 15, 10, 5, 0, -5, -10, -15, -20, -25. Approximate net effect readings: decile 1 ~+4.5, 2 ~-4.5, 3 ~-7, 4 ~-9.5, 5 ~-11, 6 ~-12.5, 7 ~-16, 8 ~-17.5, 9 ~-20, 10 ~-23. Decile 1 has a large positive direct transfers segment (green, up to about +10) and a subsidies segment (purple, up to about +13) above zero, with VAT (grey) and SI below zero. Deciles 2 to 10 are mostly negative, with SI and VAT the largest negative components at higher deciles. Pattern: net relative burden grows steadily with income decile, from a small net benefit for the poorest decile to about -23 percent of market income for the richest.\n\nNote: See Annex 7.1 for key assumptions. Source: 2018 VHLSS and World Bank calculations."
+  }
+ ]
+}

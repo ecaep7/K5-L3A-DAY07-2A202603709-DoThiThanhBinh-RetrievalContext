@@ -1,0 +1,23 @@
+{
+ "page": 81,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.10"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 2.10\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart (100% stacked, one bar per income decile). Y-axis: \\\"Share of total household income (%)\\\", scale 0 to 100 in steps of 20. X-axis: deciles 1 to 10, labeled \\\"1 (=poorest decile)\\\" and \\\"10 (= richest decile)\\\". Legend, left to right: Family Farm, Family Business, Wage, SA, Remittances, Pension, Other. Segments are stacked bottom to top in that order. No values are printed on the chart; approximate readings (segment heights, cumulative tops in parentheses) are:\\n- Decile 1: Family Farm ~34, Family Business ~4, Wage ~52 (top ~90), SA ~3 (~93), Remittances ~4 (~97), Pension ~0, Other ~3.\\n- Decile 2: Family Farm ~30, Family Business ~10, Wage ~52 (~92), SA ~1, Remittances ~5 (~98), Pension ~1, Other ~1.\\n- Decile 3: Family Farm ~27, Family Business ~14, Wage ~51 (~92), SA ~0.5, Remittances ~5 (~97), Pension ~1, Other ~2.\\n- Decile 4: Family Farm ~21, Family Business ~17, Wage ~53 (~91), SA ~0, Remittances ~7 (~98), Pension ~1, Other ~1.\\n- Decile 5: Family Farm ~20, Family Business ~19, Wage ~52 (~91), Remittances ~5 (~96), Pension ~2, Other ~2.\\n- Decile 6: Family Farm ~21, Family Business ~23, Wage ~47 (~91), Remittances ~4 (~95), Pension ~2, Other ~3.\\n- Decile 7: Family Farm ~12, Family Business ~25, Wage ~53 (~90), Remittances ~6 (~96), Pension ~2, Other ~2.\\n- Decile 8: Family Farm ~9, Family Business ~30, Wage ~51 (~90), Remittances ~4 (~94), Pension ~4, Other ~2.\\n- Decile 9: Family Farm ~10, Family Business ~27, Wage ~52 (~89), Remittances ~6 (~95), Pension ~1, Other ~3.\\n- Decile 10: Family Farm ~9, Family Business ~31 (~40), Wage ~43 (~83), Remittances ~4 (~87), Pension ~6 (~93), Other ~7 (~100).\\nFamily Farm share falls steadily from the poorest to the richest deciles, while Wage share stays roughly 40 to 55 across deciles and Family Business share rises with income. Non-labor sources (remittances, pensions, other) are small in most deciles but are largest in decile 10.\"}]}",
+ "usage": {
+  "prompt_tokens": 3236,
+  "completion_tokens": 1969,
+  "cost_usd": 0.0013081,
+  "latency_s": 7.834
+ },
+ "elements": [
+  {
+   "label": "Figure 2.10",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart (100% stacked, one bar per income decile). Y-axis: \"Share of total household income (%)\", scale 0 to 100 in steps of 20. X-axis: deciles 1 to 10, labeled \"1 (=poorest decile)\" and \"10 (= richest decile)\". Legend, left to right: Family Farm, Family Business, Wage, SA, Remittances, Pension, Other. Segments are stacked bottom to top in that order. No values are printed on the chart; approximate readings (segment heights, cumulative tops in parentheses) are:\n- Decile 1: Family Farm ~34, Family Business ~4, Wage ~52 (top ~90), SA ~3 (~93), Remittances ~4 (~97), Pension ~0, Other ~3.\n- Decile 2: Family Farm ~30, Family Business ~10, Wage ~52 (~92), SA ~1, Remittances ~5 (~98), Pension ~1, Other ~1.\n- Decile 3: Family Farm ~27, Family Business ~14, Wage ~51 (~92), SA ~0.5, Remittances ~5 (~97), Pension ~1, Other ~2.\n- Decile 4: Family Farm ~21, Family Business ~17, Wage ~53 (~91), SA ~0, Remittances ~7 (~98), Pension ~1, Other ~1.\n- Decile 5: Family Farm ~20, Family Business ~19, Wage ~52 (~91), Remittances ~5 (~96), Pension ~2, Other ~2.\n- Decile 6: Family Farm ~21, Family Business ~23, Wage ~47 (~91), Remittances ~4 (~95), Pension ~2, Other ~3.\n- Decile 7: Family Farm ~12, Family Business ~25, Wage ~53 (~90), Remittances ~6 (~96), Pension ~2, Other ~2.\n- Decile 8: Family Farm ~9, Family Business ~30, Wage ~51 (~90), Remittances ~4 (~94), Pension ~4, Other ~2.\n- Decile 9: Family Farm ~10, Family Business ~27, Wage ~52 (~89), Remittances ~6 (~95), Pension ~1, Other ~3.\n- Decile 10: Family Farm ~9, Family Business ~31 (~40), Wage ~43 (~83), Remittances ~4 (~87), Pension ~6 (~93), Other ~7 (~100).\nFamily Farm share falls steadily from the poorest to the richest deciles, while Wage share stays roughly 40 to 55 across deciles and Family Business share rises with income. Non-labor sources (remittances, pensions, other) are small in most deciles but are largest in decile 10."
+  }
+ ]
+}

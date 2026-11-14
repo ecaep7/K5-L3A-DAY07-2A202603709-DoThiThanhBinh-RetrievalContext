@@ -1,0 +1,23 @@
+{
+ "page": 110,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.12"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 3.12\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart titled 'Poverty rates by geography'. Y-axis: 'Poverty rate (%)', scale 0 to 80 in steps of 10. X-axis categories: Inland delta, Hills/midlands, Coastal, Low Mountains, High mountains. Legend: teal = LMIC ($3.20/day) poverty line; orange = UMIC ($5.50/day) poverty line. Approximate readings (~, no values printed): Inland delta LMIC ~1, UMIC ~15; Hills/midlands LMIC ~1, UMIC ~16; Coastal LMIC ~4, UMIC ~22; Low Mountains LMIC ~8, UMIC ~37; High mountains LMIC ~36, UMIC ~68. Source note: World Bank staff calculations using VHLSS 2018. The poverty rate rises with mountainous geography, with the High mountains highest for both lines, and the UMIC line always above the LMIC line.\"}]}",
+ "usage": {
+  "prompt_tokens": 3233,
+  "completion_tokens": 373,
+  "cost_usd": 0.0005098,
+  "latency_s": 2.761
+ },
+ "elements": [
+  {
+   "label": "Figure 3.12",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart titled 'Poverty rates by geography'. Y-axis: 'Poverty rate (%)', scale 0 to 80 in steps of 10. X-axis categories: Inland delta, Hills/midlands, Coastal, Low Mountains, High mountains. Legend: teal = LMIC ($3.20/day) poverty line; orange = UMIC ($5.50/day) poverty line. Approximate readings (~, no values printed): Inland delta LMIC ~1, UMIC ~15; Hills/midlands LMIC ~1, UMIC ~16; Coastal LMIC ~4, UMIC ~22; Low Mountains LMIC ~8, UMIC ~37; High mountains LMIC ~36, UMIC ~68. Source note: World Bank staff calculations using VHLSS 2018. The poverty rate rises with mountainous geography, with the High mountains highest for both lines, and the UMIC line always above the LMIC line."
+  }
+ ]
+}

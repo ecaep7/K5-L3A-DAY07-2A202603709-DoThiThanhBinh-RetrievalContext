@@ -1,0 +1,30 @@
+{
+ "page": 183,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.8",
+  "Figure 6.9"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 6.8\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: stacked bar chart with dot overlay and two y-axes. Left axis: \\\"Percent\\\" (0-80). Right axis: \\\"Ratio of Chronic/Risk\\\" (0-5). Legend: \\\"Chronic Economic insecurity\\\" (teal bar segment), \\\"Risk-induced Economic Insecurity\\\" (orange bar segment), \\\"Chronic: Risk Ratio\\\" (grey dot). Categories: All, Red River Delta, Midlands & Northern Mountains, North & Central Coast, Central Highlands, Southeast, Mekong. Printed values: none on the chart itself; the text states All chronic insecurity ~21.7 percent and risk-induced insecurity ~11.5 percent, Midlands & Northern Mountains chronic ~51.2 percent and risk-induced ~13.3 percent, Red River Delta risk-induced ~9 percent. Approximate readings (~, percent of population, left axis): All: chronic ~22, risk-induced ~11, total ~33, ratio ~1.9. Red River Delta: chronic ~5, risk-induced ~9, total ~13, ratio ~0.6. Midlands & Northern Mountains: chronic ~51, risk-induced ~13, total ~64, ratio ~3.9. North & Central Coast: chronic ~25, risk-induced ~12, total ~37, ratio ~2.1. Central Highlands: chronic ~32, risk-induced ~15, total ~47, ratio ~2.1. Southeast: chronic ~9, risk-induced ~7, total ~17, ratio ~1.4. Mekong: chronic ~13, risk-induced ~13, total ~26, ratio ~1.0. Pattern: chronic insecurity is highest in the Midlands & Northern Mountains and lowest in the Red River Delta, where the chronic-to-risk ratio is below 1 while most other regions have ratios above 1.\"}, {\"label\": \"Figure 6.9\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: dot plot (scatter of categories) with a horizontal reference line at 1.0. Y-axis: \\\"Ratio of Idiosyncratic/Covariate Risk\\\" (0 to 2.0, ticks at 0, 0.5, 1, 1.5, 2.0). X-axis categories: All, Red River Delta, Midlands & Northern Mountains, North & Central Coast, Central Highlands, Southeast, Mekong. Series: orange dots (ratio values) and a teal horizontal line at 1 (parity). No values printed; approximate readings (~): All ~1.25, Red River Delta ~1.7, Midlands & Northern Mountains ~1.1, North & Central Coast ~1.2, Central Highlands ~1.25, Southeast ~1.25, Mekong ~1.5. Pattern: the ratio is above 1 in every region, meaning idiosyncratic risk outweighs covariate risk everywhere, and it is highest in the Red River Delta and Mekong, while the Midlands & Northern Mountains is closest to parity.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3286,
+  "completion_tokens": 2286,
+  "cost_usd": 0.0014716,
+  "latency_s": 9.548
+ },
+ "elements": [
+  {
+   "label": "Figure 6.8",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: stacked bar chart with dot overlay and two y-axes. Left axis: \"Percent\" (0-80). Right axis: \"Ratio of Chronic/Risk\" (0-5). Legend: \"Chronic Economic insecurity\" (teal bar segment), \"Risk-induced Economic Insecurity\" (orange bar segment), \"Chronic: Risk Ratio\" (grey dot). Categories: All, Red River Delta, Midlands & Northern Mountains, North & Central Coast, Central Highlands, Southeast, Mekong. Printed values: none on the chart itself; the text states All chronic insecurity ~21.7 percent and risk-induced insecurity ~11.5 percent, Midlands & Northern Mountains chronic ~51.2 percent and risk-induced ~13.3 percent, Red River Delta risk-induced ~9 percent. Approximate readings (~, percent of population, left axis): All: chronic ~22, risk-induced ~11, total ~33, ratio ~1.9. Red River Delta: chronic ~5, risk-induced ~9, total ~13, ratio ~0.6. Midlands & Northern Mountains: chronic ~51, risk-induced ~13, total ~64, ratio ~3.9. North & Central Coast: chronic ~25, risk-induced ~12, total ~37, ratio ~2.1. Central Highlands: chronic ~32, risk-induced ~15, total ~47, ratio ~2.1. Southeast: chronic ~9, risk-induced ~7, total ~17, ratio ~1.4. Mekong: chronic ~13, risk-induced ~13, total ~26, ratio ~1.0. Pattern: chronic insecurity is highest in the Midlands & Northern Mountains and lowest in the Red River Delta, where the chronic-to-risk ratio is below 1 while most other regions have ratios above 1."
+  },
+  {
+   "label": "Figure 6.9",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: dot plot (scatter of categories) with a horizontal reference line at 1.0. Y-axis: \"Ratio of Idiosyncratic/Covariate Risk\" (0 to 2.0, ticks at 0, 0.5, 1, 1.5, 2.0). X-axis categories: All, Red River Delta, Midlands & Northern Mountains, North & Central Coast, Central Highlands, Southeast, Mekong. Series: orange dots (ratio values) and a teal horizontal line at 1 (parity). No values printed; approximate readings (~): All ~1.25, Red River Delta ~1.7, Midlands & Northern Mountains ~1.1, North & Central Coast ~1.2, Central Highlands ~1.25, Southeast ~1.25, Mekong ~1.5. Pattern: the ratio is above 1 in every region, meaning idiosyncratic risk outweighs covariate risk everywhere, and it is highest in the Red River Delta and Mekong, while the Midlands & Northern Mountains is closest to parity."
+  }
+ ]
+}

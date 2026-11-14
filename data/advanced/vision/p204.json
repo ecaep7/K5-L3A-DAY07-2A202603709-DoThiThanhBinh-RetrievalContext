@@ -1,0 +1,23 @@
+{
+ "page": 204,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 7.5"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 7.5: The impact of fiscal policy on inequality by fiscal instrument\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Waterfall-style column chart. Y-axis: \\\"Percentage Point Reduction\\\", ticks 0.0 to 6.0 in steps of 1.0. Categories left to right, with approximate floating bar ranges (values not printed, so readings are approximate): Cash transfer (~0.0 to ~0.4); PIT (~0.5 to ~1.0); Other direct taxes (~1.0 to ~1.2); SSC/HI (~1.2 to ~2.7); After direct and indirect taxes and transfers (consumable) (~0.0 to ~2.7, dark teal total bar); Electricity subsidy (~2.7 to ~2.9); VAT (~2.8 to ~2.9); Excise (~2.8 to ~2.9); Environmental tax (~2.7 to ~2.8); After direct and indirect taxes (~0.0 to ~2.8, gold total bar); Education (~2.7 to ~4.4); Health (~4.1 to ~5.0); After all taxes and transfers (final income) (~0.0 to ~5.0, orange total bar). Note: marginal effects on poverty reduction are shown; a positive bar is a contribution to poverty reduction and a negative bar an increase in poverty; subcomponents are scaled to the marginal effect of each fiscal category (VAT, excises and environmental taxes sum to the indirect taxes marginal effect). Source: 2018 VHLSS and World Bank calculations. Visible pattern: the cumulative bars step up from near zero to about 5.0 points, with the largest increments from SSC/HI, education and health, and the subtotals for consumable and final income marking the totals.\"}]}",
+ "usage": {
+  "prompt_tokens": 3246,
+  "completion_tokens": 1176,
+  "cost_usd": 0.0009126000000000001,
+  "latency_s": 5.416
+ },
+ "elements": [
+  {
+   "label": "Figure 7.5: The impact of fiscal policy on inequality by fiscal instrument",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Waterfall-style column chart. Y-axis: \"Percentage Point Reduction\", ticks 0.0 to 6.0 in steps of 1.0. Categories left to right, with approximate floating bar ranges (values not printed, so readings are approximate): Cash transfer (~0.0 to ~0.4); PIT (~0.5 to ~1.0); Other direct taxes (~1.0 to ~1.2); SSC/HI (~1.2 to ~2.7); After direct and indirect taxes and transfers (consumable) (~0.0 to ~2.7, dark teal total bar); Electricity subsidy (~2.7 to ~2.9); VAT (~2.8 to ~2.9); Excise (~2.8 to ~2.9); Environmental tax (~2.7 to ~2.8); After direct and indirect taxes (~0.0 to ~2.8, gold total bar); Education (~2.7 to ~4.4); Health (~4.1 to ~5.0); After all taxes and transfers (final income) (~0.0 to ~5.0, orange total bar). Note: marginal effects on poverty reduction are shown; a positive bar is a contribution to poverty reduction and a negative bar an increase in poverty; subcomponents are scaled to the marginal effect of each fiscal category (VAT, excises and environmental taxes sum to the indirect taxes marginal effect). Source: 2018 VHLSS and World Bank calculations. Visible pattern: the cumulative bars step up from near zero to about 5.0 points, with the largest increments from SSC/HI, education and health, and the subtotals for consumable and final income marking the totals."
+  }
+ ]
+}

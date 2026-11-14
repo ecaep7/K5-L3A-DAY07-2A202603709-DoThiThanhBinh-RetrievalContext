@@ -1,0 +1,50 @@
+{
+ "page": 32,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.15",
+  "Figure O.16",
+  "Figure O.14",
+  "Figure O.13"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [\n{\"label\": \"Figure O.13\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Column chart titled 'Household expenditure on extra education courses at compulsory grade levels in public schools, by household quintile'. Y-axis: 'Annual VND (thousand)', scale 0 to 8,000 in steps of 1,000. X-axis: 'Extra courses'. Five columns, one per quintile (legend: 1(=poorest), 2, 3, 4, 5 (=richest)), in increasing shades of teal. Values are not printed; approximate readings: quintile 1 ~1,200; quintile 2 ~1,750; quintile 3 ~2,300; quintile 4 ~3,300; quintile 5 ~6,550. Note: Categories by household quintiles. Average expenditures among households with children in public primary or lower secondary education. Source: World Bank staff calculations using VHLSS 2020. Pattern: spending rises steeply with household quintile, with the richest quintile spending about five times the poorest.\"},\n{\"label\": \"Figure O.14\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped column chart titled 'Variation in continuity of education across Vietnam's regions'. Y-axis: 'Share of households (%)', scale 0 to 100. Categories on x-axis: No distance learning; Online live classes; SMS; Paper-based self-learning; Other. Series (legend): Red River Delta (teal), Midlands & Northern Mountainous Areas (orange), Northern & Coastal Central Region (grey), Central Highlands (yellow), Southeastern Area (blue), Mekong Delta (green). Values not printed; approximate readings (Red River Delta, Midlands & Northern, Northern & Coastal Central, Central Highlands, Southeastern, Mekong Delta): No distance learning ~3, ~20, ~29, ~31, ~11, ~32; Online live classes ~78, ~37, ~39, ~37, ~64, ~37; SMS ~10, ~14, ~12, ~8, ~14, ~8; Paper-based self-learning ~5, ~26, ~16, ~18, ~11, ~13; Other ~5, ~7, ~5, ~5, ~3, ~7. Note: SMS = Short Message Service. Source: World Bank Vietnam COVID-19 household monitoring surveys (round 5). Pattern: online live classes dominate in most regions, especially the Red River Delta and Southeastern Area, while the Midlands & Northern Mountainous Areas and Central Highlands show more paper-based learning and no-distance-learning shares are highest in the Mekong Delta and Northern & Coastal Central Region.\"},\n{\"label\": \"Figure O.15\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked column chart with purple dots, titled 'Projected growth under different productivity scenarios, 1991–2045'. Y-axis: 'Growth rate', scale -1 to 7. Categories: 1991–2002, 2002–2012, 2012–2018, 2018–2045 Baseline, 2018–2045 HIC. Stack components (legend): Productivity (teal), Demographics (yellow), Employment (orange), Participation (grey), GDP per capita (purple dot). Values printed: 1991–2002: Productivity 5.0%, Demographics 1.0%, Participation -0.1% (below zero), GDP per capita 5.9%. 2002–2012: Productivity 4.4%, Demographics 0.1%, Employment 1.0%, GDP per capita 5.5%. 2012–2018: Productivity 5.3%, Demographics -0.2%, Employment -0.1%, Participation 0.3%, GDP per capita 5.1%(label shown near 5.1% for 2018–2045 Baseline; 2012–2018 point labelled 5.3% area). 2018–2045 Baseline: Productivity 5.3%, Demographics -0.2%, GDP per capita 5.1%. 2018–2045 HIC: Productivity 6.6%, Demographics -0.2%, GDP per capita 6.4%. Pattern: productivity is the dominant driver in every period, and GDP per capita growth is highest under the HIC scenario.\"},\n{\"label\": \"Figure O.16\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with reference lines, titled 'Projected income under different productivity scenarios, 2018–2045'. Y-axis: 'GDP per capita (2010 USD)', scale 0 to 16,000 in steps of 2,000. X-axis: 2018 and 2045. Series: GDP - Baseline (teal dotted line) rising from about 2,600 in 2018 to about 9,700 in 2045; GDP - HIC (orange dashed line) rising from about 2,600 in 2018 to about 13,300 in 2045. Horizontal reference lines labelled: HIC at about 13,700; UMIC at about 4,400; LMIC at about 1,100. Pattern: under the HIC scenario income approaches the high-income threshold by 2045, whereas the baseline stays well below it.\"},\n{\"label\": null, \"kind\": \"chart\", \"bbox\": null, \"description\": \"No further visual elements beyond the four figures on this page.\"}\n]}",
+ "usage": {
+  "prompt_tokens": 3341,
+  "completion_tokens": 1783,
+  "cost_usd": 0.0012255999999999999,
+  "latency_s": 6.747
+ },
+ "elements": [
+  {
+   "label": "Figure O.13",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Column chart titled 'Household expenditure on extra education courses at compulsory grade levels in public schools, by household quintile'. Y-axis: 'Annual VND (thousand)', scale 0 to 8,000 in steps of 1,000. X-axis: 'Extra courses'. Five columns, one per quintile (legend: 1(=poorest), 2, 3, 4, 5 (=richest)), in increasing shades of teal. Values are not printed; approximate readings: quintile 1 ~1,200; quintile 2 ~1,750; quintile 3 ~2,300; quintile 4 ~3,300; quintile 5 ~6,550. Note: Categories by household quintiles. Average expenditures among households with children in public primary or lower secondary education. Source: World Bank staff calculations using VHLSS 2020. Pattern: spending rises steeply with household quintile, with the richest quintile spending about five times the poorest."
+  },
+  {
+   "label": "Figure O.14",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped column chart titled 'Variation in continuity of education across Vietnam's regions'. Y-axis: 'Share of households (%)', scale 0 to 100. Categories on x-axis: No distance learning; Online live classes; SMS; Paper-based self-learning; Other. Series (legend): Red River Delta (teal), Midlands & Northern Mountainous Areas (orange), Northern & Coastal Central Region (grey), Central Highlands (yellow), Southeastern Area (blue), Mekong Delta (green). Values not printed; approximate readings (Red River Delta, Midlands & Northern, Northern & Coastal Central, Central Highlands, Southeastern, Mekong Delta): No distance learning ~3, ~20, ~29, ~31, ~11, ~32; Online live classes ~78, ~37, ~39, ~37, ~64, ~37; SMS ~10, ~14, ~12, ~8, ~14, ~8; Paper-based self-learning ~5, ~26, ~16, ~18, ~11, ~13; Other ~5, ~7, ~5, ~5, ~3, ~7. Note: SMS = Short Message Service. Source: World Bank Vietnam COVID-19 household monitoring surveys (round 5). Pattern: online live classes dominate in most regions, especially the Red River Delta and Southeastern Area, while the Midlands & Northern Mountainous Areas and Central Highlands show more paper-based learning and no-distance-learning shares are highest in the Mekong Delta and Northern & Coastal Central Region."
+  },
+  {
+   "label": "Figure O.15",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked column chart with purple dots, titled 'Projected growth under different productivity scenarios, 1991–2045'. Y-axis: 'Growth rate', scale -1 to 7. Categories: 1991–2002, 2002–2012, 2012–2018, 2018–2045 Baseline, 2018–2045 HIC. Stack components (legend): Productivity (teal), Demographics (yellow), Employment (orange), Participation (grey), GDP per capita (purple dot). Values printed: 1991–2002: Productivity 5.0%, Demographics 1.0%, Participation -0.1% (below zero), GDP per capita 5.9%. 2002–2012: Productivity 4.4%, Demographics 0.1%, Employment 1.0%, GDP per capita 5.5%. 2012–2018: Productivity 5.3%, Demographics -0.2%, Employment -0.1%, Participation 0.3%, GDP per capita 5.1%(label shown near 5.1% for 2018–2045 Baseline; 2012–2018 point labelled 5.3% area). 2018–2045 Baseline: Productivity 5.3%, Demographics -0.2%, GDP per capita 5.1%. 2018–2045 HIC: Productivity 6.6%, Demographics -0.2%, GDP per capita 6.4%. Pattern: productivity is the dominant driver in every period, and GDP per capita growth is highest under the HIC scenario."
+  },
+  {
+   "label": "Figure O.16",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with reference lines, titled 'Projected income under different productivity scenarios, 2018–2045'. Y-axis: 'GDP per capita (2010 USD)', scale 0 to 16,000 in steps of 2,000. X-axis: 2018 and 2045. Series: GDP - Baseline (teal dotted line) rising from about 2,600 in 2018 to about 9,700 in 2045; GDP - HIC (orange dashed line) rising from about 2,600 in 2018 to about 13,300 in 2045. Horizontal reference lines labelled: HIC at about 13,700; UMIC at about 4,400; LMIC at about 1,100. Pattern: under the HIC scenario income approaches the high-income threshold by 2045, whereas the baseline stays well below it."
+  },
+  {
+   "label": null,
+   "kind": "chart",
+   "bbox": null,
+   "description": "No further visual elements beyond the four figures on this page."
+  }
+ ]
+}

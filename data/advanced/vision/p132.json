@@ -1,0 +1,23 @@
+{
+ "page": 132,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 4.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 4.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| MALE + FEMALE | INDICATOR | VIETNAM 2010 | VIETNAM 2020 | EAST ASIA AND PACIFIC 2010 | EAST ASIA AND PACIFIC 2020 | LOWER MIDDLE INCOME 2010 | LOWER MIDDLE INCOME 2020 |\\n|---|---|---|---|---|---|---|---|\\n| HCI Component 1: Survival | Probability of Survival to Age 5 | 0.977 | 0.979 | 0.972 | 0.978 | 0.944 | 0.959 |\\n| HCI Component 2: Schooling | Expected Years of School | 11.8 | 12.9 | 12.0 | 11.9 | 9.6 | 10.4 |\\n| HCI Component 2: Schooling | Harmonized Test Scores | 533 | 519 | 500 | 432 | 407 | 392 |\\n| HCI Component 3: Health | Survival Rate from Age 15-60 | 0.864 | 0.867 | 0.847 | 0.864 | 0.760 | 0.804 |\\n| HCI Component 3: Health | Fraction of Children Under 5 Not Stunted | 0.773 | 0.762 | 0.691 | 0.759 | 0.690 | 0.750 |\\n| Human Capital Index (HCI) | HCI | 0.66 | 0.69 | 0.68 | 0.59 | 0.45 | 0.48 |\\n\\nSource: World Bank HCI (2020).\"}]}",
+ "usage": {
+  "prompt_tokens": 3252,
+  "completion_tokens": 563,
+  "cost_usd": 0.0006067000000000001,
+  "latency_s": 2.659
+ },
+ "elements": [
+  {
+   "label": "Table 4.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| MALE + FEMALE | INDICATOR | VIETNAM 2010 | VIETNAM 2020 | EAST ASIA AND PACIFIC 2010 | EAST ASIA AND PACIFIC 2020 | LOWER MIDDLE INCOME 2010 | LOWER MIDDLE INCOME 2020 |\n|---|---|---|---|---|---|---|---|\n| HCI Component 1: Survival | Probability of Survival to Age 5 | 0.977 | 0.979 | 0.972 | 0.978 | 0.944 | 0.959 |\n| HCI Component 2: Schooling | Expected Years of School | 11.8 | 12.9 | 12.0 | 11.9 | 9.6 | 10.4 |\n| HCI Component 2: Schooling | Harmonized Test Scores | 533 | 519 | 500 | 432 | 407 | 392 |\n| HCI Component 3: Health | Survival Rate from Age 15-60 | 0.864 | 0.867 | 0.847 | 0.864 | 0.760 | 0.804 |\n| HCI Component 3: Health | Fraction of Children Under 5 Not Stunted | 0.773 | 0.762 | 0.691 | 0.759 | 0.690 | 0.750 |\n| Human Capital Index (HCI) | HCI | 0.66 | 0.69 | 0.68 | 0.59 | 0.45 | 0.48 |\n\nSource: World Bank HCI (2020)."
+  }
+ ]
+}

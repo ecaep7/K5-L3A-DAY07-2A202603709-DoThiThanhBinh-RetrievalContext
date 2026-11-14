@@ -1,0 +1,23 @@
+{
+ "page": 131,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.1: Poverty rates by household education group\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: two-panel line chart with markers. Overall title: 'Maximum education in the HH'. Y-axis on both panels: 'Poverty rate (%)', scale 0 to 80 in steps of 10. X-axis on both panels: years 2010, 2012, 2014, 2016, 2018, 2020. Legend (shared, bottom): No education, Primary, Lower secondary, Upper secondary, Vocational, Tertiary.\\n\\nPanel 1, 'LMIC poverty ($3.20/day 2011PPP)' (values not printed; approximate readings):\\n- No education: ~45, ~40, ~34, ~29, ~24, ~15\\n- Primary: ~32, ~27, ~26, ~18, ~17, ~15\\n- Lower secondary: ~22, ~19, ~18, ~14, ~11, ~8\\n- Upper secondary: ~10, ~9, ~9, ~6, ~5, ~3\\n- Vocational: ~5, ~4, ~4, ~2, ~2, ~1\\n- Tertiary: ~0, ~0, ~0, ~0, ~0, ~0\\n\\nPanel 2, 'UMIC poverty ($5.50/day 2011PPP)' (values not printed; approximate readings):\\n- No education: ~76, ~70, ~66, ~57, ~47, ~44\\n- Primary: ~71, ~65, ~61, ~51, ~44, ~41\\n- Lower secondary: ~61, ~58, ~53, ~44, ~35, ~28\\n- Upper secondary: ~43, ~37, ~35, ~28, ~22, ~17\\n- Vocational: ~26, ~25, ~22, ~15, ~12, ~9\\n- Tertiary: ~5, ~8, ~8, ~4, ~3, ~3\\n\\nPattern: in both panels poverty falls over time in every education group, and poverty is highest for households with no education and lowest for tertiary education, with the gaps much larger at the UMIC line.\"}]}",
+ "usage": {
+  "prompt_tokens": 3234,
+  "completion_tokens": 1280,
+  "cost_usd": 0.0009634000000000001,
+  "latency_s": 5.469
+ },
+ "elements": [
+  {
+   "label": "Figure 4.1: Poverty rates by household education group",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: two-panel line chart with markers. Overall title: 'Maximum education in the HH'. Y-axis on both panels: 'Poverty rate (%)', scale 0 to 80 in steps of 10. X-axis on both panels: years 2010, 2012, 2014, 2016, 2018, 2020. Legend (shared, bottom): No education, Primary, Lower secondary, Upper secondary, Vocational, Tertiary.\n\nPanel 1, 'LMIC poverty ($3.20/day 2011PPP)' (values not printed; approximate readings):\n- No education: ~45, ~40, ~34, ~29, ~24, ~15\n- Primary: ~32, ~27, ~26, ~18, ~17, ~15\n- Lower secondary: ~22, ~19, ~18, ~14, ~11, ~8\n- Upper secondary: ~10, ~9, ~9, ~6, ~5, ~3\n- Vocational: ~5, ~4, ~4, ~2, ~2, ~1\n- Tertiary: ~0, ~0, ~0, ~0, ~0, ~0\n\nPanel 2, 'UMIC poverty ($5.50/day 2011PPP)' (values not printed; approximate readings):\n- No education: ~76, ~70, ~66, ~57, ~47, ~44\n- Primary: ~71, ~65, ~61, ~51, ~44, ~41\n- Lower secondary: ~61, ~58, ~53, ~44, ~35, ~28\n- Upper secondary: ~43, ~37, ~35, ~28, ~22, ~17\n- Vocational: ~26, ~25, ~22, ~15, ~12, ~9\n- Tertiary: ~5, ~8, ~8, ~4, ~3, ~3\n\nPattern: in both panels poverty falls over time in every education group, and poverty is highest for households with no education and lowest for tertiary education, with the gaps much larger at the UMIC line."
+  }
+ ]
+}

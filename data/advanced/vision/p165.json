@@ -1,0 +1,30 @@
+{
+ "page": 165,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.15",
+  "Figure 5.16"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 5.15\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with four panels (Age 20–29, Age 30–39, Age 40–49, Age 50–59). Y-axis: 'Share of workers with tertiary education (%)', scale 0–100. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020 in each panel. Series: High-skill non-manual (teal), Low-skilled non-manual (orange), Skilled manual (grey), Unskilled manual (yellow). Values are not printed; approximate readings:\\n\\nAge 20–29: High-skill non-manual ~82, ~75, ~65, ~60, ~61, ~64; Low-skilled non-manual ~10, ~12, ~17, ~20, ~21, ~19; Skilled manual ~6, ~9, ~12, ~14, ~13, ~13; Unskilled manual ~4, ~6, ~9, ~8, ~6, ~5.\\n\\nAge 30–39: High-skill non-manual ~90, ~87, ~83, ~79, ~77, ~74; Low-skilled non-manual ~6, ~8, ~10, ~12, ~13, ~15; Skilled manual ~4, ~5, ~6, ~8, ~8, ~9; Unskilled manual ~2, ~2, ~2, ~3, ~3, ~3.\\n\\nAge 40–49: High-skill non-manual ~88, ~88, ~86, ~85, ~86, ~84; Low-skilled non-manual ~7, ~7, ~9, ~9, ~9, ~10; Skilled manual ~3, ~4, ~4, ~4, ~4, ~5; Unskilled manual ~2, ~2, ~2, ~2, ~2, ~2.\\n\\nAge 50–59: High-skill non-manual ~80, ~79, ~78, ~77, ~79, ~79; Low-skilled non-manual ~10, ~11, ~11, ~11, ~12, ~10; Skilled manual ~6, ~6, ~6, ~5, ~5, ~7; Unskilled manual ~4, ~5, ~5, ~6, ~5, ~5.\\n\\nPattern: high-skill non-manual share dominates all groups and declines most visibly for ages 20–29 and 30–39, while low-skilled non-manual and skilled manual shares rise modestly over time for younger groups.\"}, {\"label\": \"Figure 5.16\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart. Y-axis: 'Workers (millions)', scale 0–15 with gridlines at 3, 6, 9, 12, 15. X-axis: years 2010–2020 (even years) grouped by birth cohort: 1940–49, 1950–59, 1960–69, 1970–79, 1980–89, 1990–99. Stack segments (bottom to top): Elementary occupations (teal), Skilled agricultural and fishery workers (orange), Plant and machine operators (darker orange), Clerks (light orange), Service workers, shop market sales (yellow), Craft and related trade workers (peach), Technicians and associate professionals (blue), Professionals (light blue), Managers (pale blue). Values are not printed; approximate bar totals (millions):\\n\\n1940–49: ~2.1, ~2.1, ~1.8, ~1.4, ~1.1, ~0.7.\\n1950–59: ~6.6, ~6.9, ~6.5, ~5.8, ~4.7, ~3.5.\\n1960–69: ~11.3, ~11.9, ~11.8, ~11.2, ~10.8, ~8.9.\\n1970–79: ~12.6, ~12.8, ~12.9, ~13.0, ~13.3, ~12.6.\\n1980–89: ~12.3, ~12.0, ~12.4, ~13.0, ~13.2, ~14.7.\\n1990–99: ~3.6, ~4.7, ~6.5, ~7.9, ~9.5, ~10.6.\\n\\nElementary occupations form the largest base segment in most bars (roughly 1–4.7 million). Total workers rise from the 1940s cohort to peak in the 1970s–1980s cohorts, then the 1990s cohort shows the latest years rising again. Source note: World Bank staff calculations using LFS.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3274,
+  "completion_tokens": 2921,
+  "cost_usd": 0.0017879,
+  "latency_s": 10.675
+ },
+ "elements": [
+  {
+   "label": "Figure 5.15",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with four panels (Age 20–29, Age 30–39, Age 40–49, Age 50–59). Y-axis: 'Share of workers with tertiary education (%)', scale 0–100. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020 in each panel. Series: High-skill non-manual (teal), Low-skilled non-manual (orange), Skilled manual (grey), Unskilled manual (yellow). Values are not printed; approximate readings:\n\nAge 20–29: High-skill non-manual ~82, ~75, ~65, ~60, ~61, ~64; Low-skilled non-manual ~10, ~12, ~17, ~20, ~21, ~19; Skilled manual ~6, ~9, ~12, ~14, ~13, ~13; Unskilled manual ~4, ~6, ~9, ~8, ~6, ~5.\n\nAge 30–39: High-skill non-manual ~90, ~87, ~83, ~79, ~77, ~74; Low-skilled non-manual ~6, ~8, ~10, ~12, ~13, ~15; Skilled manual ~4, ~5, ~6, ~8, ~8, ~9; Unskilled manual ~2, ~2, ~2, ~3, ~3, ~3.\n\nAge 40–49: High-skill non-manual ~88, ~88, ~86, ~85, ~86, ~84; Low-skilled non-manual ~7, ~7, ~9, ~9, ~9, ~10; Skilled manual ~3, ~4, ~4, ~4, ~4, ~5; Unskilled manual ~2, ~2, ~2, ~2, ~2, ~2.\n\nAge 50–59: High-skill non-manual ~80, ~79, ~78, ~77, ~79, ~79; Low-skilled non-manual ~10, ~11, ~11, ~11, ~12, ~10; Skilled manual ~6, ~6, ~6, ~5, ~5, ~7; Unskilled manual ~4, ~5, ~5, ~6, ~5, ~5.\n\nPattern: high-skill non-manual share dominates all groups and declines most visibly for ages 20–29 and 30–39, while low-skilled non-manual and skilled manual shares rise modestly over time for younger groups."
+  },
+  {
+   "label": "Figure 5.16",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart. Y-axis: 'Workers (millions)', scale 0–15 with gridlines at 3, 6, 9, 12, 15. X-axis: years 2010–2020 (even years) grouped by birth cohort: 1940–49, 1950–59, 1960–69, 1970–79, 1980–89, 1990–99. Stack segments (bottom to top): Elementary occupations (teal), Skilled agricultural and fishery workers (orange), Plant and machine operators (darker orange), Clerks (light orange), Service workers, shop market sales (yellow), Craft and related trade workers (peach), Technicians and associate professionals (blue), Professionals (light blue), Managers (pale blue). Values are not printed; approximate bar totals (millions):\n\n1940–49: ~2.1, ~2.1, ~1.8, ~1.4, ~1.1, ~0.7.\n1950–59: ~6.6, ~6.9, ~6.5, ~5.8, ~4.7, ~3.5.\n1960–69: ~11.3, ~11.9, ~11.8, ~11.2, ~10.8, ~8.9.\n1970–79: ~12.6, ~12.8, ~12.9, ~13.0, ~13.3, ~12.6.\n1980–89: ~12.3, ~12.0, ~12.4, ~13.0, ~13.2, ~14.7.\n1990–99: ~3.6, ~4.7, ~6.5, ~7.9, ~9.5, ~10.6.\n\nElementary occupations form the largest base segment in most bars (roughly 1–4.7 million). Total workers rise from the 1940s cohort to peak in the 1970s–1980s cohorts, then the 1990s cohort shows the latest years rising again. Source note: World Bank staff calculations using LFS."
+  }
+ ]
+}

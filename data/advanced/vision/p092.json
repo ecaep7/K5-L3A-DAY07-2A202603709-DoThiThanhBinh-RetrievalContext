@@ -1,0 +1,30 @@
+{
+ "page": 92,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.20",
+  "Figure 2.21"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 2.20\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart, growth-driven poverty reduction over the last decade. Y-axis: 'Percentage point change in poverty rate', scale from -6 to 2 (ticks at 2, 1, 0, -1 to -6). X-axis: periods 2010–2012, 2012–2014, 2014–2016, 2016–2018, 2018–2020. Legend: Growth (teal), Distribution (orange). No values are printed on the bars; approximate readings: 2010–2012 Growth ~-1.0, Distribution ~-2.9 (total ~-3.9); 2012–2014 Growth ~-2.1, Distribution ~-0.2; 2014–2016 Growth ~-2.9, Distribution ~+0.3; 2016–2018 Growth ~-5.4, Distribution ~+1.1; 2018–2020 Growth ~-1.5, Distribution ~0. Note: World Bank LMIC Poverty Line ($3.20/day 2011PPP). Source: World Bank staff calculations using the VHLSS. Growth contributions are the dominant negative (poverty-reducing) component in most periods, with the largest reduction in 2016–2018, while distribution contributed mainly in the earlier periods.\"}, {\"label\": \"Figure 2.21\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart, inequality decompositions for urban/rural. Y-axis: 'Point change', ticks from -0.06 to 0.15 (0.15, 0.12, 0.09, 0.06, 0.03, 0.00, -0.03, -0.06). X-axis: 2010–2016, 2016–2020, 2010–2020. Legend: Pure inequality (teal), Between effect (gray), With effect (orange), Income effect (yellow). No values printed; approximate readings: 2010–2016 Pure inequality ~-0.02, With effect ~+0.01, Between effect ~+0.02, Income effect ~+0.02 (total ~0.05); 2016–2020 Pure inequality ~+0.01, With effect ~+0.01, Between effect ~+0.05, Income effect ~+0.03 (total ~0.10); 2010–2020 Pure inequality ~-0.01, With effect ~+0.02, Between effect ~+0.07, Income effect ~+0.05 (total ~0.14). Note: Measure of change in GE(0) is based on real household consumption per capita. Source: World Bank staff calculations using VHLSS 2010–2020. Total inequality change is positive in all periods, rising most over 2010–2020, with between-effect and income-effect components being the largest contributors.\"}]}",
+ "usage": {
+  "prompt_tokens": 3265,
+  "completion_tokens": 1803,
+  "cost_usd": 0.001228,
+  "latency_s": 7.379
+ },
+ "elements": [
+  {
+   "label": "Figure 2.20",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart, growth-driven poverty reduction over the last decade. Y-axis: 'Percentage point change in poverty rate', scale from -6 to 2 (ticks at 2, 1, 0, -1 to -6). X-axis: periods 2010–2012, 2012–2014, 2014–2016, 2016–2018, 2018–2020. Legend: Growth (teal), Distribution (orange). No values are printed on the bars; approximate readings: 2010–2012 Growth ~-1.0, Distribution ~-2.9 (total ~-3.9); 2012–2014 Growth ~-2.1, Distribution ~-0.2; 2014–2016 Growth ~-2.9, Distribution ~+0.3; 2016–2018 Growth ~-5.4, Distribution ~+1.1; 2018–2020 Growth ~-1.5, Distribution ~0. Note: World Bank LMIC Poverty Line ($3.20/day 2011PPP). Source: World Bank staff calculations using the VHLSS. Growth contributions are the dominant negative (poverty-reducing) component in most periods, with the largest reduction in 2016–2018, while distribution contributed mainly in the earlier periods."
+  },
+  {
+   "label": "Figure 2.21",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart, inequality decompositions for urban/rural. Y-axis: 'Point change', ticks from -0.06 to 0.15 (0.15, 0.12, 0.09, 0.06, 0.03, 0.00, -0.03, -0.06). X-axis: 2010–2016, 2016–2020, 2010–2020. Legend: Pure inequality (teal), Between effect (gray), With effect (orange), Income effect (yellow). No values printed; approximate readings: 2010–2016 Pure inequality ~-0.02, With effect ~+0.01, Between effect ~+0.02, Income effect ~+0.02 (total ~0.05); 2016–2020 Pure inequality ~+0.01, With effect ~+0.01, Between effect ~+0.05, Income effect ~+0.03 (total ~0.10); 2010–2020 Pure inequality ~-0.01, With effect ~+0.02, Between effect ~+0.07, Income effect ~+0.05 (total ~0.14). Note: Measure of change in GE(0) is based on real household consumption per capita. Source: World Bank staff calculations using VHLSS 2010–2020. Total inequality change is positive in all periods, rising most over 2010–2020, with between-effect and income-effect components being the largest contributors."
+  }
+ ]
+}

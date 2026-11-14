@@ -1,0 +1,23 @@
+{
+ "page": 83,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table B.2.2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table B.2.2.1: Income categories and definitions\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | INCOME CATEGORY | NOTES |\\n|---|---|---|\\n| 1 | Family farms | Net farm income. See Chapter 3 for agriculture sub-categories. |\\n| 2 | Non-farm family business | Net household non-farm income. |\\n| 3 | Wages, bonus, and severance | Wages are accumulated across the first, second, and third jobs over the last 12 months. Not all employed activities pay wages and salaries. Where individuals do not provide wage information, they are likely to report income sources under family businesses or agriculture modules. |\\n| 4 | Pensions | Asked to individuals currently not working |\\n| 5 | Social Assistance | Direct cash transfers from Module 4 and unemployment benefits. Does not include indirect benefits such as subsidies or loans. |\\n| 6 | Remittances | Domestic and international remittances |\\n| 7 | Financial | |\\n| 8 | Rent | Rental or leasing incomes. |\\n| 9 | Other | Net hunting, interest revenue, gifts from wedding or funeral, receipts from insurance payments. |\"}]}",
+ "usage": {
+  "prompt_tokens": 3234,
+  "completion_tokens": 426,
+  "cost_usd": 0.0005364000000000001,
+  "latency_s": 2.563
+ },
+ "elements": [
+  {
+   "label": "Table B.2.2.1: Income categories and definitions",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | INCOME CATEGORY | NOTES |\n|---|---|---|\n| 1 | Family farms | Net farm income. See Chapter 3 for agriculture sub-categories. |\n| 2 | Non-farm family business | Net household non-farm income. |\n| 3 | Wages, bonus, and severance | Wages are accumulated across the first, second, and third jobs over the last 12 months. Not all employed activities pay wages and salaries. Where individuals do not provide wage information, they are likely to report income sources under family businesses or agriculture modules. |\n| 4 | Pensions | Asked to individuals currently not working |\n| 5 | Social Assistance | Direct cash transfers from Module 4 and unemployment benefits. Does not include indirect benefits such as subsidies or loans. |\n| 6 | Remittances | Domestic and international remittances |\n| 7 | Financial | |\n| 8 | Rent | Rental or leasing incomes. |\n| 9 | Other | Net hunting, interest revenue, gifts from wedding or funeral, receipts from insurance payments. |"
+  }
+ ]
+}

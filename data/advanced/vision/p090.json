@@ -1,0 +1,37 @@
+{
+ "page": 90,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.17",
+  "Figure 2.18",
+  "Table 2.2"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": \"Figure 2.17\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two line charts side by side, with quintiles Q1 (Bottom 20) to Q5 (Top 20) on the x-axis and three series: Registered business, Small household business, and No registration. Values are not printed, so approximate readings are given.\\n\\nLeft panel: y-axis 'Share of households (%)', scale 0-25.\\n- Registered business: ~0, ~0.7, ~0.9, ~1.3, ~2.4\\n- Small household business: ~3.5, ~10.4, ~12.5, ~16.6, ~21.1\\n- No registration: ~12.2, ~17.6, ~21.0, ~21.1, ~17.8\\n\\nRight panel: y-axis 'Annual income (VND, millions)', scale 0-600.\\n- Registered business: ~190, ~120, ~150, ~175, ~520\\n- Small household business: ~60, ~100, ~135, ~165, ~210\\n- No registration: ~40, ~75, ~95, ~118, ~160\\n\\nNote: Household-level income. Source: World Bank staff calculations using VHLSS 2020. Pattern: the share of small household businesses rises steeply across quintiles, while registered business income rises sharply only in the top quintile.\"},\n{\"label\": \"Figure 2.18\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two grouped bar charts with quintiles Q1 (Bottom 20) to Q5 (Top 20) on the x-axis and two series: 2010 (teal) and 2020 (orange). Values are not printed, so approximate readings are given.\\n\\nLeft panel: y-axis 'Share of households (%)', scale 0-25.\\n- 2010: ~10.6, ~5.6, ~4.5, ~3.2, ~1.7\\n- 2020: ~22.3, ~12.5, ~9.1, ~7.1, ~6.6\\n\\nRight panel: y-axis 'Annual income (VND, millions)', scale 0-7.\\n- 2010: ~2.1, ~2.8, ~4.5, ~4.7, ~4.0\\n- 2020: ~4.5, ~5.0, ~5.9, ~5.6, ~6.0\\n\\nNote: Annual household nominal income among recipients. Source: World Bank staff calculations using VHLSS 2010 and 2020. Pattern: the share of recipient households falls across quintiles in both years, and income rises from 2010 to 2020 in every quintile.\"},\n{\"label\": \"Table 2.2\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| CATEGORIES OF EXISTING VULNERABLE GROUPS | ESTIMATED NUMBER OF BENEFICIARIES | AVERAGE BENEFIT AMOUNT (MONTHLY) |\\n|---|---|---|\\n| Whole country | | |\\n| People in poor and near-poor households | 7 million people | VND 750,000 per person |\\n| Social assistance beneficiaries | 2.84 million people | VND 1.5 million per person |\\n| Merit people (National Devotees) | 1 million people | VND 1.5 million per person |\\n\\nNote: Merit people (or National Devotees) are people who have contributed during revolution and war times. Dutta (2019) estimates for 2018 are used.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3284,
+  "completion_tokens": 1697,
+  "cost_usd": 0.0011769,
+  "latency_s": 6.254
+ },
+ "elements": [
+  {
+   "label": "Figure 2.17",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two line charts side by side, with quintiles Q1 (Bottom 20) to Q5 (Top 20) on the x-axis and three series: Registered business, Small household business, and No registration. Values are not printed, so approximate readings are given.\n\nLeft panel: y-axis 'Share of households (%)', scale 0-25.\n- Registered business: ~0, ~0.7, ~0.9, ~1.3, ~2.4\n- Small household business: ~3.5, ~10.4, ~12.5, ~16.6, ~21.1\n- No registration: ~12.2, ~17.6, ~21.0, ~21.1, ~17.8\n\nRight panel: y-axis 'Annual income (VND, millions)', scale 0-600.\n- Registered business: ~190, ~120, ~150, ~175, ~520\n- Small household business: ~60, ~100, ~135, ~165, ~210\n- No registration: ~40, ~75, ~95, ~118, ~160\n\nNote: Household-level income. Source: World Bank staff calculations using VHLSS 2020. Pattern: the share of small household businesses rises steeply across quintiles, while registered business income rises sharply only in the top quintile."
+  },
+  {
+   "label": "Figure 2.18",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two grouped bar charts with quintiles Q1 (Bottom 20) to Q5 (Top 20) on the x-axis and two series: 2010 (teal) and 2020 (orange). Values are not printed, so approximate readings are given.\n\nLeft panel: y-axis 'Share of households (%)', scale 0-25.\n- 2010: ~10.6, ~5.6, ~4.5, ~3.2, ~1.7\n- 2020: ~22.3, ~12.5, ~9.1, ~7.1, ~6.6\n\nRight panel: y-axis 'Annual income (VND, millions)', scale 0-7.\n- 2010: ~2.1, ~2.8, ~4.5, ~4.7, ~4.0\n- 2020: ~4.5, ~5.0, ~5.9, ~5.6, ~6.0\n\nNote: Annual household nominal income among recipients. Source: World Bank staff calculations using VHLSS 2010 and 2020. Pattern: the share of recipient households falls across quintiles in both years, and income rises from 2010 to 2020 in every quintile."
+  },
+  {
+   "label": "Table 2.2",
+   "kind": "table",
+   "bbox": null,
+   "description": "| CATEGORIES OF EXISTING VULNERABLE GROUPS | ESTIMATED NUMBER OF BENEFICIARIES | AVERAGE BENEFIT AMOUNT (MONTHLY) |\n|---|---|---|\n| Whole country | | |\n| People in poor and near-poor households | 7 million people | VND 750,000 per person |\n| Social assistance beneficiaries | 2.84 million people | VND 1.5 million per person |\n| Merit people (National Devotees) | 1 million people | VND 1.5 million per person |\n\nNote: Merit people (or National Devotees) are people who have contributed during revolution and war times. Dutta (2019) estimates for 2018 are used."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "page": 145,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.17",
+  "Figure 4.16"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.16\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: \\\"Annual VND (thousand)\\\", scale 0 to 8,000 in steps of 1,000. X-axis categories: Non-resident fee, Contributions, Parent/class fund, Uniform, Books, Other study materials, Extra courses, Other. Legend (quintile series): 1 (=poorest), 2, 3, 4, 5 (=richest), shown in progressively lighter shades of teal. No values are printed; approximate readings are:\\n- Non-resident fee: Q1 ~150, Q2 ~250, Q3 ~380, Q4 ~100, Q5 ~800\\n- Contributions: Q1 ~200, Q2 ~250, Q3 ~300, Q4 ~350, Q5 ~550\\n- Parent/class fund: Q1 ~120, Q2 ~180, Q3 ~230, Q4 ~330, Q5 ~500\\n- Uniform: Q1 ~280, Q2 ~350, Q3 ~400, Q4 ~450, Q5 ~600\\n- Books: Q1 ~300, Q2 ~350, Q3 ~380, Q4 ~500, Q5 ~680\\n- Other study materials: Q1 ~200, Q2 ~250, Q3 ~320, Q4 ~380, Q5 ~480\\n- Extra courses: Q1 ~1,100, Q2 ~1,700, Q3 ~2,300, Q4 ~3,300, Q5 ~6,500\\n- Other: Q1 ~500, Q2 ~800, Q3 ~1,650, Q4 ~2,250, Q5 ~2,700\\nNote printed beneath: \\\"Other study materials include paper, pens, bags, and notebooks.\\\" Source: World Bank staff calculation using VHLSS2020. The pattern: spending rises steeply with wealth, and the gap is largest for extra courses, where the richest quintile spends several times the poorest quintile.\"}, {\"label\": \"Figure 4.17\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: \\\"Participation rate in extra classes\\\", scale 0 to 100 in steps of 20. X-axis: Age 8 and Age 12. Legend: Top quintile (teal), Bottom quintile (orange). Approximate values (not printed):\\n- Age 8: Top quintile ~77; Bottom quintile ~47\\n- Age 12: Top quintile ~86; Bottom quintile ~30\\nSource printed beneath: Le and Nguyen (2016). Young Lives Surveys. The pattern: top-quintile participation is well above bottom-quintile participation at both ages, and the gap widens with age as bottom-quintile participation falls while top-quintile participation rises.\"}]}",
+ "usage": {
+  "prompt_tokens": 3278,
+  "completion_tokens": 1547,
+  "cost_usd": 0.0011013,
+  "latency_s": 6.697
+ },
+ "elements": [
+  {
+   "label": "Figure 4.16",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: \"Annual VND (thousand)\", scale 0 to 8,000 in steps of 1,000. X-axis categories: Non-resident fee, Contributions, Parent/class fund, Uniform, Books, Other study materials, Extra courses, Other. Legend (quintile series): 1 (=poorest), 2, 3, 4, 5 (=richest), shown in progressively lighter shades of teal. No values are printed; approximate readings are:\n- Non-resident fee: Q1 ~150, Q2 ~250, Q3 ~380, Q4 ~100, Q5 ~800\n- Contributions: Q1 ~200, Q2 ~250, Q3 ~300, Q4 ~350, Q5 ~550\n- Parent/class fund: Q1 ~120, Q2 ~180, Q3 ~230, Q4 ~330, Q5 ~500\n- Uniform: Q1 ~280, Q2 ~350, Q3 ~400, Q4 ~450, Q5 ~600\n- Books: Q1 ~300, Q2 ~350, Q3 ~380, Q4 ~500, Q5 ~680\n- Other study materials: Q1 ~200, Q2 ~250, Q3 ~320, Q4 ~380, Q5 ~480\n- Extra courses: Q1 ~1,100, Q2 ~1,700, Q3 ~2,300, Q4 ~3,300, Q5 ~6,500\n- Other: Q1 ~500, Q2 ~800, Q3 ~1,650, Q4 ~2,250, Q5 ~2,700\nNote printed beneath: \"Other study materials include paper, pens, bags, and notebooks.\" Source: World Bank staff calculation using VHLSS2020. The pattern: spending rises steeply with wealth, and the gap is largest for extra courses, where the richest quintile spends several times the poorest quintile."
+  },
+  {
+   "label": "Figure 4.17",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: \"Participation rate in extra classes\", scale 0 to 100 in steps of 20. X-axis: Age 8 and Age 12. Legend: Top quintile (teal), Bottom quintile (orange). Approximate values (not printed):\n- Age 8: Top quintile ~77; Bottom quintile ~47\n- Age 12: Top quintile ~86; Bottom quintile ~30\nSource printed beneath: Le and Nguyen (2016). Young Lives Surveys. The pattern: top-quintile participation is well above bottom-quintile participation at both ages, and the gap widens with age as bottom-quintile participation falls while top-quintile participation rises."
+  }
+ ]
+}

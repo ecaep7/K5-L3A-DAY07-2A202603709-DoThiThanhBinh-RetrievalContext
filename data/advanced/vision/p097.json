@@ -1,0 +1,23 @@
+{
+ "page": 97,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table B.2.4.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Table B.2.4.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| VARIABLE | DEFINITION |\\n|---|---|\\n| C_pc | Household consumption per capita |\\n| θ_h | Propensity to consume |\\n| Y_pc | Household income per capita |\\n| Y_h | Total household income (household h) |\\n| y_i | Total income from household member i |\\n| y_i^L | Total labor income from household member i. Assuming labor income only from occupied or employed adults. |\\n| y_i^NL | Total non-labor income from household member i. |\\n| n | Number of household members |\\n| n_A | Number of adult household members aged 15+ |\\n| n_o | Number of adult household members aged 15+ and are also employed or occupied |\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3235,
+  "completion_tokens": 499,
+  "cost_usd": 0.000573,
+  "latency_s": 3.003
+ },
+ "elements": [
+  {
+   "label": "Table B.2.4.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| VARIABLE | DEFINITION |\n|---|---|\n| C_pc | Household consumption per capita |\n| θ_h | Propensity to consume |\n| Y_pc | Household income per capita |\n| Y_h | Total household income (household h) |\n| y_i | Total income from household member i |\n| y_i^L | Total labor income from household member i. Assuming labor income only from occupied or employed adults. |\n| y_i^NL | Total non-labor income from household member i. |\n| n | Number of household members |\n| n_A | Number of adult household members aged 15+ |\n| n_o | Number of adult household members aged 15+ and are also employed or occupied |"
+  }
+ ]
+}

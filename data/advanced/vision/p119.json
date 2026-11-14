@@ -1,0 +1,30 @@
+{
+ "page": 119,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.20",
+  "Figure 3.21"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 3.20\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart of household farm income by activity, nationally, 2010–2020. Y-axis: Annual VND (thousands), with gridlines at 0, 20,000 and 40,000. X-axis: years, labelled 2012, 2016 and 2020 under each bar group. Panels, left to right: Agricultural land, Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples, Total. Bars in each group are colour-coded by year. Approximate readings (~, thousands VND): Agricultural land ~2,000 to ~9,000; Agricultural services ~12,000 rising to ~51,000 in 2020; Aquaculture ~7,000 rising to ~34,000; By-products ~1,000 throughout; Forestry ~2,000 to ~8,000; Fruit ~2,000 to ~12,000; Industrial crops ~9,000 to ~24,000; Livestock ~25,000 rising to ~52,000 (peak around 2016–2018); Rice ~23,000, dropping to ~9,000 and then ~21,000 before ~15,000 in 2020; Staples ~3,000 to ~7,000; Total ~29,000 to ~40,000, then ~32,000 in 2020. Note: nominal average annual net income among engaged households. Source: World Bank staff calculations using VHLSS 2010–2020. Pattern: agricultural services, aquaculture and livestock income rose substantially over the decade, while crops and by-products grew little.\"}, {\"label\": \"Figure 3.21\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Multi-panel line chart of household farm income by activity and region, 2010–2020. Y-axis: Annual VND ('000), with ticks at 0K, 50K, 100K and 150K. X-axis: years (2010, 2012, ... 2020) under each panel. Panels: Agricultural land, Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples, Any Agricultural activity. Legend (six series): Central Highlands (teal), Midlands & Northern Mountain (orange), Red River Delta (grey), Mekong Delta (yellow), Northern & Coastal Central Region (blue), Southeast (green). Notable readings (approximate, '000 VND): Forestry Southeast spikes to ~150K around 2018, then ~50K in 2020; Livestock Central Highlands ~115K in 2010 and Southeast ~105K around 2016; Industrial crops Central Highlands ~95K around 2012; Agricultural services Central Highlands ~120K in 2018 and Southeast ~125K in 2020; Rice Mekong Delta ~90K in 2018; Most other series stay below ~50K, and By-products stays near 0–5K. Source: World Bank staff calculations using VHLSS 2010–2020. Pattern: income is volatile for several sub-sectors with sharp regional spikes, while the Any Agricultural activity panel stays in the ~25K–60K range.\"}]}",
+ "usage": {
+  "prompt_tokens": 3268,
+  "completion_tokens": 2012,
+  "cost_usd": 0.0013327999999999999,
+  "latency_s": 8.901
+ },
+ "elements": [
+  {
+   "label": "Figure 3.20",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart of household farm income by activity, nationally, 2010–2020. Y-axis: Annual VND (thousands), with gridlines at 0, 20,000 and 40,000. X-axis: years, labelled 2012, 2016 and 2020 under each bar group. Panels, left to right: Agricultural land, Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples, Total. Bars in each group are colour-coded by year. Approximate readings (~, thousands VND): Agricultural land ~2,000 to ~9,000; Agricultural services ~12,000 rising to ~51,000 in 2020; Aquaculture ~7,000 rising to ~34,000; By-products ~1,000 throughout; Forestry ~2,000 to ~8,000; Fruit ~2,000 to ~12,000; Industrial crops ~9,000 to ~24,000; Livestock ~25,000 rising to ~52,000 (peak around 2016–2018); Rice ~23,000, dropping to ~9,000 and then ~21,000 before ~15,000 in 2020; Staples ~3,000 to ~7,000; Total ~29,000 to ~40,000, then ~32,000 in 2020. Note: nominal average annual net income among engaged households. Source: World Bank staff calculations using VHLSS 2010–2020. Pattern: agricultural services, aquaculture and livestock income rose substantially over the decade, while crops and by-products grew little."
+  },
+  {
+   "label": "Figure 3.21",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Multi-panel line chart of household farm income by activity and region, 2010–2020. Y-axis: Annual VND ('000), with ticks at 0K, 50K, 100K and 150K. X-axis: years (2010, 2012, ... 2020) under each panel. Panels: Agricultural land, Agricultural services, Aquaculture, By-products, Forestry, Fruit, Industrial crops, Livestock, Rice, Staples, Any Agricultural activity. Legend (six series): Central Highlands (teal), Midlands & Northern Mountain (orange), Red River Delta (grey), Mekong Delta (yellow), Northern & Coastal Central Region (blue), Southeast (green). Notable readings (approximate, '000 VND): Forestry Southeast spikes to ~150K around 2018, then ~50K in 2020; Livestock Central Highlands ~115K in 2010 and Southeast ~105K around 2016; Industrial crops Central Highlands ~95K around 2012; Agricultural services Central Highlands ~120K in 2018 and Southeast ~125K in 2020; Rice Mekong Delta ~90K in 2018; Most other series stay below ~50K, and By-products stays near 0–5K. Source: World Bank staff calculations using VHLSS 2010–2020. Pattern: income is volatile for several sub-sectors with sharp regional spikes, while the Any Agricultural activity panel stays in the ~25K–60K range."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 57,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.13"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.13\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two-panel bar chart. Y-axis on both panels: \\\"Share of panel households (%)\\\", scale 0–80 in steps of 10. Bars are teal. Notes: share of panel households experiencing an increase in real consumption per capita. Source: WB calculations using VHLSS panel.\\n\\nLeft panel, \\\"Two-year periods\\\" (categories 2010–2012, 2012–2014, 2014–2016, 2016–2018; no values printed): ~61, ~57, ~70, ~60.\\n\\nRight panel, \\\"Four-year periods\\\" (categories 2010–2014, 2012–2016, 2014–2018; no values printed): ~63, ~71, ~73.\\n\\nThe pattern: the share is roughly 57–70% in two-year periods, peaking in 2014–2016, and is higher in each four-year period (about 63–73%) than in the two-year periods, rising across the four-year windows.\"}]}",
+ "usage": {
+  "prompt_tokens": 3247,
+  "completion_tokens": 587,
+  "cost_usd": 0.0006182000000000001,
+  "latency_s": 4.397
+ },
+ "elements": [
+  {
+   "label": "Figure 1.13",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two-panel bar chart. Y-axis on both panels: \"Share of panel households (%)\", scale 0–80 in steps of 10. Bars are teal. Notes: share of panel households experiencing an increase in real consumption per capita. Source: WB calculations using VHLSS panel.\n\nLeft panel, \"Two-year periods\" (categories 2010–2012, 2012–2014, 2014–2016, 2016–2018; no values printed): ~61, ~57, ~70, ~60.\n\nRight panel, \"Four-year periods\" (categories 2010–2014, 2012–2016, 2014–2018; no values printed): ~63, ~71, ~73.\n\nThe pattern: the share is roughly 57–70% in two-year periods, peaking in 2014–2016, and is higher in each four-year period (about 63–73%) than in the two-year periods, rising across the four-year windows."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 107,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.9"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 3.9\", \"kind\": \"map\", \"bbox\": null, \"description\": \"Two small-area choropleth maps of poverty rates (2019) shown as regional zoom-ins. Left panel titled \\\"Midlands & Northern Mountains\\\": districts are shaded in a blue-to-orange diverging gradient; orange/dark orange districts (higher poverty) dominate the northwestern and northern parts and scattered areas along the western edge, while blue districts (lower poverty) cluster in the central-eastern and southeastern parts, especially along the eastern and southeastern edges and the central-south corridor. Right panel titled \\\"Central Highlands\\\": orange and light orange districts (higher poverty) cover most of the western and central parts, with darker orange in some northwest and central districts; blue districts (lower poverty) concentrate along the eastern edge and southeastern coast. Legend below both panels: a color bar labelled \\\"Poverty rate\\\" running from 0.0 (blue) through light neutral tones to 100.0 (dark orange/brown). Note: the color gradient transitions between blue and orange depicts the national average poverty rate from the 2019 small area poverty map; rates are higher in orange districts than the national average and lower in blue districts. Source: World Bank staff calculations.\"}]}",
+ "usage": {
+  "prompt_tokens": 3245,
+  "completion_tokens": 435,
+  "cost_usd": 0.000542,
+  "latency_s": 3.253
+ },
+ "elements": [
+  {
+   "label": "Figure 3.9",
+   "kind": "map",
+   "bbox": null,
+   "description": "Two small-area choropleth maps of poverty rates (2019) shown as regional zoom-ins. Left panel titled \"Midlands & Northern Mountains\": districts are shaded in a blue-to-orange diverging gradient; orange/dark orange districts (higher poverty) dominate the northwestern and northern parts and scattered areas along the western edge, while blue districts (lower poverty) cluster in the central-eastern and southeastern parts, especially along the eastern and southeastern edges and the central-south corridor. Right panel titled \"Central Highlands\": orange and light orange districts (higher poverty) cover most of the western and central parts, with darker orange in some northwest and central districts; blue districts (lower poverty) concentrate along the eastern edge and southeastern coast. Legend below both panels: a color bar labelled \"Poverty rate\" running from 0.0 (blue) through light neutral tones to 100.0 (dark orange/brown). Note: the color gradient transitions between blue and orange depicts the national average poverty rate from the 2019 small area poverty map; rates are higher in orange districts than the national average and lower in blue districts. Source: World Bank staff calculations."
+  }
+ ]
+}

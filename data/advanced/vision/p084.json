@@ -1,0 +1,22 @@
+{
+ "page": 84,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.12"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 2.12\", \"kind\": \"chart\", \"description\": \"Two-panel grouped bar chart (2010 vs 2020 series, teal and orange) comparing household income components.\\n\\nTop panel, titled 'Annual household income (VND, million)'. Y-axis: 'Annual household income (VND, millions)', ticks 0, 30, 60, 90, 120, 150. Categories and approximate readings (no values printed; all approximate):\\n- Wage, bonus, severance: 2010 ~43; 2020 ~142\\n- Family business: 2010 ~47; 2020 ~144\\n- Family farms: 2010 ~29; 2020 ~33\\n- Remittance: 2010 ~7; 2020 ~14\\n- Social assistance (cash transfer only): 2010 ~5; 2020 ~10\\n- Pension: 2010 ~32; 2020 ~80\\n- Other income: 2010 ~3; 2020 ~5\\n\\nBottom panel, titled 'Share of household with income source (%)'. Y-axis: 'Share of households (%)', ticks 0, 20, 40, 60, 80, 100. Categories and approximate readings:\\n- Wage, bonus, severance: 2010 ~65; 2020 ~71\\n- Family business: 2010 ~34; 2020 ~31\\n- Family farms: 2010 ~66; 2020 ~50\\n- Remittance: 2010 ~85; 2020 ~86\\n- Social assistance (cash transfer only): 2010 ~12; 2020 ~16\\n- Pension: 2010 ~8; 2020 ~9\\n- Other income: 2010 ~24; 2020 ~27\\n\\nNotes printed below the figure: 'Nominal values. World Bank-constructed income categories. See Box 2.2 for definitions. Average incomes are only for households who report having the income source. Social assistance income includes only selected direct cash transfers.' Source: 'World Bank staff calculations using VHLSS 2010 and 2020.'\\n\\nPattern: average income from wages, family business and pensions rose sharply by 2020, while the share of households with family farm income fell, and remittances remained the most widely reported source.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3240,
+  "completion_tokens": 1491,
+  "cost_usd": 0.0010695,
+  "latency_s": 6.618
+ },
+ "elements": [
+  {
+   "label": "Figure 2.12",
+   "kind": "chart",
+   "description": "Two-panel grouped bar chart (2010 vs 2020 series, teal and orange) comparing household income components.\n\nTop panel, titled 'Annual household income (VND, million)'. Y-axis: 'Annual household income (VND, millions)', ticks 0, 30, 60, 90, 120, 150. Categories and approximate readings (no values printed; all approximate):\n- Wage, bonus, severance: 2010 ~43; 2020 ~142\n- Family business: 2010 ~47; 2020 ~144\n- Family farms: 2010 ~29; 2020 ~33\n- Remittance: 2010 ~7; 2020 ~14\n- Social assistance (cash transfer only): 2010 ~5; 2020 ~10\n- Pension: 2010 ~32; 2020 ~80\n- Other income: 2010 ~3; 2020 ~5\n\nBottom panel, titled 'Share of household with income source (%)'. Y-axis: 'Share of households (%)', ticks 0, 20, 40, 60, 80, 100. Categories and approximate readings:\n- Wage, bonus, severance: 2010 ~65; 2020 ~71\n- Family business: 2010 ~34; 2020 ~31\n- Family farms: 2010 ~66; 2020 ~50\n- Remittance: 2010 ~85; 2020 ~86\n- Social assistance (cash transfer only): 2010 ~12; 2020 ~16\n- Pension: 2010 ~8; 2020 ~9\n- Other income: 2010 ~24; 2020 ~27\n\nNotes printed below the figure: 'Nominal values. World Bank-constructed income categories. See Box 2.2 for definitions. Average incomes are only for households who report having the income source. Social assistance income includes only selected direct cash transfers.' Source: 'World Bank staff calculations using VHLSS 2010 and 2020.'\n\nPattern: average income from wages, family business and pensions rose sharply by 2020, while the share of households with family farm income fell, and remittances remained the most widely reported source."
+  }
+ ]
+}

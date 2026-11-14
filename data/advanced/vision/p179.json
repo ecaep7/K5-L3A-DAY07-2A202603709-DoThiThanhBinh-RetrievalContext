@@ -1,0 +1,23 @@
+{
+ "page": 179,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.5"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 6.5\", \"kind\": \"map\", \"bbox\": null, \"description\": \"Five district-level choropleth maps of Vietnam showing environmental conditions and risks, each with a blue-to-orange color legend. (1) Temperature (mean): legend 'Temperature (Annual average, Celcius)' ranging from 18.602 (dark blue) to 28.394 (dark brown-red). Highest (warmest) districts are in the far south (Mekong Delta, deep brown-red) and along the south-central coast and central Red River/North Central areas in orange; coolest are the northern highlands and northeastern uplands in blue. (2) Air pollution (PM2.5): legend 'Air pollution (PM2.5)' ranging from 9.87 (dark blue) to 43.12 (dark red-brown). Highest concentrations are in the Red River Delta and surrounding northern districts (dark orange-red centered on Hanoi area); the central and southern regions are lowest, in dark blue. (3) Precipitation (mean): legend 'Precipitation (millimeter)' ranging from 2.76 (dark blue) to 12.84 (dark red-brown). Highest values appear in the central coast/North Central region (orange-red), while the northern highlands and much of the south are mostly light to mid blue. (4) SPEI drought indicator: legend ranging from -0.864 (dark blue) to 0.864 (dark orange-brown). Orange (wetter/higher values) appears in the northern highlands and parts of the south-central coast and Mekong Delta; blue (drier, lower values) dominates the central north, central coast and parts of the southeast. (5) Percent of the population exposed to high flood risk: legend ranging from 0 (dark blue) to 100 (dark red-brown). Highest shares are in the Mekong Delta (deep orange-red) and in pockets of the central Red River Delta and central coast; most northern and central-highland districts are low (blue). Note: District-level map. SPEI is available at the province level. See Table 6.1 for definitions.\"}]}",
+ "usage": {
+  "prompt_tokens": 3236,
+  "completion_tokens": 694,
+  "cost_usd": 0.0006706,
+  "latency_s": 4.408
+ },
+ "elements": [
+  {
+   "label": "Figure 6.5",
+   "kind": "map",
+   "bbox": null,
+   "description": "Five district-level choropleth maps of Vietnam showing environmental conditions and risks, each with a blue-to-orange color legend. (1) Temperature (mean): legend 'Temperature (Annual average, Celcius)' ranging from 18.602 (dark blue) to 28.394 (dark brown-red). Highest (warmest) districts are in the far south (Mekong Delta, deep brown-red) and along the south-central coast and central Red River/North Central areas in orange; coolest are the northern highlands and northeastern uplands in blue. (2) Air pollution (PM2.5): legend 'Air pollution (PM2.5)' ranging from 9.87 (dark blue) to 43.12 (dark red-brown). Highest concentrations are in the Red River Delta and surrounding northern districts (dark orange-red centered on Hanoi area); the central and southern regions are lowest, in dark blue. (3) Precipitation (mean): legend 'Precipitation (millimeter)' ranging from 2.76 (dark blue) to 12.84 (dark red-brown). Highest values appear in the central coast/North Central region (orange-red), while the northern highlands and much of the south are mostly light to mid blue. (4) SPEI drought indicator: legend ranging from -0.864 (dark blue) to 0.864 (dark orange-brown). Orange (wetter/higher values) appears in the northern highlands and parts of the south-central coast and Mekong Delta; blue (drier, lower values) dominates the central north, central coast and parts of the southeast. (5) Percent of the population exposed to high flood risk: legend ranging from 0 (dark blue) to 100 (dark red-brown). Highest shares are in the Mekong Delta (deep orange-red) and in pockets of the central Red River Delta and central coast; most northern and central-highland districts are low (blue). Note: District-level map. SPEI is available at the province level. See Table 6.1 for definitions."
+  }
+ ]
+}

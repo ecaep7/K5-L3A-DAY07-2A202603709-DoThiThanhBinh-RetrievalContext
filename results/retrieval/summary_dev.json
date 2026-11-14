@@ -1,0 +1,38 @@
+{
+ "split": "dev",
+ "top_k": 10,
+ "query": "nguyên văn câu hỏi",
+ "filter": "trường filter của câu hỏi",
+ "methods": {
+  "dense": {
+   "N": 15,
+   "hit1": 11,
+   "hit3": 13,
+   "hit10": 14,
+   "mrr10": 0.8,
+   "errors": 0,
+   "seconds_total": 0.92,
+   "ms_per_query": 54.1
+  },
+  "lexical": {
+   "N": 15,
+   "hit1": 12,
+   "hit3": 12,
+   "hit10": 14,
+   "mrr10": 0.825,
+   "errors": 0,
+   "seconds_total": 0.26,
+   "ms_per_query": 15.3
+  },
+  "hybrid": {
+   "N": 15,
+   "hit1": 13,
+   "hit3": 14,
+   "hit10": 14,
+   "mrr10": 0.9,
+   "errors": 0,
+   "seconds_total": 1.19,
+   "ms_per_query": 70.0
+  }
+ }
+}

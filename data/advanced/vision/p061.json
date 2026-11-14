@@ -1,0 +1,30 @@
+{
+ "page": 61,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.17",
+  "Figure 1.18"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.17\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart with overlaid dots. Y-axis: \\\"Annualized growth rate (%)\\\", scale 0 to 8. X-axis: periods 2010–2012, 2012–2014, 2014–2016, 2016–2018, 2018–2020. Legend: Growth B40 (teal bar), Growth T60 (orange bar), Growth Mean (gray dot). No values are printed; approximate readings are:\\n- 2010–2012: Growth B40 ~5.4; Growth T60 ~0.6; Growth Mean ~1.4\\n- 2012–2014: Growth B40 ~4.0; Growth T60 ~2.7; Growth Mean ~2.9\\n- 2014–2016: Growth B40 ~6.6; Growth T60 ~7.6; Growth Mean ~7.5\\n- 2016–2018: Growth B40 ~4.9; Growth T60 ~5.6; Growth Mean ~5.5\\n- 2018–2020: Growth B40 ~4.5; Growth T60 ~6.0; Growth Mean ~5.7\\nThe bottom-40 growth is highest in 2014–2016 and the top-60 growth exceeds bottom-40 growth in every period except 2010–2012, where bottom-40 growth is far higher. Note: Measures based on real household consumption per capita. Source: World Bank staff calculations using VHLSS 2010–2020.\"}, {\"label\": \"Figure 1.18\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Bar chart with overlaid dots. Y-axis: \\\"Percent or percentage point\\\", scale -2 to 10. X-axis: country and period labels: 2013–16 China, 2014–18 Indonesia, 2011–18 Mongolia, 2012–16 Malaysia, 2012–15 Philippines, 2014–18 Thailand, 2012–18 Vietnam. Legend: Shared Prosperity (%) (teal bar); Shared Prosperity Premium (percentage point) (orange dot). No values are printed; approximate readings are:\\n- China: Shared Prosperity ~8.4; Premium ~1.3\\n- Indonesia: Shared Prosperity ~5.0; Premium ~0.1\\n- Mongolia: Shared Prosperity ~1.0; Premium ~0.4\\n- Malaysia: Shared Prosperity ~8.3; Premium ~2.4\\n- Philippines: Shared Prosperity ~5.1; Premium ~2.5\\n- Thailand: Shared Prosperity ~1.5; Premium ~0.4\\n- Vietnam: Shared Prosperity ~4.9; Premium ~-0.1\\nVietnam is the only country shown with a negative shared prosperity premium, while China, Malaysia and the Philippines have the highest shared prosperity values. Source: Global database of shared prosperity, seventh edition, World Bank 2020.\"}]}",
+ "usage": {
+  "prompt_tokens": 3274,
+  "completion_tokens": 1509,
+  "cost_usd": 0.0010819,
+  "latency_s": 5.782
+ },
+ "elements": [
+  {
+   "label": "Figure 1.17",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart with overlaid dots. Y-axis: \"Annualized growth rate (%)\", scale 0 to 8. X-axis: periods 2010–2012, 2012–2014, 2014–2016, 2016–2018, 2018–2020. Legend: Growth B40 (teal bar), Growth T60 (orange bar), Growth Mean (gray dot). No values are printed; approximate readings are:\n- 2010–2012: Growth B40 ~5.4; Growth T60 ~0.6; Growth Mean ~1.4\n- 2012–2014: Growth B40 ~4.0; Growth T60 ~2.7; Growth Mean ~2.9\n- 2014–2016: Growth B40 ~6.6; Growth T60 ~7.6; Growth Mean ~7.5\n- 2016–2018: Growth B40 ~4.9; Growth T60 ~5.6; Growth Mean ~5.5\n- 2018–2020: Growth B40 ~4.5; Growth T60 ~6.0; Growth Mean ~5.7\nThe bottom-40 growth is highest in 2014–2016 and the top-60 growth exceeds bottom-40 growth in every period except 2010–2012, where bottom-40 growth is far higher. Note: Measures based on real household consumption per capita. Source: World Bank staff calculations using VHLSS 2010–2020."
+  },
+  {
+   "label": "Figure 1.18",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Bar chart with overlaid dots. Y-axis: \"Percent or percentage point\", scale -2 to 10. X-axis: country and period labels: 2013–16 China, 2014–18 Indonesia, 2011–18 Mongolia, 2012–16 Malaysia, 2012–15 Philippines, 2014–18 Thailand, 2012–18 Vietnam. Legend: Shared Prosperity (%) (teal bar); Shared Prosperity Premium (percentage point) (orange dot). No values are printed; approximate readings are:\n- China: Shared Prosperity ~8.4; Premium ~1.3\n- Indonesia: Shared Prosperity ~5.0; Premium ~0.1\n- Mongolia: Shared Prosperity ~1.0; Premium ~0.4\n- Malaysia: Shared Prosperity ~8.3; Premium ~2.4\n- Philippines: Shared Prosperity ~5.1; Premium ~2.5\n- Thailand: Shared Prosperity ~1.5; Premium ~0.4\n- Vietnam: Shared Prosperity ~4.9; Premium ~-0.1\nVietnam is the only country shown with a negative shared prosperity premium, while China, Malaysia and the Philippines have the highest shared prosperity values. Source: Global database of shared prosperity, seventh edition, World Bank 2020."
+  }
+ ]
+}

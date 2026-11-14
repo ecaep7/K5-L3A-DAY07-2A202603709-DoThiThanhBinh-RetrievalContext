@@ -1,0 +1,23 @@
+{
+ "page": 46,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.2"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.2\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart titled \\\"Issues of greatest concern, 2015–2020\\\". Y-axis: \\\"Percent of respondents\\\", scale 0 to 30 in steps of 5. X-axis: years 2015, 2016, 2017, 2018, 2019, 2020. Legend (series): Poverty/Hunger (teal), Economic Growth/GDP (orange), Environment (grey), Health/Insurance (yellow). No values are printed on the bars; approximate readings are:\\n- 2015: Poverty/Hunger ~18; Economic Growth/GDP ~4.5; Environment ~2; Health/Insurance ~2.4\\n- 2016: Poverty/Hunger ~24.5; Economic Growth/GDP ~7; Environment ~12.5; Health/Insurance ~0.8\\n- 2017: Poverty/Hunger ~28.5; Economic Growth/GDP ~7.8; Environment ~7.4; Health/Insurance ~1.4\\n- 2018: Poverty/Hunger ~25; Economic Growth/GDP ~9; Environment ~6.6; Health/Insurance ~1.1\\n- 2019: Poverty/Hunger ~24.8; Economic Growth/GDP ~11; Environment ~8.9; Health/Insurance ~1.6\\n- 2020: Poverty/Hunger ~17.8; Economic Growth/GDP ~13; Environment ~3.9; Health/Insurance ~15.5\\nSource line below the chart: \\\"Source: CECODES, VFF-CRT, RTA & UNDP (2021).\\\" Poverty/Hunger is the largest concern in 2015–2019 and peaks in 2017; in 2020 Health/Insurance and Economic Growth/GDP rise sharply while Poverty/Hunger and Environment fall.\"}]}",
+ "usage": {
+  "prompt_tokens": 3240,
+  "completion_tokens": 954,
+  "cost_usd": 0.000801,
+  "latency_s": 3.808
+ },
+ "elements": [
+  {
+   "label": "Figure 1.2",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart titled \"Issues of greatest concern, 2015–2020\". Y-axis: \"Percent of respondents\", scale 0 to 30 in steps of 5. X-axis: years 2015, 2016, 2017, 2018, 2019, 2020. Legend (series): Poverty/Hunger (teal), Economic Growth/GDP (orange), Environment (grey), Health/Insurance (yellow). No values are printed on the bars; approximate readings are:\n- 2015: Poverty/Hunger ~18; Economic Growth/GDP ~4.5; Environment ~2; Health/Insurance ~2.4\n- 2016: Poverty/Hunger ~24.5; Economic Growth/GDP ~7; Environment ~12.5; Health/Insurance ~0.8\n- 2017: Poverty/Hunger ~28.5; Economic Growth/GDP ~7.8; Environment ~7.4; Health/Insurance ~1.4\n- 2018: Poverty/Hunger ~25; Economic Growth/GDP ~9; Environment ~6.6; Health/Insurance ~1.1\n- 2019: Poverty/Hunger ~24.8; Economic Growth/GDP ~11; Environment ~8.9; Health/Insurance ~1.6\n- 2020: Poverty/Hunger ~17.8; Economic Growth/GDP ~13; Environment ~3.9; Health/Insurance ~15.5\nSource line below the chart: \"Source: CECODES, VFF-CRT, RTA & UNDP (2021).\" Poverty/Hunger is the largest concern in 2015–2019 and peaks in 2017; in 2020 Health/Insurance and Economic Growth/GDP rise sharply while Poverty/Hunger and Environment fall."
+  }
+ ]
+}

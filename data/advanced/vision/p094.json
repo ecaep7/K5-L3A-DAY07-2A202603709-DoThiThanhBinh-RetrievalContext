@@ -1,0 +1,23 @@
+{
+ "page": 94,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.24"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 2.24: Poverty reduction, by ethnicity\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart of change in poverty rate (percentage point), y-axis from 2.0 to -15.0 with gridlines at 2.0, 0.0, -3.0, -6.0, -9.0, -12.0, -15.0. Three bars for periods 2010–2014, 2016–2020, and 2010–2020. Series (legend): Kinh (teal), Ethnic Minority (orange), Population shift effect (gray), Interaction effect (yellow). No values are printed on the bars; approximate readings are given below.\\n\\n- 2010–2014 (approx. total ~-6.0): Kinh ~-4.0; Ethnic Minority ~-1.7 (cumulative bottom ~-5.7); Population shift effect ~-0.3 (bottom ~-6.0); Interaction effect ~0.\\n- 2016–2020 (approx. total ~-3.0): Interaction effect ~+0.2 (small, at top); Kinh ~-0.7; Ethnic Minority ~-1.5; Population shift effect ~-0.7 (bottom ~-3.0).\\n- 2010–2020 (approx. total ~-12.2): Interaction effect ~+0.2; Kinh ~-7.0; Ethnic Minority ~-4.6 (cumulative bottom ~-11.6); Population shift effect ~-0.5 (bottom ~-12.2).\\n\\nNote printed: World Bank LMIC Poverty rates ($3.20/day 2011PPP). Source printed: World Bank staff calculations using VHLSS 2010–2020.\\n\\nThe 2010–2020 bar shows the largest total reduction, driven mostly by the Kinh segment and the Ethnic Minority segment; the 2016–2020 bar is the smallest reduction, with the Kinh and Ethnic Minority contributions small and the population shift effect the largest negative component.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3238,
+  "completion_tokens": 1649,
+  "cost_usd": 0.0011482999999999999,
+  "latency_s": 7.611
+ },
+ "elements": [
+  {
+   "label": "Figure 2.24: Poverty reduction, by ethnicity",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart of change in poverty rate (percentage point), y-axis from 2.0 to -15.0 with gridlines at 2.0, 0.0, -3.0, -6.0, -9.0, -12.0, -15.0. Three bars for periods 2010–2014, 2016–2020, and 2010–2020. Series (legend): Kinh (teal), Ethnic Minority (orange), Population shift effect (gray), Interaction effect (yellow). No values are printed on the bars; approximate readings are given below.\n\n- 2010–2014 (approx. total ~-6.0): Kinh ~-4.0; Ethnic Minority ~-1.7 (cumulative bottom ~-5.7); Population shift effect ~-0.3 (bottom ~-6.0); Interaction effect ~0.\n- 2016–2020 (approx. total ~-3.0): Interaction effect ~+0.2 (small, at top); Kinh ~-0.7; Ethnic Minority ~-1.5; Population shift effect ~-0.7 (bottom ~-3.0).\n- 2010–2020 (approx. total ~-12.2): Interaction effect ~+0.2; Kinh ~-7.0; Ethnic Minority ~-4.6 (cumulative bottom ~-11.6); Population shift effect ~-0.5 (bottom ~-12.2).\n\nNote printed: World Bank LMIC Poverty rates ($3.20/day 2011PPP). Source printed: World Bank staff calculations using VHLSS 2010–2020.\n\nThe 2010–2020 bar shows the largest total reduction, driven mostly by the Kinh segment and the Ethnic Minority segment; the 2016–2020 bar is the smallest reduction, with the Kinh and Ethnic Minority contributions small and the population shift effect the largest negative component."
+  }
+ ]
+}

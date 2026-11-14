@@ -1,0 +1,23 @@
+{
+ "page": 162,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.12"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 5.12: Employment across digital occupation level, by country\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart, y-axis titled 'Share of employment (%)' ranging 0 to 100 in steps of 20; x-axis categories: Cambodia, Thailand, Malaysia, Vietnam. Legend: Low digital occupations (teal), Medium digital occupations (orange), Highly digital occupations (grey). Printed values: Cambodia – Low 71.1%, Medium 28.6%, Highly 0.3% (label above bar); Thailand – Low 63.6%, Medium 33.4%, Highly 3% (label above bar); Malaysia – Low 72.5%, Medium 26.1%, Highly 1.4% (label above bar); Vietnam – Low 73.9%, Medium 24.7%, Highly 1.4% (label above bar). Pattern: low digital occupations make up roughly 64–74% of employment in every economy, with Vietnam and Malaysia highest in low-digital share and Thailand having the largest medium and highly digital shares.\"}]}",
+ "usage": {
+  "prompt_tokens": 3237,
+  "completion_tokens": 387,
+  "cost_usd": 0.0005172,
+  "latency_s": 2.243
+ },
+ "elements": [
+  {
+   "label": "Figure 5.12: Employment across digital occupation level, by country",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart, y-axis titled 'Share of employment (%)' ranging 0 to 100 in steps of 20; x-axis categories: Cambodia, Thailand, Malaysia, Vietnam. Legend: Low digital occupations (teal), Medium digital occupations (orange), Highly digital occupations (grey). Printed values: Cambodia – Low 71.1%, Medium 28.6%, Highly 0.3% (label above bar); Thailand – Low 63.6%, Medium 33.4%, Highly 3% (label above bar); Malaysia – Low 72.5%, Medium 26.1%, Highly 1.4% (label above bar); Vietnam – Low 73.9%, Medium 24.7%, Highly 1.4% (label above bar). Pattern: low digital occupations make up roughly 64–74% of employment in every economy, with Vietnam and Malaysia highest in low-digital share and Thailand having the largest medium and highly digital shares."
+  }
+ ]
+}

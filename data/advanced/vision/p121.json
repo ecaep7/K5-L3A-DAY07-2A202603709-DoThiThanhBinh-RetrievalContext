@@ -1,0 +1,30 @@
+{
+ "page": 121,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 3.2",
+  "Figure 3.23"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": \"Table 3.2\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | (1) YIELD (LOG) | (2) TFP |\\n|---|---|---|\\n| **Panel A: Poverty** | | |\\n| Poor (=1) | -0.349*** | -0.195*** |\\n| | (0.050) | (0.028) |\\n| R-sq | 0.357 | 0.391 |\\n| Observations | 5602 | 5314 |\\n| **Panel B: Ethnicity** | | |\\n| EM (=1) | 0.037 | -0.121*** |\\n| | (0.071) | (0.042) |\\n| R-sq | 0.350 | 0.358 |\\n| Observations | 5602 | 5314 |\\n\\nNote: TFP is expressed in hours of labor and is estimated based on yield, input expenditures, land size, and capital. District FE included. SE clustered at the enumeration area level. *** p<0.01 ** p<0.05 * p<0.10.\\nSource: World Bank staff calculations using VHLSS 2014.\"},\n{\"label\": \"Figure 3.23\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two grouped bar charts comparing Total, Kinh and Ethnic minority values by crop category (Rice, Staples, Industrial, Fruits).\\n\\nPanel A: Crop-Unit Value. Y-axis: 1000/unit, scale 0 to 25 (gridlines at 0, 5, 10, 15, 20, 25). Legend: Total (teal), Kinh (orange), Ethnic minority (gray). Approximate readings: Rice – Total ~6.8, Kinh ~6.7, Ethnic minority ~7.0. Staples – Total ~19.2, Kinh ~24, Ethnic minority ~9.8. Industrial – Total ~22.3, Kinh ~22.2, Ethnic minority ~22.5. Fruits – Total ~17.5, Kinh ~20.3, Ethnic minority ~10.3. Values are not printed; these are approximate readings. Pattern: Kinh and Total values are similar or higher than ethnic minorities for staples and fruits, with the largest gap in staples and fruits, while rice and industrial crops are nearly equal across groups.\\n\\nPanel B: Crop-per square meter. Y-axis: 1000/m², scale 0 to 350 (gridlines at 0, 50, 100, 150, 200, 250, 300, 350). Legend: Total, Kinh, Ethnic minority. Approximate readings: Rice – all three near 0 (~1 each). Staples – Total ~7, Kinh ~8, Ethnic minority ~4. Industrial – Total ~118, Kinh ~147, Ethnic minority ~35. Fruits – Total ~283, Kinh ~320, Ethnic minority ~183. Values are not printed; these are approximate readings. Pattern: productivity per square meter is very low for rice and staples, and is highest for fruits, where the Kinh majority is far above ethnic minorities.\\n\\nSource: World Bank staff calculations using VHLSS 2018.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3266,
+  "completion_tokens": 1487,
+  "cost_usd": 0.0010700999999999998,
+  "latency_s": 6.661
+ },
+ "elements": [
+  {
+   "label": "Table 3.2",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | (1) YIELD (LOG) | (2) TFP |\n|---|---|---|\n| **Panel A: Poverty** | | |\n| Poor (=1) | -0.349*** | -0.195*** |\n| | (0.050) | (0.028) |\n| R-sq | 0.357 | 0.391 |\n| Observations | 5602 | 5314 |\n| **Panel B: Ethnicity** | | |\n| EM (=1) | 0.037 | -0.121*** |\n| | (0.071) | (0.042) |\n| R-sq | 0.350 | 0.358 |\n| Observations | 5602 | 5314 |\n\nNote: TFP is expressed in hours of labor and is estimated based on yield, input expenditures, land size, and capital. District FE included. SE clustered at the enumeration area level. *** p<0.01 ** p<0.05 * p<0.10.\nSource: World Bank staff calculations using VHLSS 2014."
+  },
+  {
+   "label": "Figure 3.23",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two grouped bar charts comparing Total, Kinh and Ethnic minority values by crop category (Rice, Staples, Industrial, Fruits).\n\nPanel A: Crop-Unit Value. Y-axis: 1000/unit, scale 0 to 25 (gridlines at 0, 5, 10, 15, 20, 25). Legend: Total (teal), Kinh (orange), Ethnic minority (gray). Approximate readings: Rice – Total ~6.8, Kinh ~6.7, Ethnic minority ~7.0. Staples – Total ~19.2, Kinh ~24, Ethnic minority ~9.8. Industrial – Total ~22.3, Kinh ~22.2, Ethnic minority ~22.5. Fruits – Total ~17.5, Kinh ~20.3, Ethnic minority ~10.3. Values are not printed; these are approximate readings. Pattern: Kinh and Total values are similar or higher than ethnic minorities for staples and fruits, with the largest gap in staples and fruits, while rice and industrial crops are nearly equal across groups.\n\nPanel B: Crop-per square meter. Y-axis: 1000/m², scale 0 to 350 (gridlines at 0, 50, 100, 150, 200, 250, 300, 350). Legend: Total, Kinh, Ethnic minority. Approximate readings: Rice – all three near 0 (~1 each). Staples – Total ~7, Kinh ~8, Ethnic minority ~4. Industrial – Total ~118, Kinh ~147, Ethnic minority ~35. Fruits – Total ~283, Kinh ~320, Ethnic minority ~183. Values are not printed; these are approximate readings. Pattern: productivity per square meter is very low for rice and staples, and is highest for fruits, where the Kinh majority is far above ethnic minorities.\n\nSource: World Bank staff calculations using VHLSS 2018."
+  }
+ ]
+}

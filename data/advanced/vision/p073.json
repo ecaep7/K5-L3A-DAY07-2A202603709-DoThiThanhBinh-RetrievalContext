@@ -1,0 +1,48 @@
+{
+ "page": 73,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": null, \"kind\": \"diagram\", \"bbox\": [630, 420, 785, 442], \"description\": \"Equation (rendered as a formula, no caption): g_i = δ − θ * p_i. Defined terms below it: g_i = the growth rate for percentile group i; p_i = a percentile group i (the poorest households are percentile group 1, and the richest are percentile group 100); δ and θ = growth parameters that can be considered to reflect a transfer and tax.\"}, {\"label\": null, \"kind\": \"diagram\", \"bbox\": [569, 630, 851, 673], \"description\": \"Equation (rendered as a formula, no caption): φ(δ,θ) = (Gini^forecasted(δ,θ) / Gini) − 1. The text states that the final Gini depends on δ and θ, and that the parameters δ and θ are the values that solve this equation to yield the desired change in inequality.\"}, {\"label\": null, \"kind\": \"diagram\", \"bbox\": [588, 779, 835, 797], \"description\": \"Equation (rendered as a formula, no caption): y*_i = (1+δ)y_i − θ * p_i * y_i, where y*_i is the final welfare for percentile group i and y_i is the initial value of welfare for percentile group i. The text states that final welfare is determined by this formula, assuming everyone is taxed in proportion to their initial welfare (y_i) and their rank (p_i).\"}]}",
+ "usage": {
+  "prompt_tokens": 3221,
+  "completion_tokens": 908,
+  "cost_usd": 0.0007761,
+  "latency_s": 5.056
+ },
+ "elements": [
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    630,
+    420,
+    785,
+    442
+   ],
+   "description": "Equation (rendered as a formula, no caption): g_i = δ − θ * p_i. Defined terms below it: g_i = the growth rate for percentile group i; p_i = a percentile group i (the poorest households are percentile group 1, and the richest are percentile group 100); δ and θ = growth parameters that can be considered to reflect a transfer and tax."
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    569,
+    630,
+    851,
+    673
+   ],
+   "description": "Equation (rendered as a formula, no caption): φ(δ,θ) = (Gini^forecasted(δ,θ) / Gini) − 1. The text states that the final Gini depends on δ and θ, and that the parameters δ and θ are the values that solve this equation to yield the desired change in inequality."
+  },
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    588,
+    779,
+    835,
+    797
+   ],
+   "description": "Equation (rendered as a formula, no caption): y*_i = (1+δ)y_i − θ * p_i * y_i, where y*_i is the final welfare for percentile group i and y_i is the initial value of welfare for percentile group i. The text states that final welfare is determined by this formula, assuming everyone is taxed in proportion to their initial welfare (y_i) and their rank (p_i)."
+  }
+ ]
+}

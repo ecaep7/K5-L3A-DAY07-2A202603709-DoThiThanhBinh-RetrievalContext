@@ -1,0 +1,24 @@
+{
+ "page": 192,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.13",
+  "Figure 6.13"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 6.13\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart (three series) with a y-axis from 0 to 100 (gridlines every 10, no axis title printed) and countries on the x-axis, ordered: Cambodia, Ethiopia, Vietnam, India, Mexico, China, Kenya, Egypt Arab Rep., Turkey, Thailand, South Africa, Mongolia, Russian Federation, Ukraine, United States, Iran Islamic Rep., Sweden, Latvia, Norway. Legend: (1) teal line: Received govt. payments in the past year (% age 15+); (2) orange line: Received govt. payments: in cash only (% payment recipients, age 15+); (3) gray line: Received govt. payments: into a financial institution account (% payment recipients, age 15+). No values are printed on the chart; approximate readings (~) by category:\\n\\n| Country | Received govt. payments in past year (%, age 15+) | Received in cash only (% recipients) | Into a financial institution account (% recipients) |\\n|---|---|---|---|\\n| Cambodia | ~11 | ~64 | ~26 |\\n| Ethiopia | ~13 | ~71 | ~21 |\\n| Vietnam | ~15 | ~64 | ~18 |\\n| India | ~14 | ~21 | ~57 |\\n| Mexico | ~19 | ~31 | ~52 |\\n| China | ~17 | ~11 | ~75 |\\n| Kenya | ~20 | ~6 | ~64 |\\n| Egypt, Arab Rep. | ~23 | ~15 | ~74 |\\n| Turkey | ~24 | ~4 | ~85 |\\n| Thailand | ~42 | ~22 | ~67 |\\n| South Africa | ~36 | ~16 | ~72 |\\n| Mongolia | ~34 | ~13 | ~80 |\\n| Russian Federation | ~48 | ~25 | ~68 |\\n| Ukraine | ~60 | ~26 | ~57 |\\n| United States | ~47 | ~2 | ~73 |\\n| Iran, Islamic Rep. | ~68 | ~2 | ~88 |\\n| Sweden | ~74 | ~1 | ~85 |\\n| Latvia | ~70 | ~7 | ~93 |\\n| Norway | ~73 | ~0 | ~90 |\\n\\nVisible pattern: Vietnam's share of recipients receiving payments into a financial institution account (~18) is among the lowest, close to Cambodia and Ethiopia, while its cash-only share (~64) is high, similar to Cambodia and Ethiopia, and far above most other countries; the advanced economies show high account-based payments and near-zero cash-only shares.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3456,
+  "completion_tokens": 1893,
+  "cost_usd": 0.0012920999999999998,
+  "latency_s": 7.323
+ },
+ "elements": [
+  {
+   "label": "Figure 6.13",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart (three series) with a y-axis from 0 to 100 (gridlines every 10, no axis title printed) and countries on the x-axis, ordered: Cambodia, Ethiopia, Vietnam, India, Mexico, China, Kenya, Egypt Arab Rep., Turkey, Thailand, South Africa, Mongolia, Russian Federation, Ukraine, United States, Iran Islamic Rep., Sweden, Latvia, Norway. Legend: (1) teal line: Received govt. payments in the past year (% age 15+); (2) orange line: Received govt. payments: in cash only (% payment recipients, age 15+); (3) gray line: Received govt. payments: into a financial institution account (% payment recipients, age 15+). No values are printed on the chart; approximate readings (~) by category:\n\n| Country | Received govt. payments in past year (%, age 15+) | Received in cash only (% recipients) | Into a financial institution account (% recipients) |\n|---|---|---|---|\n| Cambodia | ~11 | ~64 | ~26 |\n| Ethiopia | ~13 | ~71 | ~21 |\n| Vietnam | ~15 | ~64 | ~18 |\n| India | ~14 | ~21 | ~57 |\n| Mexico | ~19 | ~31 | ~52 |\n| China | ~17 | ~11 | ~75 |\n| Kenya | ~20 | ~6 | ~64 |\n| Egypt, Arab Rep. | ~23 | ~15 | ~74 |\n| Turkey | ~24 | ~4 | ~85 |\n| Thailand | ~42 | ~22 | ~67 |\n| South Africa | ~36 | ~16 | ~72 |\n| Mongolia | ~34 | ~13 | ~80 |\n| Russian Federation | ~48 | ~25 | ~68 |\n| Ukraine | ~60 | ~26 | ~57 |\n| United States | ~47 | ~2 | ~73 |\n| Iran, Islamic Rep. | ~68 | ~2 | ~88 |\n| Sweden | ~74 | ~1 | ~85 |\n| Latvia | ~70 | ~7 | ~93 |\n| Norway | ~73 | ~0 | ~90 |\n\nVisible pattern: Vietnam's share of recipients receiving payments into a financial institution account (~18) is among the lowest, close to Cambodia and Ethiopia, while its cash-only share (~64) is high, similar to Cambodia and Ethiopia, and far above most other countries; the advanced economies show high account-based payments and near-zero cash-only shares."
+  }
+ ]
+}

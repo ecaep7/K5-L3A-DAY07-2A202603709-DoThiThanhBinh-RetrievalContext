@@ -1,0 +1,23 @@
+{
+ "page": 139,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.11"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.11: Dissimilarity index in education and health\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Vertical bar chart. Y-axis: 'Dissimilarity Index', scale 0.00 to 0.20 (gridlines at 0.05 intervals). Categories grouped under three headers: 'Health' (Access to flush toilet, Access to safe water, Access to health insurance), 'Education enrollment' (Enrolled in school), and 'One time completion' (Some primary, Primary, Lower secondary, Upper secondary). Printed values: Access to flush toilet 0.058; Access to safe water 0.044; Access to health insurance 0.050; Enrolled in school 0.014; Some primary 0.001; Primary 0.009; Lower secondary 0.056; Upper secondary 0.155. Source: World Bank staff calculations using VHLSS 2020. The pattern: dissimilarity is low for most indicators (under 0.06), and it rises sharply at upper secondary completion, the highest bar.\"}]}",
+ "usage": {
+  "prompt_tokens": 3236,
+  "completion_tokens": 363,
+  "cost_usd": 0.0005051,
+  "latency_s": 2.687
+ },
+ "elements": [
+  {
+   "label": "Figure 4.11: Dissimilarity index in education and health",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Vertical bar chart. Y-axis: 'Dissimilarity Index', scale 0.00 to 0.20 (gridlines at 0.05 intervals). Categories grouped under three headers: 'Health' (Access to flush toilet, Access to safe water, Access to health insurance), 'Education enrollment' (Enrolled in school), and 'One time completion' (Some primary, Primary, Lower secondary, Upper secondary). Printed values: Access to flush toilet 0.058; Access to safe water 0.044; Access to health insurance 0.050; Enrolled in school 0.014; Some primary 0.001; Primary 0.009; Lower secondary 0.056; Upper secondary 0.155. Source: World Bank staff calculations using VHLSS 2020. The pattern: dissimilarity is low for most indicators (under 0.06), and it rises sharply at upper secondary completion, the highest bar."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 53,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.8"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.8\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Three-panel scatter chart (district level poverty comparison, 2009 vs. 2019) with a shared legend of eight regions: Central (teal circles), Mekong River Delta (orange squares), North Central Coast (grey plus signs), North East (yellow-orange x marks), North West (light blue asterisks), Red River Delta (purple diamonds), South Central Coast (green triangles), Southeast South (dark red inverted triangles).\\n\\nPanel 1 (top left): Scatter of 'Absolute reduction in poverty (percentage point, 2009–19)' (y-axis, ticks 0, -10, -20, -30, -40, -50, -60) versus 'Poverty rate (2009, %)' (x-axis, ticks 0, 20, 40, 60, 80, 100). Points fall along a downward-sloping grey trend line from about 0 at poverty rate 0 to about -6 at 0 and roughly -52 at 100. Larger absolute reductions occur at higher 2009 poverty rates; a point near 33% shows about -1 and points near 95% show about -47 to -60.\\n\\nPanel 2 (top right): Scatter of 'Percentage reduction in poverty (%, 2009–19)' (y-axis, ticks 0%, -50%, -100%) versus 'Poverty rate (2009, %)' (x-axis, ticks 0, 20, 40, 60, 80, 100). Many points cluster near -100% at low 2009 poverty rates; an upward-sloping trend line runs from about -95% at 0 to about -33% at 100. Some outliers appear above 0% (about +30% and +18% for Mekong River Delta points at low poverty rates).\\n\\nPanel 3 (bottom left): Scatter of 'Population of poor (2019)' (y-axis, ticks 0K, 20K, 40K, 60K, 80K, 100K) versus 'Population of poor (2009)' (x-axis, ticks 0K, 20K, 40K, 60K, 80K, 100K), with a dashed 45-degree line and a dotted reference at 0K. Most districts lie below the diagonal with populations under about 20K in both years; the North West (asterisks) has the largest 2019 values, reaching about 48K at 2009 values near 107K.\\n\\nPattern: poverty reductions are largest in districts with high initial poverty rates, and most districts have fallen in both absolute and percentage terms, with a large group of low-poverty districts near zero population of poor.\"}]}",
+ "usage": {
+  "prompt_tokens": 3243,
+  "completion_tokens": 873,
+  "cost_usd": 0.0007608,
+  "latency_s": 4.504
+ },
+ "elements": [
+  {
+   "label": "Figure 1.8",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Three-panel scatter chart (district level poverty comparison, 2009 vs. 2019) with a shared legend of eight regions: Central (teal circles), Mekong River Delta (orange squares), North Central Coast (grey plus signs), North East (yellow-orange x marks), North West (light blue asterisks), Red River Delta (purple diamonds), South Central Coast (green triangles), Southeast South (dark red inverted triangles).\n\nPanel 1 (top left): Scatter of 'Absolute reduction in poverty (percentage point, 2009–19)' (y-axis, ticks 0, -10, -20, -30, -40, -50, -60) versus 'Poverty rate (2009, %)' (x-axis, ticks 0, 20, 40, 60, 80, 100). Points fall along a downward-sloping grey trend line from about 0 at poverty rate 0 to about -6 at 0 and roughly -52 at 100. Larger absolute reductions occur at higher 2009 poverty rates; a point near 33% shows about -1 and points near 95% show about -47 to -60.\n\nPanel 2 (top right): Scatter of 'Percentage reduction in poverty (%, 2009–19)' (y-axis, ticks 0%, -50%, -100%) versus 'Poverty rate (2009, %)' (x-axis, ticks 0, 20, 40, 60, 80, 100). Many points cluster near -100% at low 2009 poverty rates; an upward-sloping trend line runs from about -95% at 0 to about -33% at 100. Some outliers appear above 0% (about +30% and +18% for Mekong River Delta points at low poverty rates).\n\nPanel 3 (bottom left): Scatter of 'Population of poor (2019)' (y-axis, ticks 0K, 20K, 40K, 60K, 80K, 100K) versus 'Population of poor (2009)' (x-axis, ticks 0K, 20K, 40K, 60K, 80K, 100K), with a dashed 45-degree line and a dotted reference at 0K. Most districts lie below the diagonal with populations under about 20K in both years; the North West (asterisks) has the largest 2019 values, reaching about 48K at 2009 values near 107K.\n\nPattern: poverty reductions are largest in districts with high initial poverty rates, and most districts have fallen in both absolute and percentage terms, with a large group of low-poverty districts near zero population of poor."
+  }
+ ]
+}

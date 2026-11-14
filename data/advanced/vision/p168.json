@@ -1,0 +1,30 @@
+{
+ "page": 168,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.20",
+  "Figure 5.21"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 5.20\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Scatter plot. X-axis: Natural logarithm of GDP per capita, 2019 (ticks 6.5 to 11.5 in steps of 0.5). Y-axis: Change in HCI due to full utilization adjustment (ticks 0.00, -0.05, -0.10, -0.15, -0.20, -0.25, -0.30, -0.35). Series by income group: High income (teal), Low income (grey), Lower middle income (orange), Upper middle income (yellow). One point is labeled 'Vietnam' at about x=7.9, y=-0.33 (orange). Values printed on chart: only the axis ticks and the 'Vietnam' label. Approximate readings: low income points cluster around x 6.5-6.7 with y ~ -0.10 to -0.21; lower middle income points span x ~7.0-8.6 with y ~ -0.14 to -0.34; upper middle income points span x ~8.0-9.2 with y ~ -0.20 to -0.29; high income points span x ~9.3-11.5 with y ~ -0.05 to -0.30, with one high point near y ~ -0.05 at x ~11.0. Source: World Bank staff illustration based on Pennings 2020. Pattern: HCI decline is roughly between -0.15 and -0.25 for most countries, with high-income countries spread across a wide range and the least-developed countries showing a mixed pattern.\"}, {\"label\": \"Figure 5.21\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two line-chart panels sharing years 2010, 2012, 2014, 2016, 2018, 2020 on the x-axis.\\n\\nLeft panel 'Education levels (grouped)': y-axis '% Change in hourly wages relative to less than primary education group' (0 to 100, ticks every 20). Series: Primary (teal) ~6, ~11, ~9, ~10, ~10, ~8; Vocational & Upper secondary (grey) ~30, ~36, ~37, ~27, ~25, ~21; Lower secondary (orange) ~11, ~15, ~16, ~11, ~13, ~9; Tertiary (yellow) ~73, ~82, ~80, ~65, ~61, ~53. Pattern: Tertiary returns are highest and rose to a 2012 peak before declining steadily; other groups stay much lower and fairly flat.\\n\\nRight panel 'Occupation skill category': y-axis '% Change in hourly wages relative to unskilled manual occupation group' (0 to 100, ticks every 20). Series: High-skilled non-manual (teal) ~55, ~65, ~68, ~58, ~55, ~51; Skilled manual (grey) ~16, ~20, ~19, ~18, ~18, ~15; Low-skilled non-manual (orange) ~2, ~6, ~9, ~7, ~6, ~5. Pattern: High-skilled non-manual returns are highest, peaking in 2014 and declining afterward; the other two categories stay low and relatively flat.\\n\\nNo values are printed on the chart. Note: The reported coefficients are calculated from (hourly) log wage regressions restricted to all wage workers controlling for age, sector, urban/rural, region, and gender. Ethnicity is not available in more recent LFS data sets and thus are not included. Source: World Bank calculation using LFS.\"}]}",
+ "usage": {
+  "prompt_tokens": 3262,
+  "completion_tokens": 1168,
+  "cost_usd": 0.0009102,
+  "latency_s": 4.881
+ },
+ "elements": [
+  {
+   "label": "Figure 5.20",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Scatter plot. X-axis: Natural logarithm of GDP per capita, 2019 (ticks 6.5 to 11.5 in steps of 0.5). Y-axis: Change in HCI due to full utilization adjustment (ticks 0.00, -0.05, -0.10, -0.15, -0.20, -0.25, -0.30, -0.35). Series by income group: High income (teal), Low income (grey), Lower middle income (orange), Upper middle income (yellow). One point is labeled 'Vietnam' at about x=7.9, y=-0.33 (orange). Values printed on chart: only the axis ticks and the 'Vietnam' label. Approximate readings: low income points cluster around x 6.5-6.7 with y ~ -0.10 to -0.21; lower middle income points span x ~7.0-8.6 with y ~ -0.14 to -0.34; upper middle income points span x ~8.0-9.2 with y ~ -0.20 to -0.29; high income points span x ~9.3-11.5 with y ~ -0.05 to -0.30, with one high point near y ~ -0.05 at x ~11.0. Source: World Bank staff illustration based on Pennings 2020. Pattern: HCI decline is roughly between -0.15 and -0.25 for most countries, with high-income countries spread across a wide range and the least-developed countries showing a mixed pattern."
+  },
+  {
+   "label": "Figure 5.21",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two line-chart panels sharing years 2010, 2012, 2014, 2016, 2018, 2020 on the x-axis.\n\nLeft panel 'Education levels (grouped)': y-axis '% Change in hourly wages relative to less than primary education group' (0 to 100, ticks every 20). Series: Primary (teal) ~6, ~11, ~9, ~10, ~10, ~8; Vocational & Upper secondary (grey) ~30, ~36, ~37, ~27, ~25, ~21; Lower secondary (orange) ~11, ~15, ~16, ~11, ~13, ~9; Tertiary (yellow) ~73, ~82, ~80, ~65, ~61, ~53. Pattern: Tertiary returns are highest and rose to a 2012 peak before declining steadily; other groups stay much lower and fairly flat.\n\nRight panel 'Occupation skill category': y-axis '% Change in hourly wages relative to unskilled manual occupation group' (0 to 100, ticks every 20). Series: High-skilled non-manual (teal) ~55, ~65, ~68, ~58, ~55, ~51; Skilled manual (grey) ~16, ~20, ~19, ~18, ~18, ~15; Low-skilled non-manual (orange) ~2, ~6, ~9, ~7, ~6, ~5. Pattern: High-skilled non-manual returns are highest, peaking in 2014 and declining afterward; the other two categories stay low and relatively flat.\n\nNo values are printed on the chart. Note: The reported coefficients are calculated from (hourly) log wage regressions restricted to all wage workers controlling for age, sector, urban/rural, region, and gender. Ethnicity is not available in more recent LFS data sets and thus are not included. Source: World Bank calculation using LFS."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 210,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 7.11"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 7.11: Tax mix by country income level, direct and indirect taxes\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart of tax revenue as a percentage of GDP (y-axis: 'Percentage of GDP (%)', scale 0 to 15 in steps of 3). Bars are grouped by country income level (HIC, OECD; HIC, Non-OECD; UMIC; LMIC; LIC), each with a direct tax bar (Dir.) and an indirect tax bar (Ind.). Legend series: PIT (teal), Payroll (orange), CIT (grey), Property (yellow), VAT (light blue), Excises (green), Trade (purple). Values are not printed; approximate readings (~) by bar, bottom to top: HIC OECD Dir: PIT ~8.5, Payroll ~0.9, CIT ~2.9, Property ~2.2, total ~14.5. HIC OECD Ind: VAT ~7.2, Excises ~2.4, Trade ~0.3, total ~9.9. HIC Non-OECD Dir: PIT ~3.4, Payroll ~1.4, CIT ~3.5, Property ~0.8, total ~9.1. HIC Non-OECD Ind: VAT ~7.0, Excises ~2.3, Trade ~1.9, total ~11.2. UMIC Dir: PIT ~2.9, Payroll ~0.5, CIT ~3.2, Property ~0.7, total ~7.3. UMIC Ind: VAT ~6.4, Excises ~2.0, Trade ~2.1, total ~10.5. LMIC Dir: PIT ~2.6, Payroll ~0.4, CIT ~3.0, Property ~0.2, total ~6.2. LMIC Ind: VAT ~5.3, Excises ~2.2, Trade ~2.4, total ~9.9. LIC Dir: PIT ~2.0, Payroll ~0.2, CIT ~2.2, Property ~0.1, total ~4.5. LIC Ind: VAT ~4.4, Excises ~1.6, Trade ~2.0, total ~8.0. Note: Dir. = direct taxes (PIT, CIT, Payroll Tax, Property Tax); Ind. = indirect taxes (VAT, Excises, Trade). Source: Fuchs, Sosa and Wai-Poi (2021), authors' calculations based on IMF WoRLD database. Pattern: direct taxes are largest in high-income OECD countries, while indirect taxes (VAT in particular) dominate in the middle- and low-income groups, and overall tax-to-GDP falls as income level falls.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3243,
+  "completion_tokens": 1753,
+  "cost_usd": 0.0012008,
+  "latency_s": 6.662
+ },
+ "elements": [
+  {
+   "label": "Figure 7.11: Tax mix by country income level, direct and indirect taxes",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart of tax revenue as a percentage of GDP (y-axis: 'Percentage of GDP (%)', scale 0 to 15 in steps of 3). Bars are grouped by country income level (HIC, OECD; HIC, Non-OECD; UMIC; LMIC; LIC), each with a direct tax bar (Dir.) and an indirect tax bar (Ind.). Legend series: PIT (teal), Payroll (orange), CIT (grey), Property (yellow), VAT (light blue), Excises (green), Trade (purple). Values are not printed; approximate readings (~) by bar, bottom to top: HIC OECD Dir: PIT ~8.5, Payroll ~0.9, CIT ~2.9, Property ~2.2, total ~14.5. HIC OECD Ind: VAT ~7.2, Excises ~2.4, Trade ~0.3, total ~9.9. HIC Non-OECD Dir: PIT ~3.4, Payroll ~1.4, CIT ~3.5, Property ~0.8, total ~9.1. HIC Non-OECD Ind: VAT ~7.0, Excises ~2.3, Trade ~1.9, total ~11.2. UMIC Dir: PIT ~2.9, Payroll ~0.5, CIT ~3.2, Property ~0.7, total ~7.3. UMIC Ind: VAT ~6.4, Excises ~2.0, Trade ~2.1, total ~10.5. LMIC Dir: PIT ~2.6, Payroll ~0.4, CIT ~3.0, Property ~0.2, total ~6.2. LMIC Ind: VAT ~5.3, Excises ~2.2, Trade ~2.4, total ~9.9. LIC Dir: PIT ~2.0, Payroll ~0.2, CIT ~2.2, Property ~0.1, total ~4.5. LIC Ind: VAT ~4.4, Excises ~1.6, Trade ~2.0, total ~8.0. Note: Dir. = direct taxes (PIT, CIT, Payroll Tax, Property Tax); Ind. = indirect taxes (VAT, Excises, Trade). Source: Fuchs, Sosa and Wai-Poi (2021), authors' calculations based on IMF WoRLD database. Pattern: direct taxes are largest in high-income OECD countries, while indirect taxes (VAT in particular) dominate in the middle- and low-income groups, and overall tax-to-GDP falls as income level falls."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "page": 87,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.2.3.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure B.2.3.1\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Four-panel line chart. Y-axis: 'Share of workers (%)', ticks 0% to 70% in 10-point steps. X-axis: 'Year', labelled 2010, 2015, 2020, with points roughly annually. Legend (bottom): Indonesia (teal), Malaysia (orange), Philippines (grey), Vietnam (yellow), Lao PDR (light blue), Myanmar (green), Thailand (purple). No values are printed on the chart; readings are approximate.\\n\\nPanel 'Agriculture': Lao PDR falls from ~71% (2010) to ~31% (~2016). Myanmar ~51% (2015) to ~49% (2019). Vietnam ~48% (2010) falling to ~44% (2015), ~37% (2018) and ~28% (2020). Thailand ~38% (2010), peaks ~42% (2012), ~31% (2015) to ~31% (2020). Indonesia ~39% (2010) falling to ~29% (2020). Philippines ~28% (2010), peaks ~32% (2012), falls to ~23% (2019) then ~25% (2020). Malaysia ~13% (2010), ~8% (2011), ~13% (2012) and ~10% (2020). Overall, agricultural shares fall for most economies over the period.\\n\\nPanel 'Manufacturing': Vietnam rises from ~13% (2010) to ~23% (2020). Malaysia ~17% (2010) to ~18% (2020). Thailand ~14% to ~16%. Indonesia ~12-14%, roughly flat, ~14% by 2020. Philippines flat at ~8%. Lao PDR ~4% (2010) rising to ~8% (2017). Myanmar ~12-13% (2015) to ~10% (2020). Vietnam shows the clearest increase.\\n\\nPanel 'Trade, transport, hotel, restaurant': Philippines ~48% (2010), drops to ~35% (2012), rises to ~40% (2020). Malaysia ~38% (2010), ~27% (2011), ~40% (2012-2013), ~41% (2015), ~44% (2019-2020). Thailand ~29% to ~32%. Indonesia ~27% to ~34%. Vietnam ~20% (2010) rising to ~27.5% (2020). Lao PDR ~11.5% (2010) rising to ~25% (2017). Myanmar ~23% (2015) to ~28% (2019). Most series trend upward.\\n\\nPanel 'Public services': Philippines ~9% (2010) rising to ~18% (2020). Malaysia ~21% (2010), ~18-19% in 2012-2020. Indonesia ~14-15% with a slight rise to ~15%. Thailand ~12% rising to ~13%. Vietnam ~9% to ~11%. Lao PDR ~8.5% rising to ~17% (2017). Myanmar ~7% (2015) falling to ~5.5% (2020). Most series rise slightly or stay flat.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3241,
+  "completion_tokens": 2377,
+  "cost_usd": 0.0015126,
+  "latency_s": 9.793
+ },
+ "elements": [
+  {
+   "label": "Figure B.2.3.1",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Four-panel line chart. Y-axis: 'Share of workers (%)', ticks 0% to 70% in 10-point steps. X-axis: 'Year', labelled 2010, 2015, 2020, with points roughly annually. Legend (bottom): Indonesia (teal), Malaysia (orange), Philippines (grey), Vietnam (yellow), Lao PDR (light blue), Myanmar (green), Thailand (purple). No values are printed on the chart; readings are approximate.\n\nPanel 'Agriculture': Lao PDR falls from ~71% (2010) to ~31% (~2016). Myanmar ~51% (2015) to ~49% (2019). Vietnam ~48% (2010) falling to ~44% (2015), ~37% (2018) and ~28% (2020). Thailand ~38% (2010), peaks ~42% (2012), ~31% (2015) to ~31% (2020). Indonesia ~39% (2010) falling to ~29% (2020). Philippines ~28% (2010), peaks ~32% (2012), falls to ~23% (2019) then ~25% (2020). Malaysia ~13% (2010), ~8% (2011), ~13% (2012) and ~10% (2020). Overall, agricultural shares fall for most economies over the period.\n\nPanel 'Manufacturing': Vietnam rises from ~13% (2010) to ~23% (2020). Malaysia ~17% (2010) to ~18% (2020). Thailand ~14% to ~16%. Indonesia ~12-14%, roughly flat, ~14% by 2020. Philippines flat at ~8%. Lao PDR ~4% (2010) rising to ~8% (2017). Myanmar ~12-13% (2015) to ~10% (2020). Vietnam shows the clearest increase.\n\nPanel 'Trade, transport, hotel, restaurant': Philippines ~48% (2010), drops to ~35% (2012), rises to ~40% (2020). Malaysia ~38% (2010), ~27% (2011), ~40% (2012-2013), ~41% (2015), ~44% (2019-2020). Thailand ~29% to ~32%. Indonesia ~27% to ~34%. Vietnam ~20% (2010) rising to ~27.5% (2020). Lao PDR ~11.5% (2010) rising to ~25% (2017). Myanmar ~23% (2015) to ~28% (2019). Most series trend upward.\n\nPanel 'Public services': Philippines ~9% (2010) rising to ~18% (2020). Malaysia ~21% (2010), ~18-19% in 2012-2020. Indonesia ~14-15% with a slight rise to ~15%. Thailand ~12% rising to ~13%. Vietnam ~9% to ~11%. Lao PDR ~8.5% rising to ~17% (2017). Myanmar ~7% (2015) falling to ~5.5% (2020). Most series rise slightly or stay flat."
+  }
+ ]
+}

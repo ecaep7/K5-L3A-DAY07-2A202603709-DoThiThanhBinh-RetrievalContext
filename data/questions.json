@@ -1,0 +1,463 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "direct",
+  "question": "According to Kotter's study, what share of their time did general managers spend working alone, and where was that time usually spent?",
+  "expected_answer": "About 25%, mostly at home, on airplanes, or commuting.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 22,
+    "evidence": "Kotter’s study found that the average manager spent just 25% of his time working alone, and that time was spent largely at home, on airplanes, or commuting.",
+    "chunk_ids": [
+     "pom-ch01-02-p22-p04"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which managerial role covers the symbolic, ceremonial duties a manager performs simply because they head a unit?",
+  "expected_answer": "The figurehead role.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 23,
+    "evidence": "First is the figurehead role. As the head of an organizational unit, every manager must perform some ceremonial duties.",
+    "chunk_ids": [
+     "pom-ch01-02-p23-p03"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "direct",
+  "question": "In Rosemary Stewart's study of British middle and top managers, how was their time split between peers, people in their unit, and superiors?",
+  "expected_answer": "47% with peers, 41% with people inside their unit, and only 12% with superiors.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 24,
+    "evidence": "160 British middle and top managers spent 47% of their time with peers, 41% of their time with people inside their unit, and only 12% of their time with superiors.",
+    "chunk_ids": [
+     "pom-ch01-02-p24-p03"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "test",
+  "type": "condition",
+  "question": "How does the disturbance (crisis) handler role differ from the entrepreneur role?",
+  "expected_answer": "The entrepreneur role initiates change, while the disturbance handler must involuntarily react to conditions.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 25,
+    "evidence": "While the entrepreneur role describes managers who initiate change, the disturbance or crisis handler role depicts managers who must involuntarily react to conditions.",
+    "chunk_ids": [
+     "pom-ch01-02-p25-p02"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "According to classical theory, what is the largest number of people who should report directly to one manager?",
+  "expected_answer": "Seven direct reports.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 26,
+    "evidence": "Classical management theory suggests that seven is the maximum number of direct reports a manager can reasonably handle.",
+    "chunk_ids": [
+     "pom-ch01-02-p26-p06"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "condition",
+  "question": "Which type of skill do executives need more of than first-line managers, and which type of skill stays important at every level?",
+  "expected_answer": "Executives need more conceptual skill (and less technical skill); human relations skills remain important at all three levels.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 29,
+    "evidence": "That is, success in executive positions requires far more conceptual skill and less use of technical skills in most (but not all) situations, whereas first-line managers generally require more technical skills and fewer conceptual skills. Note, however, that human relations skills, or people skills, remain important for success at all three levels in the hierarchy.",
+    "chunk_ids": [
+     "pom-ch01-02-p29-p00"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "filter",
+  "question": "In the chapter on managing and performing, what did managers find when they responded to growing demands on their time by working more hours?",
+  "expected_answer": "The day only has 24 hours, and working more hours produced diminishing marginal returns.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 26,
+    "evidence": "Increased work hours was one reaction to such demand, but managers quickly discovered that the day had just 24 hours and that working more of them produced diminishing marginal returns.",
+    "chunk_ids": [
+     "pom-ch01-02-p26-p02"
+    ]
+   }
+  ],
+  "filter": {
+   "chapter": 1
+  }
+ },
+ {
+  "id": "q08",
+  "split": "test",
+  "type": "filter",
+  "question": "In the chapter on managing and performing, why are personal relationships so valuable to managers?",
+  "expected_answer": "They are the richest source of information for managers because they are immediate and personal.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 23,
+    "evidence": "Numerous studies have shown that such relationships are the richest source of information for managers because of their immediate and personal nature.",
+    "chunk_ids": [
+     "pom-ch01-02-p23-p02"
+    ]
+   }
+  ],
+  "filter": {
+   "chapter": 1
+  }
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "direct",
+  "question": "Who are an organization's stakeholders?",
+  "expected_answer": "All individuals or groups affected by the organization, such as customers, employees, and shareholders.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 37,
+    "evidence": "Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+    "chunk_ids": [
+     "pom-ch01-02-p37-p04"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Stakeholders Individuals or groups who are impacted by the organization.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p07"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "condition",
+  "question": "Why can waiting too long to make a decision be as harmful as deciding too quickly?",
+  "expected_answer": "Reacting too slowly can mean missed opportunities, while acting too quickly can waste resources on projects with no chance of success.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 37,
+    "evidence": "Failing to react quickly enough can lead to missed opportunities, yet acting too quickly can lead to organizational resources being poorly allocated to projects with no chance of success.",
+    "chunk_ids": [
+     "pom-ch01-02-p37-p10"
+    ]
+   }
+  ],
+  "day6_evidence": "Waiting too long to make a decision can be as harmful for the organization as reaching a decision too quickly. Failing to react quickly enough can lead to missed opportunities, yet acting too quickly can lead to organizational resources being poorly allocated to projects with no chance of success."
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which of the brain's decision systems works fast and on gut feeling, using emotions or habits as cues?",
+  "expected_answer": "The reactive (reflexive) system.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 40,
+    "evidence": "The reflective system is logical, analytical, deliberate, and methodical, while the reactive system is quick, impulsive, and intuitive, relying on emotions or habits to provide cues for what to do next.",
+    "chunk_ids": [
+     "pom-ch01-02-p40-p00"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Reactive system System of decision-making in the brain that is quick and intuitive.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p05"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "test",
+  "type": "condition",
+  "question": "In what kind of situation is it better to process information logically and analytically rather than going with a quick gut reaction?",
+  "expected_answer": "Novel and complex situations.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 40,
+    "evidence": "When faced with novel and complex situations, it is better to process available information logically, analytically, and methodically.",
+    "chunk_ids": [
+     "pom-ch01-02-p40-p04"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "direct",
+  "question": "What are programmed decisions?",
+  "expected_answer": "Decisions that are repeated over time and for which an existing set of rules can be developed to guide the process.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 41,
+    "evidence": "Programmed decisions are those that are repeated over time and for which an existing set of rules can be developed to guide the process.",
+    "chunk_ids": [
+     "pom-ch01-02-p41-p02"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Programmed decisions Decisions that are repeated over time and for which an existing set of rules can be developed.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p05"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What is the drawback of relying on mental shortcuts for routine decisions, and what kind of result do they usually give?",
+  "expected_answer": "They do not necessarily give the optimal solution, but they generally give a good one.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 42,
+    "evidence": "Heuristics don’t necessarily yield the optimal solution—deeper cognitive processing may be required for that. However, they generally yield a good solution.",
+    "chunk_ids": [
+     "pom-ch01-02-p42-p00"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "direct",
+  "question": "What is bounded rationality?",
+  "expected_answer": "The idea that for complex issues we cannot be completely rational because we cannot grasp all possible alternatives or all their implications.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 43,
+    "evidence": "Bounded rationality is the idea that for complex issues we cannot be completely rational because we cannot fully grasp all the possible alternatives, nor can we understand all the implications of every possible alternative.",
+    "chunk_ids": [
+     "pom-ch01-02-p43-p04"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Bounded rationality The concept that when we make decisions, we cannot be fully rational because we don’t have all the possible information or the cognitive processing ability to make fully informed, completely rational decisions.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p00"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q16",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "What is the name for the tendency to keep backing a bad choice even as the results keep getting worse?",
+  "expected_answer": "Escalation of commitment.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 44,
+    "evidence": "Escalation of commitment is the tendency of decision makers to remain committed to poor decision, even when doing so leads to increasingly negative outcomes.",
+    "chunk_ids": [
+     "pom-ch01-02-p44-p02"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Escalation of commitment The tendency of decision makers to remain committed to poor decision, even when doing so leads to increasingly negative outcomes.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p03"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "type": "condition",
+  "question": "Which type of conflict can improve a team's performance, and which type involves attacks on a person rather than an idea?",
+  "expected_answer": "Process conflict can improve performance; relationship conflict is personal and attacks the person.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 46,
+    "evidence": "Process conflict, conflict about the best way to do something, can actually lead to improved performance, as individuals explore various options together in order to identify superior solutions. Relationship conflict is conflict between individuals that is more personal and involves attacks on a person rather than an idea.",
+    "chunk_ids": [
+     "pom-ch01-02-p46-p01"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "type": "filter",
+  "question": "In the chapter on decision-making, how do time pressures affect the way managers decide?",
+  "expected_answer": "With little time, managers are less likely to make a good nonprogrammed decision and tend to rely on heuristics instead of deep processing.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 44,
+    "evidence": "When there is little time available to collect information and to rationally process it, we are much less likely to make a good nonprogrammed decision. Time pressures can cause us to rely on heuristics rather than engage in deep processing.",
+    "chunk_ids": [
+     "pom-ch01-02-p44-p04"
+    ]
+   }
+  ],
+  "filter": {
+   "chapter": 2
+  }
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "type": "direct",
+  "question": "What does a decision maker do when satisficing?",
+  "expected_answer": "Selects the first acceptable solution without extra effort to find the best one.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 48,
+    "evidence": "When satisficing, a decision maker selects the first acceptable solution without engaging in additional effort to identify the best solution.",
+    "chunk_ids": [
+     "pom-ch01-02-p48-p03"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Satisficing Choosing the first acceptable solution to minimize time spent on a decision.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p06"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q20",
+  "split": "test",
+  "type": "filter",
+  "question": "In the chapter on decision-making, what role does a devil's advocate play in a group, and why is one assigned?",
+  "expected_answer": "They intentionally take on the role of critic; groups assign one to reduce groupthink.",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "pom-ch01-02",
+    "page": 57,
+    "evidence": "Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic.",
+    "chunk_ids": [
+     "pom-ch01-02-p57-p01"
+    ]
+   },
+   {
+    "source_id": "pom-ch01-02",
+    "page": 59,
+    "evidence": "Devil’s advocate A group member who intentionally takes on the role of being critical of the group’s ideas in order to discourage groupthink and encourage deep thought and discussion about issues prior to making decisions.",
+    "chunk_ids": [
+     "pom-ch01-02-p59-p02"
+    ]
+   }
+  ],
+  "filter": {
+   "chapter": 2
+  }
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "question": "Who coined the term 'groupthink', and in which year was it first introduced?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Groupthink được định nghĩa và bàn ở trang 56-61, nhưng không trang nào nêu người đặt ra thuật ngữ hay năm ra đời. Kiểm tra: tìm 'Janis', 'coined', '1972' trên toàn bộ 41 trang nội dung đều không có."
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "question": "According to Kotter's study of general managers, how many hours per week did they work on average?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Nghiên cứu của Kotter (trang 22, 31) chỉ nêu tỷ lệ thời gian (25% làm việc một mình, 70-90% với người khác), không có số giờ mỗi tuần. Kiểm tra: tìm 'hours per week', 'hours a week', '50 hours', '60 hours' đều không có; các câu có chữ 'hours' (trang 22, 24, 26, 62) không nói về số giờ làm việc mỗi tuần trong nghiên cứu Kotter."
+ },
+ {
+  "id": "u03",
+  "split": "test",
+  "question": "What is the nominal group technique, and when should a manager use it for group decisions?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Phần ra quyết định nhóm (trang 56-57) bàn về brainstorming, devil's advocate, nhóm đa dạng, nhưng không nhắc 'nominal group technique'. Kiểm tra: tìm 'nominal' trên toàn bộ 41 trang không có."
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "question": "What is the Vroom-Yetton model, and how does it help managers decide how much to involve subordinates in a decision?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Chương 2 bàn về ra quyết định cá nhân và nhóm nhưng không nhắc mô hình Vroom-Yetton. Kiểm tra: tìm 'Vroom', 'Yetton' trên toàn bộ 41 trang không có."
+ }
+]

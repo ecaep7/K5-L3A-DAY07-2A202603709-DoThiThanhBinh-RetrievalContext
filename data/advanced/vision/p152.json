@@ -1,0 +1,23 @@
+{
+ "page": 152,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table A.4.2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table A.4.2.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| CATEGORY | CIRCUMSTANCE | DESCRIPTION |\\n|---|---|---|\\n| Geographic | Region | There are six geographic regions defined in the VHLSS: Red River Delta; Midlands and Northern Mountains; Northern and Coastal Central; Central Highlands; Southeast; Mekong Delta |\\n| Geographic | Urban/Rural | Binary indicator for being located in an urban or rural area |\\n| Child Characteristics | Gender | Binary indicator for gender |\\n| Child Characteristics | Ethnicity | Binary indicator for being of the Kinh ethnic majority |\\n| Household Characteristics | Gender of Head | Binary indicator for gender of household head, defined as being male |\\n| Household Characteristics | Education of Head | Binary indicator for education of household head, defined for having completed lower secondary |\\n| Household Characteristics | Age of Head | Binary indicator for household head age, defined as being below median |\\n| Household Characteristics | Household consumption quintile | Quintiles based on the household consumption aggregate in nominal LCU terms. |\"}]}",
+ "usage": {
+  "prompt_tokens": 3242,
+  "completion_tokens": 421,
+  "cost_usd": 0.0005347,
+  "latency_s": 2.696
+ },
+ "elements": [
+  {
+   "label": "Table A.4.2.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| CATEGORY | CIRCUMSTANCE | DESCRIPTION |\n|---|---|---|\n| Geographic | Region | There are six geographic regions defined in the VHLSS: Red River Delta; Midlands and Northern Mountains; Northern and Coastal Central; Central Highlands; Southeast; Mekong Delta |\n| Geographic | Urban/Rural | Binary indicator for being located in an urban or rural area |\n| Child Characteristics | Gender | Binary indicator for gender |\n| Child Characteristics | Ethnicity | Binary indicator for being of the Kinh ethnic majority |\n| Household Characteristics | Gender of Head | Binary indicator for gender of household head, defined as being male |\n| Household Characteristics | Education of Head | Binary indicator for education of household head, defined for having completed lower secondary |\n| Household Characteristics | Age of Head | Binary indicator for household head age, defined as being below median |\n| Household Characteristics | Household consumption quintile | Quintiles based on the household consumption aggregate in nominal LCU terms. |"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": 71,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table A.1.3.1",
+  "Table A.1.3.2",
+  "Figure A.1.3.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table A.1.3.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| ECONOMY, INCOME CLASSIFICATION | MEDIAN |\\n|---|---|\\n| Low-income economy | 1.90 |\\n| Lower-middle-income economy | 3.20 |\\n| Upper-middle-income economy | 5.50 |\\n| High-income economy | 21.70 |\\n\\nNote: Values are rounded to the nearest 0.10. Economies are classified on the basis of official World Bank income classifications, which rely on measures of per capita gross national income. Estimates are based on national poverty lines in 126 economies. The selected poverty line for each economy is the one that is closest in time to 2011.\\nSource: Jolliffe and Prydz (2016).\"}, {\"label\": \"Table A.1.3.2\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | USD 2011PPP PER DAY | VND 2020 (JAN) MONTHLY PER CAPITA |\\n|---|---|---|\\n| International Poverty Line | 1.90 | 626,512 |\\n| Lower-middle-income country poverty line | 3.20 | 1,055,178 |\\n| Upper-middle-income country poverty line | 5.50 | 1,813,588 |\\n| High income | 21.70 | 7,155,429 |\\n\\nNote: Using PPP conversion factors to LCU.\"}, {\"label\": \"Figure A.1.3.1\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart. Y-axis: Poverty rate (%), 0 to 25 with gridlines at 5, 10, 15, 20, 25. X-axis: years 2010 to 2020. Legend: General poverty rate (teal); GSO-WB poverty rate (gray); Multidimensional poverty rate (orange); World Bank LMIC poverty rate (yellow). Values are not printed; approximate readings: General poverty rate (teal): 2010 ~14, 2011 ~13, 2012 ~11, 2013 ~10, 2014 ~8, 2015 ~7, 2016 ~6. GSO-WB poverty rate (gray): 2010 ~20.5, 2011 ~19, 2012 ~17, 2013 ~15, 2014 ~13.5, 2015 ~11.5, 2016 ~9.8, 2017 ~8, 2018 ~6.8, 2019 ~5.7, 2020 ~5. Multidimensional poverty rate (orange): 2012 ~13, 2014 ~11, 2016 ~9.5, 2017 ~7.8, 2018 ~6.8, 2019 ~5.6, 2020 ~5.1 (preliminary). World Bank LMIC poverty rate (yellow): 2010 ~16.8, 2012 ~13, 2014 ~11, 2016 ~7.8, 2017 ~7.5, 2018 ~6.7, 2019 ~5.7, 2020 ~5.1. Note: Multidimensional poverty rate is preliminary in 2020. Source: GSO and World Bank. All series decline over the decade, with the general rate lowest in early years and all lines converging near 5% by 2018–2020; the GSO-WB line is highest at the start.\"}]}",
+ "usage": {
+  "prompt_tokens": 3318,
+  "completion_tokens": 1774,
+  "cost_usd": 0.0012188,
+  "latency_s": 6.432
+ },
+ "elements": [
+  {
+   "label": "Table A.1.3.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| ECONOMY, INCOME CLASSIFICATION | MEDIAN |\n|---|---|\n| Low-income economy | 1.90 |\n| Lower-middle-income economy | 3.20 |\n| Upper-middle-income economy | 5.50 |\n| High-income economy | 21.70 |\n\nNote: Values are rounded to the nearest 0.10. Economies are classified on the basis of official World Bank income classifications, which rely on measures of per capita gross national income. Estimates are based on national poverty lines in 126 economies. The selected poverty line for each economy is the one that is closest in time to 2011.\nSource: Jolliffe and Prydz (2016)."
+  },
+  {
+   "label": "Table A.1.3.2",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | USD 2011PPP PER DAY | VND 2020 (JAN) MONTHLY PER CAPITA |\n|---|---|---|\n| International Poverty Line | 1.90 | 626,512 |\n| Lower-middle-income country poverty line | 3.20 | 1,055,178 |\n| Upper-middle-income country poverty line | 5.50 | 1,813,588 |\n| High income | 21.70 | 7,155,429 |\n\nNote: Using PPP conversion factors to LCU."
+  },
+  {
+   "label": "Figure A.1.3.1",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart. Y-axis: Poverty rate (%), 0 to 25 with gridlines at 5, 10, 15, 20, 25. X-axis: years 2010 to 2020. Legend: General poverty rate (teal); GSO-WB poverty rate (gray); Multidimensional poverty rate (orange); World Bank LMIC poverty rate (yellow). Values are not printed; approximate readings: General poverty rate (teal): 2010 ~14, 2011 ~13, 2012 ~11, 2013 ~10, 2014 ~8, 2015 ~7, 2016 ~6. GSO-WB poverty rate (gray): 2010 ~20.5, 2011 ~19, 2012 ~17, 2013 ~15, 2014 ~13.5, 2015 ~11.5, 2016 ~9.8, 2017 ~8, 2018 ~6.8, 2019 ~5.7, 2020 ~5. Multidimensional poverty rate (orange): 2012 ~13, 2014 ~11, 2016 ~9.5, 2017 ~7.8, 2018 ~6.8, 2019 ~5.6, 2020 ~5.1 (preliminary). World Bank LMIC poverty rate (yellow): 2010 ~16.8, 2012 ~13, 2014 ~11, 2016 ~7.8, 2017 ~7.5, 2018 ~6.7, 2019 ~5.7, 2020 ~5.1. Note: Multidimensional poverty rate is preliminary in 2020. Source: GSO and World Bank. All series decline over the decade, with the general rate lowest in early years and all lines converging near 5% by 2018–2020; the GSO-WB line is highest at the start."
+  }
+ ]
+}

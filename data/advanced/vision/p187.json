@@ -1,0 +1,30 @@
+{
+ "page": 187,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.10",
+  "Figure 6.11"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 6.10\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Y-axis: \\\"Share of respondents (%)\\\", scale 0 to 50 in steps of 10. X-axis categories: \\\"Has an account\\\", \\\"Has a debit card\\\", \\\"Has a credit card\\\". Legend: 2017 (teal), 2019 (orange). Values printed: Has an account – 2017: 26.4, 2019: 42.3; Has a debit card – 2017: 24.0, 2019: no bar shown; Has a credit card – 2017: 3.9, 2019: 3.2. Source: Based on 2017 data from the Global Findex database and World Bank 2019. Notes: The FINDEX target population is the population of individuals aged 15 years and older. Pattern: account ownership rose from 2017 to 2019, while credit card ownership slipped slightly; debit card data exist only for 2017.\"}, {\"label\": \"Figure 6.11\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Bar chart. Y-axis: \\\"Share of respondents (%)\\\", scale 0 to 80 in steps of 10. X-axis categories: \\\"From a financial institution\\\", \\\"From family or friends\\\", \\\"From an informal savings club\\\". Legend: 2017 (teal). Values printed: From a financial institution – 42.0; From family or friends – 60.2; From an informal savings club – 48.4. Source: Based on 2017 data from the Global Findex database. Notes: The FINDEX target population is the population of individuals aged 15 years and older. Pattern: borrowing from family or friends is the highest share, followed by informal savings clubs, then financial institutions.\"}]}",
+ "usage": {
+  "prompt_tokens": 3268,
+  "completion_tokens": 575,
+  "cost_usd": 0.0006142999999999999,
+  "latency_s": 2.439
+ },
+ "elements": [
+  {
+   "label": "Figure 6.10",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Y-axis: \"Share of respondents (%)\", scale 0 to 50 in steps of 10. X-axis categories: \"Has an account\", \"Has a debit card\", \"Has a credit card\". Legend: 2017 (teal), 2019 (orange). Values printed: Has an account – 2017: 26.4, 2019: 42.3; Has a debit card – 2017: 24.0, 2019: no bar shown; Has a credit card – 2017: 3.9, 2019: 3.2. Source: Based on 2017 data from the Global Findex database and World Bank 2019. Notes: The FINDEX target population is the population of individuals aged 15 years and older. Pattern: account ownership rose from 2017 to 2019, while credit card ownership slipped slightly; debit card data exist only for 2017."
+  },
+  {
+   "label": "Figure 6.11",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Bar chart. Y-axis: \"Share of respondents (%)\", scale 0 to 80 in steps of 10. X-axis categories: \"From a financial institution\", \"From family or friends\", \"From an informal savings club\". Legend: 2017 (teal). Values printed: From a financial institution – 42.0; From family or friends – 60.2; From an informal savings club – 48.4. Source: Based on 2017 data from the Global Findex database. Notes: The FINDEX target population is the population of individuals aged 15 years and older. Pattern: borrowing from family or friends is the highest share, followed by informal savings clubs, then financial institutions."
+  }
+ ]
+}

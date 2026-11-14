@@ -1,0 +1,26 @@
+{
+ "page": 95,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": null, \"kind\": \"diagram\", \"bbox\": [153, 339, 843, 388], \"description\": \"Displayed equation (Ravallion-Huppi decomposition): P_f − P_i = Σ_k (P_{k,f} − P_{k,i}) N_{k,i} + Σ_k (N_{k,f} − N_{k,i}) P_{k,i} + Σ_k (N_{k,f} − N_{k,i})(P_{k,f} − P_{k,i}). Each of the three sums is indexed by k below the summation sign. Text below the equation: 'where P_{k,f}_(P_{k,i}) stands for the poverty incidence and N_{k,f}_(N_{k,i}) represents the population share in group k for initial (final) period.'\"}]}",
+ "usage": {
+  "prompt_tokens": 3221,
+  "completion_tokens": 508,
+  "cost_usd": 0.0005761000000000001,
+  "latency_s": 3.735
+ },
+ "elements": [
+  {
+   "label": null,
+   "kind": "diagram",
+   "bbox": [
+    153,
+    339,
+    843,
+    388
+   ],
+   "description": "Displayed equation (Ravallion-Huppi decomposition): P_f − P_i = Σ_k (P_{k,f} − P_{k,i}) N_{k,i} + Σ_k (N_{k,f} − N_{k,i}) P_{k,i} + Σ_k (N_{k,f} − N_{k,i})(P_{k,f} − P_{k,i}). Each of the three sums is indexed by k below the summation sign. Text below the equation: 'where P_{k,f}_(P_{k,i}) stands for the poverty incidence and N_{k,f}_(N_{k,i}) represents the population share in group k for initial (final) period.'"
+  }
+ ]
+}

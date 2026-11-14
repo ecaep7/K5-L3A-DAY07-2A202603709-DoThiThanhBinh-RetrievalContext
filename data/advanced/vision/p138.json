@@ -1,0 +1,30 @@
+{
+ "page": 138,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.9",
+  "Figure 4.10"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.9\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with two series, Ethnic minority (teal) and Kinh (orange). Y-axis: \\\"Share of cohort population (%)\\\", scale 0 to 120 in steps of 20. X-axis: single-year ages 10 to 25. Values are not printed, so approximate readings: Ethnic minority: 10 ~100, 11 ~92, 12 ~89, 13 ~92, 14 ~85, 15 ~70, 16 ~55, 17 ~40, 18 ~28, 19 ~14, 20 ~15, 21 ~6, 22 ~7, 23 ~9, 24 ~0, 25 ~1. Kinh: 10 ~100, 11 ~100, 12 ~99, 13 ~95, 14 ~94, 15 ~88, 16 ~83, 17 ~82, 18 ~70, 19 ~56, 20 ~53, 21 ~43, 22 ~31, 23 ~14, 24 ~6, 25 ~1. Source: World Bank staff calculation using VHLSS2020. The Kinh curve stays above the ethnic minority curve at every age, and both decline from about age 14-15, with the ethnic minority decline steeper and reaching near zero earlier.\"}, {\"label\": \"Figure 4.10\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart with Y-axis \\\"Share of households (%)\\\", scale 0 to 100 in steps of 20. X-axis categories: Improved water and Improved sanitation. Series: Ethnic minority (teal) and Kinh (orange). Values are not printed, so approximate readings: Improved water: Ethnic minority ~75, Kinh ~95. Improved sanitation: Ethnic minority ~52, Kinh ~88. Source: MICS Survey (UNICEF, 2014). Kinh households are higher than ethnic minority households on both indicators, with the largest gap for sanitation.\"}]}",
+ "usage": {
+  "prompt_tokens": 3284,
+  "completion_tokens": 1056,
+  "cost_usd": 0.0008564000000000001,
+  "latency_s": 4.745
+ },
+ "elements": [
+  {
+   "label": "Figure 4.9",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with two series, Ethnic minority (teal) and Kinh (orange). Y-axis: \"Share of cohort population (%)\", scale 0 to 120 in steps of 20. X-axis: single-year ages 10 to 25. Values are not printed, so approximate readings: Ethnic minority: 10 ~100, 11 ~92, 12 ~89, 13 ~92, 14 ~85, 15 ~70, 16 ~55, 17 ~40, 18 ~28, 19 ~14, 20 ~15, 21 ~6, 22 ~7, 23 ~9, 24 ~0, 25 ~1. Kinh: 10 ~100, 11 ~100, 12 ~99, 13 ~95, 14 ~94, 15 ~88, 16 ~83, 17 ~82, 18 ~70, 19 ~56, 20 ~53, 21 ~43, 22 ~31, 23 ~14, 24 ~6, 25 ~1. Source: World Bank staff calculation using VHLSS2020. The Kinh curve stays above the ethnic minority curve at every age, and both decline from about age 14-15, with the ethnic minority decline steeper and reaching near zero earlier."
+  },
+  {
+   "label": "Figure 4.10",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart with Y-axis \"Share of households (%)\", scale 0 to 100 in steps of 20. X-axis categories: Improved water and Improved sanitation. Series: Ethnic minority (teal) and Kinh (orange). Values are not printed, so approximate readings: Improved water: Ethnic minority ~75, Kinh ~95. Improved sanitation: Ethnic minority ~52, Kinh ~88. Source: MICS Survey (UNICEF, 2014). Kinh households are higher than ethnic minority households on both indicators, with the largest gap for sanitation."
+  }
+ ]
+}

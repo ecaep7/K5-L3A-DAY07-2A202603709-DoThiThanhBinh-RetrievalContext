@@ -1,0 +1,30 @@
+{
+ "page": 125,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table A.3.1.1",
+  "Figure A.3.1.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure A.3.1.1\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: \\\"Share of households (%)\\\", scale 0 to 50 (gridlines at 10, 20, 30, 40, 50). X-axis: seven job-type groups, each split into Ethnic minority and Kinh bars. Legend: 2010 (teal) and 2020 (orange). Values are not printed, so approximate readings are:\\n- Formal job: Ethnic minority 2010 ~15, 2020 ~23; Kinh 2010 ~34, 2020 ~43\\n- Agriculture: Ethnic minority 2010 ~6, 2020 ~7; Kinh 2010 ~5, 2020 ~4\\n- Manufacturing: Ethnic minority 2010 ~19, 2020 ~36; Kinh 2010 ~34, 2020 ~40\\n- Services: Ethnic minority 2010 ~17.5, 2020 ~19.5; Kinh 2010 ~29, 2020 ~34\\n- Low-skill: Ethnic minority 2010 ~12, 2020 ~14.5; Kinh 2010 ~14.5, 2020 ~14.5\\n- Medium-skill: Ethnic minority 2010 ~15.5, 2020 ~31; Kinh 2010 ~33, 2020 ~43\\n- High-skill: Ethnic minority 2010 ~9.5, 2020 ~9; Kinh 2010 ~16.5, 2020 ~17\\nSource note: World Bank staff calculations using VHLSS 2010 and 2020.\\nPattern: for most job types the 2020 bars are higher than the 2010 bars, and Kinh households have higher shares than ethnic minorities in nearly every group, with the largest gaps in formal, manufacturing and medium-skill jobs.\"}, {\"label\": \"Table A.3.1.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| 2018 | CROPS | LIVESTOCK | AG. SERVICES | FORESTRY | FISHERY |\\n|---|---|---|---|---|---|\\n| Ethnic minority (=1) | 0.35 | 0.25 | 0.14 | 0.73 | 0.07 |\\n| Female headship (=1) | 0.16 | 0.17 | 0.00 | 0.10 | 0.17 |\\n| No education (=1) | 0.09 | 0.11 | 0.00 | 0.18 | 0.07 |\\n| Age in years | 51.04 | 52.79 | 49.03 | 46.49 | 52.24 |\\n| Household size (#) | 3.90 | 3.48 | 4.08 | 4.47 | 3.97 |\\n| Household w/ child (=1) | 0.63 | 0.55 | 0.67 | 0.75 | 0.67 |\\n| Net household income (log) | 11.27 | 11.30 | 12.12 | 11.09 | 11.88 |\\n| Land size (ha) | 1.82 | 1.11 | 1.07 | 4.30 | 2.47 |\\n| Observations | 1155 | 250 | 22 | 118 | 225 |\\n\\nSource: World Bank staff calculations using VHLSS 2018.\"}]}",
+ "usage": {
+  "prompt_tokens": 3273,
+  "completion_tokens": 1553,
+  "cost_usd": 0.0011038,
+  "latency_s": 5.514
+ },
+ "elements": [
+  {
+   "label": "Figure A.3.1.1",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: \"Share of households (%)\", scale 0 to 50 (gridlines at 10, 20, 30, 40, 50). X-axis: seven job-type groups, each split into Ethnic minority and Kinh bars. Legend: 2010 (teal) and 2020 (orange). Values are not printed, so approximate readings are:\n- Formal job: Ethnic minority 2010 ~15, 2020 ~23; Kinh 2010 ~34, 2020 ~43\n- Agriculture: Ethnic minority 2010 ~6, 2020 ~7; Kinh 2010 ~5, 2020 ~4\n- Manufacturing: Ethnic minority 2010 ~19, 2020 ~36; Kinh 2010 ~34, 2020 ~40\n- Services: Ethnic minority 2010 ~17.5, 2020 ~19.5; Kinh 2010 ~29, 2020 ~34\n- Low-skill: Ethnic minority 2010 ~12, 2020 ~14.5; Kinh 2010 ~14.5, 2020 ~14.5\n- Medium-skill: Ethnic minority 2010 ~15.5, 2020 ~31; Kinh 2010 ~33, 2020 ~43\n- High-skill: Ethnic minority 2010 ~9.5, 2020 ~9; Kinh 2010 ~16.5, 2020 ~17\nSource note: World Bank staff calculations using VHLSS 2010 and 2020.\nPattern: for most job types the 2020 bars are higher than the 2010 bars, and Kinh households have higher shares than ethnic minorities in nearly every group, with the largest gaps in formal, manufacturing and medium-skill jobs."
+  },
+  {
+   "label": "Table A.3.1.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| 2018 | CROPS | LIVESTOCK | AG. SERVICES | FORESTRY | FISHERY |\n|---|---|---|---|---|---|\n| Ethnic minority (=1) | 0.35 | 0.25 | 0.14 | 0.73 | 0.07 |\n| Female headship (=1) | 0.16 | 0.17 | 0.00 | 0.10 | 0.17 |\n| No education (=1) | 0.09 | 0.11 | 0.00 | 0.18 | 0.07 |\n| Age in years | 51.04 | 52.79 | 49.03 | 46.49 | 52.24 |\n| Household size (#) | 3.90 | 3.48 | 4.08 | 4.47 | 3.97 |\n| Household w/ child (=1) | 0.63 | 0.55 | 0.67 | 0.75 | 0.67 |\n| Net household income (log) | 11.27 | 11.30 | 12.12 | 11.09 | 11.88 |\n| Land size (ha) | 1.82 | 1.11 | 1.07 | 4.30 | 2.47 |\n| Observations | 1155 | 250 | 22 | 118 | 225 |\n\nSource: World Bank staff calculations using VHLSS 2018."
+  }
+ ]
+}

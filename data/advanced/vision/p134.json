@@ -1,0 +1,30 @@
+{
+ "page": 134,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.3",
+  "Figure 4.4"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": \"Figure 4.3\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: scatter plot with a fitted linear trend line, one point per country. X-axis: \\\"Log Real GDP Per Capita at PPP\\\", ticks 6 to 12 (in steps of 1). Y-axis: \\\"Fraction under 5 not stunted\\\", ticks 50% to 100% (in steps of 10%). Points are teal for most countries, orange for labeled comparators, and a blue point marks Vietnam. Labeled points: Thailand (~9.8, ~90%), Malaysia (~10.2, ~80%), Indonesia (~9.4, ~73%), Vietnam (~9.0, ~76%), Philippines (~8.0, ~80%), Cambodia (~7.5, ~68%), Lao PDR (~9.0, ~71%), Myanmar (~8.7, ~70%). Values are approximate readings written with \\\"~\\\"; no values are printed on the chart. Pattern: the share of children not stunted rises with GDP per capita, with a positive trend line running from about 65% at log GDP 6 to about 84% at log GDP 12. Vietnam sits near the trend line, while several low-income countries fall to 50–65%.\"},\n{\"label\": \"Figure 4.4\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: scatter plot with a fitted linear trend line, one point per country. X-axis: \\\"Log Real GDP Per Capita at PPP\\\", ticks 6 to 12 (in steps of 1). Y-axis: \\\"Survival Rate Age 15–60\\\", ticks 50% to 100% (in steps of 10%). Points are teal for most countries, orange for labeled comparators, and a blue point marks Vietnam. Labeled points: Singapore (~11.5, ~95%), Thailand (~9.8, ~88%), Malaysia (~10.2, ~86%), Indonesia (~9.7, ~84%), Vietnam (~9.0, ~86%), Philippines (~8.0, ~83%), Cambodia (~8.3, ~84%), Lao PDR (~9.2, ~80%), Myanmar (~8.7, ~80%). Values are approximate readings written with \\\"~\\\"; no values are printed on the chart. Pattern: survival rates increase with GDP per capita, with a positive trend line from about 78% at log GDP 6 to about 88% at log GDP 11.5; most countries cluster between 75% and 95%, with a few low outliers near 50–65%.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3293,
+  "completion_tokens": 1516,
+  "cost_usd": 0.0010873,
+  "latency_s": 6.634
+ },
+ "elements": [
+  {
+   "label": "Figure 4.3",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: scatter plot with a fitted linear trend line, one point per country. X-axis: \"Log Real GDP Per Capita at PPP\", ticks 6 to 12 (in steps of 1). Y-axis: \"Fraction under 5 not stunted\", ticks 50% to 100% (in steps of 10%). Points are teal for most countries, orange for labeled comparators, and a blue point marks Vietnam. Labeled points: Thailand (~9.8, ~90%), Malaysia (~10.2, ~80%), Indonesia (~9.4, ~73%), Vietnam (~9.0, ~76%), Philippines (~8.0, ~80%), Cambodia (~7.5, ~68%), Lao PDR (~9.0, ~71%), Myanmar (~8.7, ~70%). Values are approximate readings written with \"~\"; no values are printed on the chart. Pattern: the share of children not stunted rises with GDP per capita, with a positive trend line running from about 65% at log GDP 6 to about 84% at log GDP 12. Vietnam sits near the trend line, while several low-income countries fall to 50–65%."
+  },
+  {
+   "label": "Figure 4.4",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: scatter plot with a fitted linear trend line, one point per country. X-axis: \"Log Real GDP Per Capita at PPP\", ticks 6 to 12 (in steps of 1). Y-axis: \"Survival Rate Age 15–60\", ticks 50% to 100% (in steps of 10%). Points are teal for most countries, orange for labeled comparators, and a blue point marks Vietnam. Labeled points: Singapore (~11.5, ~95%), Thailand (~9.8, ~88%), Malaysia (~10.2, ~86%), Indonesia (~9.7, ~84%), Vietnam (~9.0, ~86%), Philippines (~8.0, ~83%), Cambodia (~8.3, ~84%), Lao PDR (~9.2, ~80%), Myanmar (~8.7, ~80%). Values are approximate readings written with \"~\"; no values are printed on the chart. Pattern: survival rates increase with GDP per capita, with a positive trend line from about 78% at log GDP 6 to about 88% at log GDP 11.5; most countries cluster between 75% and 95%, with a few low outliers near 50–65%."
+  }
+ ]
+}

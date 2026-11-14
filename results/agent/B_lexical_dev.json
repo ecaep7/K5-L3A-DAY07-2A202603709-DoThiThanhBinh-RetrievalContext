@@ -1,0 +1,2073 @@
+[
+ {
+  "query_id": "q01",
+  "question": "According to Kotter's study, what share of their time did general managers spend working alone, and where was that time usually spent?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 745,
+    "completion_tokens": 61,
+    "cost_usd": 0.000105,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.551,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "Kotter study general managers time spent working alone",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p22-p04",
+      "page": 22,
+      "score": 29.464816
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p22-p07",
+      "page": 22,
+      "score": 13.757626
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p24-p03",
+      "page": 24,
+      "score": 11.20331
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p22-p04",
+     "pom-ch01-02-p22-p07",
+     "pom-ch01-02-p24-p03"
+    ],
+    "latency_ms": 37.0
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1312,
+    "completion_tokens": 65,
+    "cost_usd": 0.00016370000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.82,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Kotter's study found that the average manager spent just 25% of their time working alone, and that this time was spent largely at home, on airplanes, or commuting [pom-ch01-02-p22-p04].",
+  "citations": [
+   "pom-ch01-02-p22-p04"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p22-p04",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Kotter studied a number of successful general managers over a five-year period and found that they spend most of their time with others, including subordinates, their bosses, and numerous people from outside the organization. Kotter’s study found that the average manager spent just 25% of his time working alone, and that time was spent largely at home, on airplanes, or commuting. Few of them spent less than 70% of their time with others, and some spent up to 90% of their working time this way.5"
+   },
+   {
+    "id": "pom-ch01-02-p22-p07",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Interruptions also appear to be a natural part of the job. Stewart found that the managers she studied could work uninterrupted for half an hour only nine times during the four weeks she studied them.8 Managers, in fact, spend very little time by themselves. Contrary to the image offered by management textbooks, they are rarely alone drawing up plans or worrying about important decisions. Instead, they spend most of their time interacting with others—both inside and outside the organization."
+   },
+   {
+    "id": "pom-ch01-02-p24-p03",
+    "page": 24,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "In Rosemary Stewart’s study, 160 British middle and top managers spent 47% of their time with peers, 41% of their time with people inside their unit, and only 12% of their time with superiors. Guest’s (1956) study of U.S. manufacturing supervisors revealed similar findings.18 Informational roles. Managers are required to gather, collate, analyze, store, and disseminate many kinds of information."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1393,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2057,
+   "completion_tokens": 126,
+   "cost_usd": 0.000269,
+   "latency_s": 2.41
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q02",
+  "question": "Which managerial role covers the symbolic, ceremonial duties a manager performs simply because they head a unit?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 746,
+    "completion_tokens": 67,
+    "cost_usd": 0.00010810000000000001,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 2.225,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "managerial roles figurehead symbolic ceremonial duties",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p23-p03",
+      "page": 23,
+      "score": 22.61843
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p55-p01",
+      "page": 55,
+      "score": 6.31227
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p25-p04",
+      "page": 25,
+      "score": 5.787363
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p23-p03",
+     "pom-ch01-02-p55-p01",
+     "pom-ch01-02-p25-p04"
+    ],
+    "latency_ms": 33.4
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1225,
+    "completion_tokens": 54,
+    "cost_usd": 0.0001495,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.467,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "The role is the **figurehead role**. As head of an organizational unit, every manager must perform some ceremonial duties [pom-ch01-02-p23-p03].",
+  "citations": [
+   "pom-ch01-02-p23-p03"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p23-p03",
+    "page": 23,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Three of a manager’s roles arise directly from formal authority and involve basic interpersonal relationships. First is the figurehead role. As the head of an organizational unit, every manager must perform some ceremonial duties. In Mintzberg’s study, chief executives spent 12% of their contact time on ceremonial duties; 17% of their incoming mail dealt with acknowledgments and requests related to their status."
+   },
+   {
+    "id": "pom-ch01-02-p55-p01",
+    "page": 55,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Rob has been in managerial roles for over 25 years, since he was 19 years old. He told me that he had experienced a number of ethical dilemmas in that time."
+   },
+   {
+    "id": "pom-ch01-02-p25-p04",
+    "page": 25,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Prendergast, the president of the Metropolitan Transit Authority of New York State, updates media on today’s labor negotiations with the LIRR unions. In his role negotiating a new contract with the union, he must take on several managerial roles. (Credit: Metropolitan Transit Authority of New York State/ flickr/ Attribution 2.0 Generic (CC BY 2.0)) The final decisional role is that of negotiator."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 970,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1971,
+   "completion_tokens": 121,
+   "cost_usd": 0.000258,
+   "latency_s": 3.73
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q03",
+  "question": "In Rosemary Stewart's study of British middle and top managers, how was their time split between peers, people in their unit, and superiors?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 752,
+    "completion_tokens": 75,
+    "cost_usd": 0.0001127,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.874,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "Rosemary Stewart study British managers time spent with peers, subordinates, superiors",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p24-p03",
+      "page": 24,
+      "score": 33.086246
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p24-p02",
+      "page": 24,
+      "score": 18.828138
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p22-p04",
+      "page": 22,
+      "score": 17.56613
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p24-p03",
+     "pom-ch01-02-p24-p02",
+     "pom-ch01-02-p22-p04"
+    ],
+    "latency_ms": 39.2
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1288,
+    "completion_tokens": 75,
+    "cost_usd": 0.0001663,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 2.361,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "In Rosemary Stewart's study of 160 British middle and top managers, they spent 47% of their time with peers, 41% with people inside their unit, and only 12% with superiors [pom-ch01-02-p24-p03].",
+  "citations": [
+   "pom-ch01-02-p24-p03"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p24-p03",
+    "page": 24,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "In Rosemary Stewart’s study, 160 British middle and top managers spent 47% of their time with peers, 41% of their time with people inside their unit, and only 12% of their time with superiors. Guest’s (1956) study of U.S. manufacturing supervisors revealed similar findings.18 Informational roles. Managers are required to gather, collate, analyze, store, and disseminate many kinds of information."
+   },
+   {
+    "id": "pom-ch01-02-p24-p02",
+    "page": 24,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "This role, in which managers establish and maintain contacts outside the vertical chain of command, becomes especially important in view of the finding of virtually every study of managerial work that managers spend as much time with peers and other people outside of their units as they do with their own subordinates. Surprisingly, they spend little time with their own superiors."
+   },
+   {
+    "id": "pom-ch01-02-p22-p04",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Kotter studied a number of successful general managers over a five-year period and found that they spend most of their time with others, including subordinates, their bosses, and numerous people from outside the organization. Kotter’s study found that the average manager spent just 25% of his time working alone, and that time was spent largely at home, on airplanes, or commuting. Few of them spent less than 70% of their time with others, and some spent up to 90% of their working time this way.5"
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1279,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2040,
+   "completion_tokens": 150,
+   "cost_usd": 0.000279,
+   "latency_s": 3.27
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q05",
+  "question": "According to classical theory, what is the largest number of people who should report directly to one manager?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 736,
+    "completion_tokens": 66,
+    "cost_usd": 0.0001066,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.079,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "classical theory span of control largest number of people reporting to one manager",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p26-p06",
+      "page": 26,
+      "score": 25.598398
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p22-p00",
+      "page": 22,
+      "score": 10.685083
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p27-p00",
+      "page": 27,
+      "score": 8.222969
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p26-p06",
+     "pom-ch01-02-p22-p00",
+     "pom-ch01-02-p27-p00"
+    ],
+    "latency_ms": 31.6
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1099,
+    "completion_tokens": 49,
+    "cost_usd": 0.00013440000000000001,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.852,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "According to classical management theory, the maximum number of direct reports a manager can reasonably handle is seven [pom-ch01-02-p26-p06].",
+  "citations": [
+   "pom-ch01-02-p26-p06"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p26-p06",
+    "page": 26,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Classical management theory suggests that seven is the maximum number of direct reports a manager can reasonably handle. CONCEPT CHECK"
+   },
+   {
+    "id": "pom-ch01-02-p22-p00",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "position, you will appreciate the roles that your managers, both direct and senior level, play in an organization and the behaviors and actions that will get you recognized and appreciated. Best of luck! Most management textbooks would say, as does this one, that managers spend their time engaged in planning, organizing, staffing, directing, coordinating, reporting, and controlling."
+   },
+   {
+    "id": "pom-ch01-02-p27-p00",
+    "page": 27,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Today, high-speed information technology and remarkably efficient telecommunication systems mean that many managers have as many as 20 or 30 people reporting to them directly."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 694,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1835,
+   "completion_tokens": 115,
+   "cost_usd": 0.000241,
+   "latency_s": 1.96
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q06",
+  "question": "Which type of skill do executives need more of than first-line managers, and which type of skill stays important at every level?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 743,
+    "completion_tokens": 65,
+    "cost_usd": 0.0001068,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 2.313,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "managerial skills needed by executives compared with first-line managers",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p29-p00",
+      "page": 29,
+      "score": 19.27506
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p28-p02",
+      "page": 28,
+      "score": 15.698843
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p31-p00",
+      "page": 31,
+      "score": 15.645286
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p29-p00",
+     "pom-ch01-02-p28-p02",
+     "pom-ch01-02-p31-p00"
+    ],
+    "latency_ms": 42.2
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1196,
+    "completion_tokens": 80,
+    "cost_usd": 0.00015960000000000003,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.059,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Executives need more **conceptual skill** and less technical skill than first-line managers [pom-ch01-02-p29-p00]. **Human relations (people) skills** remain important at all three management levels [pom-ch01-02-p29-p00].",
+  "citations": [
+   "pom-ch01-02-p29-p00"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p29-p00",
+    "page": 29,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "hierarchy. That is, success in executive positions requires far more conceptual skill and less use of technical skills in most (but not all) situations, whereas first-line managers generally require more technical skills and fewer conceptual skills. Note, however, that human relations skills, or people skills, remain important for success at all three levels in the hierarchy."
+   },
+   {
+    "id": "pom-ch01-02-p28-p02",
+    "page": 28,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "We can distinguish three general levels of management: executives, middle management, and first-line management (see Exhibit 1.5). Executive managers are at the top of the hierarchy and are responsible for the entire organization, especially its strategic direction. Middle managers, who are at the middle of the hierarchy, are responsible for major departments and may supervise other lower-level managers."
+   },
+   {
+    "id": "pom-ch01-02-p31-p00",
+    "page": 31,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Key Terms Decisional role One of the three major roles that a manager assumes in the organization. executive managers Generally, a team of individuals at the highest level of management of an organization. first-line management The level of management directly managing nonmanagerial employees."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1079,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1939,
+   "completion_tokens": 145,
+   "cost_usd": 0.000266,
+   "latency_s": 3.41
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q07",
+  "question": "In the chapter on managing and performing, what did managers find when they responded to growing demands on their time by working more hours?",
+  "filter": {
+   "chapter": 1
+  },
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 774,
+    "completion_tokens": 64,
+    "cost_usd": 0.0001094,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.887,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "managers working more hours to respond to growing demands on their time",
+    "filter": {
+     "chapter": 1
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p26-p02",
+      "page": 26,
+      "score": 13.250813
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p26-p01",
+      "page": 26,
+      "score": 11.607689
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p22-p07",
+      "page": 22,
+      "score": 8.899899
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p26-p02",
+     "pom-ch01-02-p26-p01",
+     "pom-ch01-02-p22-p07"
+    ],
+    "latency_ms": 39.2
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1309,
+    "completion_tokens": 120,
+    "cost_usd": 0.0001909,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.288,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Managers found that the day had only 24 hours, and that working more of them produced diminishing marginal returns [pom-ch01-02-p26-p02]. They were also overburdened with obligations, could not easily delegate, and so did many tasks superficially, with work characterized by brevity, fragmentation, and verbal communication [pom-ch01-02-p26-p02].",
+  "citations": [
+   "pom-ch01-02-p26-p02"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p26-p02",
+    "page": 26,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Increased work hours was one reaction to such demand, but managers quickly discovered that the day had just 24 hours and that working more of them produced diminishing marginal returns. According to one researcher, “Managers are overburdened with obligations yet cannot easily delegate their tasks. As a result, they are driven to overwork and forced to do many tasks superficially. Brevity, fragmentation, and verbal communication characterize their work.”20"
+   },
+   {
+    "id": "pom-ch01-02-p26-p01",
+    "page": 26,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Time is fragmented. Managers have acknowledged from antiquity that they never seem to have enough time to get all those things done that need to be done. In the latter years of the twentieth century, however, a new phenomenon arose: demand for time from those in leadership roles increased, while the number of hours in a day remained constant."
+   },
+   {
+    "id": "pom-ch01-02-p22-p07",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Interruptions also appear to be a natural part of the job. Stewart found that the managers she studied could work uninterrupted for half an hour only nine times during the four weeks she studied them.8 Managers, in fact, spend very little time by themselves. Contrary to the image offered by management textbooks, they are rarely alone drawing up plans or worrying about important decisions. Instead, they spend most of their time interacting with others—both inside and outside the organization."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1299,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2083,
+   "completion_tokens": 184,
+   "cost_usd": 0.0003,
+   "latency_s": 2.21
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q09",
+  "question": "Who are an organization's stakeholders?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 724,
+    "completion_tokens": 58,
+    "cost_usd": 0.00010140000000000001,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.031,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "who are an organization's stakeholders",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p37-p04",
+      "page": 37,
+      "score": 6.738084
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p37-p05",
+      "page": 37,
+      "score": 5.626064
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p38-p07",
+      "page": 38,
+      "score": 5.623191
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p37-p04",
+     "pom-ch01-02-p37-p05",
+     "pom-ch01-02-p38-p07"
+    ],
+    "latency_ms": 40.7
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1179,
+    "completion_tokens": 53,
+    "cost_usd": 0.0001444,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.906,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Stakeholders are all the individuals or groups affected by an organization, such as customers, employees, and shareholders [pom-ch01-02-p37-p04].",
+  "citations": [
+   "pom-ch01-02-p37-p04"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p37-p04",
+    "page": 37,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Decision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.)."
+   },
+   {
+    "id": "pom-ch01-02-p37-p05",
+    "page": 37,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Members of the top management team regularly make decisions that affect the future of the organization and all its stakeholders, such as deciding whether to pursue a new technology or product line. A good decision can enable the organization to thrive and survive long-term, while a poor decision can lead a business into bankruptcy."
+   },
+   {
+    "id": "pom-ch01-02-p38-p07",
+    "page": 38,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "As you can see from these brief examples, management is not for the faint of heart! It can, however, be incredibly rewarding to be in a position to make decisions that have a positive impact on an organization and its stakeholders. We see a great example of this in the Sustainability and Responsible Management box."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1109,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1903,
+   "completion_tokens": 111,
+   "cost_usd": 0.000246,
+   "latency_s": 1.98
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q10",
+  "question": "Why can waiting too long to make a decision be as harmful as deciding too quickly?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 738,
+    "completion_tokens": 68,
+    "cost_usd": 0.00010779999999999999,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.952,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "waiting too long to make a decision harmful as deciding too quickly",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p37-p09",
+      "page": 37,
+      "score": 17.09513
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p38-p06",
+      "page": 38,
+      "score": 9.353114
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p53-p09",
+      "page": 53,
+      "score": 8.870686
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p37-p09",
+     "pom-ch01-02-p38-p06",
+     "pom-ch01-02-p53-p09"
+    ],
+    "latency_ms": 36.2
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1206,
+    "completion_tokens": 176,
+    "cost_usd": 0.00020860000000000003,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.459,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Waiting too long can be as harmful as deciding too quickly because delay can hurt the organization just as an early decision can. Effective leaders must judge when to hold off to gather more information and when to decide with the information at hand [pom-ch01-02-p37-p09]. The passage does not explain the mechanisms of harm in more detail.",
+  "citations": [
+   "pom-ch01-02-p37-p09"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p37-p09",
+    "page": 37,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Managers frequently make decisions without complete information; indeed, one of the hallmarks of an effective leader is the ability to determine when to hold off on a decision and gather more information, and when to make a decision with the information at hand. Waiting too long to make a decision can be as harmful for the organization as reaching a decision too quickly."
+   },
+   {
+    "id": "pom-ch01-02-p38-p06",
+    "page": 38,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Maximizing shareholder wealth is often a short-sighted decision, however, because it can harm the organization’s financial viability in the future.1 Bad publicity, customers boycotting the organization, and government fines are all possible long-term outcomes when managers make choices that cause harm in order to maximize shareholder wealth. More importantly, increasing the wealth of shareholders is not an acceptable reason for causing harm to others."
+   },
+   {
+    "id": "pom-ch01-02-p53-p09",
+    "page": 53,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Making the decision to do what you know is right could come at a substantial cost to you personally. In these situations, your best course of action is to find a way to persuade your boss that the unethical action will cause greater harm to the organization in the long-term."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1103,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1944,
+   "completion_tokens": 244,
+   "cost_usd": 0.000316,
+   "latency_s": 2.45
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": false,
+   "first_hit3": false,
+   "context_has_evidence": false
+  }
+ },
+ {
+  "query_id": "q11",
+  "question": "Which of the brain's decision systems works fast and on gut feeling, using emotions or habits as cues?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 744,
+    "completion_tokens": 69,
+    "cost_usd": 0.0001089,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.063,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "intuitive decision making fast gut feeling emotions habits brain system",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p40-p00",
+      "page": 40,
+      "score": 22.359262
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p40-p03",
+      "page": 40,
+      "score": 13.215117
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p60-p00",
+      "page": 60,
+      "score": 12.973549
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p40-p00",
+     "pom-ch01-02-p40-p03",
+     "pom-ch01-02-p60-p00"
+    ],
+    "latency_ms": 24.7
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1252,
+    "completion_tokens": 121,
+    "cost_usd": 0.0001857,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.184,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "The brain's quick, intuitive system is the reactive (or reflexive) system. It is quick, impulsive, and intuitive, relying on emotions or habits to provide cues for what to do next [pom-ch01-02-p40-p00]. Experienced managers often use it when they go with their \"gut\" or what \"feels\" right [pom-ch01-02-p40-p03].",
+  "citations": [
+   "pom-ch01-02-p40-p00",
+   "pom-ch01-02-p40-p03"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p40-p00",
+    "page": 40,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "2.2 How the Brain Processes Information to Make Decisions: Reflective and Reactive Systems 2. What are the two systems of decision-making in the brain? The human brain processes information for decision-making using one of two routes: a reflective system and a reactive (or reflexive) system.2,3 The reflective system is logical, analytical, deliberate, and methodical, while the reactive system is quick, impulsive, and intuitive, relying on emotions or habits to provide cues for what to do next."
+   },
+   {
+    "id": "pom-ch01-02-p40-p03",
+    "page": 40,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Additionally, experienced managers can often make decisions very quickly because experience or expertise has taught them what to do in a given situation. These managers might not be able to explain the logic behind their decision, and will instead say they just went with their “gut,” or did what “felt” right. Because the manager has faced a similar situation in the past and has figured out how to deal with it, the brain shifts immediately to the quick, intuitive decision-making system.5"
+   },
+   {
+    "id": "pom-ch01-02-p60-p00",
+    "page": 60,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "2.2 How the Brain Processes Information to Make Decisions: Reflective and Reactive Systems 2. What are the two systems of decision-making in the brain?"
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1140,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1996,
+   "completion_tokens": 190,
+   "cost_usd": 0.000295,
+   "latency_s": 2.27
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 2,
+   "citations_in_context": 2,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q13",
+  "question": "What are programmed decisions?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 720,
+    "completion_tokens": 53,
+    "cost_usd": 9.85e-05,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.511,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "programmed decisions",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p60-p02",
+      "page": 60,
+      "score": 6.54364
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p41-p01",
+      "page": 41,
+      "score": 6.232733
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p43-p01",
+      "page": 43,
+      "score": 5.928317
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p60-p02",
+     "pom-ch01-02-p41-p01",
+     "pom-ch01-02-p43-p01"
+    ],
+    "latency_ms": 31.1
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1269,
+    "completion_tokens": 113,
+    "cost_usd": 0.0001834,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.317,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Programmed decisions are those based on well-understood criteria, where structure and routine can be applied to them [pom-ch01-02-p60-p02][pom-ch01-02-p41-p01]. Managers can set rules and guidelines for them based on known facts, which lets them reach decisions quickly [pom-ch01-02-p60-p02].",
+  "citations": [
+   "pom-ch01-02-p60-p02",
+   "pom-ch01-02-p41-p01"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p60-p02",
+    "page": 60,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "2.3 Programmed and Nonprogrammed Decisions 3. What is the difference between programmed and nonprogrammed decisions? Programmed decisions are those that are based on criteria that are well understood, while nonprogrammed decisions are novel and lack clear guidelines for reaching a solution. Managers can establish rules and guidelines for programmed decisions based on known fact, which enables them to reach decisions quickly."
+   },
+   {
+    "id": "pom-ch01-02-p41-p01",
+    "page": 41,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "2.3 Programmed and Nonprogrammed Decisions 3. What is the difference between programmed and nonprogrammed decisions? Because managers have limited time and must use that time wisely to be effective, it is important for them to distinguish between decisions that can have structure and routine applied to them (called programmed decisions) and decisions that are novel and require thought and attention (nonprogrammed decisions)."
+   },
+   {
+    "id": "pom-ch01-02-p43-p01",
+    "page": 43,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "But with programmed decisions, heuristics can allow decision makers to switch to the quick, reactive system and then move along quickly to other issues. 1. Give an example of a programmed decision that a manager might face. 2. Give an example of a nonprogrammed decision. 3. What are heuristics, and when are they helpful? 4. How are programmed and nonprogrammed decisions connected to the reflective and reactive systems in the brain?"
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1291,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1989,
+   "completion_tokens": 166,
+   "cost_usd": 0.000282,
+   "latency_s": 2.86
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 2,
+   "citations_in_context": 2,
+   "first_hit1": false,
+   "first_hit3": false,
+   "context_has_evidence": false
+  }
+ },
+ {
+  "query_id": "q14",
+  "question": "What is the drawback of relying on mental shortcuts for routine decisions, and what kind of result do they usually give?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 747,
+    "completion_tokens": 66,
+    "cost_usd": 0.0001077,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.074,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "mental shortcuts heuristics drawback routine decisions",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p48-p02",
+      "page": 48,
+      "score": 15.68699
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p59-p04",
+      "page": 59,
+      "score": 14.525269
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p41-p04",
+      "page": 41,
+      "score": 11.769299
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p48-p02",
+     "pom-ch01-02-p59-p04",
+     "pom-ch01-02-p41-p04"
+    ],
+    "latency_ms": 39.3
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1237,
+    "completion_tokens": 207,
+    "cost_usd": 0.0002272,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 2.375,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search_refused",
+    "reason": "max_searches"
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1350,
+    "completion_tokens": 417,
+    "cost_usd": 0.0003435,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 2.639,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: I searched twice for heuristic drawbacks and found no passage stating a drawback or typical result; the closest passage describes heuristics as mental shortcuts that help reach a good decision quickly [pom-ch01-02-p59-p04].",
+  "citations": [
+   "pom-ch01-02-p59-p04"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p48-p02",
+    "page": 48,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Techniques for Making Better Programmed Decisions In addition, experience enables managers to recognize when to minimize the time spent making decisions on issues that are not particularly important but must still be addressed. As discussed previously, heuristics are mental shortcuts that managers take when making programmed (routine, low-involvement) decisions. Another technique that managers use with these types of decisions is satisficing."
+   },
+   {
+    "id": "pom-ch01-02-p59-p04",
+    "page": 59,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Groupthink The tendency of a group to reach agreement very quickly and without substantive discussion. Heuristics Mental shortcuts that allow a decision maker to reach a good decision quickly. They are strategies that develop based on prior experience."
+   },
+   {
+    "id": "pom-ch01-02-p41-p04",
+    "page": 41,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Then, they must consider the availability of the workers by taking into account requests for vacation and for other obligations that employees might have (such as school). Establishing the schedule might be complex, but it is still a programmed decision: it is made on a regular basis based on well-understood criteria, so structure can be applied to the process. For programmed decisions, managers often develop heuristics, or mental shortcuts, to help reach a decision."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1169,
+  "totals": {
+   "llm_calls": 3,
+   "prompt_tokens": 3334,
+   "completion_tokens": 690,
+   "cost_usd": 0.000678,
+   "latency_s": 6.13
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "abstain",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": false,
+   "first_hit3": false,
+   "context_has_evidence": false
+  }
+ },
+ {
+  "query_id": "q15",
+  "question": "What is bounded rationality?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 720,
+    "completion_tokens": 53,
+    "cost_usd": 9.85e-05,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.036,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "bounded rationality",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p59-p00",
+      "page": 59,
+      "score": 12.231779
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p43-p04",
+      "page": 43,
+      "score": 10.218338
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p43-p03",
+      "page": 43,
+      "score": 9.543525
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p59-p00",
+     "pom-ch01-02-p43-p04",
+     "pom-ch01-02-p43-p03"
+    ],
+    "latency_ms": 39.9
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1175,
+    "completion_tokens": 190,
+    "cost_usd": 0.0002125,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.33,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Bounded rationality is the concept that people cannot be fully rational when making decisions because they lack all the possible information and the cognitive processing ability to make completely informed decisions [pom-ch01-02-p59-p00]. For complex issues, we cannot fully grasp all alternatives or the implications of each one, because our brains can only process limited information [pom-ch01-02-p43-p04]. This is why nonrational decision-making is common, especially for nonprogrammed decisions, where managers may not know what questions to ask or what information to gather [pom-ch01-02-p43-p03].",
+  "citations": [
+   "pom-ch01-02-p59-p00",
+   "pom-ch01-02-p43-p04",
+   "pom-ch01-02-p43-p03"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p59-p00",
+    "page": 59,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Key Terms Bounded rationality The concept that when we make decisions, we cannot be fully rational because we don’t have all the possible information or the cognitive processing ability to make fully informed, completely rational decisions."
+   },
+   {
+    "id": "pom-ch01-02-p43-p04",
+    "page": 43,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Even when we have gathered all the possible information, we may not be able to make rational sense of all of it, or to accurately forecast or predict the outcomes of our choice. Bounded rationality is the idea that for complex issues we cannot be completely rational because we cannot fully grasp all the possible alternatives, nor can we understand all the implications of every possible alternative. Our brains have limitations in terms of the amount of information they can process."
+   },
+   {
+    "id": "pom-ch01-02-p43-p03",
+    "page": 43,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Bounded Rationality While we might like to think that we can make completely rational decisions, this is often unrealistic given the complex issues faced by managers. Nonrational decision-making is common, especially with nonprogrammed decisions. Since we haven’t faced a particular situation previously, we don’t always know what questions to ask or what information to gather."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1103,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1895,
+   "completion_tokens": 243,
+   "cost_usd": 0.000311,
+   "latency_s": 2.41
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 3,
+   "citations_in_context": 3,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q17",
+  "question": "Which type of conflict can improve a team's performance, and which type involves attacks on a person rather than an idea?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 745,
+    "completion_tokens": 74,
+    "cost_usd": 0.0001115,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.059,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "types of conflict: task conflict improves team performance, relationship conflict personal attacks",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p46-p01",
+      "page": 46,
+      "score": 22.528377
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p46-p02",
+      "page": 46,
+      "score": 15.169503
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p59-p06",
+      "page": 59,
+      "score": 14.662403
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p46-p01",
+     "pom-ch01-02-p46-p02",
+     "pom-ch01-02-p59-p06"
+    ],
+    "latency_ms": 33.6
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1260,
+    "completion_tokens": 101,
+    "cost_usd": 0.0001765,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.091,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Process conflict, which is conflict about the best way to do something, can lead to improved performance as individuals explore options to find superior solutions [pom-ch01-02-p46-p01]. Relationship conflict is the type that involves attacks on a person rather than an idea [pom-ch01-02-p46-p01].",
+  "citations": [
+   "pom-ch01-02-p46-p01"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p46-p01",
+    "page": 46,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "It is also helpful to think about conflict in terms of process conflict or relationship conflict.9 Process conflict, conflict about the best way to do something, can actually lead to improved performance, as individuals explore various options together in order to identify superior solutions. Relationship conflict is conflict between individuals that is more personal and involves attacks on a person rather than an idea."
+   },
+   {
+    "id": "pom-ch01-02-p46-p02",
+    "page": 46,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "This kind of conflict is generally harmful and should be quelled when possible. The harm from relationship conflict arises at least in part because feeling personally attacked will cause an individual to revert to the reactive system of the brain. Effective managers should be particularly aware of the possibility of relationship conflict when giving feedback and should keep feedback focused on behaviors and activities (how things are done) rather than on the individual."
+   },
+   {
+    "id": "pom-ch01-02-p59-p06",
+    "page": 59,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Reflective system System of decision-making in the brain that is logical, analytical, and methodical. Relationship conflict Conflict between individuals that is based on personal (or personality) differences; this type of conflict tends to be destructive rather than constructive. Satisficing Choosing the first acceptable solution to minimize time spent on a decision."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1266,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2005,
+   "completion_tokens": 175,
+   "cost_usd": 0.000288,
+   "latency_s": 2.18
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q18",
+  "question": "In the chapter on decision-making, how do time pressures affect the way managers decide?",
+  "filter": {
+   "chapter": 2
+  },
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 765,
+    "completion_tokens": 61,
+    "cost_usd": 0.000107,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.014,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "time pressures effect on managerial decision-making",
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p44-p04",
+      "page": 44,
+      "score": 11.67298
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p37-p03",
+      "page": 37,
+      "score": 9.8247
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p60-p03",
+      "page": 60,
+      "score": 9.54679
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p44-p04",
+     "pom-ch01-02-p37-p03",
+     "pom-ch01-02-p60-p03"
+    ],
+    "latency_ms": 32.0
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1174,
+    "completion_tokens": 299,
+    "cost_usd": 0.0002669,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 2.023,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "Under time constraints, managers have little time to gather information and process it rationally, which makes a good nonprogrammed decision less likely [pom-ch01-02-p44-p04]. Time pressure can push them to rely on heuristics instead of deep processing. Heuristics save time but do not necessarily produce the best solution [pom-ch01-02-p44-p04]. Nonprogrammed decisions take longer to resolve because the manager may need to research, collect more information, and gather opinions from others [pom-ch01-02-p60-p03].",
+  "citations": [
+   "pom-ch01-02-p44-p04",
+   "pom-ch01-02-p60-p03"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p44-p04",
+    "page": 44,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Time Constraints Managers often face time constraints that can make effective decision-making a challenge. When there is little time available to collect information and to rationally process it, we are much less likely to make a good nonprogrammed decision. Time pressures can cause us to rely on heuristics rather than engage in deep processing. While heuristics save time, however, they don’t necessarily lead to the best possible solution."
+   },
+   {
+    "id": "pom-ch01-02-p37-p03",
+    "page": 37,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "2.1 Overview of Managerial Decision-Making 1. What are the basic characteristics of managerial decision-making?"
+   },
+   {
+    "id": "pom-ch01-02-p60-p03",
+    "page": 60,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Nonprogrammed decisions require more time to resolve; the decision maker may need to conduct research, collect additional information, gather opinions and ideas from other people, and so on. 2.4 Barriers to Effective Decision-Making 4. What barriers exist that make effective decision-making difficult?"
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 856,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1939,
+   "completion_tokens": 360,
+   "cost_usd": 0.000374,
+   "latency_s": 3.07
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 2,
+   "citations_in_context": 2,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q19",
+  "question": "What does a decision maker do when satisficing?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 725,
+    "completion_tokens": 55,
+    "cost_usd": 0.0001,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.903,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "satisficing decision maker",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p48-p03",
+      "page": 48,
+      "score": 9.076553
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p42-p01",
+      "page": 42,
+      "score": 5.889209
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p60-p07",
+      "page": 60,
+      "score": 5.493128
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p48-p03",
+     "pom-ch01-02-p42-p01",
+     "pom-ch01-02-p60-p07"
+    ],
+    "latency_ms": 36.2
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1203,
+    "completion_tokens": 54,
+    "cost_usd": 0.0001473,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.802,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "When satisficing, a decision maker selects the first acceptable solution without putting in additional effort to identify the best solution [pom-ch01-02-p48-p03].",
+  "citations": [
+   "pom-ch01-02-p48-p03"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p48-p03",
+    "page": 48,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "When satisficing, a decision maker selects the first acceptable solution without engaging in additional effort to identify the best solution. We all engage in satisficing every day. For example, suppose you are shopping for groceries and you don’t want to overspend. If you have plenty of time, you might compare prices and figure out the price by weight (or volume) to ensure that every item you select is the cheapest option."
+   },
+   {
+    "id": "pom-ch01-02-p42-p01",
+    "page": 42,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Heuristics are often used for programmed decisions, because experience in making the decision over and over helps the decision maker know what to expect and how to react. Programmed decision-making can also be taught fairly easily to another person. The rules and criteria, and how they relate to outcomes, can be clearly laid out so that a good decision can be reached by the new decision maker."
+   },
+   {
+    "id": "pom-ch01-02-p60-p07",
+    "page": 60,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Managers tend to get better at decision-making with time and experience, which helps them build expertise. Heuristics and satisficing can also be useful techniques for making programmed decisions quickly. For nonprogrammed decisions, a manager can improve the quality of her decision-making by utilizing a variety of other techniques."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1157,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1928,
+   "completion_tokens": 109,
+   "cost_usd": 0.000247,
+   "latency_s": 1.74
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "u01",
+  "question": "Who coined the term 'groupthink', and in which year was it first introduced?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 735,
+    "completion_tokens": 58,
+    "cost_usd": 0.0001025,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.878,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "groupthink coined term year introduced",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p56-p08",
+      "page": 56,
+      "score": 11.841239
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p61-p00",
+      "page": 61,
+      "score": 5.730532
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p55-p01",
+      "page": 55,
+      "score": 5.239912
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p56-p08",
+     "pom-ch01-02-p61-p00",
+     "pom-ch01-02-p55-p01"
+    ],
+    "latency_ms": 26.8
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1121,
+    "completion_tokens": 98,
+    "cost_usd": 0.0001611,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.15,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search_refused",
+    "reason": "max_searches"
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1231,
+    "completion_tokens": 77,
+    "cost_usd": 0.00016160000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.055,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: I searched for groupthink's coiner and introduction year, but the retrieved passages only describe groupthink's causes and remedies and do not name who coined the term or when it was introduced.",
+  "citations": [],
+  "context": [
+   {
+    "id": "pom-ch01-02-p56-p08",
+    "page": 56,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Sometimes groupthink occurs because the group has a positive team spirit and camaraderie, and individual group members don’t want that to change by introducing conflict. CONCEPT CHECK"
+   },
+   {
+    "id": "pom-ch01-02-p61-p00",
+    "page": 61,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Managers can improve the quality of group decision-making in a number of ways. First, when forming the group, the manager should ensure that the individual group members are diverse in terms of knowledge and perspectives. The manager may also want to assign a devil’s advocate to discourage groupthink. Managers should also encourage all group members to contribute their ideas and opinions, and they should not allow a single voice to dominate."
+   },
+   {
+    "id": "pom-ch01-02-p55-p01",
+    "page": 55,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Rob has been in managerial roles for over 25 years, since he was 19 years old. He told me that he had experienced a number of ethical dilemmas in that time."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 784,
+  "totals": {
+   "llm_calls": 3,
+   "prompt_tokens": 3087,
+   "completion_tokens": 233,
+   "cost_usd": 0.000425,
+   "latency_s": 3.11
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": false,
+  "eval": {
+   "status": "abstain",
+   "searches": 1,
+   "citations": 0,
+   "citations_in_context": 0
+  }
+ },
+ {
+  "query_id": "u02",
+  "question": "According to Kotter's study of general managers, how many hours per week did they work on average?",
+  "filter": null,
+  "config": {
+   "method": "lexical",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 736,
+    "completion_tokens": 60,
+    "cost_usd": 0.00010360000000000001,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.065,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "lexical",
+    "query": "Kotter study of general managers hours per week",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p22-p04",
+      "page": 22,
+      "score": 13.359984
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p22-p07",
+      "page": 22,
+      "score": 12.217773
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p22-p05",
+      "page": 22,
+      "score": 7.70245
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p22-p04",
+     "pom-ch01-02-p22-p07",
+     "pom-ch01-02-p22-p05"
+    ],
+    "latency_ms": 28.7
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1293,
+    "completion_tokens": 198,
+    "cost_usd": 0.00022830000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.434,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: I searched for Kotter's study of general managers and hours per week, and the returned passages describe how managers spent their time with others but give no weekly hours figure.",
+  "citations": [],
+  "context": [
+   {
+    "id": "pom-ch01-02-p22-p04",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Kotter studied a number of successful general managers over a five-year period and found that they spend most of their time with others, including subordinates, their bosses, and numerous people from outside the organization. Kotter’s study found that the average manager spent just 25% of his time working alone, and that time was spent largely at home, on airplanes, or commuting. Few of them spent less than 70% of their time with others, and some spent up to 90% of their working time this way.5"
+   },
+   {
+    "id": "pom-ch01-02-p22-p07",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Interruptions also appear to be a natural part of the job. Stewart found that the managers she studied could work uninterrupted for half an hour only nine times during the four weeks she studied them.8 Managers, in fact, spend very little time by themselves. Contrary to the image offered by management textbooks, they are rarely alone drawing up plans or worrying about important decisions. Instead, they spend most of their time interacting with others—both inside and outside the organization."
+   },
+   {
+    "id": "pom-ch01-02-p22-p05",
+    "page": 22,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Kotter also found that the breadth of topics in their discussions with others was extremely wide, with unimportant issues taking time alongside important business matters. His study revealed that managers rarely make “big decisions” during these conversations and rarely give orders in a traditional sense. They often react to others’ initiatives and spend substantial amounts of time in unplanned activities that aren’t on their calendars."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1435,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2029,
+   "completion_tokens": 258,
+   "cost_usd": 0.000332,
+   "latency_s": 2.53
+  },
+  "config_name": "B_lexical",
+  "split": "dev",
+  "answerable": false,
+  "eval": {
+   "status": "abstain",
+   "searches": 1,
+   "citations": 0,
+   "citations_in_context": 0
+  }
+ }
+]

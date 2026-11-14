@@ -1,0 +1,23 @@
+{
+ "page": 47,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.3"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 1.3: Poverty rates declined consistently\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with markers. Y-axis: \\\"Poverty rate (%)\\\", scale 0 to 50 in steps of 10. X-axis: years 2010 to 2020, with labeled points only for even years (2010, 2012, 2014, 2016, 2018, 2020). Series: Extreme poverty ($1.90/day 2011PPP) in teal; LMIC PL ($3.20/day 2011PPP) in orange; UMIC PL ($5.50/day 2011PPP) in gray. No values are printed on the chart. Approximate readings: UMIC PL: 2010 ~46.7, 2012 ~40.8, 2014 ~35.1, 2016 ~27.1, 2018 ~23.2, 2020 ~18.9. LMIC PL: 2010 ~16.8, 2012 ~13.0, 2014 ~11.0, 2016 ~7.8, 2018 ~6.6, 2020 ~5.0. Extreme poverty: 2010 ~4.0, 2012 ~2.8, 2014 ~2.7, 2016 ~1.8, 2018 ~1.8, 2020 ~1.1. Source note: World Bank staff calculations using VHLSS 2010–2020. All three series decline over the period, with the UMIC line highest and the extreme poverty line lowest; the steepest drop is in UMIC poverty and the extreme poverty series flattens after 2014.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3235,
+  "completion_tokens": 980,
+  "cost_usd": 0.0008135,
+  "latency_s": 4.314
+ },
+ "elements": [
+  {
+   "label": "Figure 1.3: Poverty rates declined consistently",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with markers. Y-axis: \"Poverty rate (%)\", scale 0 to 50 in steps of 10. X-axis: years 2010 to 2020, with labeled points only for even years (2010, 2012, 2014, 2016, 2018, 2020). Series: Extreme poverty ($1.90/day 2011PPP) in teal; LMIC PL ($3.20/day 2011PPP) in orange; UMIC PL ($5.50/day 2011PPP) in gray. No values are printed on the chart. Approximate readings: UMIC PL: 2010 ~46.7, 2012 ~40.8, 2014 ~35.1, 2016 ~27.1, 2018 ~23.2, 2020 ~18.9. LMIC PL: 2010 ~16.8, 2012 ~13.0, 2014 ~11.0, 2016 ~7.8, 2018 ~6.6, 2020 ~5.0. Extreme poverty: 2010 ~4.0, 2012 ~2.8, 2014 ~2.7, 2016 ~1.8, 2018 ~1.8, 2020 ~1.1. Source note: World Bank staff calculations using VHLSS 2010–2020. All three series decline over the period, with the UMIC line highest and the extreme poverty line lowest; the steepest drop is in UMIC poverty and the extreme poverty series flattens after 2014."
+  }
+ ]
+}

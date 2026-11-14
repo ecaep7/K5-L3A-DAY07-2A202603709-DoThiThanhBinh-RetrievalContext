@@ -1,0 +1,23 @@
+{
+ "page": 211,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 7.12"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 7.12\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart of reduction in inequality from cash and non-cash fiscal instruments. Y-axis: 'Percentage point change in Gini', ticks at 5, 0, -5, -10, -15, -20, -25. Legend: 'MI to CI' (teal) and 'CI to FI' (orange). X-axis categories (countries, left to right): Sri Lanka, Ethiopia, Jordan, Guatemala, Honduras, Indonesia, Uganda, Comoros, Ghana, Burkina Faso, Peru, Peru, Egypt, Armenia, Nicaragua, Paraguay, Tanzania, Vietnam (highlighted in grey band), Dominican Republic, Albania, Russia, Bolivia, El Salvador, Venezuela RB, Colombia, Colombia, Kenya, Belarus, Romania, Ecuador, Chile, Tunisia, Mexico, Mexico, Iran, Mexico, Uruguay, Ukraine, Panama, Brazil, Croatia, Costa Rica, United States, Poland, South Africa, Argentina, Namibia. No values are printed; approximate readings (~, percentage points, total bar height as MI to CI plus CI to FI): Sri Lanka ~-1.5 (MI ~-0.5, CI ~-1.5 combined ~-2); Ethiopia ~-2.5; Jordan ~-2; Guatemala ~-2.3; Honduras ~-2.6; Indonesia ~-2.6; Uganda ~-3.3; Comoros ~+1 MI to CI, CI to FI ~-4.7; Ghana ~-3.5; Burkina Faso ~-3.5; Peru ~-3.7; Peru ~-4.2; Egypt ~-2.7; Armenia ~-4.7; Nicaragua ~-4.7; Paraguay ~-4.5; Tanzania ~-4.7; Vietnam ~-5.2 (MI to CI ~-2.9, CI to FI ~-2.3); Dominican Republic ~-5.2; Albania ~-5.2; Russia ~-5.5; Bolivia ~-5.7 (all CI to FI); El Salvador ~-5.9; Venezuela RB ~-5.9; Colombia ~-6.1; Colombia ~-6.3; Kenya ~-6.5; Belarus ~-6.5; Romania ~-7.1; Ecuador ~-7.3; Chile ~-7.5; Tunisia ~-8.0; Mexico ~-8.2; Mexico ~-8.5; Iran ~-8.5; Mexico ~-8.6; Uruguay ~-8.7; Ukraine ~-8.8; Panama ~-9.0; Brazil ~-9.3; Croatia ~-10.0; Costa Rica ~-10.5; United States ~-11.7; Poland ~-12.2; South Africa ~-17.6; Argentina ~-17.6; Namibia ~-20.5. Pattern: bars grow more negative from left to right, with the largest reductions in inequality in Namibia, Argentina and South Africa, and the smallest in Sri Lanka and Ethiopia; Vietnam sits in the middle of the distribution. Note: Pensions as deferred income treatment. Source: CEQ and World Bank databases and World Bank calculations (see Rodriguez and Wai-Poi, 2020).\"}]}",
+ "usage": {
+  "prompt_tokens": 3247,
+  "completion_tokens": 1211,
+  "cost_usd": 0.0009302000000000001,
+  "latency_s": 4.75
+ },
+ "elements": [
+  {
+   "label": "Figure 7.12",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart of reduction in inequality from cash and non-cash fiscal instruments. Y-axis: 'Percentage point change in Gini', ticks at 5, 0, -5, -10, -15, -20, -25. Legend: 'MI to CI' (teal) and 'CI to FI' (orange). X-axis categories (countries, left to right): Sri Lanka, Ethiopia, Jordan, Guatemala, Honduras, Indonesia, Uganda, Comoros, Ghana, Burkina Faso, Peru, Peru, Egypt, Armenia, Nicaragua, Paraguay, Tanzania, Vietnam (highlighted in grey band), Dominican Republic, Albania, Russia, Bolivia, El Salvador, Venezuela RB, Colombia, Colombia, Kenya, Belarus, Romania, Ecuador, Chile, Tunisia, Mexico, Mexico, Iran, Mexico, Uruguay, Ukraine, Panama, Brazil, Croatia, Costa Rica, United States, Poland, South Africa, Argentina, Namibia. No values are printed; approximate readings (~, percentage points, total bar height as MI to CI plus CI to FI): Sri Lanka ~-1.5 (MI ~-0.5, CI ~-1.5 combined ~-2); Ethiopia ~-2.5; Jordan ~-2; Guatemala ~-2.3; Honduras ~-2.6; Indonesia ~-2.6; Uganda ~-3.3; Comoros ~+1 MI to CI, CI to FI ~-4.7; Ghana ~-3.5; Burkina Faso ~-3.5; Peru ~-3.7; Peru ~-4.2; Egypt ~-2.7; Armenia ~-4.7; Nicaragua ~-4.7; Paraguay ~-4.5; Tanzania ~-4.7; Vietnam ~-5.2 (MI to CI ~-2.9, CI to FI ~-2.3); Dominican Republic ~-5.2; Albania ~-5.2; Russia ~-5.5; Bolivia ~-5.7 (all CI to FI); El Salvador ~-5.9; Venezuela RB ~-5.9; Colombia ~-6.1; Colombia ~-6.3; Kenya ~-6.5; Belarus ~-6.5; Romania ~-7.1; Ecuador ~-7.3; Chile ~-7.5; Tunisia ~-8.0; Mexico ~-8.2; Mexico ~-8.5; Iran ~-8.5; Mexico ~-8.6; Uruguay ~-8.7; Ukraine ~-8.8; Panama ~-9.0; Brazil ~-9.3; Croatia ~-10.0; Costa Rica ~-10.5; United States ~-11.7; Poland ~-12.2; South Africa ~-17.6; Argentina ~-17.6; Namibia ~-20.5. Pattern: bars grow more negative from left to right, with the largest reductions in inequality in Namibia, Argentina and South Africa, and the smallest in Sri Lanka and Ethiopia; Vietnam sits in the middle of the distribution. Note: Pensions as deferred income treatment. Source: CEQ and World Bank databases and World Bank calculations (see Rodriguez and Wai-Poi, 2020)."
+  }
+ ]
+}

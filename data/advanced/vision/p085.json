@@ -1,0 +1,23 @@
+{
+ "page": 85,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.13"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 2.13\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Three vertical grouped bar charts (chart type: bar, two series per decile), titled 'Changes in household engagement in major sectors.' Each panel has y-axis 'Share of households (%)' and x-axis categories deciles 1 (poorest decile) to 10 (richest decile). Legend: 2010 (teal) and 2020 (orange). Values are not printed, so approximate readings are given.\\n\\nPanel 1, 'Share of household engaged in agriculture' (y-axis 0-100): 2010 / 2020 by decile: 1: ~82 / ~78; 2: ~75 / ~63; 3: ~73 / ~54; 4: ~71 / ~43; 5: ~60 / ~39; 6: ~59 / ~33; 7: ~51 / ~27; 8: ~41 / ~20; 9: ~31 / ~15; 10: ~15 / ~6.\\n\\nPanel 2, 'Share of households engaged in manufacturing' (y-axis 0-60): 1: ~27 / ~36; 2: ~33 / ~48; 3: ~40 / ~54; 4: ~43 / ~56; 5: ~41 / ~54; 6: ~42 / ~53; 7: ~42 / ~50; 8: ~38 / ~43; 9: ~37 / ~38; 10: ~30 / ~29.\\n\\nPanel 3, 'Share of households engaged in services' (y-axis 0-80): 1: ~9 / ~15; 2: ~17 / ~27; 3: ~24 / ~36; 4: ~28 / ~42; 5: ~37 / ~46; 6: ~40 / ~50; 7: ~46 / ~57; 8: ~56 / ~61; 9: ~62 / ~70; 10: ~72 / ~67.\\n\\nPattern: agriculture engagement is highest among the poorest deciles and declines sharply with income, with falls between 2010 and 2020 in every decile; manufacturing engagement rises in most deciles between 2010 and 2020, peaking in middle deciles; services engagement rises with income and increased in most deciles over the decade.\"}]}",
+ "usage": {
+  "prompt_tokens": 3237,
+  "completion_tokens": 1183,
+  "cost_usd": 0.0009152,
+  "latency_s": 4.663
+ },
+ "elements": [
+  {
+   "label": "Figure 2.13",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Three vertical grouped bar charts (chart type: bar, two series per decile), titled 'Changes in household engagement in major sectors.' Each panel has y-axis 'Share of households (%)' and x-axis categories deciles 1 (poorest decile) to 10 (richest decile). Legend: 2010 (teal) and 2020 (orange). Values are not printed, so approximate readings are given.\n\nPanel 1, 'Share of household engaged in agriculture' (y-axis 0-100): 2010 / 2020 by decile: 1: ~82 / ~78; 2: ~75 / ~63; 3: ~73 / ~54; 4: ~71 / ~43; 5: ~60 / ~39; 6: ~59 / ~33; 7: ~51 / ~27; 8: ~41 / ~20; 9: ~31 / ~15; 10: ~15 / ~6.\n\nPanel 2, 'Share of households engaged in manufacturing' (y-axis 0-60): 1: ~27 / ~36; 2: ~33 / ~48; 3: ~40 / ~54; 4: ~43 / ~56; 5: ~41 / ~54; 6: ~42 / ~53; 7: ~42 / ~50; 8: ~38 / ~43; 9: ~37 / ~38; 10: ~30 / ~29.\n\nPanel 3, 'Share of households engaged in services' (y-axis 0-80): 1: ~9 / ~15; 2: ~17 / ~27; 3: ~24 / ~36; 4: ~28 / ~42; 5: ~37 / ~46; 6: ~40 / ~50; 7: ~46 / ~57; 8: ~56 / ~61; 9: ~62 / ~70; 10: ~72 / ~67.\n\nPattern: agriculture engagement is highest among the poorest deciles and declines sharply with income, with falls between 2010 and 2020 in every decile; manufacturing engagement rises in most deciles between 2010 and 2020, peaking in middle deciles; services engagement rises with income and increased in most deciles over the decade."
+  }
+ ]
+}

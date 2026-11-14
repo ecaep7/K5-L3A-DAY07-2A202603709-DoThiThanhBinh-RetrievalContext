@@ -1,0 +1,23 @@
+{
+ "page": 175,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.2"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 6.2\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Horizontal grouped bar chart titled \\\"Top three reasons why conditions are same or worse than five years ago\\\". X-axis: \\\"Share of affected households (%)\\\", scale 0 to 60 with gridlines at 0, 10, 20, 30, 40, 50, 60. Legend: 2020 (teal), 2018 (orange), 2010 (gray). No values are printed on the bars, so the following are approximate readings (~):\\n\\n- Accident or disaster (non-environment): 2020 ~2; 2018 ~3; 2010 ~5\\n- Decreased land use: 2020 ~1; 2018 ~2; 2010 ~3\\n- Family or friend conflicts: 2020 ~19; 2018 ~19; 2010 ~20\\n- Job loss or underemployment: 2020 ~42; 2018 ~38; 2010 ~42\\n- Low income: 2020 ~52; 2018 ~50; 2010 ~47\\n- High prices of consumer goods: 2020 ~27; 2018 ~23; 2010 ~27\\n- Illness or death in the family: 2020 ~29; 2018 ~33; 2010 ~29\\n- Natural disaster impacting agriculture: 2020 ~6; 2018 ~6; 2010 ~7\\n- Cattle and poultry disease: 2020 ~11; 2018 ~13; 2010 ~10\\n- Low selling prices of agricultural products: 2020 ~11; 2018 ~15; 2010 ~10\\n- Increased costs of agricultural production: 2020 ~36; 2018 ~37; 2010 ~39\\n\\nNote printed below the chart: \\\"Not all households selected 3 reasons. Agriculture includes forestry and aquaculture.\\\" Source: World Bank staff calculations using VHLSS.\\n\\nPattern: low income is the most cited reason in all three years, and most agriculture-related reasons are cited more often in 2018 and 2010 than in 2020, while job loss and low income are the highest-share reasons overall.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3244,
+  "completion_tokens": 1477,
+  "cost_usd": 0.0010629,
+  "latency_s": 6.062
+ },
+ "elements": [
+  {
+   "label": "Figure 6.2",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Horizontal grouped bar chart titled \"Top three reasons why conditions are same or worse than five years ago\". X-axis: \"Share of affected households (%)\", scale 0 to 60 with gridlines at 0, 10, 20, 30, 40, 50, 60. Legend: 2020 (teal), 2018 (orange), 2010 (gray). No values are printed on the bars, so the following are approximate readings (~):\n\n- Accident or disaster (non-environment): 2020 ~2; 2018 ~3; 2010 ~5\n- Decreased land use: 2020 ~1; 2018 ~2; 2010 ~3\n- Family or friend conflicts: 2020 ~19; 2018 ~19; 2010 ~20\n- Job loss or underemployment: 2020 ~42; 2018 ~38; 2010 ~42\n- Low income: 2020 ~52; 2018 ~50; 2010 ~47\n- High prices of consumer goods: 2020 ~27; 2018 ~23; 2010 ~27\n- Illness or death in the family: 2020 ~29; 2018 ~33; 2010 ~29\n- Natural disaster impacting agriculture: 2020 ~6; 2018 ~6; 2010 ~7\n- Cattle and poultry disease: 2020 ~11; 2018 ~13; 2010 ~10\n- Low selling prices of agricultural products: 2020 ~11; 2018 ~15; 2010 ~10\n- Increased costs of agricultural production: 2020 ~36; 2018 ~37; 2010 ~39\n\nNote printed below the chart: \"Not all households selected 3 reasons. Agriculture includes forestry and aquaculture.\" Source: World Bank staff calculations using VHLSS.\n\nPattern: low income is the most cited reason in all three years, and most agriculture-related reasons are cited more often in 2018 and 2010 than in 2020, while job loss and low income are the highest-share reasons overall."
+  }
+ ]
+}

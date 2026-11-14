@@ -1,0 +1,37 @@
+{
+ "page": 76,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.2",
+  "Figure 2.3",
+  "Figure 2.4"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 2.2\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 8. X-axis categories: Central Highlands, Mekong Delta, Midlands & Northern Mountains, Northern & Coastal Central, Red River Delta, Southeast. Legend: Kinh (teal), Ethnic minority (orange). No values are printed on the bars. Approximate readings: Central Highlands Kinh ~1.1, ethnic minority ~0.4; Mekong Delta Kinh ~4.3, ethnic minority ~0.3; Midlands & Northern Mountains Kinh ~1.6, ethnic minority ~1.7; Northern & Coastal Central Kinh ~5.0, ethnic minority ~0.5; Red River Delta Kinh ~6.5, ethnic minority ~0.1; Southeast Kinh ~5.0, ethnic minority ~0.25. Kinh households are far more numerous in every region except the Midlands & Northern Mountains, where ethnic minority households are about equal to or slightly above Kinh households. Source: World Bank staff calculations using the VHLSS, 2020.\"}, {\"label\": \"Figure 2.3\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 8. X-axis categories: No education, Primary, Lower Secondary, Upper Secondary, Vocational, Tertiary. Legend: 2010 (teal), 2020 (orange). Values printed on bars (2010 / 2020): No education 1.5 / 1.4; Primary 4.0 / 3.5; Lower Secondary 5.7 / 6.9; Upper Secondary 4.1 / 5.5; Vocational 3.7 / 4.7; Tertiary 3.0 / 4.7. Note: Maximum level of completed education of any household member. Source: World Bank staff calculations using the VHLSS, 2010 and 2020. The pattern shows the number of households with lower-level maximum education falling and higher-level maximum education rising between 2010 and 2020, with Tertiary rising from 3.0 to 4.7 million.\"}, {\"label\": \"Figure 2.4\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 15. X-axis categories: Agriculture, Manufacturing, Services. Legend: 2010 (teal), 2020 (orange). Values printed on bars (2010 / 2020): Agriculture 11.6 / 9.5; Manufacturing 8.3 / 12.2; Services 9.6 / 13.1. Note: Not exclusive; households with multiple working adults can be engaged in multiple sectors as main jobs. Source: World Bank staff calculations using the VHLSS, 2010 and 2020. Agriculture declined while manufacturing and services increased, with agriculture moving from the largest to the smallest of the three sectors.\"}]}",
+ "usage": {
+  "prompt_tokens": 3304,
+  "completion_tokens": 1540,
+  "cost_usd": 0.0011004,
+  "latency_s": 6.79
+ },
+ "elements": [
+  {
+   "label": "Figure 2.2",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 8. X-axis categories: Central Highlands, Mekong Delta, Midlands & Northern Mountains, Northern & Coastal Central, Red River Delta, Southeast. Legend: Kinh (teal), Ethnic minority (orange). No values are printed on the bars. Approximate readings: Central Highlands Kinh ~1.1, ethnic minority ~0.4; Mekong Delta Kinh ~4.3, ethnic minority ~0.3; Midlands & Northern Mountains Kinh ~1.6, ethnic minority ~1.7; Northern & Coastal Central Kinh ~5.0, ethnic minority ~0.5; Red River Delta Kinh ~6.5, ethnic minority ~0.1; Southeast Kinh ~5.0, ethnic minority ~0.25. Kinh households are far more numerous in every region except the Midlands & Northern Mountains, where ethnic minority households are about equal to or slightly above Kinh households. Source: World Bank staff calculations using the VHLSS, 2020."
+  },
+  {
+   "label": "Figure 2.3",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 8. X-axis categories: No education, Primary, Lower Secondary, Upper Secondary, Vocational, Tertiary. Legend: 2010 (teal), 2020 (orange). Values printed on bars (2010 / 2020): No education 1.5 / 1.4; Primary 4.0 / 3.5; Lower Secondary 5.7 / 6.9; Upper Secondary 4.1 / 5.5; Vocational 3.7 / 4.7; Tertiary 3.0 / 4.7. Note: Maximum level of completed education of any household member. Source: World Bank staff calculations using the VHLSS, 2010 and 2020. The pattern shows the number of households with lower-level maximum education falling and higher-level maximum education rising between 2010 and 2020, with Tertiary rising from 3.0 to 4.7 million."
+  },
+  {
+   "label": "Figure 2.4",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: '# of households (in millions)', scale 0 to 15. X-axis categories: Agriculture, Manufacturing, Services. Legend: 2010 (teal), 2020 (orange). Values printed on bars (2010 / 2020): Agriculture 11.6 / 9.5; Manufacturing 8.3 / 12.2; Services 9.6 / 13.1. Note: Not exclusive; households with multiple working adults can be engaged in multiple sectors as main jobs. Source: World Bank staff calculations using the VHLSS, 2010 and 2020. Agriculture declined while manufacturing and services increased, with agriculture moving from the largest to the smallest of the three sectors."
+  }
+ ]
+}

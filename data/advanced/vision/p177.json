@@ -1,0 +1,30 @@
+{
+ "page": 177,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 6.3",
+  "Figure 6.4"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 6.3: Out-of-pocket health expenditure remains high\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart. Y-axis: \\\"Share of total health expenditure\\\" (%), gridlines at 20%, 30%, 40%, 50%, 60%. X-axis: years 2010 to 2018. Legend: Vietnam (teal), Lower middle income (orange), Upper middle income (grey), East Asia & Pacific (yellow).\\n\\nValues printed for Vietnam: 2010 37%, 2011 37%, 2012 41%, 2013 41%, 2014 42%, 2015 43%, 2016 45%, 2017 45%, 2018 45%.\\n\\nApproximate readings for the other series:\\n- Lower middle income: ~57 (2010), ~55 (2011), ~54 (2012), ~55 (2013), ~53 (2014), ~53 (2015), ~52 (2016), ~52 (2017), ~51 (2018).\\n- Upper middle income: ~33 flat from 2010 to 2014, ~32 in 2015, ~33 in 2016 to 2018.\\n- East Asia & Pacific: ~25 (2010), ~24 (2011), ~24 (2012), ~25 (2013), ~25 (2014), ~26 (2015), ~25 (2016), ~26 (2017), ~26 (2018).\\n\\nVietnam's share rises steadily from 37% to 45% and ends above the upper middle income and East Asia & Pacific series, while lower middle income stays highest throughout but drifts down.\"}, {\"label\": \"Figure 6.4: Catastrophic health expenditure has been declining slightly (% of households)\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Y-axis: \\\"Share of households (%)\\\", 0 to 20. X-axis: years 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016. Legend: Urban (teal), Rural (orange).\\n\\nValues printed (Urban / Rural):\\n- 2002: 9.9 / 13.6\\n- 2004: 13.7 / 16.6\\n- 2006: 12.4 / 15.2\\n- 2008: 11.6 / 15.7\\n- 2010: 10.0 / 12.6\\n- 2012: 8.8 / 9.4\\n- 2014: 7.5 / 10.8\\n- 2016: 9.9 / 9.5\\n\\nRural values are higher than urban in every year except 2016. Both series peak around 2004 to 2008 and generally decline, with a dip in 2014 for urban and a small rise in 2016 for urban.\"}]}",
+ "usage": {
+  "prompt_tokens": 3273,
+  "completion_tokens": 1282,
+  "cost_usd": 0.0009683,
+  "latency_s": 5.517
+ },
+ "elements": [
+  {
+   "label": "Figure 6.3: Out-of-pocket health expenditure remains high",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart. Y-axis: \"Share of total health expenditure\" (%), gridlines at 20%, 30%, 40%, 50%, 60%. X-axis: years 2010 to 2018. Legend: Vietnam (teal), Lower middle income (orange), Upper middle income (grey), East Asia & Pacific (yellow).\n\nValues printed for Vietnam: 2010 37%, 2011 37%, 2012 41%, 2013 41%, 2014 42%, 2015 43%, 2016 45%, 2017 45%, 2018 45%.\n\nApproximate readings for the other series:\n- Lower middle income: ~57 (2010), ~55 (2011), ~54 (2012), ~55 (2013), ~53 (2014), ~53 (2015), ~52 (2016), ~52 (2017), ~51 (2018).\n- Upper middle income: ~33 flat from 2010 to 2014, ~32 in 2015, ~33 in 2016 to 2018.\n- East Asia & Pacific: ~25 (2010), ~24 (2011), ~24 (2012), ~25 (2013), ~25 (2014), ~26 (2015), ~25 (2016), ~26 (2017), ~26 (2018).\n\nVietnam's share rises steadily from 37% to 45% and ends above the upper middle income and East Asia & Pacific series, while lower middle income stays highest throughout but drifts down."
+  },
+  {
+   "label": "Figure 6.4: Catastrophic health expenditure has been declining slightly (% of households)",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Y-axis: \"Share of households (%)\", 0 to 20. X-axis: years 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016. Legend: Urban (teal), Rural (orange).\n\nValues printed (Urban / Rural):\n- 2002: 9.9 / 13.6\n- 2004: 13.7 / 16.6\n- 2006: 12.4 / 15.2\n- 2008: 11.6 / 15.7\n- 2010: 10.0 / 12.6\n- 2012: 8.8 / 9.4\n- 2014: 7.5 / 10.8\n- 2016: 9.9 / 9.5\n\nRural values are higher than urban in every year except 2016. Both series peak around 2004 to 2008 and generally decline, with a dip in 2014 for urban and a small rise in 2016 for urban."
+  }
+ ]
+}

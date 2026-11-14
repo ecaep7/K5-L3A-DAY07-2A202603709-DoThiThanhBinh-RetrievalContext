@@ -1,0 +1,23 @@
+{
+ "page": 197,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.7.1.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure B.7.1.1\", \"kind\": \"diagram\", \"bbox\": null, \"description\": \"Flow diagram of income concepts in the CEQ framework, read top to bottom with downward arrows linking the stacked boxes:\\n\\nCentral stacked boxes (in order):\\n1. Market Income\\n2. Market Income Plus Pensions (Pre-fiscal income)\\n3. Net Market Income\\n4. Disposable Income\\n5. Consumer Income\\n6. Final Income\\n\\nSide inputs:\\n- Plus (+) into Market Income Plus Pensions step: Contributory social insurance old-age pensions (net of contributions)\\n- Minus (−) from Market Income Plus Pensions to Net Market Income step: Direct taxes: PIT, property tax, border tax\\n- Plus (+) into Net Market Income to Disposable Income step: Direct cash transfers: NAF; bread compensation scheme, Zakat, non-contributory pensions, others.\\n- Plus (+) into Disposable Income to Consumer Income step: Indirect subsidies (direct and indirect impacts): electricity; water\\n- Minus (−) from Disposable Income to Consumer Income step: Indirect taxes: GST; SST tobacco, alcohol, sodas, mobile phones\\n- Plus (+) into Final Income step: In-kind transfers net of user fees: health; education\\n\\nSource: Adapted from Lustig (2018).\"}]}",
+ "usage": {
+  "prompt_tokens": 3246,
+  "completion_tokens": 502,
+  "cost_usd": 0.0005756,
+  "latency_s": 2.728
+ },
+ "elements": [
+  {
+   "label": "Figure B.7.1.1",
+   "kind": "diagram",
+   "bbox": null,
+   "description": "Flow diagram of income concepts in the CEQ framework, read top to bottom with downward arrows linking the stacked boxes:\n\nCentral stacked boxes (in order):\n1. Market Income\n2. Market Income Plus Pensions (Pre-fiscal income)\n3. Net Market Income\n4. Disposable Income\n5. Consumer Income\n6. Final Income\n\nSide inputs:\n- Plus (+) into Market Income Plus Pensions step: Contributory social insurance old-age pensions (net of contributions)\n- Minus (−) from Market Income Plus Pensions to Net Market Income step: Direct taxes: PIT, property tax, border tax\n- Plus (+) into Net Market Income to Disposable Income step: Direct cash transfers: NAF; bread compensation scheme, Zakat, non-contributory pensions, others.\n- Plus (+) into Disposable Income to Consumer Income step: Indirect subsidies (direct and indirect impacts): electricity; water\n- Minus (−) from Disposable Income to Consumer Income step: Indirect taxes: GST; SST tobacco, alcohol, sodas, mobile phones\n- Plus (+) into Final Income step: In-kind transfers net of user fees: health; education\n\nSource: Adapted from Lustig (2018)."
+  }
+ ]
+}

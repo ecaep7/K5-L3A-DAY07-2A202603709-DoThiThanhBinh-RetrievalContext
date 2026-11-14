@@ -1,0 +1,30 @@
+{
+ "page": 113,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 3.14",
+  "Figure 3.15"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 3.14\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two line charts (panels 'Ethnic minority' and 'Kinh') showing share of workers employed in the manufacturing sector, y-axis 'Share of workers (%)' (0 to 50), x-axis years 2010, 2012, 2014, 2016, 2018, 2020. Legend: Red River Delta; Northern & Coastal Central Region; Southeast; Midlands & Northern Mountain; Central Highlands; Mekong Delta. Ethnic minority panel (approximate, ~): Red River Delta ~23, ~23, ~18, ~31, ~23, ~43; Midlands & Northern Mountain ~17, ~13, ~6, ~9, ~10, ~21; Central Highlands ~2, ~3.5, ~3, ~2.5, ~4, ~13; Northern & Coastal Central Region ~5, ~4, ~5, ~7, ~12, ~20; Southeast ~29, ~21, ~36.5, ~30.5, ~34, ~45.5; Mekong Delta ~13, ~14, ~16, ~19, ~20, ~26. Kinh panel (approximate, ~): Red River Delta ~36, ~34, ~33, ~34.5, ~37, ~43; Midlands & Northern Mountain ~25, ~24.5, ~24, ~27, ~31, ~35; Southeast ~33, ~36, ~35.5, ~34.5, ~34, ~45.5; Northern & Coastal Central Region ~22, ~22.5, ~23, ~23, ~24, ~28; Mekong Delta ~18, ~20, ~19, ~21, ~23, ~31; Central Highlands ~13, ~9.5, ~10.5, ~10.3, ~10.7, ~22. In both panels, shares rise over time, most sharply by 2020, with the Southeast and Red River Delta highest among the ethnic minority and Kinh groups and the Central Highlands lowest for Kinh and among the lowest for ethnic minorities.\"}, {\"label\": \"Figure 3.15\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart of Kinh-ethnic minority absolute income gaps, y-axis 'Annual VND (millions)' from -20 to 80 in steps of 10, with categories on the x-axis. Legend: 2010 (teal), 2020 (orange). Values are not printed; approximate readings (~): Agriculture 2010 ~-2, 2020 ~-6; Wage, bonus, severance 2010 ~25.5, 2020 ~72; Family business 2010 ~28, 2020 ~72.5; Pension 2010 ~7, 2020 ~19; Remittances 2010 ~4, 2020 ~6; Social Protection (cash transfers) 2010 ~2, 2020 ~4.5. The pattern: gaps are positive and larger in 2020 for every category except agriculture, where the gap is negative (Kinh income lower) and widened; the largest gaps are in wage/bonus/severance and family business income.\"}]}",
+ "usage": {
+  "prompt_tokens": 3289,
+  "completion_tokens": 2092,
+  "cost_usd": 0.0013749,
+  "latency_s": 7.678
+ },
+ "elements": [
+  {
+   "label": "Figure 3.14",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two line charts (panels 'Ethnic minority' and 'Kinh') showing share of workers employed in the manufacturing sector, y-axis 'Share of workers (%)' (0 to 50), x-axis years 2010, 2012, 2014, 2016, 2018, 2020. Legend: Red River Delta; Northern & Coastal Central Region; Southeast; Midlands & Northern Mountain; Central Highlands; Mekong Delta. Ethnic minority panel (approximate, ~): Red River Delta ~23, ~23, ~18, ~31, ~23, ~43; Midlands & Northern Mountain ~17, ~13, ~6, ~9, ~10, ~21; Central Highlands ~2, ~3.5, ~3, ~2.5, ~4, ~13; Northern & Coastal Central Region ~5, ~4, ~5, ~7, ~12, ~20; Southeast ~29, ~21, ~36.5, ~30.5, ~34, ~45.5; Mekong Delta ~13, ~14, ~16, ~19, ~20, ~26. Kinh panel (approximate, ~): Red River Delta ~36, ~34, ~33, ~34.5, ~37, ~43; Midlands & Northern Mountain ~25, ~24.5, ~24, ~27, ~31, ~35; Southeast ~33, ~36, ~35.5, ~34.5, ~34, ~45.5; Northern & Coastal Central Region ~22, ~22.5, ~23, ~23, ~24, ~28; Mekong Delta ~18, ~20, ~19, ~21, ~23, ~31; Central Highlands ~13, ~9.5, ~10.5, ~10.3, ~10.7, ~22. In both panels, shares rise over time, most sharply by 2020, with the Southeast and Red River Delta highest among the ethnic minority and Kinh groups and the Central Highlands lowest for Kinh and among the lowest for ethnic minorities."
+  },
+  {
+   "label": "Figure 3.15",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart of Kinh-ethnic minority absolute income gaps, y-axis 'Annual VND (millions)' from -20 to 80 in steps of 10, with categories on the x-axis. Legend: 2010 (teal), 2020 (orange). Values are not printed; approximate readings (~): Agriculture 2010 ~-2, 2020 ~-6; Wage, bonus, severance 2010 ~25.5, 2020 ~72; Family business 2010 ~28, 2020 ~72.5; Pension 2010 ~7, 2020 ~19; Remittances 2010 ~4, 2020 ~6; Social Protection (cash transfers) 2010 ~2, 2020 ~4.5. The pattern: gaps are positive and larger in 2020 for every category except agriculture, where the gap is negative (Kinh income lower) and widened; the largest gaps are in wage/bonus/severance and family business income."
+  }
+ ]
+}

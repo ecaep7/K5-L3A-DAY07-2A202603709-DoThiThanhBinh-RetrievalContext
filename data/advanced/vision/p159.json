@@ -1,0 +1,43 @@
+{
+ "page": 159,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.6",
+  "Figure 5.7",
+  "Figure 5.8"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [\n{\"label\": \"Figure 5.6: At its level of development, Vietnam is older than its peers\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two-panel line chart of share of total population over 65 (%), y-axis 2 to 14. Left panel: x-axis Year 1960 to 2020; series labeled Cambodia, China, Indonesia, Lao PDR, Malaysia, Mongolia, Philippines, Thailand, Vietnam. Labeled end points: THA rises to about 13 by 2020; China (green) to about 12 by 2020; VNM (Vietnam, light blue) to about 8 by 2020; Malaysia (grey) about 7; Philippines and Indonesia about 5; Cambodia about 4.5; Lao PDR and Mongolia about 4. Right panel: x-axis GDP per capita constant (2010 US$) from 0K to 12K; labeled points THA 2019 (about 13 peak near 6K), CHN 2020 (about 12 near 11K), VNM 2020 (about 8 near 2.5K), IDN 2019 (about 5 near 3.5K), MNG 2019 (about 4 near 4K), MYS 2019 (about 7 near 12K). Visible pattern: over time all countries' elderly shares rise, and at comparable income levels Vietnam's elderly share is higher than most peers. Legend: Cambodia, China, Indonesia, Lao PDR, Malaysia, Mongolia, Philippines, Thailand, Vietnam.\"},\n{\"label\": \"Figure 5.7: Potential workers, 1991–2050\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart, y-axis percent from 40% to 100% with gridlines at 40%, 60%, 80%, 100%; x-axis years 1991, 2002, 2012, 2018, 2040, 2050. Series: Working age (teal) rises from about 57% in 1991 to about 70% around 2012, then declines to about 68% in 2018, with a dashed projection falling to about 64% by 2050. Participation (orange) stays about 83% in 1991, about 81% in 2002, about 83% in 2012–2018. Employment (grey) stays near 98–99% throughout 1991–2018 and is shown flat through 2040. Pattern: working-age share peaks around 2012 and declines in projections, while participation and employment are relatively stable.\"},\n{\"label\": \"Figure 5.8: Growth decomposition (varying demographic scenarios), 1991–2018\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart with GDP per capita line, y-axis from -1 to 7 (percentage points). Two groups of bars. Actual group (1991–2002, 2002–2012, 2012–2018 (actual)): Productivity (teal) about 5.0, 4.4, 5.3; Demographics (yellow) about 1.0, 1.0, about 0.0 (negligible/negative); Employment (orange) about 0.0, 0.6, negative near -0.3; Participation (grey) about -0.1, 0, about 0.3. GDP per capita line (purple, markers) about 6.0, 5.5, 5.4 for the three periods. Alternate group (1991–2002, 2002–2012, 2012–2018 (alternate)): Productivity about 5.0, 4.4, 5.3; Demographics about 1.0, 1.0, about 1.3; Employment about 0.0, 0.6, about 0.0; Participation about 0.0, 0.0, about 0.3. GDP per capita line about 5.9, 5.5, 6.5. Legend: Productivity, Demographics, Employment, Participation, GDP per capita. Pattern: the alternate scenario for 2012–2018 yields higher demographic contribution and higher GDP per capita growth than actual.\"},\n{\"label\": null, \"kind\": \"chart\", \"bbox\": null, \"description\": \"Not applicable.\"}\n]}",
+ "usage": {
+  "prompt_tokens": 3297,
+  "completion_tokens": 1334,
+  "cost_usd": 0.0009967,
+  "latency_s": 6.003
+ },
+ "elements": [
+  {
+   "label": "Figure 5.6: At its level of development, Vietnam is older than its peers",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two-panel line chart of share of total population over 65 (%), y-axis 2 to 14. Left panel: x-axis Year 1960 to 2020; series labeled Cambodia, China, Indonesia, Lao PDR, Malaysia, Mongolia, Philippines, Thailand, Vietnam. Labeled end points: THA rises to about 13 by 2020; China (green) to about 12 by 2020; VNM (Vietnam, light blue) to about 8 by 2020; Malaysia (grey) about 7; Philippines and Indonesia about 5; Cambodia about 4.5; Lao PDR and Mongolia about 4. Right panel: x-axis GDP per capita constant (2010 US$) from 0K to 12K; labeled points THA 2019 (about 13 peak near 6K), CHN 2020 (about 12 near 11K), VNM 2020 (about 8 near 2.5K), IDN 2019 (about 5 near 3.5K), MNG 2019 (about 4 near 4K), MYS 2019 (about 7 near 12K). Visible pattern: over time all countries' elderly shares rise, and at comparable income levels Vietnam's elderly share is higher than most peers. Legend: Cambodia, China, Indonesia, Lao PDR, Malaysia, Mongolia, Philippines, Thailand, Vietnam."
+  },
+  {
+   "label": "Figure 5.7: Potential workers, 1991–2050",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart, y-axis percent from 40% to 100% with gridlines at 40%, 60%, 80%, 100%; x-axis years 1991, 2002, 2012, 2018, 2040, 2050. Series: Working age (teal) rises from about 57% in 1991 to about 70% around 2012, then declines to about 68% in 2018, with a dashed projection falling to about 64% by 2050. Participation (orange) stays about 83% in 1991, about 81% in 2002, about 83% in 2012–2018. Employment (grey) stays near 98–99% throughout 1991–2018 and is shown flat through 2040. Pattern: working-age share peaks around 2012 and declines in projections, while participation and employment are relatively stable."
+  },
+  {
+   "label": "Figure 5.8: Growth decomposition (varying demographic scenarios), 1991–2018",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart with GDP per capita line, y-axis from -1 to 7 (percentage points). Two groups of bars. Actual group (1991–2002, 2002–2012, 2012–2018 (actual)): Productivity (teal) about 5.0, 4.4, 5.3; Demographics (yellow) about 1.0, 1.0, about 0.0 (negligible/negative); Employment (orange) about 0.0, 0.6, negative near -0.3; Participation (grey) about -0.1, 0, about 0.3. GDP per capita line (purple, markers) about 6.0, 5.5, 5.4 for the three periods. Alternate group (1991–2002, 2002–2012, 2012–2018 (alternate)): Productivity about 5.0, 4.4, 5.3; Demographics about 1.0, 1.0, about 1.3; Employment about 0.0, 0.6, about 0.0; Participation about 0.0, 0.0, about 0.3. GDP per capita line about 5.9, 5.5, 6.5. Legend: Productivity, Demographics, Employment, Participation, GDP per capita. Pattern: the alternate scenario for 2012–2018 yields higher demographic contribution and higher GDP per capita growth than actual."
+  },
+  {
+   "label": null,
+   "kind": "chart",
+   "bbox": null,
+   "description": "Not applicable."
+  }
+ ]
+}

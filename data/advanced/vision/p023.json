@@ -1,0 +1,30 @@
+{
+ "page": 23,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.4",
+  "Figure O.3"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure O.3\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart titled \\\"Poverty rates across different thresholds\\\". Y-axis: \\\"Poverty rate (%)\\\", scale 0 to 25 in steps of 5. X-axis: years 2010 to 2020, one tick per year. Legend: General poverty rate (teal); GSO-WB poverty rate (grey); Multidimensional poverty rate (orange); World Bank LMIC poverty rate (yellow). No values are printed on the chart. Approximate readings:\\n- General poverty rate (teal): 2010 ~14, 2011 ~13, 2012 ~11, 2013 ~10, 2014 ~8, 2015 ~7, 2016 ~6; series ends in 2016.\\n- GSO-WB poverty rate (grey): 2010 ~21, 2012 ~17, 2014 ~13.5, 2016 ~10, 2018 ~7, 2020 ~5.\\n- Multidimensional poverty rate (orange): 2016 ~9, 2017 ~8, 2018 ~7, 2019 ~5.5, 2020 ~5.\\n- World Bank LMIC poverty rate (yellow): 2010 ~17, 2012 ~13, 2014 ~11, 2016 ~8, 2018 ~6.5, 2020 ~5.\\nAll four series decline over the decade and converge near 5% by 2020.\\n\\nNote printed below: \\\"See Chapter 1 for definitions of the various lines.\\\" Source: GSO and World Bank.\"}, {\"label\": \"Figure O.4\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Vertical bar chart titled \\\"The number of poor, 2010–2020\\\". Y-axis: \\\"Number of poor (millions)\\\", scale 0 to 15 in steps of 3. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Legend: World Bank LMIC poor ($3.20/day 2011PPP), teal bars. No values are printed on the bars. Approximate readings: 2010 ~14.8, 2012 ~11.6, 2014 ~10.1, 2016 ~7.3, 2018 ~6.3, 2020 ~4.9 (millions). The number of poor falls steadily across the period, with the largest drop between 2010 and 2012.\\n\\nSource printed below: \\\"Source: World Bank staff calculations.\\\"\"}]}",
+ "usage": {
+  "prompt_tokens": 3256,
+  "completion_tokens": 1450,
+  "cost_usd": 0.0010505999999999998,
+  "latency_s": 7.398
+ },
+ "elements": [
+  {
+   "label": "Figure O.3",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart titled \"Poverty rates across different thresholds\". Y-axis: \"Poverty rate (%)\", scale 0 to 25 in steps of 5. X-axis: years 2010 to 2020, one tick per year. Legend: General poverty rate (teal); GSO-WB poverty rate (grey); Multidimensional poverty rate (orange); World Bank LMIC poverty rate (yellow). No values are printed on the chart. Approximate readings:\n- General poverty rate (teal): 2010 ~14, 2011 ~13, 2012 ~11, 2013 ~10, 2014 ~8, 2015 ~7, 2016 ~6; series ends in 2016.\n- GSO-WB poverty rate (grey): 2010 ~21, 2012 ~17, 2014 ~13.5, 2016 ~10, 2018 ~7, 2020 ~5.\n- Multidimensional poverty rate (orange): 2016 ~9, 2017 ~8, 2018 ~7, 2019 ~5.5, 2020 ~5.\n- World Bank LMIC poverty rate (yellow): 2010 ~17, 2012 ~13, 2014 ~11, 2016 ~8, 2018 ~6.5, 2020 ~5.\nAll four series decline over the decade and converge near 5% by 2020.\n\nNote printed below: \"See Chapter 1 for definitions of the various lines.\" Source: GSO and World Bank."
+  },
+  {
+   "label": "Figure O.4",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Vertical bar chart titled \"The number of poor, 2010–2020\". Y-axis: \"Number of poor (millions)\", scale 0 to 15 in steps of 3. X-axis: years 2010, 2012, 2014, 2016, 2018, 2020. Legend: World Bank LMIC poor ($3.20/day 2011PPP), teal bars. No values are printed on the bars. Approximate readings: 2010 ~14.8, 2012 ~11.6, 2014 ~10.1, 2016 ~7.3, 2018 ~6.3, 2020 ~4.9 (millions). The number of poor falls steadily across the period, with the largest drop between 2010 and 2012.\n\nSource printed below: \"Source: World Bank staff calculations.\""
+  }
+ ]
+}

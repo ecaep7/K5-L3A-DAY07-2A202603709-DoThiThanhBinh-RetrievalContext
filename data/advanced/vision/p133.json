@@ -1,0 +1,23 @@
+{
+ "page": 133,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 4.2"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 4.2\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Scatter plot with a fitted upward-sloping trend line. X-axis: 'Log Real GDP Per Capita at PPP', ticks 6 to 12. Y-axis: 'Learning-adjusted years of education', ticks 0 to 14 in steps of 2. Most points are teal, and a set of comparator countries is highlighted in orange with labels and leader lines. Labeled points, approximate readings: Singapore ~11.5 log GDP, ~12.8 years; Vietnam ~9.1, ~10.6 (teal); Malaysia ~10.8, ~8.1; Thailand ~10.2, ~6.5; Philippines ~8.6, ~7.9; Cambodia ~8.3, ~6.9; Indonesia ~9.4, ~6.3; Lao PDR ~9.1, ~4.0; Myanmar ~8.7, ~6.2. Many unlabeled teal points cluster at log GDP ~10.5 to 11 with learning-adjusted years ~10 to 12, and at log GDP ~7 to 9 with values ~4 to 8. Source note below the chart: 'Source: World Bank staff calculations using HCI data sheet, WDI.' The visible pattern is a clear positive relationship between income and learning-adjusted years of schooling, with Vietnam sitting above the trend line for its income level.\"}]}",
+ "usage": {
+  "prompt_tokens": 3259,
+  "completion_tokens": 939,
+  "cost_usd": 0.0007954000000000001,
+  "latency_s": 5.013
+ },
+ "elements": [
+  {
+   "label": "Figure 4.2",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Scatter plot with a fitted upward-sloping trend line. X-axis: 'Log Real GDP Per Capita at PPP', ticks 6 to 12. Y-axis: 'Learning-adjusted years of education', ticks 0 to 14 in steps of 2. Most points are teal, and a set of comparator countries is highlighted in orange with labels and leader lines. Labeled points, approximate readings: Singapore ~11.5 log GDP, ~12.8 years; Vietnam ~9.1, ~10.6 (teal); Malaysia ~10.8, ~8.1; Thailand ~10.2, ~6.5; Philippines ~8.6, ~7.9; Cambodia ~8.3, ~6.9; Indonesia ~9.4, ~6.3; Lao PDR ~9.1, ~4.0; Myanmar ~8.7, ~6.2. Many unlabeled teal points cluster at log GDP ~10.5 to 11 with learning-adjusted years ~10 to 12, and at log GDP ~7 to 9 with values ~4 to 8. Source note below the chart: 'Source: World Bank staff calculations using HCI data sheet, WDI.' The visible pattern is a clear positive relationship between income and learning-adjusted years of schooling, with Vietnam sitting above the trend line for its income level."
+  }
+ ]
+}

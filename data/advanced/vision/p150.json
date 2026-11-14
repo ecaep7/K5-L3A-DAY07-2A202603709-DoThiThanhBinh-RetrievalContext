@@ -1,0 +1,23 @@
+{
+ "page": 150,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure A.4.1.1"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure A.4.1.1: HCI benchmarking, Vietnam vs. peers\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Five horizontal bar charts in three groups (Survey, School, Health), with Vietnam highlighted in orange and other countries or groups in teal. No values are printed on the bars, so readings are approximate.\\n\\nSurvey panel, 'Probability of survival to age 5' (x-axis 0.0 to 1.0): Singapore ~1.00; Malaysia ~0.99; Thailand ~0.99; Brunei Darussalam ~0.99; Upper Middle Income ~0.98; ASEAN average ~0.98; Vietnam ~0.98; Cambodia ~0.97; Philippines ~0.96; Lower Middle Income ~1.00.\\n\\nSchool panel, left, 'Expected years of schooling' (x-axis 0 to 15): Singapore ~14.0; Brunei Darussalam ~13.6; Philippines ~13.2; Vietnam ~13.2; Thailand ~13.1; Malaysia ~12.9; ASEAN average ~12.6; Upper Middle Income ~11.9; Lao PDR ~10.9; Lower Middle Income ~10.7.\\n\\nSchool panel, right, 'Harmonized test scores' (x-axis 0 to 600): Singapore ~575; Vietnam ~525; Cambodia ~460; ASEAN average ~455; Malaysia ~455; Brunei Darussalam ~445; Thailand ~435; Upper Middle Income ~420; Lower Middle Income ~395; Lao PDR ~380.\\n\\nHealth panel, left, 'Adult survival rate' (x-axis 0.0 to 1.0): Singapore ~0.95; Brunei Darussalam ~0.88; Malaysia ~0.88; Thailand ~0.87; Vietnam ~0.87; ASEAN average ~0.87; Upper Middle Income ~0.86; Cambodia ~0.85; Lao PDR ~0.82; Philippines ~0.82.\\n\\nHealth panel, right, 'Children not stunted under 5' (x-axis 0.0 to 1.0): Singapore ~1.00; Thailand ~0.90; Upper Middle Income ~0.88; Brunei Darussalam ~0.80; Malaysia ~0.80; ASEAN average ~0.80; Vietnam ~0.77; Lower Middle Income ~0.76; Philippines ~0.71; Cambodia ~0.69.\\n\\nSource line below the figure: 'Source: World Bank, 2020, HCI vintage 2020'. Singapore is at or near the top on most indicators, while Vietnam sits in the upper-middle of the group on most measures and is highest among peers on harmonized test scores after Singapore.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3246,
+  "completion_tokens": 1792,
+  "cost_usd": 0.0012205999999999999,
+  "latency_s": 6.439
+ },
+ "elements": [
+  {
+   "label": "Figure A.4.1.1: HCI benchmarking, Vietnam vs. peers",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Five horizontal bar charts in three groups (Survey, School, Health), with Vietnam highlighted in orange and other countries or groups in teal. No values are printed on the bars, so readings are approximate.\n\nSurvey panel, 'Probability of survival to age 5' (x-axis 0.0 to 1.0): Singapore ~1.00; Malaysia ~0.99; Thailand ~0.99; Brunei Darussalam ~0.99; Upper Middle Income ~0.98; ASEAN average ~0.98; Vietnam ~0.98; Cambodia ~0.97; Philippines ~0.96; Lower Middle Income ~1.00.\n\nSchool panel, left, 'Expected years of schooling' (x-axis 0 to 15): Singapore ~14.0; Brunei Darussalam ~13.6; Philippines ~13.2; Vietnam ~13.2; Thailand ~13.1; Malaysia ~12.9; ASEAN average ~12.6; Upper Middle Income ~11.9; Lao PDR ~10.9; Lower Middle Income ~10.7.\n\nSchool panel, right, 'Harmonized test scores' (x-axis 0 to 600): Singapore ~575; Vietnam ~525; Cambodia ~460; ASEAN average ~455; Malaysia ~455; Brunei Darussalam ~445; Thailand ~435; Upper Middle Income ~420; Lower Middle Income ~395; Lao PDR ~380.\n\nHealth panel, left, 'Adult survival rate' (x-axis 0.0 to 1.0): Singapore ~0.95; Brunei Darussalam ~0.88; Malaysia ~0.88; Thailand ~0.87; Vietnam ~0.87; ASEAN average ~0.87; Upper Middle Income ~0.86; Cambodia ~0.85; Lao PDR ~0.82; Philippines ~0.82.\n\nHealth panel, right, 'Children not stunted under 5' (x-axis 0.0 to 1.0): Singapore ~1.00; Thailand ~0.90; Upper Middle Income ~0.88; Brunei Darussalam ~0.80; Malaysia ~0.80; ASEAN average ~0.80; Vietnam ~0.77; Lower Middle Income ~0.76; Philippines ~0.71; Cambodia ~0.69.\n\nSource line below the figure: 'Source: World Bank, 2020, HCI vintage 2020'. Singapore is at or near the top on most indicators, while Vietnam sits in the upper-middle of the group on most measures and is highest among peers on harmonized test scores after Singapore."
+  }
+ ]
+}

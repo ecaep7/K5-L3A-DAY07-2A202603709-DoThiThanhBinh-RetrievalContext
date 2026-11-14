@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Who coined the term 'groupthink', and in which year was it first introduced?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Groupthink được định nghĩa và bàn ở trang 56-61, nhưng không trang nào nêu người đặt ra thuật ngữ hay năm ra đời. Kiểm tra: tìm 'Janis', 'coined', '1972' trên toàn bộ 41 trang nội dung đều không có."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "According to Kotter's study of general managers, how many hours per week did they work on average?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Nghiên cứu của Kotter (trang 22, 31) chỉ nêu tỷ lệ thời gian (25% làm việc một mình, 70-90% với người khác), không có số giờ mỗi tuần. Kiểm tra: tìm 'hours per week', 'hours a week', '50 hours', '60 hours' đều không có; các câu có chữ 'hours' (trang 22, 24, 26, 62) không nói về số giờ làm việc mỗi tuần trong nghiên cứu Kotter."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "What is the nominal group technique, and when should a manager use it for group decisions?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Phần ra quyết định nhóm (trang 56-57) bàn về brainstorming, devil's advocate, nhóm đa dạng, nhưng không nhắc 'nominal group technique'. Kiểm tra: tìm 'nominal' trên toàn bộ 41 trang không có."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "What is the Vroom-Yetton model, and how does it help managers decide how much to involve subordinates in a decision?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 2 bàn về ra quyết định cá nhân và nhóm nhưng không nhắc mô hình Vroom-Yetton. Kiểm tra: tìm 'Vroom', 'Yetton' trên toàn bộ 41 trang không có."
+  }
+]

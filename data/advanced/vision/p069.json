@@ -1,0 +1,23 @@
+{
+ "page": 69,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table A.1.2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table A.1.2.1: Conversion rates\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | VIETNAMESE DONG (TO US$1) |\\n|---|---|\\n| Purchasing power parity (2011, revised) Households and NPISHS final consumption expenditures | 7,528.385 |\\n| Exchange rate (2011, period average) | 20,509.75 |\\n\\nNote: The total value of actual and imputed final consumption expenditures incurred by households and NPISHs on individual goods and services. It also includes expenditures on individual goods and services sold at prices that are not economically significant.\\nSource: World Bank International Comparison Program, World Development Indicators.\"}]}",
+ "usage": {
+  "prompt_tokens": 3232,
+  "completion_tokens": 244,
+  "cost_usd": 0.00044520000000000003,
+  "latency_s": 2.902
+ },
+ "elements": [
+  {
+   "label": "Table A.1.2.1: Conversion rates",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | VIETNAMESE DONG (TO US$1) |\n|---|---|\n| Purchasing power parity (2011, revised) Households and NPISHS final consumption expenditures | 7,528.385 |\n| Exchange rate (2011, period average) | 20,509.75 |\n\nNote: The total value of actual and imputed final consumption expenditures incurred by households and NPISHs on individual goods and services. It also includes expenditures on individual goods and services sold at prices that are not economically significant.\nSource: World Bank International Comparison Program, World Development Indicators."
+  }
+ ]
+}

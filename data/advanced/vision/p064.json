@@ -1,0 +1,23 @@
+{
+ "page": 64,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.23"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.23\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart titled 'Impact of changes in growth and inequality on poverty projections'. Y-axis: 'Difference in $3.20/day 2011PPP poverty rate (p.p)', scale 0.0 to 1.8 with gridlines at 0.3 intervals. Legend: 2021 (teal), 2022 (orange), 2023 (gray). Values are approximate readings (not printed on bars): Growth downgrade: 2021 ~0.5, 2022 ~0.5, 2023 ~0.3. 1% increase in inequality: 2021 ~0.2, 2022 ~0.4, 2023 ~0.4. 2% increase in inequality: 2021 ~0.5, 2022 ~0.9, 2023 ~1.0. Growth downgrade + 1% increase in Gini: 2021 ~0.7, 2022 ~0.8, 2023 ~0.6. Growth downgrade + 2% increase in Gini: 2021 ~1.0, 2022 ~1.4, 2023 ~1.5. Source: World Bank staff estimations using VHLSS, 2020. The pattern shows that inequality-driven scenarios raise projected poverty increasingly over time, with the combined growth downgrade and 2% Gini increase scenario showing the largest impact, especially for 2022 and 2023.\"}]}",
+ "usage": {
+  "prompt_tokens": 3243,
+  "completion_tokens": 493,
+  "cost_usd": 0.0005708,
+  "latency_s": 2.49
+ },
+ "elements": [
+  {
+   "label": "Figure 1.23",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart titled 'Impact of changes in growth and inequality on poverty projections'. Y-axis: 'Difference in $3.20/day 2011PPP poverty rate (p.p)', scale 0.0 to 1.8 with gridlines at 0.3 intervals. Legend: 2021 (teal), 2022 (orange), 2023 (gray). Values are approximate readings (not printed on bars): Growth downgrade: 2021 ~0.5, 2022 ~0.5, 2023 ~0.3. 1% increase in inequality: 2021 ~0.2, 2022 ~0.4, 2023 ~0.4. 2% increase in inequality: 2021 ~0.5, 2022 ~0.9, 2023 ~1.0. Growth downgrade + 1% increase in Gini: 2021 ~0.7, 2022 ~0.8, 2023 ~0.6. Growth downgrade + 2% increase in Gini: 2021 ~1.0, 2022 ~1.4, 2023 ~1.5. Source: World Bank staff estimations using VHLSS, 2020. The pattern shows that inequality-driven scenarios raise projected poverty increasingly over time, with the combined growth downgrade and 2% Gini increase scenario showing the largest impact, especially for 2022 and 2023."
+  }
+ ]
+}

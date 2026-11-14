@@ -1,0 +1,30 @@
+{
+ "page": 54,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.9",
+  "Table B.1.3.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.9\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Chart type: grouped vertical bar chart. Y-axis title: \\\"Share of districts (%)\\\", scale 0 to 100 in steps of 20. X-axis: eight regions. Legend: 2009 (teal), 2014 (orange), 2019 (grey). Values are not printed, so approximate readings are given. North West: 2009 ~92, 2014 ~93, 2019 ~88. North East: 2009 ~76, 2014 ~81, 2019 ~61. Red River Delta: 2009 ~7, 2014 ~6, 2019 ~0 (no visible bar). North Central Coast: 2009 ~67, 2014 ~48, 2019 ~33. Central Highlands: 2009 ~90, 2014 ~92, 2019 ~82. South Central Coast: 2009 ~47, 2014 ~36, 2019 ~33. Southeast South: 2009 ~18, 2014 ~14, 2019 ~6. Mekong River Delta: 2009 ~37, 2014 ~26, 2019 ~31. Note printed below the chart: \\\"Poverty rates based on the GSO-WB poverty line. The consumption aggregates are comparable across all years.\\\" Source: \\\"World Bank staff and GSO calculations using Census and VHLSS.\\\" Pattern: the Northwest, Northeast and Central Highlands have the highest shares of districts above the national average in every year, while the Red River Delta and Southeast South have the lowest, and most regions show declines from 2009 to 2019.\"}, {\"label\": \"Table B.1.3.1\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| ESTIMATES | ELL (2003) | H3- CBEB (2014) | CENSUS EB (2021) |\\n|---|---|---|---|\\n| Notes | Original theoretical paper with estimates based on multiple imputation | Conditioned on survey sample available, and results are more precise than ELL. Added survey weights following Molina/Rao (2010) | Assumes survey data is not a subsample of the census; estimates are based on Monte Carlo and multiple imputation techniques |\\n| World Bank-developed tools | PovMap software | PovMap software update v2.5 / sae Stata package | sae Stata package |\"}]}",
+ "usage": {
+  "prompt_tokens": 3271,
+  "completion_tokens": 1154,
+  "cost_usd": 0.0009041,
+  "latency_s": 5.581
+ },
+ "elements": [
+  {
+   "label": "Figure 1.9",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Chart type: grouped vertical bar chart. Y-axis title: \"Share of districts (%)\", scale 0 to 100 in steps of 20. X-axis: eight regions. Legend: 2009 (teal), 2014 (orange), 2019 (grey). Values are not printed, so approximate readings are given. North West: 2009 ~92, 2014 ~93, 2019 ~88. North East: 2009 ~76, 2014 ~81, 2019 ~61. Red River Delta: 2009 ~7, 2014 ~6, 2019 ~0 (no visible bar). North Central Coast: 2009 ~67, 2014 ~48, 2019 ~33. Central Highlands: 2009 ~90, 2014 ~92, 2019 ~82. South Central Coast: 2009 ~47, 2014 ~36, 2019 ~33. Southeast South: 2009 ~18, 2014 ~14, 2019 ~6. Mekong River Delta: 2009 ~37, 2014 ~26, 2019 ~31. Note printed below the chart: \"Poverty rates based on the GSO-WB poverty line. The consumption aggregates are comparable across all years.\" Source: \"World Bank staff and GSO calculations using Census and VHLSS.\" Pattern: the Northwest, Northeast and Central Highlands have the highest shares of districts above the national average in every year, while the Red River Delta and Southeast South have the lowest, and most regions show declines from 2009 to 2019."
+  },
+  {
+   "label": "Table B.1.3.1",
+   "kind": "table",
+   "bbox": null,
+   "description": "| ESTIMATES | ELL (2003) | H3- CBEB (2014) | CENSUS EB (2021) |\n|---|---|---|---|\n| Notes | Original theoretical paper with estimates based on multiple imputation | Conditioned on survey sample available, and results are more precise than ELL. Added survey weights following Molina/Rao (2010) | Assumes survey data is not a subsample of the census; estimates are based on Monte Carlo and multiple imputation techniques |\n| World Bank-developed tools | PovMap software | PovMap software update v2.5 / sae Stata package | sae Stata package |"
+  }
+ ]
+}

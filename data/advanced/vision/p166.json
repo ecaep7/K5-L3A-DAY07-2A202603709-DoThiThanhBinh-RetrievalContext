@@ -1,0 +1,23 @@
+{
+ "page": 166,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 5.17"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 5.17\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Multi-panel line chart (dot-and-line series) titled 'Occupation skill intensities, by age cohort'. Y-axis: 'Skill intensity', ranging 2.0 to 4.0 with gridlines at 0.5 steps. X-axis in each panel: years 2000 to 2018, labelled at two-year intervals. Legend (bottom): IDN (teal), MNG (orange), PHL (grey), THA (light orange/yellow), VNM (blue). Notes: 'Based on O-NET occupation skill scores. Cohort born after 1977.' Source: World Bank calculations.\\n\\nPanel 1, Non-routine analytical (values approximate): MNG rises from ~3.0 (2002) to ~3.1 (2010) and ~3.4 (2016-2018), the highest series. THA ~2.87-2.92, roughly flat. VNM starts ~2.63 (2004) and climbs to ~2.87. IDN ~2.74 rising to ~2.85. PHL ~2.76 rising to ~2.87.\\n\\nPanel 2, Non-routine interpersonal (approximate): MNG ~2.97 (2002) rising to ~3.06 (2010) and ~3.24 (2016-2018). THA ~2.9 to ~3.0. IDN ~2.84 rising to ~2.96. PHL ~2.86 rising to ~3.0. VNM ~2.75 (2004) rising to ~2.95 (2016).\\n\\nPanel 3, Non-routine manual physical (approximate): VNM falls from ~3.13 (2004) to ~2.84 (2016-2018). MNG ~2.98 (2002) drops sharply to ~2.35 (2016-2018), the lowest series. THA ~2.96 (2000) declines to ~2.75 (2018). IDN ~2.97 declines to ~2.73 (2016). PHL ~2.9 declines to ~2.72 (2016).\\n\\nPanel 4, Routine cognitive (approximate): THA ~2.97 (2000) rising to ~3.09 (2016-2018). VNM ~2.87 (2004) rising to ~3.04 (2016). MNG ~2.81 (2002) rising to ~3.0 (2016). IDN ~2.94 roughly flat near ~2.98. PHL ~2.95 rising slightly to ~3.0.\\n\\nPanel 5, Routine manual (approximate): MNG ~3.0 (2000) falls to ~2.78 (2010) and ~2.41 (2016-2018), the steepest decline. THA ~2.98 (2000) falls to ~2.83 (2012-2018). VNM ~2.95 (2004) holds near ~2.92-2.97 before ~2.92 (2016). IDN ~2.95 declines to ~2.77 (2016). PHL ~2.86 (2004) declines to ~2.74 (2016).\\n\\nAcross panels, the routine-manual and non-routine-manual series for MNG and several others decline over time, while the analytical, interpersonal and cognitive series mostly rise or stay flat.\"}]}",
+ "usage": {
+  "prompt_tokens": 3239,
+  "completion_tokens": 2143,
+  "cost_usd": 0.0013954000000000002,
+  "latency_s": 9.174
+ },
+ "elements": [
+  {
+   "label": "Figure 5.17",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Multi-panel line chart (dot-and-line series) titled 'Occupation skill intensities, by age cohort'. Y-axis: 'Skill intensity', ranging 2.0 to 4.0 with gridlines at 0.5 steps. X-axis in each panel: years 2000 to 2018, labelled at two-year intervals. Legend (bottom): IDN (teal), MNG (orange), PHL (grey), THA (light orange/yellow), VNM (blue). Notes: 'Based on O-NET occupation skill scores. Cohort born after 1977.' Source: World Bank calculations.\n\nPanel 1, Non-routine analytical (values approximate): MNG rises from ~3.0 (2002) to ~3.1 (2010) and ~3.4 (2016-2018), the highest series. THA ~2.87-2.92, roughly flat. VNM starts ~2.63 (2004) and climbs to ~2.87. IDN ~2.74 rising to ~2.85. PHL ~2.76 rising to ~2.87.\n\nPanel 2, Non-routine interpersonal (approximate): MNG ~2.97 (2002) rising to ~3.06 (2010) and ~3.24 (2016-2018). THA ~2.9 to ~3.0. IDN ~2.84 rising to ~2.96. PHL ~2.86 rising to ~3.0. VNM ~2.75 (2004) rising to ~2.95 (2016).\n\nPanel 3, Non-routine manual physical (approximate): VNM falls from ~3.13 (2004) to ~2.84 (2016-2018). MNG ~2.98 (2002) drops sharply to ~2.35 (2016-2018), the lowest series. THA ~2.96 (2000) declines to ~2.75 (2018). IDN ~2.97 declines to ~2.73 (2016). PHL ~2.9 declines to ~2.72 (2016).\n\nPanel 4, Routine cognitive (approximate): THA ~2.97 (2000) rising to ~3.09 (2016-2018). VNM ~2.87 (2004) rising to ~3.04 (2016). MNG ~2.81 (2002) rising to ~3.0 (2016). IDN ~2.94 roughly flat near ~2.98. PHL ~2.95 rising slightly to ~3.0.\n\nPanel 5, Routine manual (approximate): MNG ~3.0 (2000) falls to ~2.78 (2010) and ~2.41 (2016-2018), the steepest decline. THA ~2.98 (2000) falls to ~2.83 (2012-2018). VNM ~2.95 (2004) holds near ~2.92-2.97 before ~2.92 (2016). IDN ~2.95 declines to ~2.77 (2016). PHL ~2.86 (2004) declines to ~2.74 (2016).\n\nAcross panels, the routine-manual and non-routine-manual series for MNG and several others decline over time, while the analytical, interpersonal and cognitive series mostly rise or stay flat."
+  }
+ ]
+}

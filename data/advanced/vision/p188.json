@@ -1,0 +1,23 @@
+{
+ "page": 188,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure B.6.2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure B.6.2.1\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped vertical bar chart. Y-axis: \\\"Percent of gross domestic income (%)\\\", scale 0 to 10 with gridlines at 2, 4, 6, 8, 10. X-axis categories: Vietnam, Mongolia, Thailand, Malaysia, Indonesia, Philippines. Legend: Earnings loss (teal), Support to households (orange). No values are printed on the bars; approximate readings: Vietnam earnings loss ~2.8, support ~0.9; Mongolia earnings loss ~3.0, support ~9.4; Thailand earnings loss ~3.4, support ~3.6; Malaysia earnings loss ~4.1, support ~2.4; Indonesia earnings loss ~5.4, support ~1.9; Philippines earnings loss ~8.6, support ~1.9. Source noted as World Bank 2021c. Mongolia shows the largest support bar, while the Philippines has the largest earnings loss; support is well below losses in most countries except Mongolia and Thailand, where it is roughly equal or higher.\"}]}",
+ "usage": {
+  "prompt_tokens": 3258,
+  "completion_tokens": 614,
+  "cost_usd": 0.0006328,
+  "latency_s": 3.053
+ },
+ "elements": [
+  {
+   "label": "Figure B.6.2.1",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped vertical bar chart. Y-axis: \"Percent of gross domestic income (%)\", scale 0 to 10 with gridlines at 2, 4, 6, 8, 10. X-axis categories: Vietnam, Mongolia, Thailand, Malaysia, Indonesia, Philippines. Legend: Earnings loss (teal), Support to households (orange). No values are printed on the bars; approximate readings: Vietnam earnings loss ~2.8, support ~0.9; Mongolia earnings loss ~3.0, support ~9.4; Thailand earnings loss ~3.4, support ~3.6; Malaysia earnings loss ~4.1, support ~2.4; Indonesia earnings loss ~5.4, support ~1.9; Philippines earnings loss ~8.6, support ~1.9. Source noted as World Bank 2021c. Mongolia shows the largest support bar, while the Philippines has the largest earnings loss; support is well below losses in most countries except Mongolia and Thailand, where it is roughly equal or higher."
+  }
+ ]
+}

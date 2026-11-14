@@ -1,0 +1,875 @@
+[
+ {
+  "query_id": "q04",
+  "question": "How does the disturbance (crisis) handler role differ from the entrepreneur role?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 738,
+    "completion_tokens": 124,
+    "cost_usd": 0.00013580000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.894,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "disturbance handler role Mintzberg managerial roles",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p23-p03",
+      "page": 23,
+      "score": 0.643551
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p23-p01",
+      "page": 23,
+      "score": 0.594453
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p26-p00",
+      "page": 26,
+      "score": 0.594107
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p23-p03",
+     "pom-ch01-02-p23-p01",
+     "pom-ch01-02-p26-p00"
+    ],
+    "latency_ms": 39.0
+   },
+   {
+    "type": "search_refused",
+    "reason": "max_searches"
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1360,
+    "completion_tokens": 169,
+    "cost_usd": 0.0002205,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.509,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: I searched for the disturbance handler and entrepreneur roles, but the returned passages only described the figurehead role and general roles, not these two roles.",
+  "citations": [],
+  "context": [
+   {
+    "id": "pom-ch01-02-p23-p03",
+    "page": 23,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Three of a manager’s roles arise directly from formal authority and involve basic interpersonal relationships. First is the figurehead role. As the head of an organizational unit, every manager must perform some ceremonial duties. In Mintzberg’s study, chief executives spent 12% of their contact time on ceremonial duties; 17% of their incoming mail dealt with acknowledgments and requests related to their status."
+   },
+   {
+    "id": "pom-ch01-02-p23-p01",
+    "page": 23,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "1.2 The Roles Managers Play 2. What are the roles that managers play in organizations? In Mintzberg’s seminal study of managers and their jobs, he found the majority of them clustered around three core management roles."
+   },
+   {
+    "id": "pom-ch01-02-p26-p00",
+    "page": 26,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Exhibit 1.4 The Roles Managers Play (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license) 1. Describe and explain how Mintzberg defines the manager’s job. 1.3 Major Characteristics of the Manager's Job 3. What are the characteristics that effective managers display?"
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 922,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2098,
+   "completion_tokens": 293,
+   "cost_usd": 0.000356,
+   "latency_s": 3.44
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": true,
+  "eval": {
+   "status": "abstain",
+   "searches": 1,
+   "citations": 0,
+   "citations_in_context": 0,
+   "first_hit1": false,
+   "first_hit3": false,
+   "context_has_evidence": false
+  }
+ },
+ {
+  "query_id": "q08",
+  "question": "In the chapter on managing and performing, why are personal relationships so valuable to managers?",
+  "filter": {
+   "chapter": 1
+  },
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 766,
+    "completion_tokens": 58,
+    "cost_usd": 0.0001056,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.351,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "personal relationships valuable to managers",
+    "filter": {
+     "chapter": 1
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p23-p02",
+      "page": 23,
+      "score": 0.699939
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p31-p04",
+      "page": 31,
+      "score": 0.652289
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p25-p00",
+      "page": 25,
+      "score": 0.645574
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p23-p02",
+     "pom-ch01-02-p31-p04",
+     "pom-ch01-02-p25-p00"
+    ],
+    "latency_ms": 34.0
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1129,
+    "completion_tokens": 166,
+    "cost_usd": 0.00019590000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.32,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "According to the chapter, personal relationships are valuable because they are the richest source of information for managers, owing to their immediate and personal nature [pom-ch01-02-p23-p02]. Managers form alliances, friendships, and personal relationships as part of their interpersonal role, which requires interacting with many people each week [pom-ch01-02-p23-p02].",
+  "citations": [
+   "pom-ch01-02-p23-p02"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p23-p02",
+    "page": 23,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "Interpersonal roles. Managers are required to interact with a substantial number of people in the course of a workweek. They host receptions; take clients and customers to dinner; meet with business prospects and partners; conduct hiring and performance interviews; and form alliances, friendships, and personal relationships with many others. Numerous studies have shown that such relationships are the richest source of information for managers because of their immediate and personal nature.14"
+   },
+   {
+    "id": "pom-ch01-02-p31-p04",
+    "page": 31,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "1.3 Major Characteristics of the Manager's Job 3. What are the characteristics that effective managers display?"
+   },
+   {
+    "id": "pom-ch01-02-p25-p00",
+    "page": 25,
+    "chapter": 1,
+    "source_id": "pom-ch01-02",
+    "text": "roles—interpersonal and informational—will assist a manager in making difficult decisions in which outcomes are not clear and interests are often conflicting."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 765,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1895,
+   "completion_tokens": 224,
+   "cost_usd": 0.000302,
+   "latency_s": 2.71
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q12",
+  "question": "In what kind of situation is it better to process information logically and analytically rather than going with a quick gut reaction?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 744,
+    "completion_tokens": 64,
+    "cost_usd": 0.00010640000000000001,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.904,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "when to use logical analytical decision making rather than intuition",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p43-p03",
+      "page": 43,
+      "score": 0.659253
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p40-p02",
+      "page": 40,
+      "score": 0.640462
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p40-p04",
+      "page": 40,
+      "score": 0.612886
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p43-p03",
+     "pom-ch01-02-p40-p02",
+     "pom-ch01-02-p40-p04"
+    ],
+    "latency_ms": 58.5
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1228,
+    "completion_tokens": 123,
+    "cost_usd": 0.0001843,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.076,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "According to the textbook, logical, analytical processing is better in novel and complex situations, where managers need serious thought rather than a fast \"gut\" reaction [pom-ch01-02-p40-p04]. Quick, intuitive reactions are appropriate in emergencies, such as a fight-or-flight response to sudden intense fear [pom-ch01-02-p40-p02].",
+  "citations": [
+   "pom-ch01-02-p40-p04",
+   "pom-ch01-02-p40-p02"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p43-p03",
+    "page": 43,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Bounded Rationality While we might like to think that we can make completely rational decisions, this is often unrealistic given the complex issues faced by managers. Nonrational decision-making is common, especially with nonprogrammed decisions. Since we haven’t faced a particular situation previously, we don’t always know what questions to ask or what information to gather."
+   },
+   {
+    "id": "pom-ch01-02-p40-p02",
+    "page": 40,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Reactive Decision-Making We tend to assume that the logical, analytical route leads to superior decisions, but whether this is accurate depends on the situation. The quick, intuitive route can be lifesaving; when we suddenly feel intense fear, a fight-or-flight response kicks in that leads to immediate action without methodically weighing all possible options and their consequences."
+   },
+   {
+    "id": "pom-ch01-02-p40-p04",
+    "page": 40,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Reflective Decision-Making The quick route is not always the best decision-making path to take, however. When faced with novel and complex situations, it is better to process available information logically, analytically, and methodically. As a manager, you need to think about whether a situation requires not a fast, “gut” reaction, but some serious thought prior to making a decision."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1150,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 1972,
+   "completion_tokens": 187,
+   "cost_usd": 0.000291,
+   "latency_s": 2.04
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 2,
+   "citations_in_context": 2,
+   "first_hit1": false,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q16",
+  "question": "What is the name for the tendency to keep backing a bad choice even as the results keep getting worse?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 741,
+    "completion_tokens": 63,
+    "cost_usd": 0.0001056,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.839,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "escalation of commitment continuing a failing course of action",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p44-p02",
+      "page": 44,
+      "score": 0.627094
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p37-p10",
+      "page": 37,
+      "score": 0.576501
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p44-p03",
+      "page": 44,
+      "score": 0.519
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p44-p02",
+     "pom-ch01-02-p37-p10",
+     "pom-ch01-02-p44-p03"
+    ],
+    "latency_ms": 57.6
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1271,
+    "completion_tokens": 74,
+    "cost_usd": 0.00016410000000000003,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.866,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "The term is **escalation of commitment**, defined as \"the tendency of decision makers to remain committed to poor decision, even when doing so leads to increasingly negative outcomes\" [pom-ch01-02-p44-p02].",
+  "citations": [
+   "pom-ch01-02-p44-p02"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p44-p02",
+    "page": 44,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Will she abandon the path that she’s on, accept the loss on the money that’s been invested so far, and switch to the better software? Or will she continue to invest time and money into trying to make the first product work? Escalation of commitment is the tendency of decision makers to remain committed to poor decision, even when doing so leads to increasingly negative outcomes. Once we commit to a decision, we may find it difficult to reevaluate that decision rationally."
+   },
+   {
+    "id": "pom-ch01-02-p37-p10",
+    "page": 37,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Failing to react quickly enough can lead to missed opportunities, yet acting too quickly can lead to organizational resources being poorly allocated to projects with no chance of success. Effective managers must decide when they have gathered enough information and must be prepared to change course if additional information becomes available that makes it clear that the original decision was a poor one. For individuals with fragile egos, changing course can be"
+   },
+   {
+    "id": "pom-ch01-02-p44-p03",
+    "page": 44,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "It can seem easier to “stay the course” than to admit (or to recognize) that a decision was poor. It’s important to acknowledge that not all decisions are going to be good ones, in spite of our best efforts. Effective managers recognize that progress down the wrong path isn’t really progress, and they are willing to reevaluate decisions and change direction when appropriate."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1317,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2012,
+   "completion_tokens": 137,
+   "cost_usd": 0.00027,
+   "latency_s": 1.76
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q20",
+  "question": "In the chapter on decision-making, what role does a devil's advocate play in a group, and why is one assigned?",
+  "filter": {
+   "chapter": 2
+  },
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 773,
+    "completion_tokens": 60,
+    "cost_usd": 0.0001073,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.832,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "devil's advocate role in group decision-making",
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p59-p02",
+      "page": 59,
+      "score": 0.842901
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p57-p01",
+      "page": 57,
+      "score": 0.678571
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p61-p00",
+      "page": 61,
+      "score": 0.651627
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p59-p02",
+     "pom-ch01-02-p57-p01",
+     "pom-ch01-02-p61-p00"
+    ],
+    "latency_ms": 34.5
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1287,
+    "completion_tokens": 178,
+    "cost_usd": 0.0002177,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.28,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "answered",
+  "answer": "A devil's advocate is a group member who intentionally takes on the role of critic of the group's ideas [pom-ch01-02-p59-p02]. The purpose is to discourage groupthink and encourage deep thought and discussion before a decision is made [pom-ch01-02-p59-p02]. Groups assign one to reduce groupthink [pom-ch01-02-p57-p01], and managers may assign one as part of improving group decision quality [pom-ch01-02-p61-p00].",
+  "citations": [
+   "pom-ch01-02-p59-p02",
+   "pom-ch01-02-p57-p01",
+   "pom-ch01-02-p61-p00"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p59-p02",
+    "page": 59,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Decision-making The action or process of thinking through possible options and selecting one. Devil’s advocate A group member who intentionally takes on the role of being critical of the group’s ideas in order to discourage groupthink and encourage deep thought and discussion about issues prior to making decisions."
+   },
+   {
+    "id": "pom-ch01-02-p57-p01",
+    "page": 57,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "How to Form a Quality Group Effective managers will try to ensure quality group decision-making by forming groups with diverse members so that a variety of perspectives will contribute to the process. They will also encourage everyone to speak up and voice their opinions and thoughts prior to the group reaching a decision. Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic."
+   },
+   {
+    "id": "pom-ch01-02-p61-p00",
+    "page": 61,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Managers can improve the quality of group decision-making in a number of ways. First, when forming the group, the manager should ensure that the individual group members are diverse in terms of knowledge and perspectives. The manager may also want to assign a devil’s advocate to discourage groupthink. Managers should also encourage all group members to contribute their ideas and opinions, and they should not allow a single voice to dominate."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1252,
+  "totals": {
+   "llm_calls": 2,
+   "prompt_tokens": 2060,
+   "completion_tokens": 238,
+   "cost_usd": 0.000325,
+   "latency_s": 2.15
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": true,
+  "eval": {
+   "status": "answered",
+   "searches": 1,
+   "citations": 3,
+   "citations_in_context": 3,
+   "first_hit1": true,
+   "first_hit3": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "u03",
+  "question": "What is the nominal group technique, and when should a manager use it for group decisions?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 735,
+    "completion_tokens": 57,
+    "cost_usd": 0.000102,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 0.822,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "nominal group technique group decision making",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p58-p04",
+      "page": 58,
+      "score": 0.63704
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p58-p00",
+      "page": 58,
+      "score": 0.61082
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p56-p01",
+      "page": 56,
+      "score": 0.556919
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p58-p04",
+     "pom-ch01-02-p58-p00",
+     "pom-ch01-02-p56-p01"
+    ],
+    "latency_ms": 65.6
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1198,
+    "completion_tokens": 121,
+    "cost_usd": 0.00018030000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.073,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search_refused",
+    "reason": "max_searches"
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1313,
+    "completion_tokens": 191,
+    "cost_usd": 0.0002268,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.405,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: I searched for \"nominal group technique\" and related wording, but the returned passages do not define the technique or say when to use it. The passages only cover general group decision-making advantages and techniques to improve group decisions [pom-ch01-02-p58-p00].",
+  "citations": [
+   "pom-ch01-02-p58-p00"
+  ],
+  "context": [
+   {
+    "id": "pom-ch01-02-p58-p04",
+    "page": 58,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "3. As a manager, what can you do to enhance the quality of group decision-making? CONCEPT CHECK"
+   },
+   {
+    "id": "pom-ch01-02-p58-p00",
+    "page": 58,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Summary of Techniques That May Improve Group Decision-Making Type of Decision Technique Benefit Group decisions Have diverse members in the group. Improves quality: generates more options, reduces bias Assign a devil’s advocate. Improves quality: reduces groupthink Encourage everyone to speak up and contribute. Improves quality: generates more options, prevents suppression of dissent Help group members find common ground. Improves quality: reduces personality conflict"
+   },
+   {
+    "id": "pom-ch01-02-p56-p01",
+    "page": 56,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "2.6 Group Decision-Making 6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making? Involving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1018,
+  "totals": {
+   "llm_calls": 3,
+   "prompt_tokens": 3246,
+   "completion_tokens": 369,
+   "cost_usd": 0.000509,
+   "latency_s": 3.37
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": false,
+  "eval": {
+   "status": "abstain",
+   "searches": 1,
+   "citations": 1,
+   "citations_in_context": 1
+  }
+ },
+ {
+  "query_id": "u04",
+  "question": "What is the Vroom-Yetton model, and how does it help managers decide how much to involve subordinates in a decision?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 1,
+   "neighbors": false,
+   "budget_chars": 6000
+  },
+  "events": [
+   {
+    "type": "llm",
+    "prompt_tokens": 748,
+    "completion_tokens": 66,
+    "cost_usd": 0.00010779999999999999,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.026,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "Vroom-Yetton model decision involvement subordinates",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "pom-ch01-02-p42-p02",
+      "page": 42,
+      "score": 0.547469
+     },
+     {
+      "rank": 2,
+      "id": "pom-ch01-02-p42-p06",
+      "page": 42,
+      "score": 0.543002
+     },
+     {
+      "rank": 3,
+      "id": "pom-ch01-02-p48-p05",
+      "page": 48,
+      "score": 0.537097
+     }
+    ],
+    "added_to_context": [
+     "pom-ch01-02-p42-p02",
+     "pom-ch01-02-p42-p06",
+     "pom-ch01-02-p48-p05"
+    ],
+    "latency_ms": 54.2
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1354,
+    "completion_tokens": 137,
+    "cost_usd": 0.0002039,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.375,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   },
+   {
+    "type": "search_refused",
+    "reason": "max_searches"
+   },
+   {
+    "type": "llm",
+    "prompt_tokens": 1474,
+    "completion_tokens": 99,
+    "cost_usd": 0.00019690000000000002,
+    "cost_source": "tính theo giá 0.1/0.5 USD mỗi 1M token",
+    "latency_s": 1.106,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic"
+   }
+  ],
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: I searched the textbook for \"Vroom-Yetton model decision involvement subordinates,\" and the returned passages covered only high- and low-involvement decisions and the six-step decision-making process, with nothing on the Vroom-Yetton model itself.",
+  "citations": [],
+  "context": [
+   {
+    "id": "pom-ch01-02-p42-p02",
+    "page": 42,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Programmed decisions are also sometimes referred to as routine or low-involvement decisions because they don’t require in-depth mental processing to reach a decision. High- and low-involvement decisions are illustrated in Exhibit 2.3. Exhibit 2.3 High-Involvement and Low-Involvement Decisions. (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)"
+   },
+   {
+    "id": "pom-ch01-02-p42-p06",
+    "page": 42,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "The Decision-Making Process While decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows: 1. Recognize that a decision needs to be made. 2. Generate multiple alternatives. 3. Analyze the alternatives. 4. Select an alternative. 5. Implement the selected alternative. 6. Evaluate its effectiveness."
+   },
+   {
+    "id": "pom-ch01-02-p48-p05",
+    "page": 48,
+    "chapter": 2,
+    "source_id": "pom-ch01-02",
+    "text": "Techniques for Making Better Nonprogrammed Decisions For situations in which the quality of the decision is more critical than the time spent on the decision, decision makers can use several tactics. As stated previously, nonprogrammed decisions should be addressed using a systematic process. We therefore discuss these tactics within the context of the decision-making steps. To review, the steps include the following: 1. Recognize that a decision needs to be made."
+   }
+  ],
+  "dropped_by_budget": [],
+  "error": null,
+  "citations_not_in_context": [],
+  "searches": 1,
+  "context_chars": 1335,
+  "totals": {
+   "llm_calls": 3,
+   "prompt_tokens": 3576,
+   "completion_tokens": 302,
+   "cost_usd": 0.000509,
+   "latency_s": 3.56
+  },
+  "config_name": "A_dense",
+  "split": "test",
+  "answerable": false,
+  "eval": {
+   "status": "abstain",
+   "searches": 1,
+   "citations": 0,
+   "citations_in_context": 0
+  }
+ }
+]

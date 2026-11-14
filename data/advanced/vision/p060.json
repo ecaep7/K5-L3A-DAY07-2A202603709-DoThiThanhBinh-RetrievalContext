@@ -1,0 +1,23 @@
+{
+ "page": 60,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 1.16"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure 1.16: Household consumption growth across the welfare distribution\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Multi-panel line chart (growth incidence curves). Y-axis: \\\"Annual growth (%)\\\", scale 0 to 8 with gridlines at 0, 2, 4, 6, 8. Each panel is a separate period on the x-axis (welfare deciles, from lowest to highest), with one teal line per panel. Panels, left to right: (1) 2010–2020: roughly 4.7, 5.0, 5.2, 5.1, 5.2, 5.1, 4.9, 4.7, 4.4. (2) 2010–2012: roughly 6.0, 4.6, 4.9, 4.8, 5.3, 4.6, 3.1, 2.0, 0.3. (3) 2012–2014: roughly 2.8, 4.7, 4.9, 4.3, 3.8, 3.9, 3.5, 3.0, 2.0. (4) 2014–2016: roughly 5.5, 5.2, 5.3, 5.7, 5.7, 5.8, 5.9, 6.5, 6.2, 6.4. (5) 2016–2018: roughly 3.8, 4.9, 5.6, 5.6, 5.3, 4.9, 5.2, 5.1, 6.1. (6) 2018–2020: roughly 4.0, 4.3, 4.0, 3.9, 4.4, 4.6, 5.2, 5.4, 5.8. No values are printed on the chart; the readings above are approximate (~). The pattern: growth was high and flat-ish over 2010–2020 overall, was sharply higher at the lower end in 2010–2012 and 2012–2014 (where the lowest-decile values fell away at the top of the distribution), and in 2014–2016, 2016–2018 and 2018–2020 growth rose toward the upper deciles, with the highest rates among the richer households.\"}]}",
+ "usage": {
+  "prompt_tokens": 3239,
+  "completion_tokens": 1288,
+  "cost_usd": 0.0009679,
+  "latency_s": 5.457
+ },
+ "elements": [
+  {
+   "label": "Figure 1.16: Household consumption growth across the welfare distribution",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Multi-panel line chart (growth incidence curves). Y-axis: \"Annual growth (%)\", scale 0 to 8 with gridlines at 0, 2, 4, 6, 8. Each panel is a separate period on the x-axis (welfare deciles, from lowest to highest), with one teal line per panel. Panels, left to right: (1) 2010–2020: roughly 4.7, 5.0, 5.2, 5.1, 5.2, 5.1, 4.9, 4.7, 4.4. (2) 2010–2012: roughly 6.0, 4.6, 4.9, 4.8, 5.3, 4.6, 3.1, 2.0, 0.3. (3) 2012–2014: roughly 2.8, 4.7, 4.9, 4.3, 3.8, 3.9, 3.5, 3.0, 2.0. (4) 2014–2016: roughly 5.5, 5.2, 5.3, 5.7, 5.7, 5.8, 5.9, 6.5, 6.2, 6.4. (5) 2016–2018: roughly 3.8, 4.9, 5.6, 5.6, 5.3, 4.9, 5.2, 5.1, 6.1. (6) 2018–2020: roughly 4.0, 4.3, 4.0, 3.9, 4.4, 4.6, 5.2, 5.4, 5.8. No values are printed on the chart; the readings above are approximate (~). The pattern: growth was high and flat-ish over 2010–2020 overall, was sharply higher at the lower end in 2010–2012 and 2012–2014 (where the lowest-decile values fell away at the top of the distribution), and in 2014–2016, 2016–2018 and 2018–2020 growth rose toward the upper deciles, with the highest rates among the richer households."
+  }
+ ]
+}

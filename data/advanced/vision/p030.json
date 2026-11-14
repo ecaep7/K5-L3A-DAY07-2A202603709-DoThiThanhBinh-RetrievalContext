@@ -1,0 +1,23 @@
+{
+ "page": 30,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.12"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure O.12\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two 100% stacked column charts titled 'Region' and 'Education' (y-axis: 'Share of the population', 0% to 100%). Categories on each panel: Extreme & moderate poor, Economically vulnerable, Population. No segment values are printed, so readings are approximate.\\n\\nPanel 'Region' (bottom to top): Midlands & Northern Mountainous Areas (green), Red River Delta (blue), Central Highlands (yellow), Northern & Coastal Central Region (grey), Southeastern Area (orange), Mekong Delta (teal).\\n- Extreme & moderate poor: Midlands & Northern ~42%; Red River Delta ~3%; Central Highlands ~20%; Northern & Coastal Central ~20%; Southeastern ~2%; Mekong Delta ~13%.\\n- Economically vulnerable: Midlands & Northern ~24%; Red River Delta ~9%; Central Highlands ~9%; Northern & Coastal Central ~26%; Southeastern ~5%; Mekong Delta ~27%.\\n- Population: Midlands & Northern ~13%; Red River Delta ~25%; Central Highlands ~6%; Northern & Coastal Central ~21%; Southeastern ~18%; Mekong Delta ~17%.\\n\\nPanel 'Education' (bottom to top): No education (teal), Primary (orange), Lower Secondary (grey), Upper secondary (yellow), Vocational (blue), Tertiary (green).\\n- Extreme & moderate poor: No education ~9%; Primary ~34%; Lower Secondary ~38%; Upper secondary ~14%; Vocational ~3%; Tertiary ~2%.\\n- Economically vulnerable: No education ~6%; Primary ~20%; Lower Secondary ~37%; Upper secondary ~22%; Vocational ~11%; Tertiary ~4%.\\n- Population: No education ~3%; Primary ~11%; Lower Secondary ~25%; Upper secondary ~22%; Vocational ~19%; Tertiary ~20%.\\n\\nPattern: the poor are concentrated in the Midlands & Northern Mountainous Areas and have low education, while the economically vulnerable are more spread across regions, especially the Mekong Delta, and have more upper-secondary and vocational education than the poor. Note printed under the figure: the extreme and moderate poor live below the LMIC poverty line ($3.20/day 2011PPP); the economically vulnerable live between the LMIC and UMIC poverty lines; household education is based on the maximum education level in the household. Source: World Bank staff calculation using VHLSS.\"}]}",
+ "usage": {
+  "prompt_tokens": 3242,
+  "completion_tokens": 1497,
+  "cost_usd": 0.0010727,
+  "latency_s": 6.138
+ },
+ "elements": [
+  {
+   "label": "Figure O.12",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two 100% stacked column charts titled 'Region' and 'Education' (y-axis: 'Share of the population', 0% to 100%). Categories on each panel: Extreme & moderate poor, Economically vulnerable, Population. No segment values are printed, so readings are approximate.\n\nPanel 'Region' (bottom to top): Midlands & Northern Mountainous Areas (green), Red River Delta (blue), Central Highlands (yellow), Northern & Coastal Central Region (grey), Southeastern Area (orange), Mekong Delta (teal).\n- Extreme & moderate poor: Midlands & Northern ~42%; Red River Delta ~3%; Central Highlands ~20%; Northern & Coastal Central ~20%; Southeastern ~2%; Mekong Delta ~13%.\n- Economically vulnerable: Midlands & Northern ~24%; Red River Delta ~9%; Central Highlands ~9%; Northern & Coastal Central ~26%; Southeastern ~5%; Mekong Delta ~27%.\n- Population: Midlands & Northern ~13%; Red River Delta ~25%; Central Highlands ~6%; Northern & Coastal Central ~21%; Southeastern ~18%; Mekong Delta ~17%.\n\nPanel 'Education' (bottom to top): No education (teal), Primary (orange), Lower Secondary (grey), Upper secondary (yellow), Vocational (blue), Tertiary (green).\n- Extreme & moderate poor: No education ~9%; Primary ~34%; Lower Secondary ~38%; Upper secondary ~14%; Vocational ~3%; Tertiary ~2%.\n- Economically vulnerable: No education ~6%; Primary ~20%; Lower Secondary ~37%; Upper secondary ~22%; Vocational ~11%; Tertiary ~4%.\n- Population: No education ~3%; Primary ~11%; Lower Secondary ~25%; Upper secondary ~22%; Vocational ~19%; Tertiary ~20%.\n\nPattern: the poor are concentrated in the Midlands & Northern Mountainous Areas and have low education, while the economically vulnerable are more spread across regions, especially the Mekong Delta, and have more upper-secondary and vocational education than the poor. Note printed under the figure: the extreme and moderate poor live below the LMIC poverty line ($3.20/day 2011PPP); the economically vulnerable live between the LMIC and UMIC poverty lines; household education is based on the maximum education level in the household. Source: World Bank staff calculation using VHLSS."
+  }
+ ]
+}

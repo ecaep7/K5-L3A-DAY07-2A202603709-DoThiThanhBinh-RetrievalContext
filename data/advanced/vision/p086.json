@@ -1,0 +1,23 @@
+{
+ "page": 86,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.14"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [{\"label\": \"Figure 2.14\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Two line charts side by side showing wage trends for selected sectors, 2010–2020. Legend (shared, below the panels): Agriculture, forestry and fishing (teal); Manufacturing (orange); Wholesale and retail trade; repair of motor (yellow); Public administration and defence (blue); Construction (gray); All sectors (green).\\n\\nLeft panel: Line chart. Y-axis: 'Wage index (2010=100)', scale 0–350 with gridlines every 50. X-axis: 2010 to 2020. Values are not printed; approximate readings (~) at 2010 all series start at ~100. By 2020: Manufacturing ~305; Public administration and defence ~275; Construction ~265; Wholesale and retail trade ~270; Agriculture, forestry and fishing ~243; All sectors ~235. Agriculture (teal) is the lowest series throughout, reaching ~140 in 2012–2013 and ~200 by 2018. Manufacturing (orange) rises fastest in the later years, and Public administration (blue) peaks near ~240 in 2016 before rising to ~275 in 2020. Series generally rise steadily from 100 with a dip-and-recovery pattern around 2017.\\n\\nRight panel: Line chart. Y-axis: 'Average monthly wages (VND, millions)', scale 0–8 with gridlines every 1. X-axis: 2010 to 2020. Approximate readings (~): In 2010, series range from ~1.85 (lowest, teal) to ~2.7 (highest, yellow/orange). By 2020: Manufacturing ~7.1; Public administration and defence ~6.9; Wholesale and retail trade ~6.4; Construction ~6.5; lowest teal series ~4.45. Public administration (blue) peaks ~6.1 in 2016 and dips in 2017. Construction (gray) rises from ~2.5 to ~6.5. The lowest teal series rises steadily from ~1.85 to ~4.45. All series trend upward over the decade, with the teal series remaining clearly lowest.\\n\\nSource: ILO database.\"}]}\n```",
+ "usage": {
+  "prompt_tokens": 3242,
+  "completion_tokens": 1389,
+  "cost_usd": 0.0010187,
+  "latency_s": 7.543
+ },
+ "elements": [
+  {
+   "label": "Figure 2.14",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Two line charts side by side showing wage trends for selected sectors, 2010–2020. Legend (shared, below the panels): Agriculture, forestry and fishing (teal); Manufacturing (orange); Wholesale and retail trade; repair of motor (yellow); Public administration and defence (blue); Construction (gray); All sectors (green).\n\nLeft panel: Line chart. Y-axis: 'Wage index (2010=100)', scale 0–350 with gridlines every 50. X-axis: 2010 to 2020. Values are not printed; approximate readings (~) at 2010 all series start at ~100. By 2020: Manufacturing ~305; Public administration and defence ~275; Construction ~265; Wholesale and retail trade ~270; Agriculture, forestry and fishing ~243; All sectors ~235. Agriculture (teal) is the lowest series throughout, reaching ~140 in 2012–2013 and ~200 by 2018. Manufacturing (orange) rises fastest in the later years, and Public administration (blue) peaks near ~240 in 2016 before rising to ~275 in 2020. Series generally rise steadily from 100 with a dip-and-recovery pattern around 2017.\n\nRight panel: Line chart. Y-axis: 'Average monthly wages (VND, millions)', scale 0–8 with gridlines every 1. X-axis: 2010 to 2020. Approximate readings (~): In 2010, series range from ~1.85 (lowest, teal) to ~2.7 (highest, yellow/orange). By 2020: Manufacturing ~7.1; Public administration and defence ~6.9; Wholesale and retail trade ~6.4; Construction ~6.5; lowest teal series ~4.45. Public administration (blue) peaks ~6.1 in 2016 and dips in 2017. Construction (gray) rises from ~2.5 to ~6.5. The lowest teal series rises steadily from ~1.85 to ~4.45. All series trend upward over the decade, with the teal series remaining clearly lowest.\n\nSource: ILO database."
+  }
+ ]
+}

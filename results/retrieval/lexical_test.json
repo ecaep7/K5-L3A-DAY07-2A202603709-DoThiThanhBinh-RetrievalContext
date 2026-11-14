@@ -1,0 +1,875 @@
+[
+ {
+  "query_id": "q04",
+  "answerable": true,
+  "query": "How does the disturbance (crisis) handler role differ from the entrepreneur role?",
+  "filter": null,
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 16.1,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p25-p02",
+    "score": 26.206883,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "While the entrepreneur role describes managers who initiate change, the disturbance or crisis handler role depicts managers who must involuntarily react to conditions. Crises can arise because bad managers let circumstances deteriorate or spin out of control, but just as often good managers find themselves in the midst of a crisis that they could not have anticipated but must react to just the same."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p27-p02",
+    "score": 7.463876,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "What Varies in a Manager’s Job? The Emphasis The entrepreneur role is gaining importance. Managers must increasingly be aware of threats and opportunities in their environment. Threats include technological breakthroughs on the part of competitors, obsolescence in a manager’s organization, and dramatically shortened product cycles."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p27-p10",
+    "score": 6.466677,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 27,
+    "chapter": 1,
+    "text": "9. Monitoring products and services. Managers get involved in planning, scheduling, and monitoring the design, development, production, and delivery of the organization’s products and services. As we shall see, not every manager engages in all of these activities. Rather, different managers serve different roles and carry different responsibilities, depending upon where they are in the organizational hierarchy. We"
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p25-p01",
+    "score": 6.438201,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 25,
+    "chapter": 1,
+    "text": "In the role of entrepreneur, managers seek to improve their businesses, adapt to changing market conditions, and react to opportunities as they present themselves. Managers who take a longer-term view of their responsibilities are among the first to realize that they will need to reinvent themselves, their product and service lines, their marketing strategies, and their ways of doing business as older methods become obsolete and competitors gain advantage."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p28-p09",
+    "score": 4.798177,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 28,
+    "chapter": 1,
+    "text": "As shown in Exhibit 1.6, different levels of these skills are required at different stages of the managerial"
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p56-p02",
+    "score": 4.453133,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "Advantages of Group Decisions An advantage to involving groups in decision-making is that you can incorporate different perspectives and ideas. For this advantage to be realized, however, you need a diverse group. In a diverse group, the different group members will each tend to have different preferences, opinions, biases, and stereotypes."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p31-p03",
+    "score": 4.433796,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "Managers perform a variety of roles in organizations, but amongst one of the most important functions they perform is communicating with direct reports to help their organizations achieve and exceed goals. Managers perform three major types of roles within organizations, interpersonal roles, informational roles, and decisional roles. the extent of each of these roles depends on the manager’s position within the organizational hierarchy."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p23-p01",
+    "score": 4.159381,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 23,
+    "chapter": 1,
+    "text": "1.2 The Roles Managers Play 2. What are the roles that managers play in organizations? In Mintzberg’s seminal study of managers and their jobs, he found the majority of them clustered around three core management roles."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p31-p01",
+    "score": 4.061726,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "Informational role One of the three major roles that a manager assumes in the organization. Interpersonal role One of the three major roles that a manager assumes in the organization. middle management The managers in an organization at a level just below that of senior executives. Summary of Learning Outcomes 1.1 What Do Managers Do? 1. What do managers do to help organizations achieve top performance?"
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p31-p06",
+    "score": 3.9249,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "These responsibilities differ by level in the organizational hierarchy and by department or function. The twenty-first-century manager will differ from most current managers in four ways. In essence, he will be a global strategist, a master of technology, a good politician, and a premier leader-motivator."
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    25,
+    27,
+    27
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p25-p02",
+    "pom-ch01-02-p27-p02",
+    "pom-ch01-02-p27-p10"
+   ]
+  }
+ },
+ {
+  "query_id": "q08",
+  "answerable": true,
+  "query": "In the chapter on managing and performing, why are personal relationships so valuable to managers?",
+  "filter": {
+   "chapter": 1
+  },
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 13.7,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p23-p02",
+    "score": 11.381786,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 23,
+    "chapter": 1,
+    "text": "Interpersonal roles. Managers are required to interact with a substantial number of people in the course of a workweek. They host receptions; take clients and customers to dinner; meet with business prospects and partners; conduct hiring and performance interviews; and form alliances, friendships, and personal relationships with many others. Numerous studies have shown that such relationships are the richest source of information for managers because of their immediate and personal nature.14"
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p21-p04",
+    "score": 10.015918,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 21,
+    "chapter": 1,
+    "text": "Regardless of where you are in your career, be it as an individual contributor, project leader, or middle or senior manager, what you will get out of this course will be valuable. If your first job out of college is as an accountant, sales representative, or another entry-level EXPLORING MANAGERIAL CAREERS Managing and Performing 1"
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p23-p00",
+    "score": 7.397012,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 23,
+    "chapter": 1,
+    "text": "assert authority, develop relationships, and spread gossip. In short, they are what the manager’s daily practice is all about. “Through other forms of talk, such as speeches and presentations,” they write, “managers establish definitions and meanings for their own actions and give others a sense of what the organization is about, where it is at, and what it is up to.”13 1. What do managers do to help organizations achieve top performance?"
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p31-p07",
+    "score": 7.205604,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "Chapter Review Questions 1. What are the characteristics and traits that you possess that are common to all successful managers? 2. Why should management be considered an occupation rather than a profession? 3. How do managers learn how to perform the job? 4. Explain the manager’s job according to Henry Mintzberg. 5. What responsibilities do managers have towards people within the organization? How do they express these responsibilities?"
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p21-p00",
+    "score": 7.113187,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 21,
+    "chapter": 1,
+    "text": "Exhibit 1.1 (Credit: Steve Bowbrick/ flickr/ Attribution 2.0 Generic (CC BY 2.0)) Introduction Learning Outcomes After reading this chapter, you should be able to answer these questions: 1. What do managers do to help organizations achieve top performance? 2. What are the roles that managers play in organizations? 3. What are the characteristics that effective managers display?"
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p23-p03",
+    "score": 6.47312,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 23,
+    "chapter": 1,
+    "text": "Three of a manager’s roles arise directly from formal authority and involve basic interpersonal relationships. First is the figurehead role. As the head of an organizational unit, every manager must perform some ceremonial duties. In Mintzberg’s study, chief executives spent 12% of their contact time on ceremonial duties; 17% of their incoming mail dealt with acknowledgments and requests related to their status."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p31-p03",
+    "score": 5.612452,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "Managers perform a variety of roles in organizations, but amongst one of the most important functions they perform is communicating with direct reports to help their organizations achieve and exceed goals. Managers perform three major types of roles within organizations, interpersonal roles, informational roles, and decisional roles. the extent of each of these roles depends on the manager’s position within the organizational hierarchy."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p29-p08",
+    "score": 4.900658,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 29,
+    "chapter": 1,
+    "text": "In any event, we shall return to this issue when we address the nature of individual differences in the next chapter."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p29-p04",
+    "score": 4.30973,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 29,
+    "chapter": 1,
+    "text": "Managers in accounting and finance are also concerned with controlling and with monitoring performance indicators, while human resource managers provide consulting expertise, coordination, and external contacts. The emphasis on and intensity of managerial activities varies considerably by the department the manager is assigned to."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p31-p08",
+    "score": 4.22026,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 31,
+    "chapter": 1,
+    "text": "6. How do managers perform their job according to John Kotter? 7. How do managers make rational decisions? 8. How does the nature of management change according to one’s level and function in the organization? 9. Discuss the role of management in the larger societal context. What do you think the managers of the future will be like?"
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    23,
+    21,
+    23
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p23-p02",
+    "pom-ch01-02-p21-p04",
+    "pom-ch01-02-p23-p00"
+   ]
+  }
+ },
+ {
+  "query_id": "q12",
+  "answerable": true,
+  "query": "In what kind of situation is it better to process information logically and analytically rather than going with a quick gut reaction?",
+  "filter": null,
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 17.9,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p40-p04",
+    "score": 27.907881,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Reflective Decision-Making The quick route is not always the best decision-making path to take, however. When faced with novel and complex situations, it is better to process available information logically, analytically, and methodically. As a manager, you need to think about whether a situation requires not a fast, “gut” reaction, but some serious thought prior to making a decision."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p40-p03",
+    "score": 14.150674,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Additionally, experienced managers can often make decisions very quickly because experience or expertise has taught them what to do in a given situation. These managers might not be able to explain the logic behind their decision, and will instead say they just went with their “gut,” or did what “felt” right. Because the manager has faced a similar situation in the past and has figured out how to deal with it, the brain shifts immediately to the quick, intuitive decision-making system.5"
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p40-p00",
+    "score": 12.787672,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "2.2 How the Brain Processes Information to Make Decisions: Reflective and Reactive Systems 2. What are the two systems of decision-making in the brain? The human brain processes information for decision-making using one of two routes: a reflective system and a reactive (or reflexive) system.2,3 The reflective system is logical, analytical, deliberate, and methodical, while the reactive system is quick, impulsive, and intuitive, relying on emotions or habits to provide cues for what to do next."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p40-p02",
+    "score": 11.824002,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Reactive Decision-Making We tend to assume that the logical, analytical route leads to superior decisions, but whether this is accurate depends on the situation. The quick, intuitive route can be lifesaving; when we suddenly feel intense fear, a fight-or-flight response kicks in that leads to immediate action without methodically weighing all possible options and their consequences."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p60-p01",
+    "score": 11.70295,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "The brain processes information to make decisions using one of two systems: either the logical, rational (reflective) system or the quick, reactive system. The reflective system is better for significant and important decisions; these generally should not be rushed. However, the reactive system can be lifesaving when time is of the essence, and it can be much more efficient when based on developed experience and expertise."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p55-p03",
+    "score": 10.832104,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 55,
+    "chapter": 2,
+    "text": "What we mostly talked about, though, was his process. How did he go about making decisions in these challenging situations?"
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p59-p06",
+    "score": 10.500077,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Reflective system System of decision-making in the brain that is logical, analytical, and methodical. Relationship conflict Conflict between individuals that is based on personal (or personality) differences; this type of conflict tends to be destructive rather than constructive. Satisficing Choosing the first acceptable solution to minimize time spent on a decision."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p40-p05",
+    "score": 8.379414,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "It is especially important to pay attention to your emotions, because strong emotions can make it difficult to process information rationally. Successful managers recognize the effects of emotions and know to wait and address a volatile situation after their emotions have calmed down. Intense emotions—whether positive or negative—tend to pull us toward the quick, reactive route of decision-making."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p59-p01",
+    "score": 8.083993,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Brainstorming A process of generating as many ideas or alternatives as possible, often in groups. Confirmation bias The tendency to pay attention to information that confirms our existing beliefs and to ignore or discount information that conflicts with our existing beliefs. Creativity The generation of new or original ideas. Critical thinking A disciplined process of evaluating the quality of information, especially by identifying logical fallacies in arguments."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p37-p02",
+    "score": 7.632885,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 37,
+    "chapter": 2,
+    "text": "Managers and business owners—like Jen Rubio and Stephanie Korey—make decisions on a daily basis. Some are big, like the decision to start a new business, but most are smaller decisions that go into the regular running of the company and are crucial to its long-term success. Some decisions are predictable, and some are unexpected. In this chapter we look at important information about decision-making that can help you make better decisions and, ultimately, be a better manager."
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    40,
+    40,
+    40
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p40-p04",
+    "pom-ch01-02-p40-p03",
+    "pom-ch01-02-p40-p00"
+   ]
+  }
+ },
+ {
+  "query_id": "q16",
+  "answerable": true,
+  "query": "What is the name for the tendency to keep backing a bad choice even as the results keep getting worse?",
+  "filter": null,
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 12.4,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p53-p01",
+    "score": 8.831109,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 53,
+    "chapter": 2,
+    "text": "It’s important to think about whether the various alternatives available to you are better or worse from an ethical perspective, as well. Sometimes managers make unethical choices because they haven’t considered the ethical implications of their actions. In the 1970s, Ford manufactured the Pinto, which had an unfortunate flaw: the car would easily burst into flames when rear-ended."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p38-p01",
+    "score": 8.274201,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 38,
+    "chapter": 2,
+    "text": "It’s also worth noting that making decisions as a manager is not at all like taking a multiple-choice test: with a multiple-choice test there is always one right answer. This is rarely the case with management decisions. Sometimes a manager is choosing between multiple good options, and it’s not clear which will be the best. Other times there are multiple bad options, and the task is to minimize harm."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p44-p09",
+    "score": 7.399036,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 44,
+    "chapter": 2,
+    "text": "One of the most common biases that we have, as humans, is the tendency to like other people who we think are similar to us (because we like ourselves).7 While these similarities can be observable (based on demographic characteristics such as race, gender, and age), they can also be a result of shared experiences (such as attending the same university) or shared interests (such as being in a book club together)."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p50-p00",
+    "score": 7.381638,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 50,
+    "chapter": 2,
+    "text": "Talk to other people As mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p22-p08",
+    "score": 7.012993,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 22,
+    "chapter": 1,
+    "text": "If casual interactions in hallways, phone conversations, one-on-one meetings, and larger group meetings are included, managers spend about two-thirds of their time with other people.9 As Mintzberg has pointed out, “Unlike other workers, the manager does not leave the telephone or the meeting to get back to work."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p52-p00",
+    "score": 6.704616,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 52,
+    "chapter": 2,
+    "text": "Common Logical Fallacies Name Description Examples Ways to Combat This Logical Fallacy Genetic fallacy You can’t trust something because of its origins. “This was made in China, so it must be low quality.” “He is a lawyer, so you can’t trust anything he says.” This fallacy is based on stereotypes. Stereotypes are generalizations; some are grossly inaccurate, and even those that are accurate in SOME cases are never accurate in ALL cases. Recognize this for what it is—an attempt to prey on"
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p59-p03",
+    "score": 6.696498,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Emotional intelligence The ability to understand and manage emotions in oneself and in others. Escalation of commitment The tendency of decision makers to remain committed to poor decision, even when doing so leads to increasingly negative outcomes. Evidence-based decision-making A process of collecting the best available evidence prior to making a decision."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p38-p06",
+    "score": 6.374407,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 38,
+    "chapter": 2,
+    "text": "Maximizing shareholder wealth is often a short-sighted decision, however, because it can harm the organization’s financial viability in the future.1 Bad publicity, customers boycotting the organization, and government fines are all possible long-term outcomes when managers make choices that cause harm in order to maximize shareholder wealth. More importantly, increasing the wealth of shareholders is not an acceptable reason for causing harm to others."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p56-p07",
+    "score": 6.354174,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "Disadvantages of Group Decisions Group decision-making is not without challenges. Some groups get bogged down by conflict, while others go to the opposite extreme and push for agreement at the expense of quality discussions. Groupthink occurs when group members choose not to voice their concerns or objections because they would rather keep the peace and not annoy or antagonize others."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p44-p02",
+    "score": 6.288411,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 44,
+    "chapter": 2,
+    "text": "Will she abandon the path that she’s on, accept the loss on the money that’s been invested so far, and switch to the better software? Or will she continue to invest time and money into trying to make the first product work? Escalation of commitment is the tendency of decision makers to remain committed to poor decision, even when doing so leads to increasingly negative outcomes. Once we commit to a decision, we may find it difficult to reevaluate that decision rationally."
+   }
+  ],
+  "eval": {
+   "hit1": false,
+   "hit3": false,
+   "hit10": true,
+   "first_hit_rank": 7,
+   "rr": 0.14285714285714285,
+   "top3_pages": [
+    53,
+    38,
+    44
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p53-p01",
+    "pom-ch01-02-p38-p01",
+    "pom-ch01-02-p44-p09"
+   ]
+  }
+ },
+ {
+  "query_id": "q20",
+  "answerable": true,
+  "query": "In the chapter on decision-making, what role does a devil's advocate play in a group, and why is one assigned?",
+  "filter": {
+   "chapter": 2
+  },
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 12.2,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p57-p01",
+    "score": 25.843984,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "How to Form a Quality Group Effective managers will try to ensure quality group decision-making by forming groups with diverse members so that a variety of perspectives will contribute to the process. They will also encourage everyone to speak up and voice their opinions and thoughts prior to the group reaching a decision. Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p59-p02",
+    "score": 20.109218,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 59,
+    "chapter": 2,
+    "text": "Decision-making The action or process of thinking through possible options and selecting one. Devil’s advocate A group member who intentionally takes on the role of being critical of the group’s ideas in order to discourage groupthink and encourage deep thought and discussion about issues prior to making decisions."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p61-p00",
+    "score": 17.899723,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 61,
+    "chapter": 2,
+    "text": "Managers can improve the quality of group decision-making in a number of ways. First, when forming the group, the manager should ensure that the individual group members are diverse in terms of knowledge and perspectives. The manager may also want to assign a devil’s advocate to discourage groupthink. Managers should also encourage all group members to contribute their ideas and opinions, and they should not allow a single voice to dominate."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p58-p00",
+    "score": 16.687622,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 58,
+    "chapter": 2,
+    "text": "Summary of Techniques That May Improve Group Decision-Making Type of Decision Technique Benefit Group decisions Have diverse members in the group. Improves quality: generates more options, reduces bias Assign a devil’s advocate. Improves quality: reduces groupthink Encourage everyone to speak up and contribute. Improves quality: generates more options, prevents suppression of dissent Help group members find common ground. Improves quality: reduces personality conflict"
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p40-p07",
+    "score": 15.234243,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "The Role of Emotions Being aware of the role emotions play in decision-making does not mean that we should ignore them. Emotions can serve as powerful signals about what we should do, especially in situations with ethical implications. You can read more about this particular type of decision-making in the Ethics in Practice box later in this chapter."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p57-p03",
+    "score": 10.937203,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "Exhibit 2.7 The Devils Advocate At a meeting of McDonald’s franchise owners, attorney Brian Schnell was placed in the audience as a devil’s advocate and often would strongly disagree with franchisee attorney Bob Zarco that the National Labor Relations Board (NLRB)’s joint-employer ruling on McDonald’s is a boon for franchisees. He would raise his hand often and vehemently, which Zarco had asked him to do before the meeting."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p61-p03",
+    "score": 9.775518,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 61,
+    "chapter": 2,
+    "text": "8. What can individuals do to improve the quality of their decision-making? 9. What can groups or group leaders do to improve the quality of group decision-making? 10. What are the benefits of decision-making in a group, instead of individually?"
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p56-p01",
+    "score": 9.410851,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "2.6 Group Decision-Making 6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making? Involving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p61-p01",
+    "score": 9.278222,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 61,
+    "chapter": 2,
+    "text": "Finally, they should not allow personality conflicts to derail group processes. Chapter Review Questions 1. What are some of the factors that enabled Jen Rubio and Stephanie Korey to make good decisions when they established their luggage company, Away? 2. What are the two systems that the brain uses in decision-making? How are they related to programmed and nonprogrammed decisions?"
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p35-p01",
+    "score": 9.206215,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 35,
+    "chapter": 2,
+    "text": "5. How can a manager improve the quality of her individual decision-making? 6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?"
+   }
+  ],
+  "eval": {
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "first_hit_rank": 1,
+   "rr": 1.0,
+   "top3_pages": [
+    57,
+    59,
+    61
+   ],
+   "top3_ids": [
+    "pom-ch01-02-p57-p01",
+    "pom-ch01-02-p59-p02",
+    "pom-ch01-02-p61-p00"
+   ]
+  }
+ },
+ {
+  "query_id": "u03",
+  "answerable": false,
+  "query": "What is the nominal group technique, and when should a manager use it for group decisions?",
+  "filter": null,
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 13.7,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p60-p07",
+    "score": 9.715143,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 60,
+    "chapter": 2,
+    "text": "Managers tend to get better at decision-making with time and experience, which helps them build expertise. Heuristics and satisficing can also be useful techniques for making programmed decisions quickly. For nonprogrammed decisions, a manager can improve the quality of her decision-making by utilizing a variety of other techniques."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p48-p02",
+    "score": 8.987736,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 48,
+    "chapter": 2,
+    "text": "Techniques for Making Better Programmed Decisions In addition, experience enables managers to recognize when to minimize the time spent making decisions on issues that are not particularly important but must still be addressed. As discussed previously, heuristics are mental shortcuts that managers take when making programmed (routine, low-involvement) decisions. Another technique that managers use with these types of decisions is satisficing."
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p58-p00",
+    "score": 8.974181,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 58,
+    "chapter": 2,
+    "text": "Summary of Techniques That May Improve Group Decision-Making Type of Decision Technique Benefit Group decisions Have diverse members in the group. Improves quality: generates more options, reduces bias Assign a devil’s advocate. Improves quality: reduces groupthink Encourage everyone to speak up and contribute. Improves quality: generates more options, prevents suppression of dissent Help group members find common ground. Improves quality: reduces personality conflict"
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p57-p05",
+    "score": 8.273016,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "In this situation, managers need to help group members reduce conflict by finding some common ground—areas in which they can agree, such as common interests, values, beliefs, experiences, or goals. Keeping a group focused on a common goal can be a very worthwhile tactic to keep group members working with rather than against one another. Table 2.3 summarizes the techniques to improve group decision-making."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p48-p05",
+    "score": 7.589535,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 48,
+    "chapter": 2,
+    "text": "Techniques for Making Better Nonprogrammed Decisions For situations in which the quality of the decision is more critical than the time spent on the decision, decision makers can use several tactics. As stated previously, nonprogrammed decisions should be addressed using a systematic process. We therefore discuss these tactics within the context of the decision-making steps. To review, the steps include the following: 1. Recognize that a decision needs to be made."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p28-p06",
+    "score": 7.475288,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 28,
+    "chapter": 1,
+    "text": "1. Technical skills. Managers must have the ability to use the tools, procedures, and techniques of their special areas. An accountant must have expertise in accounting principles, whereas a production manager must know operations management. These skills are the mechanics of the job."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p56-p06",
+    "score": 7.457559,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "Brainstorming is a process of generating as many solutions or options as possible and is a popular technique associated with group decision-making. All of these factors can lead to superior outcomes when groups are involved in decision-making. Furthermore, involving people who will be affected by a decision in the decision-making process will allow those individuals to have a greater understanding of the issues or problems and a greater commitment to the solutions."
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p40-p10",
+    "score": 6.998647,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 40,
+    "chapter": 2,
+    "text": "Finally, emotional intelligence involves social skills to manage the emotional aspects of relationships with others. Managers who are aware of their own emotions can think through what their emotions mean in a given situation and use that information to guide their decision-making. Managers who are aware of the emotions of others can also utilize that information to help groups function more effectively and engage in better group"
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p47-p03",
+    "score": 6.769942,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 47,
+    "chapter": 2,
+    "text": "1. Explain the concept of confirmation bias. 2. List and describe at least three barriers to effective decision-making. 3. When is conflict beneficial, and when is it harmful? Why? 2.5 Improving the Quality of Decision-Making 5. How can a manager improve the quality of her individual decision-making? Managers can use a variety of techniques to improve their decision-making by making better-quality decisions or making decisions more quickly. Table 2.1 summarizes some of these tactics."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p56-p01",
+    "score": 6.111126,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 56,
+    "chapter": 2,
+    "text": "2.6 Group Decision-Making 6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making? Involving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making."
+   }
+  ]
+ },
+ {
+  "query_id": "u04",
+  "answerable": false,
+  "query": "What is the Vroom-Yetton model, and how does it help managers decide how much to involve subordinates in a decision?",
+  "filter": null,
+  "method": "lexical",
+  "top_k": 10,
+  "latency_ms": 12.8,
+  "error": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "pom-ch01-02-p24-p06",
+    "score": 13.029105,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 24,
+    "chapter": 1,
+    "text": "Managers must not only decide who should receive such information, but how much of it, how often, and in what form. Increasingly, managers are being asked to decide whether subordinates, peers, customers, business partners, and others should have direct access to information 24 hours a day without having to contact the manager directly."
+   },
+   {
+    "rank": 2,
+    "id": "pom-ch01-02-p37-p08",
+    "score": 12.653952,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 37,
+    "chapter": 2,
+    "text": "Deciding When to Decide While some decisions are simple, a manager’s decisions are often complex ones that involve a range of options and uncertain outcomes. When deciding among various options and uncertain outcomes, managers need to gather information, which leads them to another necessary decision: how much information is needed to make a good decision?"
+   },
+   {
+    "rank": 3,
+    "id": "pom-ch01-02-p24-p05",
+    "score": 9.062689,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 24,
+    "chapter": 1,
+    "text": "As monitors, managers are constantly scanning the environment for information, talking with liaison contacts and subordinates, and receiving unsolicited information, much of it as a result of their network of personal contacts. A good portion of this information arrives in verbal form, often as gossip, hearsay, and speculation. In the disseminator role, managers pass privileged information directly to subordinates, who might otherwise have no access to it."
+   },
+   {
+    "rank": 4,
+    "id": "pom-ch01-02-p53-p08",
+    "score": 8.739719,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 53,
+    "chapter": 2,
+    "text": "The third step in the ethical decision-making model involves making a decision to do what is right, and the fourth step involves following through on that decision. These may sound straightforward, but consider a situation in which your boss tells you to do something that you know to be wrong. When you push back, your boss makes it clear that you will lose your job if you don’t do what you’ve been told to do. Now, consider that you have family at home who rely on your income."
+   },
+   {
+    "rank": 5,
+    "id": "pom-ch01-02-p45-p05",
+    "score": 7.946915,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 45,
+    "chapter": 2,
+    "text": "Conflict Finally, effective decision-making can be difficult because of conflict. Most individuals dislike conflict and will avoid it when possible. However, the best decision might be one that is going to involve some conflict. Consider a manager who has a subordinate who is often late to work, causing others to have to step away from their responsibilities in order to cover for the late employee."
+   },
+   {
+    "rank": 6,
+    "id": "pom-ch01-02-p24-p02",
+    "score": 7.931745,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 24,
+    "chapter": 1,
+    "text": "This role, in which managers establish and maintain contacts outside the vertical chain of command, becomes especially important in view of the finding of virtually every study of managerial work that managers spend as much time with peers and other people outside of their units as they do with their own subordinates. Surprisingly, they spend little time with their own superiors."
+   },
+   {
+    "rank": 7,
+    "id": "pom-ch01-02-p42-p04",
+    "score": 7.718919,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 42,
+    "chapter": 2,
+    "text": "These are also sometimes referred to as nonroutine decisions or as high-involvement decisions because they require greater involvement and thought on the part of the decision maker. For example, consider a manager trying to decide whether or not to adopt a new technology. There will always be unknowns in situations of this nature. Will the new technology really be better than the existing technology? Will it become widely accepted over time, or will some other technology become the standard?"
+   },
+   {
+    "rank": 8,
+    "id": "pom-ch01-02-p21-p01",
+    "score": 7.468858,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 21,
+    "chapter": 1,
+    "text": "You So, you’re in this course and you may have pondered, or discussed with others, what this course will be about. You probably have some preconceptions of what management is all about. You must manage your time, deciding on how much study time you will devote to your management and accounting classes, for instance. You may have had a summer or part-time job where you had a manager whom you had to report to."
+   },
+   {
+    "rank": 9,
+    "id": "pom-ch01-02-p35-p03",
+    "score": 6.851499,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 35,
+    "chapter": 2,
+    "text": "There was no midrange option. So in 2015 Rubio and her friend Stephanie Korey began researching the luggage industry. They found that much of the reason for the high prices on quality luggage was because of how it was distributed and sold, through specialty retail shops and department stores. If they opted instead for a model in which they sold directly to consumers, they could provide high-quality luggage at more of a midrange ($200-$300) price."
+   },
+   {
+    "rank": 10,
+    "id": "pom-ch01-02-p57-p04",
+    "score": 6.50624,
+    "source_id": "pom-ch01-02",
+    "source": "starter/data/pom-ch01-02.pdf",
+    "page": 57,
+    "chapter": 2,
+    "text": "In that way, the franchisors’ articulate arguments could be heard by all franchisee leaders in attendance, and rebutted. Credit (Mr. Blue MauMau/ flickr/ Attribution 2.0 Generic (CC BY 2.0)) The methods we’ve just described can all help ensure that groups reach good decisions, but what can a manager do when there is too much conflict within a group?"
+   }
+  ]
+ }
+]

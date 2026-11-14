@@ -1,0 +1,30 @@
+{
+ "page": 93,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure 2.22",
+  "Figure 2.23"
+ ],
+ "ok": true,
+ "raw": "```json\n{\"elements\": [\n{\"label\": \"Figure 2.22\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Bar chart (single series, teal bars). Y-axis: 'Percentage point change in poverty rate', scale 0.0 to -12.0 in steps of 2. X-axis categories: 2010–2014, 2016–2020, 2010–2020. No values are printed on the bars. Approximate readings: 2010–2014 ~-5.8; 2016–2020 ~-2.8; 2010–2020 ~-11.8. The pattern: poverty fell in every period, with the largest decline over the full 2010–2020 span, roughly double the sum of the two sub-periods' declines.\"},\n{\"label\": \"Figure 2.23\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Stacked bar chart. Y-axis: 'Point change', scale 3.0 to -15.0 in steps of 3. X-axis categories: 2010–2016, 2016–2020, 2010–2020. Legend: Rural (teal), Urban (orange), Population shift effect (gray), Interaction effect (yellow). No values are printed on the segments. Approximate readings, stacked from top: 2010–2016: interaction ~+0.3, rural ~-4.6, urban ~-0.6, population shift ~-0.6, net total ~-5.5. 2016–2020: interaction ~+0.2, rural ~-2.7, population shift ~-0.3 (urban near zero), net total ~-2.8. 2010–2020: interaction ~+0.8, rural ~-9.6, urban ~-1.6, population shift ~-1.6, net total ~-12.0. The pattern: rural areas account for most of the decline in every period, while urban contributions and the population shift effect are small, and the 2010–2020 bar is the largest.\"}\n]}\n```",
+ "usage": {
+  "prompt_tokens": 3258,
+  "completion_tokens": 1128,
+  "cost_usd": 0.0008897999999999999,
+  "latency_s": 5.611
+ },
+ "elements": [
+  {
+   "label": "Figure 2.22",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Bar chart (single series, teal bars). Y-axis: 'Percentage point change in poverty rate', scale 0.0 to -12.0 in steps of 2. X-axis categories: 2010–2014, 2016–2020, 2010–2020. No values are printed on the bars. Approximate readings: 2010–2014 ~-5.8; 2016–2020 ~-2.8; 2010–2020 ~-11.8. The pattern: poverty fell in every period, with the largest decline over the full 2010–2020 span, roughly double the sum of the two sub-periods' declines."
+  },
+  {
+   "label": "Figure 2.23",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Stacked bar chart. Y-axis: 'Point change', scale 3.0 to -15.0 in steps of 3. X-axis categories: 2010–2016, 2016–2020, 2010–2020. Legend: Rural (teal), Urban (orange), Population shift effect (gray), Interaction effect (yellow). No values are printed on the segments. Approximate readings, stacked from top: 2010–2016: interaction ~+0.3, rural ~-4.6, urban ~-0.6, population shift ~-0.6, net total ~-5.5. 2016–2020: interaction ~+0.2, rural ~-2.7, population shift ~-0.3 (urban near zero), net total ~-2.8. 2010–2020: interaction ~+0.8, rural ~-9.6, urban ~-1.6, population shift ~-1.6, net total ~-12.0. The pattern: rural areas account for most of the decline in every period, while urban contributions and the population shift effect are small, and the 2010–2020 bar is the largest."
+  }
+ ]
+}

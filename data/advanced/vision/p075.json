@@ -1,0 +1,30 @@
+{
+ "page": 75,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Table 2.1",
+  "Figure 2.1"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Table 2.1: Population, 2009–2019\", \"kind\": \"table\", \"bbox\": null, \"description\": \"| | 2009 | 2019 |\\n|---|---|---|\\n| Central Highlands | 5,115,135 | 5,842,605 |\\n| Mekong Delta | 17,191,470 | 17,273,621 |\\n| Midlands and Northern Mountains | 11,013,590 | 12,532,801 |\\n| Northern and Coastal Central | 18,835,154 | 20,187,228 |\\n| Red River Delta | 19,584,287 | 22,543,562 |\\n| Southeast | 14,067,361 | 17,828,818 |\\n| National | 85,801,996 | 96,208,635 |\\n\\nSource: GSO, Census yearbooks.\"}, {\"label\": \"Figure 2.1: Ageing Vietnam\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Grouped bar chart. Y-axis: '# of households (in millions)', scale 0–8. X-axis: age categories of the oldest household member: 10–19, 20–29, 30–39, 40–49, 50–59, 60–69, 70+. Legend: 2010 (teal), 2020 (orange). Values printed on bars: 2010 = 0.1, 1.5, 4.7, 6.2, 5.1, 2.5, 2.2; 2020 = 0.0, 1.2, 5.1, 6.7, 6.4, 4.6, 2.7. Note: Categories are by the oldest member of the household. Source: World Bank staff calculations using the VHLSS, 2010-2020. Pattern: the number of households with older heads rises across the decade, with the 2020 bars higher than 2010 in the 30–39, 40–49, 50–59, 60–69 and 70+ groups, while the younger groups are smaller or flat.\"}]}",
+ "usage": {
+  "prompt_tokens": 3251,
+  "completion_tokens": 634,
+  "cost_usd": 0.0006421,
+  "latency_s": 3.298
+ },
+ "elements": [
+  {
+   "label": "Table 2.1: Population, 2009–2019",
+   "kind": "table",
+   "bbox": null,
+   "description": "| | 2009 | 2019 |\n|---|---|---|\n| Central Highlands | 5,115,135 | 5,842,605 |\n| Mekong Delta | 17,191,470 | 17,273,621 |\n| Midlands and Northern Mountains | 11,013,590 | 12,532,801 |\n| Northern and Coastal Central | 18,835,154 | 20,187,228 |\n| Red River Delta | 19,584,287 | 22,543,562 |\n| Southeast | 14,067,361 | 17,828,818 |\n| National | 85,801,996 | 96,208,635 |\n\nSource: GSO, Census yearbooks."
+  },
+  {
+   "label": "Figure 2.1: Ageing Vietnam",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Grouped bar chart. Y-axis: '# of households (in millions)', scale 0–8. X-axis: age categories of the oldest household member: 10–19, 20–29, 30–39, 40–49, 50–59, 60–69, 70+. Legend: 2010 (teal), 2020 (orange). Values printed on bars: 2010 = 0.1, 1.5, 4.7, 6.2, 5.1, 2.5, 2.2; 2020 = 0.0, 1.2, 5.1, 6.7, 6.4, 4.6, 2.7. Note: Categories are by the oldest member of the household. Source: World Bank staff calculations using the VHLSS, 2010-2020. Pattern: the number of households with older heads rises across the decade, with the 2020 bars higher than 2010 in the 30–39, 40–49, 50–59, 60–69 and 70+ groups, while the younger groups are smaller or flat."
+  }
+ ]
+}

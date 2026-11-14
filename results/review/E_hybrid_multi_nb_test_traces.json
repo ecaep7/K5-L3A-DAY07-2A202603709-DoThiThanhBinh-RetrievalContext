@@ -1,0 +1,127 @@
+[
+ {
+  "query_id": "q04",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "disturbance handler role Mintzberg managerial roles"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "entrepreneur role managers initiate change projects"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p25-p01",
+   "pom-ch01-02-p25-p02"
+  ]
+ },
+ {
+  "query_id": "q08",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "personal relationships valuable to managers"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p23-p02"
+  ]
+ },
+ {
+  "query_id": "q12",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "when to use logical analytical decision making versus intuition"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p40-p04",
+   "pom-ch01-02-p60-p01",
+   "pom-ch01-02-p40-p05",
+   "pom-ch01-02-p40-p03"
+  ]
+ },
+ {
+  "query_id": "q16",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "escalation of commitment to a failing course of action"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p44-p02"
+  ]
+ },
+ {
+  "query_id": "q20",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "devil's advocate role in group decision-making"
+   }
+  ],
+  "citations": [
+   "pom-ch01-02-p57-p01",
+   "pom-ch01-02-p57-p02",
+   "pom-ch01-02-p59-p02"
+  ]
+ },
+ {
+  "query_id": "u03",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "nominal group technique"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "nominal group technique individuals write ideas silently then vote, group decision-making techniques"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "nominal group technique structured group meeting rank ideas"
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "u04",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Vroom-Yetton model decision tree subordinate involvement"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "leader-participation model Vroom Jago level of participation decision"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "normative decision model autocratic consultative group participation styles"
+   }
+  ],
+  "citations": []
+ }
+]

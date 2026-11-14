@@ -1,0 +1,23 @@
+{
+ "page": 27,
+ "model": "claude-haiku-5-5",
+ "detected_labels": [
+  "Figure O.10"
+ ],
+ "ok": true,
+ "raw": "{\"elements\": [{\"label\": \"Figure O.10\", \"kind\": \"chart\", \"bbox\": null, \"description\": \"Line chart with six panels arranged in a 2x3 grid. Columns are 'No change in Gini', '+1% change in Gini', and '+2% change in Gini'. Top row y-axis: Poverty rate (%, $3.20/day 2011PPP), ticks 0, 2, 4, 6. Bottom row y-axis: Poverty rate (%, $5.50/day 2011PPP), ticks 10, 15, 20. X-axis years 2018, 2020, 2022, 2024. Series: March 2021 growth estimates (grey) and October 2021 growth estimates (orange).\\n\\nTop row ($3.20/day):\\n- No change in Gini: March 2021: 6.6 (2018), 5.0 (2020), 4.2 (2021), 3.5 (2022), 3.1 (2023/24 point). October 2021: 4.7 (2021), 4.0 (2022), 3.4 (2023/24 point).\\n- +1% change in Gini: March 2021: 6.6 (2018), 5.0 (2020), 4.4 (2021), 3.9 (2022), 3.5 (2024 point). October 2021: 4.9 (2021), 4.3 (2022), 3.7 (2024 point).\\n- +2% change in Gini: March 2021: 6.6 (2018), 5.0 (2020), 4.7 (2021), 4.4 (2022), 4.1 (2024 point). October 2021: 5.2 (2021), 4.9 (2022), 4.6 (2024 point).\\n\\nBottom row ($5.50/day):\\n- No change in Gini: March 2021: 22.4 (2018), 18.8 (2020), 16.9 (2021), 14.9 (2022), 13.2 (2024 point). October 2021: 18.1 (2021), 16.2 (2022), 14.1 (2024 point).\\n- +1% change in Gini: March 2021: 22.4 (2018), 18.8 (2020), 17.2 (2021), 15.5 (2022), 14.3 (2024 point). October 2021: 18.5 (2021), 17.0 (2022), 15.1 (2024 point).\\n- +2% change in Gini: March 2021: 22.4 (2018), 18.8 (2020), 17.8 (2021), 16.9 (2022), 15.9 (2024 point). October 2021: 19.2 (2021), 18.2 (2022), 17.0 (2024 point).\\n\\nPattern: poverty rates fall over time in all panels; the October 2021 estimates are higher than March 2021 estimates, and higher inequality scenarios produce higher projected poverty rates.\"}]}",
+ "usage": {
+  "prompt_tokens": 3250,
+  "completion_tokens": 925,
+  "cost_usd": 0.0007875,
+  "latency_s": 5.044
+ },
+ "elements": [
+  {
+   "label": "Figure O.10",
+   "kind": "chart",
+   "bbox": null,
+   "description": "Line chart with six panels arranged in a 2x3 grid. Columns are 'No change in Gini', '+1% change in Gini', and '+2% change in Gini'. Top row y-axis: Poverty rate (%, $3.20/day 2011PPP), ticks 0, 2, 4, 6. Bottom row y-axis: Poverty rate (%, $5.50/day 2011PPP), ticks 10, 15, 20. X-axis years 2018, 2020, 2022, 2024. Series: March 2021 growth estimates (grey) and October 2021 growth estimates (orange).\n\nTop row ($3.20/day):\n- No change in Gini: March 2021: 6.6 (2018), 5.0 (2020), 4.2 (2021), 3.5 (2022), 3.1 (2023/24 point). October 2021: 4.7 (2021), 4.0 (2022), 3.4 (2023/24 point).\n- +1% change in Gini: March 2021: 6.6 (2018), 5.0 (2020), 4.4 (2021), 3.9 (2022), 3.5 (2024 point). October 2021: 4.9 (2021), 4.3 (2022), 3.7 (2024 point).\n- +2% change in Gini: March 2021: 6.6 (2018), 5.0 (2020), 4.7 (2021), 4.4 (2022), 4.1 (2024 point). October 2021: 5.2 (2021), 4.9 (2022), 4.6 (2024 point).\n\nBottom row ($5.50/day):\n- No change in Gini: March 2021: 22.4 (2018), 18.8 (2020), 16.9 (2021), 14.9 (2022), 13.2 (2024 point). October 2021: 18.1 (2021), 16.2 (2022), 14.1 (2024 point).\n- +1% change in Gini: March 2021: 22.4 (2018), 18.8 (2020), 17.2 (2021), 15.5 (2022), 14.3 (2024 point). October 2021: 18.5 (2021), 17.0 (2022), 15.1 (2024 point).\n- +2% change in Gini: March 2021: 22.4 (2018), 18.8 (2020), 17.8 (2021), 16.9 (2022), 15.9 (2024 point). October 2021: 19.2 (2021), 18.2 (2022), 17.0 (2024 point).\n\nPattern: poverty rates fall over time in all panels; the October 2021 estimates are higher than March 2021 estimates, and higher inequality scenarios produce higher projected poverty rates."
+  }
+ ]
+}
